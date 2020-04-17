@@ -1,0 +1,76 @@
+<JobModes>
+  <Items>
+    <JobMode>
+      <Items />
+      <Name>草图（600x720）</Name>
+      <LayerNum>1</LayerNum>
+      <LayerColorArray>0</LayerColorArray>
+      <SpotColor1Mask>0</SpotColor1Mask>
+      <Item>
+        <PrintMode>高速度</PrintMode>
+        <Pass>4 Pass</Pass>
+        <FeatherType>渐变</FeatherType>
+        <Feather>弱</Feather>
+        <BetweenNozzle>True</BetweenNozzle>
+        <IntensityFeather>True</IntensityFeather>
+        <Speed>VSD_3</Speed>
+        <MultipleInk>默认</MultipleInk>
+        <FineFeather>False</FineFeather>
+      </Item>
+    </JobMode>
+    <JobMode>
+      <Items />
+      <Name>生产（600x720）</Name>
+      <LayerNum>1</LayerNum>
+      <LayerColorArray>0</LayerColorArray>
+      <SpotColor1Mask>0</SpotColor1Mask>
+      <Item>
+        <PrintMode>高速度</PrintMode>
+        <Pass>4 Pass</Pass>
+        <FeatherType>渐变</FeatherType>
+        <Feather>中</Feather>
+        <BetweenNozzle>True</BetweenNozzle>
+        <IntensityFeather>True</IntensityFeather>
+        <Speed>VSD_3</Speed>
+        <MultipleInk>默认</MultipleInk>
+        <FineFeather>False</FineFeather>
+      </Item>
+    </JobMode>
+    <JobMode>
+      <Items />
+      <Name>高精（600x1080）</Name>
+      <LayerNum>1</LayerNum>
+      <LayerColorArray>0</LayerColorArray>
+      <SpotColor1Mask>0</SpotColor1Mask>
+      <Item>
+        <PrintMode>高速度</PrintMode>
+        <Pass>6 Pass</Pass>
+        <FeatherType>渐变</FeatherType>
+        <Feather>强</Feather>
+        <BetweenNozzle>True</BetweenNozzle>
+        <IntensityFeather>True</IntensityFeather>
+        <Speed>VSD_3</Speed>
+        <MultipleInk>默认</MultipleInk>
+        <FineFeather>False</FineFeather>
+      </Item>
+    </JobMode>
+    <JobMode>
+      <Items />
+      <Name>照片（600x1080）</Name>
+      <LayerNum>1</LayerNum>
+      <LayerColorArray>0</LayerColorArray>
+      <SpotColor1Mask>0</SpotColor1Mask>
+      <Item>
+        <PrintMode>高速度</PrintMode>
+        <Pass>6 Pass</Pass>
+        <FeatherType>渐变</FeatherType>
+        <Feather>超强</Feather>
+        <BetweenNozzle>True</BetweenNozzle>
+        <IntensityFeather>True</IntensityFeather>
+        <Speed>VSD_3</Speed>
+        <MultipleInk>默认</MultipleInk>
+        <FineFeather>True</FineFeather>
+      </Item>
+    </JobMode>
+  </Items>
+</JobModes>

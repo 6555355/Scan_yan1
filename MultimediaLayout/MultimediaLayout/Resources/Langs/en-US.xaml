@@ -1,0 +1,34 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="MultimediaLayout">Multimedia Layout</s:String>
+    <s:String x:Key="AddPrt">Add Prt</s:String>
+    <s:String x:Key="SaveLayout">Save Layout</s:String>
+    <s:String x:Key="Preview">Preview</s:String>
+    <s:String x:Key="Layout">Layout</s:String>
+    <s:String x:Key="LayoutToolTip">Drag a picture from the job list and drop,feel free to layout.</s:String>
+    <s:String x:Key="JobList">Job List</s:String>
+    <s:String x:Key="Total">Total</s:String>
+    <s:String x:Key="OneUnit">.</s:String>
+    <s:String x:Key="Setting">Setting</s:String>
+    <s:String x:Key="Exit">Exit</s:String>
+    
+    <s:String x:Key="ImageTooLarge">The image is too large!</s:String>
+    <s:String x:Key="ResolutionDiffer">Resolution is not consistent</s:String>
+    <s:String x:Key="SaveLayoutFailed">Failed to save the layout!</s:String>
+    
+    <s:String x:Key="PaperList">Paper List</s:String>
+    <s:String x:Key="Edit">Edit</s:String>
+    <s:String x:Key="Width">Width</s:String>
+    <s:String x:Key="Inch">Inch</s:String>
+    <s:String x:Key="LeftMargin">Left Margin</s:String>
+    <s:String x:Key="OK">OK</s:String>
+    <s:String x:Key="Cancle">Cancle</s:String>
+    
+    <s:String x:Key="BringToFront">Bring To Front</s:String>
+    <s:String x:Key="SendToBack">Send To Back</s:String>
+    <s:String x:Key="Delete">Delete</s:String>
+    <s:String x:Key="Clear">Clear</s:String>
+    <s:String x:Key="ClearAll">Clear All</s:String>
+
+</ResourceDictionary>

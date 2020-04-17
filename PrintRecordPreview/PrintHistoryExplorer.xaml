@@ -1,0 +1,184 @@
+﻿<Window x:Class="PrintRecordPreview.PrintHistoryExplorer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+          xmlns:iv="http://schemas.microsoft.com/expression/2010/interactions"  Loaded="Window_Loaded"
+        Title="{DynamicResource PrintHistoryExplorer}" Height="600" Width="1000" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary  Source="/PrintRecordPreview;component/resources/langs/en-us.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <ImageSource x:Key="FolderImage" x:Shared="False">Images/folder.png</ImageSource>
+            <ImageSource x:Key="RecordImage" x:Shared="False">Images/record.png</ImageSource>
+            <ImageSource x:Key="ComputerImage" x:Shared="False">Images/computer.png</ImageSource>
+            <HierarchicalDataTemplate x:Key="TreeNode" ItemsSource="{Binding Path=SubFolders}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Width="20" Height="20" Stretch="Fill">
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsFile}" Value="True">
+                                        <Setter Property="Source" Value="{StaticResource RecordImage}"/>
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding IsFile}" Value="False">
+                                        <Setter Property="Source" Value="{StaticResource FolderImage}"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+                    <TextBlock Text="{Binding Path=Name,Mode=TwoWay}" Margin="5,0" VerticalAlignment="Center"/>
+                </StackPanel>
+                <!--<TextBlock  Text="{Binding Path=Name}" />-->
+            </HierarchicalDataTemplate>
+            <Style x:Key="TreeViewItemStyle" TargetType="{x:Type TreeViewItem}">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding IsMatch}" Value="True">
+                        <Setter Property="Background" Value="Orange"/>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding IsMatch}" Value="False">
+                        <Setter Property="Background" Value="Transparent"/>
+                    </DataTrigger>
+                    <Trigger Property="IsExpanded" Value="true">
+                        <Setter Property="IsSelected" Value="True"></Setter>
+                    </Trigger>
+                </Style.Triggers>
+                <Setter Property="IsSelected" Value="{Binding IsSelected,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+                <Setter Property="IsExpanded" Value="{Binding IsExpanded}"/>
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal" Margin="0,2" >
+                <TextBox Width="200" x:Name="tbSearchTxt"/>
+                <Button Width="48" IsDefault="True" x:Name="btnSearch" Click="btnSearch_Click">
+                    <Path Data="F1M-185.925,-2026.96L-203.062,-2048.74C-197.485,-2056.51 -197.433,-2067.31 -203.64,-2075.2 -211.167,-2084.76 -225.019,-2086.42 -234.588,-2078.89 -244.154,-2071.36 -245.808,-2057.51 -238.282,-2047.94 -231.986,-2039.95 -221.274,-2037.5 -212.337,-2041.31L-195.262,-2019.61 -185.925,-2026.96z M-231.201,-2053.51C-235.653,-2059.17 -234.674,-2067.36 -229.02,-2071.81 -223.36,-2076.26 -215.169,-2075.29 -210.721,-2069.63 -206.269,-2063.97 -207.245,-2055.78 -212.902,-2051.33 -218.559,-2046.88 -226.752,-2047.86 -231.201,-2053.51z" Stretch="Uniform" Fill="#FF545BF1"  Margin="2" RenderTransformOrigin="0.5,0.5">
+                        <Path.RenderTransform>
+                            <TransformGroup>
+                                <TransformGroup.Children>
+                                    <RotateTransform Angle="0" />
+                                    <ScaleTransform ScaleX="1" ScaleY="1" />
+                                </TransformGroup.Children>
+                            </TransformGroup>
+                        </Path.RenderTransform>
+                    </Path>
+                </Button>
+            </StackPanel>
+            <TreeView Grid.Row="1" SelectedItemChanged="TreeView_SelectedItemChanged">
+                <TreeViewItem  ItemsSource="{Binding PrintHistoryFolder.SubFolders}"
+                               IsExpanded="True"
+                               ItemContainerStyle="{StaticResource TreeViewItemStyle}"  ItemTemplate="{StaticResource TreeNode}">
+                    <TreeViewItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Width="20" Height="20" Stretch="Fill"  Source="{StaticResource ComputerImage}"/>
+                            <TextBlock Text="{Binding PrintHistoryFolder.Name}" Margin="5,0"/>
+                        </StackPanel>
+                    </TreeViewItem.Header>
+                </TreeViewItem>
+            </TreeView>
+        </Grid>
+        <Border Grid.Row="0" Grid.Column="1" BorderBrush="YellowGreen" BorderThickness="0.5" Margin="5,2" HorizontalAlignment="Left"/>
+        <TabControl Grid.Row="0" Grid.Column="1" Margin="5,0">
+            <TabItem Header="{Binding CurrentFileItem.Name}">
+                <DataGrid IsReadOnly="True" ItemsSource="{Binding PrintRecords}" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding Job.Name}">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource FileName}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn  Binding="{Binding Job.Copies}">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource Copies}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn  Binding="{Binding Job.PrintedDate,StringFormat=yyyy-MM-dd HH:mm:ss}">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource PrintedDate}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn  Binding="{Binding UsedTime,StringFormat=c}">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource PrintedTime}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Binding="{Binding PrintedLength}">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource PrintedLength}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn  Binding="{Binding PrintedArea}">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource PrintedArea}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn  Binding="{Binding PrintedTileCount}">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource TileCount}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn  Binding="{Binding FXOrigin}">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource XOrigin}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTextColumn  Binding="{Binding FYOrigin}">
+                            <DataGridTextColumn.Header>
+                                <TextBlock Text="{DynamicResource YOrigin}"/>
+                            </DataGridTextColumn.Header>
+                        </DataGridTextColumn>
+                        <DataGridTemplateColumn>
+                            <DataGridTemplateColumn.Header>
+                                <TextBlock Text="{DynamicResource CountL}"/>
+                            </DataGridTemplateColumn.Header>
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ItemsControl ItemsSource="{Binding InkCount}">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <StackPanel IsItemsHost="True" Orientation="Horizontal"/>
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock Text="{Binding Key}"/>
+                                                    <TextBlock Text=": "/>
+                                                    <TextBlock Text="{Binding Value}"/>
+                                                    <TextBlock Text="L "/>
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <!--<TabItem Header="Source">
+                <Border BorderBrush="Silver" BorderThickness="1">
+                    <WebBrowser Name="webBrowser"/>
+                </Border>
+            </TabItem>-->
+        </TabControl>
+        <Grid Grid.Row="1" Grid.ColumnSpan="2">
+            <Button Width="55" Height="25" Content="{DynamicResource strExport}" HorizontalAlignment="Right" Click="Button_Click"></Button>
+        </Grid>
+    </Grid>
+</Window>

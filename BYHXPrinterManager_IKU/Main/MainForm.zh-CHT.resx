@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="m_MenuItemJob.Text">
+    <value>作業(&amp;J)</value>
+  </data>
+  <data name="m_MenuItemAdd.Text">
+    <value>添加作業(&amp;A)</value>
+  </data>
+  <data name="m_MenuItemDelete.Text">
+    <value>刪除作業(&amp;D)</value>
+  </data>
+  <data name="m_MenuItemPrint.Text">
+    <value>列印作業(&amp;P)</value>
+  </data>
+  <data name="m_MenuItemExit.Text">
+    <value>退出（&amp;x）</value>
+  </data>
+  <data name="m_MenuItemSetting.Text">
+    <value>設置(&amp;S)</value>
+  </data>
+  <data name="m_MenuItemSave.Text">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="m_MenuItemLoad.Text">
+    <value>載入(&amp;L)</value>
+  </data>
+  <data name="m_MenuItemSaveToPrinter.Text">
+    <value>存儲設置到印表機（&amp;T）</value>
+  </data>
+  <data name="m_MenuItemLoadFromPrinter.Text">
+    <value>從印表機載入設置（&amp;F）</value>
+  </data>
+  <data name="m_MenuItemEdit.Text">
+    <value>編輯(&amp;E)</value>
+  </data>
+  <data name="m_MenuItemTools.Text">
+    <value>工具(&amp;T)</value>
+  </data>
+  <data name="m_MenuItemUpdate.Text">
+    <value>升級(&amp;U)</value>
+  </data>
+  <data name="m_MenuItemPassword.Text">
+    <value>密碼(&amp;P)</value>
+  </data>
+  <data name="m_MenuItemDemoPage.Text">
+    <value>測試頁(&amp;D)</value>
+  </data>
+  <data name="m_MenuItemCalibraion.Text">
+    <value>校準嚮導(&amp;C)</value>
+  </data>
+  <data name="m_MenuItemHWSetting.Text">
+    <value>硬體設置(&amp;H)</value>
+  </data>
+  <data name="m_MenuItemRealTime.Text">
+    <value>即時設置(&amp;R)</value>
+  </data>
+  <data name="m_MenuItemHelp.Text">
+    <value>説明(&amp;H)</value>
+  </data>
+  <data name="m_MenuItemAbout.Text">
+    <value>關於(&amp;A)</value>
+  </data>
+  <data name="m_MenuItemDebug.Text">
+    <value>調試</value>
+  </data>
+  <data name="m_MenuItemFactoryDebug.Text">
+    <value>工廠調試</value>
+  </data>
+  <data name="m_ToolBarButtonAdd.ToolTipText">
+    <value>添加作業</value>
+  </data>
+  <data name="m_ToolBarButtonDelete.ToolTipText">
+    <value>刪除作業</value>
+  </data>
+  <data name="m_ToolBarButtonPrint.ToolTipText">
+    <value>列印作業</value>
+  </data>
+  <data name="m_ToolBarButtonPauseResume.ToolTipText">
+    <value>暫停（繼續）</value>
+  </data>
+  <data name="m_ToolBarButtonAbort.ToolTipText">
+    <value>中止作業</value>
+  </data>
+  <data name="m_ToolBarButtonCheckNozzle.ToolTipText">
+    <value>檢查噴嘴</value>
+  </data>
+  <data name="m_ToolBarButtonAutoClean.ToolTipText">
+    <value>自動清洗</value>
+  </data>
+  <data name="m_ToolBarButtonSpray.ToolTipText">
+    <value>閃噴</value>
+  </data>
+  <data name="m_ToolBarButtonStop.ToolTipText">
+    <value>停止</value>
+  </data>
+  <data name="m_ToolBarButtonSingleClean.ToolTipText">
+    <value>單頭清洗</value>
+  </data>
+  <data name="m_ToolBarButtonLeft.ToolTipText">
+    <value>左移</value>
+  </data>
+  <data name="m_ToolBarButtonRight.ToolTipText">
+    <value>右移</value>
+  </data>
+  <data name="m_ToolBarButtonSetOrigin.ToolTipText">
+    <value>設置列印原點</value>
+  </data>
+  <data name="m_ToolBarButtonForward.ToolTipText">
+    <value>進紙</value>
+  </data>
+  <data name="m_ToolBarButtonBackward.ToolTipText">
+    <value>退紙</value>
+  </data>
+  <data name="m_ToolBarButtonSetOriginY.ToolTipText">
+    <value>設置列印原點Y</value>
+  </data>
+  <data name="m_ToolBarButtonDownZ.ToolTipText">
+    <value>Z軸向下移動</value>
+  </data>
+  <data name="m_ToolBarButtonUpZ.ToolTipText">
+    <value>Z軸向上移動</value>
+  </data>
+  <data name="m_ToolBarButtonGoHome.ToolTipText">
+    <value>移動小車到初始位置</value>
+  </data>
+  <data name="m_ToolBarButtonGoHomeY.ToolTipText">
+    <value>移動小車到初始位置Y</value>
+  </data>
+  <data name="m_ToolBarButtonGoHomeZ.ToolTipText">
+    <value>移動小車到初始位置Z</value>
+  </data>
+  <data name="m_ToolBarButtonMeasurePaper.ToolTipText">
+    <value>測量紙寬</value>
+  </data>
+  <data name="m_ToolBarButtonEdit.ToolTipText">
+    <value>編輯作業</value>
+  </data>
+   <data name="toolBarButtonWorkForlder.ToolTipText">
+    <value>設置工作目錄</value>
+  </data>
+  <data name="toolBarButtonRefresh.ToolTipText">
+    <value>刷新</value>
+  </data>
+  <data name="toolBarButtonAddToList.ToolTipText">
+    <value>添加至列印佇列</value>
+  </data>
+  <data name="toolBarButtonSelectAll.ToolTipText">
+    <value>全選</value>
+  </data>
+  <data name="toolBarButtonShowPreview.ToolTipText">
+    <value>顯示預覽</value>
+  </data>
+  <data name="buttonNext.Text">
+    <value>下一個</value>
+  </data>
+  <data name="buttonPre.Text">
+    <value>上一個</value>
+  </data>
+  <data name="buttonJoblist.Text">
+    <value>工作目錄</value>
+  </data>
+  <data name="buttonPreview.Text">
+    <value>預覽</value>
+  </data>
+  <data name="m_StatusBarPanelJetStaus.Text">
+    <value>空閒</value>
+  </data>
+  <data name="m_StatusBarPanelJetStaus.ToolTipText">
+    <value>狀態</value>
+  </data>
+  <data name="m_StatusBarPanelError.ToolTipText">
+    <value>錯誤碼</value>
+  </data>
+  <data name="m_StatusBarPanelPercent.ToolTipText">
+    <value>百分比</value>
+  </data>
+  <data name="menuItemDongle.Text">
+    <value>軟體狗</value>
+  </data>
+  <data name="menuItemDongleKey.Text">
+    <value>軟體狗密碼</value>
+  </data>
+</root>

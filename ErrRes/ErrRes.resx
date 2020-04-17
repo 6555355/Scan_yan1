@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CoreBoard_Service_SX2" xml:space="preserve">
+    <value>Service Call: 0.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA0" xml:space="preserve">
+    <value>Service Call: 1.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA1" xml:space="preserve">
+    <value>Service Call: 2.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA2" xml:space="preserve">
+    <value>Service Call: 3.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA3" xml:space="preserve">
+    <value>Service Call: 4.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADTOMAINROAD" xml:space="preserve">
+    <value>Service Call: 5.</value>
+  </data>
+  <data name="CoreBoard_Service_BYHX_DATA" xml:space="preserve">
+    <value>Service Call: 6.</value>
+  </data>
+  <data name="CoreBoard_Service_EEPROM_CHK" xml:space="preserve">
+    <value>Service Call: 16.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SX2RESET" xml:space="preserve">
+    <value>Usb chip illegal reset.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGHEADER" xml:space="preserve">
+    <value>Data header error.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGHEADERSIZE" xml:space="preserve">
+    <value>The data head size error.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_JOBSTARTHEADER" xml:space="preserve">
+    <value>Additional data should not be attached to the job head.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_BANDDATASIZE" xml:space="preserve">
+    <value>Band head BAND amount of data and the number does not match the actual BAND data.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGFORMAT" xml:space="preserve">
+    <value>Serial data format is wrong.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_DMA0WORKING" xml:space="preserve">
+    <value>DMA0 still working after a band complete.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_PRINTPOINT" xml:space="preserve">
+    <value>The print start position or end position error.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_OLIMIT" xml:space="preserve">
+    <value>Band print starting point is less than the origin.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_OPPLIMIT" xml:space="preserve">
+    <value>Image too width.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPINITS1" xml:space="preserve">
+    <value>Motion step 1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPINITS2" xml:space="preserve">
+    <value>Motion step 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADINITS1" xml:space="preserve">
+    <value>Head board  step 1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADINITS2" xml:space="preserve">
+    <value>Head board step 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADTOMAINROAD" xml:space="preserve">
+    <value>LVDS error.</value>
+  </data>
+  <data name="CoreBoard_Fatal_BYHX_DATA" xml:space="preserve">
+    <value>Not Initialized by software.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_BANDDIRECTION" xml:space="preserve">
+    <value>Band direction error value.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPUPDATE_FAIL" xml:space="preserve">
+    <value>DSP update fail.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_READ" xml:space="preserve">
+    <value>EEPROM read failed.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_WRITE" xml:space="preserve">
+    <value>EEPROM write failed.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_DATA" xml:space="preserve">
+    <value>Not initialized by factory.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADBOARD_RESET" xml:space="preserve">
+    <value>Head board is reset.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SPECTRAHVBINITS1" xml:space="preserve">
+    <value>Spectra high voltage board can not be initialized in step 1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PRINTHEAD_NOTMATCH" xml:space="preserve">
+    <value>Head board mismatch with factory data set. Please reset factory data or change a new head board.</value>
+  </data>
+  <data name="CoreBoard_Fatal_MANUFACTURERID_NOTMATCH" xml:space="preserve">
+    <value>Board manufactory ID mismatch with FW. Please update FW.</value>
+  </data>
+  <data name="CoreBoard_Err_EP0OVERUN_SETUPDATA" xml:space="preserve">
+    <value>EP0 port is break.</value>
+  </data>
+  <data name="CoreBoard_Err_USB1_USB1CONNECT" xml:space="preserve">
+    <value>USB1.1 connect.</value>
+  </data>
+  <data name="CoreBoard_Fatal_USB1_USB1CONNECT" xml:space="preserve">
+    <value>USB1.1 connect.</value>
+  </data>
+  <data name="CoreBoard_Err_UART2_TXTIMEOUT" xml:space="preserve">
+    <value>Motion COM timeout.</value>
+  </data>
+  <data name="CoreBoard_Err_UART1_TXTIMEOUT" xml:space="preserve">
+    <value>Head board COM timeout.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_PRINTDATA" xml:space="preserve">
+    <value>Print data mismatch with fire.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_LESSDATA" xml:space="preserve">
+    <value>Print data is less than fire number</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_ULTRADATA" xml:space="preserve">
+    <value>Print data is more than fire number.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_WRONGSTATUS" xml:space="preserve">
+    <value>Print data is not equal with fire number.</value>
+  </data>
+  <data name="CoreBoard_Initialing_ARM" xml:space="preserve">
+    <value>Initializing ARM.</value>
+  </data>
+  <data name="CoreBoard_Initialing_SX2" xml:space="preserve">
+    <value>Initializing USB.</value>
+  </data>
+  <data name="CoreBoard_Initialing_FPGA" xml:space="preserve">
+    <value>Initializing FPGA.</value>
+  </data>
+  <data name="CoreBoard_Initialing_DSP" xml:space="preserve">
+    <value>Initializing DSP.</value>
+  </data>
+  <data name="CoreBoard_Initialing_HEADBOARD" xml:space="preserve">
+    <value>Initializing HEADBOARD.</value>
+  </data>
+  <data name="CoreBoard_Initialing_HVB" xml:space="preserve">
+    <value>Initializing Spectra high voltage board.</value>
+  </data>
+  <data name="CoreBoard_Warning_UNKNOWNHEADERTYPE" xml:space="preserve">
+    <value>unkown warning</value>
+  </data>
+  <data name="CoreBoard_Warning_EP0OVERUN_REQUEST_IGNORE" xml:space="preserve">
+    <value>EP0 overrun.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_CYAN" xml:space="preserve">
+    <value>Pumping cyan.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_MAGENTA" xml:space="preserve">
+    <value>Pumping magenta.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_YELLOW" xml:space="preserve">
+    <value>Pumping yellow.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_BLACK" xml:space="preserve">
+    <value>Pumping black.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_LIGHTCYAN" xml:space="preserve">
+    <value>Pumping light cyan.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_LIGHTMAGENTA" xml:space="preserve">
+    <value>Pumping light magenta.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATING" xml:space="preserve">
+    <value>Updating.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_SUCCESS" xml:space="preserve">
+    <value>Update successfully.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_BEGIN_TIMEOUT" xml:space="preserve">
+    <value>DSP begin timeout.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_DATA_TIMEOUT" xml:space="preserve">
+    <value>DSP data timeout.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_END_TIMEOUT" xml:space="preserve">
+    <value>DSP end timeout.</value>
+  </data>
+  <data name="CoreBoard_Updating_ILIGALFILE" xml:space="preserve">
+    <value>Wrong updater file format.</value>
+  </data>
+  <data name="CoreBoard_Updating_INTERNAL_DATA" xml:space="preserve">
+    <value>Ilegal update data.</value>
+  </data>
+  <data name="CoreBoard_Updating_CHECKSUM" xml:space="preserve">
+    <value>Update checksum error.</value>
+  </data>
+  <data name="CoreBoard_Updating_FLASHOP" xml:space="preserve">
+    <value>Flash error.</value>
+  </data>
+  <data name="COMCommand_Abort_Command" xml:space="preserve">
+    <value>Invalid COM command</value>
+  </data>
+  <data name="COMCommand_Abort_Parameter" xml:space="preserve">
+    <value>Invalid COM parameter</value>
+  </data>
+  <data name="COMCommand_Abort_MoveAgain" xml:space="preserve">
+    <value>Move again!</value>
+  </data>
+  <data name="COMCommand_Abort_TxTimeOut" xml:space="preserve">
+    <value>COM send time out</value>
+  </data>
+  <data name="COMCommand_Abort_FormatErr" xml:space="preserve">
+    <value>COM data CRC error</value>
+  </data>
+  <data name="COMCommand_Abort_MeasureSensor" xml:space="preserve">
+    <value>Sensor error on measuring paper</value>
+  </data>
+  <data name="COMCommand_Abort_NoPaper" xml:space="preserve">
+    <value>No paper</value>
+  </data>
+  <data name="COMCommand_Abort_PaperJamX" xml:space="preserve">
+    <value>PaperJam in Horizontal.</value>
+  </data>
+  <data name="COMCommand_Abort_PaperJamY" xml:space="preserve">
+    <value>PaperJam in Vertical.</value>
+  </data>
+  <data name="COMCommand_Abort_IndexNoMatch" xml:space="preserve">
+    <value>Index error</value>
+  </data>
+  <data name="COMCommand_Abort_LimitSensor" xml:space="preserve">
+    <value>Touch limit sensor</value>
+  </data>
+  <data name="COMCommand_Abort_SensorPause" xml:space="preserve">
+    <value>Touch located sensor</value>
+  </data>
+  <data name="Software_BoardCommunication" xml:space="preserve">
+    <value>USB communication error</value>
+  </data>
+  <data name="Software_NoDevice" xml:space="preserve">
+    <value>Can not open USB device</value>
+  </data>
+  <data name="Software_Parser" xml:space="preserve">
+    <value>Invalid file format</value>
+  </data>
+  <data name="Software_PrintMode" xml:space="preserve">
+    <value>Print parameter error</value>
+  </data>
+  <data name="Software_MediaTooSmall" xml:space="preserve">
+    <value>Paper width too small.</value>
+  </data>
+  <data name="Software_MediaWidthTooSmall" xml:space="preserve">
+    <value>Due to the original point set and sheet width factors, partially off the print 
+area of drawings! (Printable width {0} only), do you want to continue?</value>
+  </data>
+  <data name="Software_Shakhand" xml:space="preserve">
+    <value>Shakehand error between software and FW</value>
+  </data>
+  <data name="Software_MismatchID" xml:space="preserve">
+    <value>Printer id not supported! Please upgrade software!</value>
+  </data>
+  <data name="Software_Language" xml:space="preserve">
+    <value>Language not support</value>
+  </data>
+  <data name="Software_VersionNoMatch" xml:space="preserve">
+    <value>The current Version is {0}, please upgrade to version{1}</value>
+  </data>
+  <data name="Software_FileResolutionNoMatchPrinter" xml:space="preserve">
+    <value>Prt resolution mismatch with printer resolution!</value>
+  </data>
+  <data name="Software_FileNoSupportResolution" xml:space="preserve">
+    <value>Not support resolution in prt!</value>
+  </data>
+  <data name="Software_FileNoSupportForamt" xml:space="preserve">
+    <value>Not support file format!</value>
+  </data>
+  <data name="Software_FilePassMatchResolution" xml:space="preserve">
+    <value>Can't print this job with current pass setting. Press ok to print this job with {0} pass.</value>
+  </data>
+  <data name="Software_FileColorNumber" xml:space="preserve">
+    <value>Prt color number mismatch with printer!</value>
+  </data>
+  <data name="Software_StepTolTooMuch" xml:space="preserve">
+    <value>Y lost feedback,or step not calibration!</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>Time-limit password input mistake, contains the forbidden character. The password is ignored,  please input again.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_WRONG" xml:space="preserve">
+    <value>Illegal time-limit password. The password is ignored,  please input again.
+		</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>Time-limit password and manufacturer ID mismatch. The password is ignored,  please input again.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>Time-limit password and board ID mismatch. The password is ignored,  please input again.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_FIRST" xml:space="preserve">
+    <value>First warning: 100 hours left against current time-limit password,  please request a new password from the producer.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_SECOND" xml:space="preserve">
+    <value>Second warning: 50 hours left against current time-limit password,  please request a new password from the producer.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_LAST" xml:space="preserve">
+    <value>Last warning: After 1 hour, any printing will be stopped! Request a new password from the producer immediately!</value>
+  </data>
+  <data name="CoreBoard_Fatal_LIMITEDTIME_RUNOUT" xml:space="preserve">
+    <value>Serious Error: Exceeds the time against the time-limit password, please input a new password.</value>
+  </data>
+  <data name="CoreBoard_Fatal_UILANGUAGE_NOT_MATCH" xml:space="preserve">
+    <value>Serious Error: The language of the software setting does not correspond to authority. Please reset the software language or input the new language matching password again,  and restart the printer.</value>
+  </data>
+  <data name="COMCommand_Abort_Encoder" xml:space="preserve">
+    <value>Encoder Error!</value>
+  </data>
+  <data name="COMCommand_Abort_StepEncoder" xml:space="preserve">
+    <value>No found stepping encoder!</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_EEPROM_READ" xml:space="preserve">
+    <value>MainBoard Service Call: EEPROM read failure</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_EEPROM_WRITE" xml:space="preserve">
+    <value>MainBoard Service Call: EEPROM write failure</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_MAINBOARDSERIOUSERROR" xml:space="preserve">
+    <value>MainBoard Serious Error: Factory data is not set or set incorrectly </value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_I2CWRITEFPGA_ERROR" xml:space="preserve">
+    <value>MainBoard Internal error: I2C write FPGA error</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_I2CREADFPGA_ERROR" xml:space="preserve">
+    <value>MainBoard Internal error: I2C write FPGA error</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_CALIBRATIONVNOSET" xml:space="preserve">
+    <value>MainBoard Warning: Adjust voltage is not set, use the default values</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_BASEVNOSET" xml:space="preserve">
+    <value>MainBoard Warning: Base Voltage is not set, use the default values</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_SPRAYPARAMETERSNOSET" xml:space="preserve">
+    <value> MainBoard Warning: Spray Parameter is not set, use the default values</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_USERSETTINGNOSET" xml:space="preserve">
+    <value>MainBoard Warning: User data (the type of ink, jet speed is not set, use the default values </value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_EEPROM_READ" xml:space="preserve">
+    <value>HeadBoardService Call: EEPROM read failure</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_EEPROM_WRITE" xml:space="preserve">
+    <value>HeadBoard Service Call: EEPROM write failure</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_NOHEADBOARDFEATURESDATA" xml:space="preserve">
+    <value>HeadBoard Serious Error: HeadBoard data did not write or format errors</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_HEADBOARDFEATURESDATANOMATCH" xml:space="preserve">
+    <value>HeadBoard Serious Error: HeadBoard data and user settings do not match </value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_NOFINDBYHX" xml:space="preserve">
+    <value>can not find Data header</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_HEADERTYPE" xml:space="preserve">
+    <value>Header type is not 0,1,2</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_JOBHEADERMARKED" xml:space="preserve">
+    <value>Read band, job header marked the first confusion</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_STILLFIREAFTERPRINT" xml:space="preserve">
+    <value>Fire is still to come after the completion of the band print.</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_NOTENOUGHFIRE" xml:space="preserve">
+    <value>Not enough Fire on the number of orders received by the end of print</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_GREATERTHANBANDHEADER" xml:space="preserve">
+    <value>the actual print data is greater than the data in Band header.</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_LESSTHANBANDHEADER" xml:space="preserve">
+    <value>the actual print data is less than the data in Band header.</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_FIBERNOTCONNECTED" xml:space="preserve">
+    <value>Internal 10.</value>
+  </data>
+  <data name="Software_GetHWSettingFail" xml:space="preserve">
+    <value>Get HW setting failed!</value>
+  </data>
+  <data name="Software_MustUpdateFW" xml:space="preserve">
+    <value>Must update new FW.</value>
+  </data>
+  <data name="Software_FWIsNotDogKey" xml:space="preserve">
+    <value>Wrong updater file format.Not Encrypt.</value>
+  </data>
+  <data name="Software_UpdateFileWrongFormat" xml:space="preserve">
+    <value>Wrong updater file format.</value>
+  </data>
+  <data name="COMCommand_Abort_ReadEEPROM" xml:space="preserve">
+    <value>Read EEPROM error.</value>
+  </data>
+  <data name="COMCommand_Abort_WriteEEPROM" xml:space="preserve">
+    <value>Write EEPROM error!</value>
+  </data>
+  <data name="COMCommand_Abort_WriteEEPROMTwice" xml:space="preserve">
+    <value>Write EEPROM 2 times, the general report this error, the Main board did not respond to signals!</value>
+  </data>
+  <data name="COMCommand_Abort_TimeOver" xml:space="preserve">
+    <value>The time limit should run out of!</value>
+  </data>
+  <data name="COMCommand_Abort_TimeWarning" xml:space="preserve">
+    <value>To limit the time with less than 50 hours!</value>
+  </data>
+  <data name="COMCommand_Abort_Lang" xml:space="preserve">
+    <value>Language and restrictions do not match!</value>
+  </data>
+  <data name="COMCommand_Abort_IllegalContent" xml:space="preserve">
+    <value>The contents of EEPROM error, EEPROM configuration did not complete!</value>
+  </data>
+  <data name="COMCommand_Abort_IllegalPwd" xml:space="preserve">
+    <value>Wrong password!</value>
+  </data>
+  <data name="COMCommand_Abort_SwDogEey" xml:space="preserve">
+    <value>Software has not dongle!</value>
+  </data>
+  <data name="COMCommand_Abort_NotifyMeasure" xml:space="preserve">
+    <value>Do you want to measure media?</value>
+  </data>
+  <data name="COMCommand_Abort_NotifyGoHome" xml:space="preserve">
+    <value>Do you want to Back to the origin?</value>
+  </data>
+  <data name="CoreBoard_Updating_EREASE" xml:space="preserve">
+    <value>The ARM flash erases.</value>
+  </data>
+  <data name="CoreBoard_Updating_FX2NOEEPROM" xml:space="preserve">
+    <value>EEPROM unusable.</value>
+  </data>
+  <data name="CoreBoard_Updating_FX2UPDATELOADER" xml:space="preserve">
+    <value>Update loader failed !</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>Inputed Optional password mistake, containing the value of 0 ~ F outside.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_WRONG" xml:space="preserve">
+    <value>Not a legitimate Optional password.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>Optional password and vendors do not match.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>Optional password and the board did not match.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_PROHIBIT_SENSOR" xml:space="preserve">
+    <value>Ink safe tank is full, all ink pumps are stopped.</value>
+  </data>
+  <data name="CoreBoard_Warning_OVER_SPEED_NOT_SUPPORT" xml:space="preserve">
+    <value>The head board don't support over speed, system is forced to use high speed.</value>
+  </data>
+  <data name="CoreBoard_Err_UV_CTR_WRONGSTATUS" xml:space="preserve">
+    <value>Internal Status.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_WRONGCOMMAND" xml:space="preserve">
+    <value>The FPGA received wrong command.</value>
+  </data>
+  <data name="CoreBoard_Err_MOTION_SPEED_BAD" xml:space="preserve">
+    <value>Movement speed too fast or uneven, data output unfinished received ignition command.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_MOVING_TIMEOUT" xml:space="preserve">
+    <value>Movement overtime.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_WRONGAUTOCLEAN" xml:space="preserve">
+    <value>wrong AUTOCLEAN command.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_WRONGBANDINFO" xml:space="preserve">
+    <value>wrong AUTOCLEAN command.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_DEBUG1" xml:space="preserve">
+    <value>Debug status 1.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_DEBUG2" xml:space="preserve">
+    <value>Debug status 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_SW1" xml:space="preserve">
+    <value>Internal error, blank band and y-distance is zero.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGPINCONF" xml:space="preserve">
+    <value>PINCONF writing FPGA errors.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_COLORNUM_WRONG" xml:space="preserve">
+    <value>Factory Set the number of colors in wrong.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_EEPROM_WRT_ERR" xml:space="preserve">
+    <value>Headboard EEPROM writing failure.</value>
+  </data>
+  <data name="CoreBoard_Service_SDRAM_CHECK" xml:space="preserve">
+    <value>SDRAM didn't pass Check.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_SPOTCOLOR1" xml:space="preserve">
+    <value>Pumping spot color 1.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_SPOTCOLOR2" xml:space="preserve">
+    <value>Pumping spot color 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_OVERHEAT" xml:space="preserve">
+    <value>Nozzle overheating, all the heater was closed.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SHAKEHAND_ERR" xml:space="preserve">
+    <value>version of the software error or an error, not through the handshake protocol.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SWVERSION_ERR" xml:space="preserve">
+    <value>firmware version requires special software, version error.</value>
+  </data>
+  <data name="CoreBoard_Fatal_NOT_SUPPORT_2C_SHARE_1H" xml:space="preserve">
+    <value>Current systems do not support one head of two colors.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>input password is incorrect, with non-0 ~ F value.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_WRONG" xml:space="preserve">
+    <value>not a legitimate ink password.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>ink password and vendors do not match.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>ink password and the board did not match. </value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDINK_FIRST" xml:space="preserve">
+    <value>reoccupy 10 liters beyond the ink limit the first warning. </value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDINK_SECOND" xml:space="preserve">
+    <value>reoccupy 5 litre beyond the ink limit the second warning. </value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDINK_LAST" xml:space="preserve">
+    <value> reoccupy liter is beyond the limits, the last warning. </value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_UNKNOWN_DOT_VOLUME" xml:space="preserve">
+    <value>nozzle is not currently supported ink passwords.</value>
+  </data>
+  <data name="CoreBoard_Fatal_LIMITEDINK_RUNOUT" xml:space="preserve">
+    <value>over the ink amount limitation, please enter a new password.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SWVERSION_ERR_INK_PWD" xml:space="preserve">
+    <value>Firmware required software to support the ink password, version error.</value>
+  </data>
+  <data name="CoreBoard_Updating_GZ_ILIGALFILE" xml:space="preserve">
+    <value>Need special Firmware</value>
+  </data>
+  <data name="CoreBoard_Updating_INKP_ILIGALFILE" xml:space="preserve">
+    <value>Need special ink password Firmware</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATEERR_16H_ILIGALFILE" xml:space="preserve">
+    <value>8head Hardware can't update 16H Firmware</value>
+  </data>
+  <data name="CoreBoard_Warning_FPGA_LESSDATA" xml:space="preserve">
+    <value>Print data is less than fire number or empty when trigger</value>
+  </data>
+  <data name="CoreBoard_Warning_FPGA_ULTRADATA" xml:space="preserve">
+    <value>Print data is more than fire number</value>
+  </data>
+  <data name="CoreBoard_Service_FLASH" xml:space="preserve">
+    <value>Flash. Cann't read FPGA from flash.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SECURITY_CHIP_ERR" xml:space="preserve">
+    <value>Write board id Error?</value>
+  </data>
+  <data name="CoreBoard_Service_SDRAM_NOMATCH" xml:space="preserve">
+    <value>SDRAM is too small to support the current settings.</value>
+  </data>
+  <data name="CoreBoard_Service_READBOARDID_FAIL" xml:space="preserve">
+    <value>Read board id Error.</value>
+  </data>
+  <data name="CoreBoard_Updating_PCDATA_ERR" xml:space="preserve">
+    <value>The data format is wrong.</value>
+  </data>
+  <data name="CoreBoard_Updating_NO_HEADNUM" xml:space="preserve">
+    <value>The nozzle number does not exist.</value>
+  </data>
+  <data name="CoreBoard_Updating_HBDATA_ERR" xml:space="preserve">
+    <value>The mainboard sending Headboard data error.</value>
+  </data>
+  <data name="CoreBoard_Updating_PRHD_SETERR" xml:space="preserve">
+    <value>Headboard setting nozzle failure.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_EXCEEDSIZE" xml:space="preserve">
+    <value>Send the temperature of the rated voltage curve data exceeds size range.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_PCSND_DATA" xml:space="preserve">
+    <value>The data format is wrong.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_SAVE_ROM" xml:space="preserve">
+    <value>The mainboard data storage to eeprom failure.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_NO_SPACE" xml:space="preserve">
+    <value>The mainboard eeprom don't have enough space for storage new receiving data.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_UNKN_HDNUM" xml:space="preserve">
+    <value>Send nozzle number does not exist.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_MAP" xml:space="preserve">
+    <value>The mainboard eeprom curve data is mapped into memory error.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_READ_ROM" xml:space="preserve">
+    <value>Read the mainboard eeprom failure.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_ROM_CHKSUM" xml:space="preserve">
+    <value>Curve data checksum validation error .</value>
+  </data>
+  <data name="CoreBoard_Err_HB_NOSUPPORT_FUNC" xml:space="preserve">
+    <value>Headboard type does not support this feature.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSONHEAD_TEMP_TOO_LOW" xml:space="preserve">
+    <value>Head temperature too low.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSONHEAD_TEMP_TOO_HIGH" xml:space="preserve">
+    <value>Head temperature too high.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSONHEAD_NOT_CONNECT" xml:space="preserve">
+    <value>Print head is not connected.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_FPGA_ULTRADATA" xml:space="preserve">
+    <value>core board FPGA report data too more.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_FPGA_LESSDATA" xml:space="preserve">
+    <value>core board FPGA report data too less.</value>
+  </data>
+  <data name="CoreBoard_Warning_UNKNOWN_NOZZLE_COUNT" xml:space="preserve">
+    <value>Unknown number of the current head of the nozzle.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EPSON_HEAD_BAD" xml:space="preserve">
+    <value>Print head error.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EPSON_HEAD_FPGA_ERR" xml:space="preserve">
+    <value>head board FPGA error.</value>
+  </data>
+  <data name="CoreBoard_Fatal_T_JET_PASSNUM_ERR" xml:space="preserve">
+    <value>t-jet pass number error.</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_PUMP_STOP" xml:space="preserve">
+    <value>Because more than 4 seconds the signal had not received the ink bottle, so turn off all the ink pump.</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_SETFPGA_HDTYPE" xml:space="preserve">
+    <value>set fpga 8heads or 16heads failed.</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_UART1_TXTIMEOUT" xml:space="preserve">
+    <value>Motion COM timeout.</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_ENTERSLEEP" xml:space="preserve">
+    <value>Device into a sleep state</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_DEBUG" xml:space="preserve">
+    <value>Debug error.</value>
+  </data>
+  <data name="COMCommand_Abort_InternalErr_2" xml:space="preserve">
+    <value>Internal Error 2.</value>
+  </data>
+  <data name="COMCommand_Abort_InternalErr_1" xml:space="preserve">
+    <value>Internal error 1.</value>
+  </data>
+  <data name="COMCommand_Abort_OverTemp_Protect" xml:space="preserve">
+    <value>Temperature overload protection.</value>
+  </data>
+  <data name="COMCommand_Abort_OverCurrent_Protect" xml:space="preserve">
+    <value>Current overload protection.</value>
+  </data>
+  <data name="CoreBoard_Updating_TRY_AGAIN" xml:space="preserve">
+    <value>Please upgrade again.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_DRIVER_OVERHEAT" xml:space="preserve">
+    <value>Print head drive over heat.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_XHOT_ERROR" xml:space="preserve">
+    <value>Print head over heat.</value>
+  </data>
+  <data name="CoreBoard_Service_ARM_MOTION" xml:space="preserve">
+    <value>ARM Motion system initialization error..</value>
+  </data>
+  <data name="CoreBoard_Service_HEADBOARD_INIT_FAIL" xml:space="preserve">
+    <value>Head board failed to initialize.</value>
+  </data>
+  <data name="CoreBoard_Fatal_CALIBRATION_DATA" xml:space="preserve">
+    <value>Factory initialization settings wrong.</value>
+  </data>
+  <data name="CoreBoard_Err_PUMPINKTIMEOUT" xml:space="preserve">
+    <value>Pump ink overtime.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADBOARD_NO_FW" xml:space="preserve">
+    <value>Have a head board but no legal Firmware.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADBOARD_CONFIG" xml:space="preserve">
+    <value>Head board is not configured properly.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_COMM_TIMEOUT" xml:space="preserve">
+    <value>CAN communication error, send timeput.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_COMM_ERROR" xml:space="preserve">
+    <value>CAN communication error, error counter overrun.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_BUFFER_ERROR" xml:space="preserve">
+    <value>CAN communication error, reorganizing the buffer mistakes.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_CONTROLLER_ERROR" xml:space="preserve">
+    <value>CAN controller errors.</value>
+  </data>
+  <data name="CoreBoard_Fatal_NO_TEMPERATURE_SENSOR" xml:space="preserve">
+    <value>Can not detect temperature sensor.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INK_SPILL" xml:space="preserve">
+    <value>Negative pressure ink cartridge deposition.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INK_SUPPLY_LOW" xml:space="preserve">
+    <value>Ink cartridge for lack of ink.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_SUPPLY_SLOW" xml:space="preserve">
+    <value>Continuous pump more than 10 seconds ink.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_OPRATION_EEPROM_FAIL" xml:space="preserve">
+    <value>HeadBoard operation eeprom failure .</value>
+  </data>
+  <data name="CoreBoard_Service_HB_FPGA_ERROR" xml:space="preserve">
+    <value>HeadBoard FPGA error .</value>
+  </data>
+  <data name="CoreBoard_Err_HEAD_OFFSET" xml:space="preserve">
+    <value>Head distance to the electric eye set incorrectly.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_INT" xml:space="preserve">
+    <value>Exception notification the FPGA.</value>
+  </data>
+  <data name="CoreBoard_Err_NO_DMA_LLI" xml:space="preserve">
+    <value>System-generated link list is too slow.</value>
+  </data>
+  <data name="CoreBoard_Err_DMA_LLI_LEN" xml:space="preserve">
+    <value>Linked lists need to go beyond the predefined.</value>
+  </data>
+  <data name="CoreBoard_Err_CADG_CTL_LINE_FAULT" xml:space="preserve">
+    <value>Machine's lines erro.</value>
+  </data>
+  <data name="CoreBoard_Err_CADG_INIT_PLC" xml:space="preserve">
+    <value>Plc init erro.</value>
+  </data>
+  <data name="CoreBoard_Err_CADG_PRINT_FAULT" xml:space="preserve">
+    <value>Printing erro.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FUNC_BOARD_STARTUP" xml:space="preserve">
+    <value>Functional Board started.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PRINT_DATA_ERROR" xml:space="preserve">
+    <value>Print data is wrong or missing.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_DATA_ERROR" xml:space="preserve">
+    <value>Factory settings data errors.</value>
+  </data>
+  <data name="COMCommand_Abort_RatioEEPROM" xml:space="preserve">
+    <value>Difference between the measured value and the default value is too large.</value>
+  </data>
+  <data name="COMCommand_Abort_RatioMeasure" xml:space="preserve">
+    <value>Difference between the measured value and the current value is too large.</value>
+  </data>
+  <data name="COMCommand_Abort_NoSupportCorrectRatio" xml:space="preserve">
+    <value>Automatic measurement function is not supported.</value>
+  </data>
+  <data name="CoreBoard_Warning_SCORPION_WARNING" xml:space="preserve">
+    <value>Printer has alarm.</value>
+  </data>
+  <data name="CoreBoard_Warning_HB_FW_VERSION" xml:space="preserve">
+    <value>Upgrade Kit contains the FW version is too low for the headboard, is no longer supported.</value>
+  </data>
+  <data name="CoreBoard_Warning_HB_FW_ID_ERROR" xml:space="preserve">
+    <value>Head Board FW ID does not match the current header cannot upgrade the FW.</value>
+  </data>
+  <data name="CoreBoard_Warning_HB_FW_UPDATER" xml:space="preserve">
+    <value>Error occurred during the upgrade.</value>
+  </data>
+  <data name="CoreBoard_Warning_HBFPGA_FW_UPDATER" xml:space="preserve">
+    <value>Head board FPGA upgrade process errors occurred.</value>
+  </data>
+  <data name="CoreBoard_Warning_FUNC_FW_UPDATER" xml:space="preserve">
+    <value>Functional Board error occurred during the upgrade.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PANEL_EX_LOST" xml:space="preserve">
+    <value>Auxiliary control panel failed to communicate.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PANEL_EX_BUSY" xml:space="preserve">
+    <value>Auxiliary control panel is busy.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_HEAD_FPGA_ERR" xml:space="preserve">
+    <value>Head board FPGA error.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_HEAD_LVDS_ERR" xml:space="preserve">
+    <value>Mainboard report LVDS lost lock.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_HEAD_REPORT_LVDS_ERR" xml:space="preserve">
+    <value>Head plate report LVDS lost lock.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_WAVEFROM_Init_fail" xml:space="preserve">
+    <value>WAVEFROM initialization configuration error.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_WAVEFROM_Download_fail" xml:space="preserve">
+    <value>WAVEFROM download error.</value>
+  </data>
+  <data name="CoreBoard_Fatal_UV_RUNOUT" xml:space="preserve">
+    <value>UV time runout.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>contain illegal word not in '0'-'f'.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_WRONG" xml:space="preserve">
+    <value>password illegal.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_MANUFACTURERIDNOTMATH" xml:space="preserve">
+    <value>password no math firm.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_BOARDIDNOTMATH" xml:space="preserve">
+    <value>password no math mainboard.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_FIRST" xml:space="preserve">
+    <value>the first time UV runout.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_SECOND" xml:space="preserve">
+    <value>the second time UV runout.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_LAST" xml:space="preserve">
+    <value>the last time UV runout.</value>
+  </data>
+  <data name="CoreBoard_Warning_TILE_IN_TILE" xml:space="preserve">
+    <value>The electric eye spacing is too small , electric eye signals are discarded.</value>
+  </data>
+  <data name="CoreBoard_Warning_TILE_POS_FULL" xml:space="preserve">
+    <value>Electric eye buffer is full , the electric eye signals are discarded.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSED_TILE" xml:space="preserve">
+    <value>Print data ready too late , the electric eye signals are discarded.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMPLONG_ALARM" xml:space="preserve">
+    <value>Pump ink overtime.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_OVERCOOL" xml:space="preserve">
+    <value>The nozzle temperature is too low (exceptions), heating control has been forced to close.</value>
+  </data>
+  <data name="CoreBoard_Fatal_OVERCHANGE" xml:space="preserve">
+    <value>The nozzle temperature changes too severe (exceptions), heating control has been forced to close.</value>
+  </data>
+  <data name="CoreBoard_Err_PM_FEATURE_UNSUPPORTED" xml:space="preserve">
+    <value>Software doesn't support variable temperature ratio, please pgrade the software.</value>
+  </data>
+  <data name="CoreBoard_Err_PM_SCALE_NOT_MATCH" xml:space="preserve">
+    <value>Software inconsistent temperature ratio, and the default rate, need to reconfigure the factory Settings.</value>
+  </data>
+  <data name="CoreBoard_Fatal_TEMP_RATIO_UNSUPPORT" xml:space="preserve">
+    <value>Head board does not support the variable temperature ratio. Please upgrade the head plate.</value>
+  </data>
+  <data name="COMCommand_Abort_OutOfPrintRang" xml:space="preserve">
+    <value>Print position overrun, please try to print images or narrow width or increase printing the origin position.</value>
+  </data>
+  <data name="CoreBoard_Err_TargetTempLocked" xml:space="preserve">
+    <value>Temperature control has not been unlocked.</value>
+  </data>
+  <data name="CoreBoard_Err_HIGH_VOL_TOO_LOW" xml:space="preserve">
+    <value>Head board pressure is too low.</value>
+  </data>
+  <data name="CoreBoard_Err_WAVEFORM_INDEX" xml:space="preserve">
+    <value>Waveform failed download.</value>
+  </data>
+  <data name="CoreBoard_Err_WAVEFORM_CONFIG" xml:space="preserve">
+    <value>Waveform configuration failed.</value>
+  </data>
+  <data name="CoreBoard_Err_SET_VOLT_ERROR" xml:space="preserve">
+    <value>Full/half pressure setting error.</value>
+  </data>
+  <data name="CoreBoard_Fatal_WAVEFORM_INVALID" xml:space="preserve">
+    <value>No waveform identification effectively.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FULL_HALF_VOLT_ERROR" xml:space="preserve">
+    <value>Half pressure is larger than total pressure.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_PARAM_UNVALID" xml:space="preserve">
+    <value>Eeprom parameters is illegal, needs to be set.</value>
+  </data>
+  <data name="CoreBoard_Service_HBFW_ERROR" xml:space="preserve">
+    <value>Head board FW and the board does not match, need to replace the head board.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADVENDERDISMATHCH" xml:space="preserve">
+    <value>Nozzle vender do not match.</value>
+  </data>
+  <data name="CoreBoard_Err_NO_PAPER" xml:space="preserve">
+    <value>The printer is out of paper.</value>
+  </data>
+  <data name="CoreBoard_Warning_EnterBakPrintMode" xml:space="preserve">
+    <value>Has entered the offline print status</value>
+  </data>
+  <data name="CoreBoard_Err_ILLEGAL_VOL" xml:space="preserve">
+    <value>There is no valid voltage value.</value>
+  </data>
+  <data name="CoreBoard_Err_EEPROM_LOCKED" xml:space="preserve">
+    <value>EEPROM is locked.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DOUBLEY_ERRPOS" xml:space="preserve">
+    <value>The position offset between two Y axis is too large.</value>
+  </data>
+  <data name="CoreBoard_Warning_DOUBLEY_CORRECTOVERLIMIT" xml:space="preserve">
+    <value>The number of correction double axis position is limited.</value>
+  </data>
+  <data name="COMCommand_Abort_DoubleYERR" xml:space="preserve">
+    <value>Emergency stop because of the position offset is too large.</value>
+  </data>
+  <data name="COMCommand_Abort_InitERR" xml:space="preserve">
+    <value>Failed to Initialize DSP.</value>
+  </data>
+  <data name="COMCommand_Abort_NoPaperCancelPrint" xml:space="preserve">
+    <value>The printer is out of paper.</value>
+  </data>
+  <data name="CoreBoard_Err_SAND_LAYING" xml:space="preserve">
+    <value>Laying sand in process,please try again later.</value>
+  </data>
+  <data name="CoreBoard_Err_CUR_ACTION_NOT_SUPPORT" xml:space="preserve">
+    <value>The Printer's status don't support the current action.</value>
+  </data>
+  <data name="CoreBoard_Err_LVDS_DISCONNECT" xml:space="preserve">
+    <value>Head plate pump ink message timeout is not updated , probably LVDS disconnected.</value>
+  </data>
+  <data name="CoreBoard_Err_NOSUPPORT_DELAY" xml:space="preserve">
+    <value>Head board version does not support time delay waveform, change the waveform or head board version.</value>
+  </data>
+  <data name="CoreBoard_Warning_OLD_HB_BOOTLOADER" xml:space="preserve">
+    <value>Because the head board bootloader too old , too slow resulting in the upgrade.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EXT_INIT_ERR" xml:space="preserve">
+    <value>External device initialization is not complete.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_ERROR" xml:space="preserve">
+    <value>Upgrade error.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_TIMEOUT" xml:space="preserve">
+    <value>Upgrade timeout.</value>
+  </data>
+  <data name="CoreBoard_Warning_NO_PAPER" xml:space="preserve">
+    <value>Printer is short of paper.</value>
+  </data>
+  <data name="CoreBoard_Warning_NO_MATERIAL" xml:space="preserve">
+    <value>Printer is short of paper.</value>
+  </data>
+  <data name="CoreBoard_Err_NOT_SUPPORT_PRINT" xml:space="preserve">
+    <value>Print function is not supported.</value>
+  </data>
+  <data name="CoreBoard_Err_EXTBOARD_UART_FAIL" xml:space="preserve">
+    <value>The expansion board serial connection failed.</value>
+  </data>
+  <data name="CoreBoard_Err_EXTBOARD_ERROR" xml:space="preserve">
+    <value>Expansion board error.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_UNDERFLOW" xml:space="preserve">
+    <value>The FPGA buffer underflow.</value>
+  </data>
+  <data name="CoreBoard_Err_USB_TRANSFER" xml:space="preserve">
+    <value>USB data transmission exception.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_PROGRAM" xml:space="preserve">
+    <value>FPGA logic error causes the program to run exception.</value>
+  </data>
+  <data name="EnumCADG_PrintError_BackDoorOpened" xml:space="preserve">
+    <value>Back door opened</value>
+  </data>
+  <data name="EnumCADG_PrintError_FeedShaftJam" xml:space="preserve">
+    <value>Feed Shaft jam</value>
+  </data>
+  <data name="EnumCADG_PrintError_InkEmpty" xml:space="preserve">
+    <value>Ink empty</value>
+  </data>
+  <data name="EnumCADG_PrintError_LeftDoorOpened" xml:space="preserve">
+    <value>Left door opened</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperKnifeJam" xml:space="preserve">
+    <value>Paper knife jam</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperKnifeNotSet" xml:space="preserve">
+    <value>Paper knife not set</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA0" xml:space="preserve">
+    <value>A0 PaperLess </value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA1" xml:space="preserve">
+    <value>A1 PaperLess</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA2" xml:space="preserve">
+    <value>A2 PaperLess</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA3" xml:space="preserve">
+    <value>A3 PaperLess</value>
+  </data>
+  <data name="EnumCADG_PrintError_PrintShaftJam" xml:space="preserve">
+    <value>Print shaft jam</value>
+  </data>
+  <data name="EnumCADG_PrintError_RightDoorOpened" xml:space="preserve">
+    <value>Right door opened</value>
+  </data>
+  <data name="EnumCADG_PrintError_ServerStatusError" xml:space="preserve">
+    <value>Server Status Error</value>
+  </data>
+  <data name="CoreBoard_Initialing_PANEL" xml:space="preserve">
+    <value>Initializing the PLC </value>
+  </data>
+  <data name="Software_MediaHeightTooSmall" xml:space="preserve">
+    <value>Due to the original point set and sheet height factors, partially off the print 
+area of drawings!do you want to continue?</value>
+  </data>
+  <data name="Software_MeybeLostLayer" xml:space="preserve">
+    <value>There may be a lost layer. Do you reprint the upper layer?</value>
+  </data>
+  <data name="Software_ContinueAbort" xml:space="preserve">
+    <value>Printing is not completed, whether to cancel the print?</value>
+  </data>
+  <data name="Software_OldMainBoard" xml:space="preserve">
+    <value>Mainboard do not support temperature ratio function or ratio value errors.</value>
+  </data>
+  <data name="Software_MainBoardNoSupportSetKyVol" xml:space="preserve">
+    <value>The mainboard does not support setting voltage.</value>
+  </data>
+  <data name="Software_ColorDeep" xml:space="preserve">
+    <value>Color depth does not match</value>
+  </data>
+  <data name="Software_DataMiss" xml:space="preserve">
+    <value>File data not read</value>
+  </data>
+  <data name="Software_SwVersionQaNoTest" xml:space="preserve">
+    <value>This version of software is not QA tested version!</value>
+  </data>
+</root>

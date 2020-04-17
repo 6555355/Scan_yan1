@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ColorList>
+<Color Name="Y" Value="FFFF00" ID="1"></Color>
+<Color Name="M" Value="FF00FF" ID="2"></Color>
+<Color Name="C" Value="00FFFF" ID="3"></Color>
+<Color Name="K" Value="000000" ID="4"></Color>
+<Color Name="Lk" Value="DDDDDD" ID="5"></Color>
+<Color Name="Lc" Value="E0FFFF" ID="6"></Color>
+<Color Name="Lm" Value="FFE0FF" ID="7"></Color>
+<Color Name="Ly" Value="EEE0EE" ID="8"></Color>
+<Color Name="O" Value="000000" ID="9"></Color>
+<Color Name="G" Value="00FF00" ID="10"></Color>
+<Color Name="R" Value="FF0000" ID="11"></Color>
+<Color Name="B" Value="0000FF" ID="12"></Color>
+
+<Color Name="W1" Value="cccccc" ID="29"></Color>
+<Color Name="W2" Value="cccccc" ID="30"></Color>
+<Color Name="W3" Value="cccccc" ID="31"></Color>
+<Color Name="W4" Value="cccccc" ID="32"></Color>
+<Color Name="W5" Value="cccccc" ID="33"></Color>
+<Color Name="W6" Value="cccccc" ID="34"></Color>
+<Color Name="W7" Value="cccccc" ID="35"></Color>
+<Color Name="W8" Value="cccccc" ID="36"></Color>
+
+<Color Name="V1" Value="939598" ID="37"></Color>
+<Color Name="V2" Value="939598" ID="38"></Color>
+<Color Name="V3" Value="939598" ID="39"></Color>
+<Color Name="V4" Value="939598" ID="40"></Color>
+<Color Name="V5" Value="939598" ID="41"></Color>
+<Color Name="V6" Value="939598" ID="42"></Color>
+<Color Name="V7" Value="939598" ID="43"></Color>
+<Color Name="V8" Value="939598" ID="44"></Color>
+
+<Color Name="P1" Value="FF0000" ID="45"></Color>
+<Color Name="P2" Value="FF0000" ID="46"></Color>
+<Color Name="P3" Value="FF0000" ID="47"></Color>
+<Color Name="P4" Value="FF0000" ID="48"></Color>
+
+</ColorList>

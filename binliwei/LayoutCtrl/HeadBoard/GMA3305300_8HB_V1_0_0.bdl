@@ -1,0 +1,118 @@
+
+
+Param = {
+	Junctions = 8,
+	NzlsPerHead = 4,
+}
+
+
+-- id,name,support max heads,Heat channels,Temperature channels,Voltage channels,,half voltagechannels per head
+-- #define HEAD_BOARD_TYPE_KM1024_8HEAD	  =	23,
+
+function GetHeadBoardParam()
+	return  23, "GMA330",8,1,1,1,0;
+end
+-- Support Head Type number
+function GetSupportHeadCount()
+	return 1;
+end
+
+function GetSupportHeadList()
+	return "GMA330";
+end
+
+function GetHeatChannel(hbId,jId,id,hbs)
+	return hbId*8+7-jId;
+end
+
+function GetTempertureChannel(hbId,jId,id,hbs)
+	return hbId*8+7-jId;
+end
+
+function GetDataChannel(hbId,jId,id,hbs)
+	local Map = {3,1,2,0};
+	return hbId*Param.Junctions*Param.NzlsPerHead + jId*Param.NzlsPerHead + Map[id+1];
+end
+
+function GetVoltageChannel(hbId,jId,id,hbs)
+	return hbId*8+7-jId;
+end
+
+function GetConnector(dataChn,hbs)
+	local hbId;
+	local jId;
+	hbId = math.floor(dataChn/32);
+	jId = math.floor((dataChn - hbId*32)/8);
+	return hbId,jId;
+end
+
+function GetHeadBoardIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -6*s;
+	t = 10*s;
+	w = 12*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -6*s;
+	t = 12*s;
+	w = 12*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionInfo()
+
+	return 80,32,    -- w,h
+		   728,438,  "J26",
+		   635,438,  "J27",
+		   540,438,  "J28",
+		   443,438,  "J29",
+		   350,438,  "J30",
+		   254,438,  "J31",
+		   158,438,  "J32",
+		   60,438,  "J33";
+end
+
+function DrawJunction(headboardId,jId)
+	local s = 10.0;
+	local rt = 10*s
+	local rw = 6*s;
+	local rb = 18*s
+
+	local jh = 0.5*s;
+	local jw = 1*s;
+	local x,y;
+	local str = tostring(headboardId+1).. tostring("-")..tostring(jId+1);
+	
+	--
+	SetPenColor(0x0);
+	DrawHeadBoardOutLine(-rw,rt,rw*2,rb-rt,1.6*s);
+	SetBrushColor(0x0);
+
+	for i = 0,7,1 do
+		x = 3*jw+3.5*jw/2 - (jw*1.5)*i;
+		y = 16*s;	
+		if( i==jId )
+			then 
+				FillRectangle(x,y,jh,jw);
+			else
+				DrawRectangle(x,y,jh,jw);
+		end
+
+	end
+
+	SetFontSize(5*s);
+	SetFontFamily("Arial");	
+	DrawString(str,-rw,rt,2*rw,rt);
+	
+	return 1;
+
+end

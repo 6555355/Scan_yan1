@@ -1,0 +1,242 @@
+﻿<Window x:Class="MultimediaLayout.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:control="clr-namespace:MultimediaLayout.Controls"
+        xmlns:model="clr-namespace:MultimediaLayout.Models"
+        xmlns:helper="clr-namespace:MultimediaLayout.Helper"
+        xmlns:dd="clr-namespace:MultimediaLayout.Wpf.DragDrop"
+        Title="{DynamicResource MultimediaLayout}" Height="800" Width="1400"
+        FontSize="18" FontFamily="微软雅黑" Background="WhiteSmoke" ResizeMode="NoResize" WindowState="Maximized" Loaded="Window_Loaded">
+    <Window.Resources>     
+        <ResourceDictionary>
+            <LinearGradientBrush x:Key="DottedLineBrush" SpreadMethod="Repeat" StartPoint="0,5" EndPoint="5,0" MappingMode="Absolute">
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Color="Red" Offset="0"/>
+                    <GradientStop Color="Red" Offset="0.2"/>
+                    <GradientStop Color="Transparent" Offset="0.4"/>
+                    <GradientStop Color="Transparent" Offset="0.6"/>
+                    <GradientStop Color="Red" Offset="0.8"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+            <DataTemplate DataType="{x:Type model:Paper}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Grid.Column="0" Background="WhiteSmoke" BorderBrush="Orange" BorderThickness="1,0" Width="{Binding LeftMargin}"/>
+                    <control:DragCanvas Width="{Binding Width}"  
+                                    Tag="{Binding Id}"
+                                    AllowDrop="True"
+                                    dd:DragDrop.IsDropTarget="True"
+                                    dd:DragDrop.DropHandler="{Binding DataContext,RelativeSource={RelativeSource AncestorType={x:Type Window}}}" 
+                                    Grid.Column="1" Background="White" Loaded="DragCanvas_Loaded"
+                                    PreviewMouseRightButtonDown="DragCanvas_PreviewMouseRightButtonDown">
+                        <control:DragCanvas.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="{DynamicResource BringToFront}" Name="menuItemBringToFront" Click="menuItemBringToFront_Click"/>
+                                <MenuItem Header="{DynamicResource SendToBack}" Name="menuItemSendToBack" Click="menuItemSendToBack_Click"  />
+                                <Separator />
+                                <MenuItem Header="{DynamicResource Delete}" Name="menuItemDelete" Click="menuItemDelete_Click"/>
+                                <MenuItem Header="{DynamicResource Clear}" Name="menuItemClear" Click="menuItemClear_Click"/>
+                                <MenuItem Header="{DynamicResource ClearAll}" Name="menuItemClearAll" Click="menuItemClearAll_Click"/>
+                            </ContextMenu>
+                        </control:DragCanvas.ContextMenu>
+                    </control:DragCanvas>
+                </Grid>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type model:ImageJob}">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ToolTip>
+                        <TextBlock>
+                            <TextBlock.Inlines>
+                                <Run Text="{Binding ImageName,Mode=OneWay}"/>
+                                <Run Text=":"/>
+                                <Run Text="{Binding ResolutionX,Mode=OneWay}"/>
+                                <Run Text="*"/>
+                                <Run Text="{Binding ResolutionY,Mode=OneWay}"/>
+                            </TextBlock.Inlines>
+                        </TextBlock>
+                    </Grid.ToolTip>
+                    <Border BorderBrush="YellowGreen" BorderThickness="1" Height="100" Width="100">
+                        <Image Source="{Binding PreviewFile}"/>
+                    </Border>
+                    <TextBlock Grid.Row="1" Text="{Binding ImageName}" MaxWidth="100"  HorizontalAlignment="Center" IsHitTestVisible="False" FontSize="12"/>
+                </Grid>
+            </DataTemplate>
+            <ItemsPanelTemplate x:Key="ItemControlPanel">
+                <WrapPanel IsItemsHost="True"/>
+            </ItemsPanelTemplate>
+            <Style x:Key="ListBoxItemStyle1" TargetType="{x:Type ListBoxItem}">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                <Setter Property="Padding" Value="2"/>
+                <Setter Property="Margin" Value="2"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                            <Border x:Name="Bd" CornerRadius="2" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="true">
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsSelected" Value="true">
+                                    <Setter Property="Background" TargetName="Bd" Value="#FF77A007"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}"/>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="true">
+                                    <Setter Property="Background" TargetName="Bd">
+                                        <Setter.Value>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="#FFDAF18A" Offset="0"/>
+                                                <GradientStop Color="#FF77A007" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}"/>
+                                </Trigger>
+                                <MultiTrigger>
+                                    <MultiTrigger.Conditions>
+                                        <Condition Property="IsSelected" Value="true"/>
+                                        <Condition Property="Selector.IsSelectionActive" Value="false"/>
+                                    </MultiTrigger.Conditions>
+                                    <Setter Property="Background" TargetName="Bd" Value="#FF595D4D"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.InactiveCaptionTextBrushKey}}"/>
+                                </MultiTrigger>
+                                <Trigger Property="IsEnabled" Value="false">
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="{x:Static MenuItem.SeparatorStyleKey}" TargetType="Separator">
+                <Setter Property="OverridesDefaultStyle" Value="true" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Separator}">
+                            <Border BorderThickness="0.6" Margin="2">
+                                <Border.BorderBrush>
+                                    <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                                        <GradientStop Color="LightGray" Offset="0"/>
+                                        <GradientStop Color="WhiteSmoke" Offset="1"/>
+                                    </LinearGradientBrush>
+                                </Border.BorderBrush>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Langs/en-US.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Margin="5,0,5,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Margin="-5,0" Background="#FF159BF7">          
+            <!--<WrapPanel VerticalAlignment="Center" HorizontalAlignment="Right">
+                <Button Content="Test" Name="test" Click="test_Click"/>
+            </WrapPanel>-->
+            <Menu Foreground="White" Height="30" FontSize="16">
+                <Menu.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF4B779A" Offset="1"/>
+                        <GradientStop Color="#FF618FB3"/>
+                    </LinearGradientBrush>
+                    <!--<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF034E81" Offset="1"/>
+                        <GradientStop Color="#FF159BF7"/>
+                    </LinearGradientBrush>-->
+                </Menu.Background>
+                <!--<MenuItem Header="{DynamicResource AddPrt}" IsEnabled="False"/>
+                <Separator />-->
+                <MenuItem Header="{DynamicResource SaveLayout}" Click="Save_Click"/>
+                <!--<MenuItem Header="{DynamicResource Preview}" Click="Preview_Click"/>-->
+                <MenuItem Header="{DynamicResource Setting}" Click="Setting_Click"/>
+                <Separator />
+                <MenuItem Header="{DynamicResource Exit}" x:Name="exitMenuItem" Click="exitMenuItem_Click"/>
+            </Menu>
+         
+        </Border>
+        <Grid Grid.Row="1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="0,0,8,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border>
+                    <TextBlock Grid.Row="0"  VerticalAlignment="Center" >
+                        <TextBlock.Inlines>
+                            <Run Text="{DynamicResource JobList}" FontWeight="Bold"/>
+                            <Run Text="(" FontSize="14"/>
+                            <Run Text="{DynamicResource Total}" FontSize="14"/>
+                            <Run Text="{Binding JobCount,Mode=OneWay}" FontSize="14"/>
+                            <Run Text="{DynamicResource OneUnit}" FontSize="14"/>
+                            <Run Text=")" FontSize="14"/>
+                        </TextBlock.Inlines>
+                    </TextBlock>
+            </Border>
+            <ListBox  ItemsSource="{Binding ImageJobs}" 
+                      ItemsPanel="{StaticResource ItemControlPanel}" 
+                      dd:DragDrop.IsDragSource="True" 
+                      dd:DragDrop.IsDropTarget="True"
+                      Grid.Row="1" BorderBrush="YellowGreen"
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                      />
+        </Grid>
+        <Border Grid.Column="1" BorderBrush="LightGray" BorderThickness="0.5" Margin="0,5,0,0" />
+        <Grid Grid.Column="2" Margin="8,0,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border>
+                <TextBlock Grid.Row="0"  VerticalAlignment="Center">
+                    <TextBlock.Inlines>
+                        <Run Text="{DynamicResource Layout}"  FontWeight="Bold"/>
+                            <Run Text="(" FontSize="14"/>
+                            <Run Text="{DynamicResource LayoutToolTip}" FontSize="14"/>
+                            <Run Text=")" FontSize="14"/>
+                    </TextBlock.Inlines>
+                </TextBlock>
+            </Border>
+            <Border Name="layoutBorder" Grid.Row="1" BorderBrush="YellowGreen" BorderThickness="1" >
+                <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                    <!--<Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="450"/>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="450"/>
+                        </Grid.ColumnDefinitions>
+                        <control:DragCanvas x:Name="media1" dd:DragDrop.IsDropTarget="True" dd:DragDrop.DropHandler="{Binding}" Grid.Column="0" Background="White" AllowDrop="True" Height="1000"/>
+                        <control:DragCanvas x:Name="media2" dd:DragDrop.IsDropTarget="True" dd:DragDrop.DropHandler="{Binding}" Grid.Column="2" Background="White" AllowDrop="True"/>
+                    </Grid>-->
+                    <ItemsControl Name="papersItemsControl" ItemsSource="{Binding Papers}" DataContext="{x:Static helper:LayoutHelper.Instance}" Height="10000">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Horizontal" IsItemsHost="True"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </ScrollViewer>
+                
+            </Border>
+        </Grid>
+        </Grid>
+    </Grid>
+</Window>

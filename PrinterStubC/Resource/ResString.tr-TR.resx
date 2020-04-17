@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PrintDirection_Unidirection">Tekyonlu</data>
+  <data name="PrintDirection_Bidirection">Ciftyonlu</data>
+  <data name="UILengthUnit_Inch">Inches</data>
+  <data name="UILengthUnit_Feet">Feet</data>
+  <data name="UILengthUnit_Millimeter">Millimeters</data>
+  <data name="UILengthUnit_Centimeter">Santimetre</data>
+  <data name="UILengthUnit_Meter">Meter</data>
+  <data name="Suffix_UILengthUnit_Inch">in</data>
+  <data name="Suffix_UILengthUnit_Feet">ft</data>
+  <data name="Suffix_UILengthUnit_Millimeter">mm</data>
+  <data name="Suffix_UILengthUnit_Centimeter">cm</data>
+  <data name="Suffix_UILengthUnit_Meter">m</data>
+  <data name="JobStatus_Idle">Rolanti</data>
+  <data name="JobStatus_Printing">Baski</data>
+  <data name="JobStatus_Aborting">Vazgec</data>
+  <data name="JobStatus_Paused">Duraklat</data>
+  <data name="JobStatus_Printed">Basili</data>
+  <data name="JobStatus_Waiting">Bekliyor</data>
+  <data name="JobStatus_Error">Hata</data>
+  <data name="JetStatusEnum_PowerOff">Guc Kapali</data>
+  <data name="JetStatusEnum_Offline">Kapali</data>
+  <data name="JetStatusEnum_PrinterOffline">YaziciKapali</data>
+  <data name="JetStatusEnum_Ready">Hazir</data>
+  <data name="JetStatusEnum_Busy">Basiyor</data>
+  <data name="JetStatusEnum_Pause">Duraklat</data>
+  <data name="JetStatusEnum_Aborting">Vazgec</data>
+  <data name="JetStatusEnum_Error">Hata</data>
+  <data name="JetStatusEnum_Cleaning">Temizliyor</data>
+  <data name="JetStatusEnum_Moving">Moving</data>
+  <data name="JetStatusEnum_Measuring">Hesapliyor</data>
+  <data name="JetStatusEnum_Spraying">Puskurtuyor</data>
+  <data name="JetStatusEnum_Initializing">Tanimlaniyor</data>
+  <data name="JetStatusEnum_Updating">Guncelliyor</data>
+  <data name="JetStatusEnum_Unknown">Bilinmeyen Durum</data>
+  <data name="Confirm_Delete">Silinsin mi ?</data>
+  <data name="Confirm_ClearEnv">Cevre temizlensin mi ?</data>
+  <data name="Confirm_AbortPrinter">Mevcut Isi veya Basilmamis isi iptal icin eminmisin ?</data>
+  <data name="Confirm_ResetPrinter">Yazici Reset lensin mi ?</data>
+  <data name="Confirm_Exit">Cikilsin mi ?</data>
+  <data name="DisplayTime_Hour">Saat</data>
+  <data name="DisplayTime_Minute">Dakika</data>
+  <data name="DisplayTime_Second">Saniye</data>
+  <data name="DisplayTime_MilliSecond">MiliSaniye</data>
+  <data name="CaliWizard_Title">Kalibreleme Sihirbazi</data>
+  <data name="CaliWizard_Description">Basilan Imaj kadar deger gir.</data>
+  <data name="CaliWizard_Cancel">Kalibrasyon sihirbazindan cikilsin mi ?</data>
+  <data name="CaliWizard_Finish">Kalibreleme Sihirbazi basariyla tamamlandi.</data>
+  <data name="CalibrationSubStep_Horizontal">Yatay Kalibreleme</data>
+  <data name="CalibrationSubStep_Left">Sol Kalibreleme</data>
+  <data name="CalibrationSubStep_Right">Sag Kalibreleme</data>
+  <data name="CalibrationSubStep_Bidirection">Ciftyonlu Kalibreleme</data>
+  <data name="CalibrationSubStep_Vertical">Dikey Kalibreleme</data>
+  <data name="CalibrationSubStep_Step">Kademe Kalibreleme</data>
+  <data name="CalibrationSubStep_Overlap">Ustuste Kalibreleme</data>
+  <data name="ButtonNext">&amp;Sonraki &gt;</data>
+  <data name="ButtonFinish">&amp;Bitir</data>
+  <data name="SoftwareProductName">Yazici Yoneticisi</data>
+  <data name="SoftwareProductName2">Yazici Center</data>
+  <data name="SpeedEnum_HighSpeed">Yuksek Hiz</data>
+  <data name="SpeedEnum_MiddleSpeed">Orta Hiz</data>
+  <data name="SpeedEnum_MiddleSpeed_1">Stveard Hiz</data>
+  <data name="SpeedEnum_LowSpeed">Dusuk Hiz</data>
+  <data name="SpeedEnum_CustomSpeed">Hizasirtma Hiz</data>
+  <data name="BoardEnum_CoreBoard">Ana Panel</data>
+  <data name="BoardEnum_PeriphBoard">Cevresel Panel</data>
+  <data name="BoardEnum_HeadBoard">Kafa Paneli</data>
+  <data name="UpdaterError_WrongFile">Gecersiz Guncelleme Dosya Bicimi</data>
+  <data name="UpdaterError_VersionNoMatch">Version firmware ve hardware ile uyusmuyor.</data>
+  <data name="UpdateDisplay_Begin">Baslat Guncelliyor...</data>
+  <data name="UpdateDisplay_Success">Guncelleme basarili.Lutfen yaziciyi yeniden baslat.</data>
+  <data name="UpdateDisplay_Failed">Guncelle basarisiz!</data>
+  <data name="UpdateDisplay_Status">Guncelle Durum:</data>
+  <data name="UpdateDisplay_Percentage">% Tamamlandi</data>
+  <data name="UIError_NoHelpFile">Yardim Dosya bulunamadi.</data>
+  <data name="UIError_NoAcrobat">Bu bilgisayarda Acrobade Reader bulunamadi.</data>
+  <data name="UIError_FileNotExist">Asagidaki dosyalar silindi.</data>
+  <data name="UIError_CannotPrintStaus">Basilamayan Is durumu {0},Sonra tekrar dene ?</data>
+  <data name="UIError_SetOriginFailed">Bu nokta baslangic olarak ayarlanamadi.</data>
+  <data name="UIError_MeasureMediaWidthFailed">Medya Genislik olcusu basarisiz.</data>
+  <data name="UISuccess_RstoreSetting">Ayarlari yeniden yukleme basarili.</data>
+  <data name="UISuccess_ClearEnv">Cevre temizligi basarili.</data>
+  <data name="Confirm_SaveToBoard">Paneli Ayarlari  mevcut ayarlarla degistirilsin mi ?</data>
+  <data name="UIError_SaveSetToBoardFail">Kaydet Yazici Ayarlars to Paneli basarisiz!</data>
+  <data name="UISuccess_SaveSetToBoardSuccess">Kaydet Yazici Ayarlars to Paneli successfully!</data>
+  <data name="Confirm_LoadFromBoard">Yuklensin mi ?</data>
+  <data name="Confirm_GoHome">Tasiyici merkez pozisyona alinsin mi?</data>
+  <data name="UIError_LoadSetFromBoardFail">Yazici ayarlari yukleme basarisiz!</data>
+  <data name="UISuccess_LoadSetFromBoardSuccess">Yazici ayarlari yukleme basarili!</data>
+  <data name="UIError_SetPasswordFail">Ayarla Sifre basarisiz!</data>
+  <data name="UIError_GetHWSettingFail">Al HW Ayarlar basarisiz!</data>
+  <data name="UIError_SetHWSettingFail">Ayarla HW Ayarlar basarisiz!</data>
+  <data name="UIError_UpdateFail">Guncelliyor basarisiz!</data>
+  <data name="UIError_ClearFWFactoryData">Fabrika bilgisi temizle basarisiz!</data>
+  <data name="UIError_NullFactoryData">Bazi ayarlama birimleri ayarlanamadi.SLtf Butun ayarlari tamamlayin!</data>
+  <data name="UIError_OnlyOneProgram">Sadece tek program calisabilir !</data>
+  <data name="UIError_SaveRealTimeFail">Ayarla GercekZamani Ayarlar Hata!</data>
+  <data name="UISuccess_SetPassword">Sifre Basariyla Ayarlandi</data>
+  <data name="UISuccess_SetHWSetting">Ayarla HW ayarlari basariyla yapildi, yaziciyi yeniden baslat!</data>
+  <data name="UISuccess_ClearFWFactoryData">Fabrika verileri basariyla temizlendi!</data>
+  <data name="UISuccess_UpdateSuccess">Guncelleme basarili.yaziciyi yeniden baslat!</data>
+  <data name="UIError_ColorNumGroupNumError"> Renk sayilari yada grup sayilari yanlis ayarlandi, yine de devam edilsin mi ? </data>
+  <data name="UIError_ColorNumError">Toplam renk sayisi sistemin destekledigi renk sayisindan fazla , yine de devam edilsin mi ?</data>
+  <data name="UIError_SsystemMapDismatch">Baglanti Noktasi Ayar numarasi onPanel numarasindan az.</data>
+  <data name="DispName_RemainTime">Kalan Sure</data>
+  <data name="DispName_PowerOnTotalTime">Toplam Calisma Suresi</data>
+  <data name="DispName_PrintingTotalTime">Toplam Baski Suresi</data>
+  <data name="DispName_ModuleID">Modul ID</data>
+  <data name="DispName_ManufacturerID">uretici ID</data>
+  <data name="Restart_Lang">Dil sen baglandiktan sonra aktive olacak.</data>
+  <data name="Restart_Skin">Arayuz sen baglandiktan sonra aktive olacak.</data>
+  <data name="DispName_Pass">Gec</data>
+  <data name="DispName_Head">Kafa</data>
+  <data name="DispName_Color">Renk</data>
+  <data name="FileFilter_Prn">Dikis Dosyalari (*.prn;*.prt)|*.prn;*.prt</data>
+  <data name="FileFilter_Env">Ayarlar Dosyalari (*.xml)|*.xml</data>
+  <data name="FileFilter_Txt">Text Dosyalari (*.txt)|*.txt</data>
+  <data name="FileFilter_Dat">Guncelle Dosyalari (*.dat)|*.dat</data>
+  <data name="FileFilter_Prg">Guncelle Dosyalari (*.prg)|*.prg</data>
+  <data name="FileFilter_Tvc">Sicaklik-Voltaj Kavis Dosyalari (*.tvc)|*.tvc</data>
+  <data name="PrintJobAnyway">Yine de is basilsin mi ?</data>
+  <data name="NoPreviewImage">OnizlemeYok</data>
+  <data name="PrintingProgress">Basiyor {0}%</data>
+  <data name="UpdatingProgress">Guncelliyor {0}%</data>
+  <data name="WhiteInkPrintMode_NotPrintWhiteInk">Beyaz Boya Yok</data>
+  <data name="WhiteInkPrintMode_UnderBaseWholeImage">Tum Imaj altina temel</data>
+  <data name="WhiteInkPrintMode_OverCoatWholeImage">Tum Imaji Kapla</data>
+  <data name="WhiteInkPrintMode_UnderBaseSpotColor">Tum Spot Renk altina temel</data>
+  <data name="WhiteInkPrintMode_MiddleWholeImage">Tumunu tabakala</data>
+  <data name="WhiteInkPrintMode_MiddleSpotColor">Spot Renkleri Tabakala</data>
+  <data name="WhiteInkPrintMode_OverCoatSpotColor">Spot Rengi Kapla</data>
+  <data name="JobListColumnHeader_Name">Isim</data>
+  <data name="JobListColumnHeader_Status">Durum</data>
+  <data name="JobListColumnHeader_Size">Olcu</data>
+  <data name="JobListColumnHeader_Resolution">Cozunurluk</data>
+  <data name="JobListColumnHeader_Passes">Gecisler</data>
+  <data name="JobListColumnHeader_BiDirection">Yon</data>
+  <data name="JobListColumnHeader_Copies">Kopyalar</data>
+  <data name="JobListColumnHeader_PrintedPasses">Baskied Gecisler</data>
+  <data name="JobListColumnHeader_PrintedDate">Baski Tarihi</data>
+  <data name="JobListColumnHeader_PrintTime">Baski Zamani</data>
+  <data name="JobListColumnHeader_Location">Konum</data>
+  <data name="UIViewMode_TopDown">Normal</data>
+  <data name="UIViewMode_LeftRight">Genis Ekran</data>
+  <data name="UIViewMode_NotifyIcon">Uyari Ikonu</data>
+  <data name="UIViewMode_OldView">Oncki Gorunum</data>
+  <data name="ColorEnum_Cyan">Camgobegi</data>
+  <data name="ColorEnum_Magenta">macenta</data>
+  <data name="ColorEnum_Yellow">sari</data>
+  <data name="ColorEnum_Black">siyah</data>
+  <data name="ColorEnum_LightCyan">AcikCamgobegi</data>
+  <data name="ColorEnum_LightMagenta">Acikmacenta</data>
+  <data name="ColorEnum_Orange">Orange</data>
+  <data name="ColorEnum_Green">Yesil</data>
+  <data name="ColorEnum_White">Beyaz</data>
+  <data name="ColorEnum_LightYellow">AcikSari</data>
+  <data name="ColorEnum_LightBlack">AcikSiyah</data>
+  <data name="ColorEnum_Red">Kirmizi</data>
+  <data name="ColorEnum_Blue">Mavi</data>
+  <data name="ColorEnum_Vanish">Vanish</data>
+  <data name="ColorEnum_SkyBlue">Gokmavi</data>
+  <data name="ColorEnum_Gray">Gri</data>
+  <data name="ColorEnum_Pink">Pembe</data>
+  <data name="ColorEnum_NULL">Bos</data>
+  <data name="CalibrationDescription_Welcome">Kalibreleme Baslat  ...</data>
+  <data name="CalibrationDescription_Mechanical">Ayarlarla Kafayi Ayarla.</data>
+  <data name="CalibrationDescription_Calibration">Kalibreye Gore Deger Gir.</data>
+  <data name="CalibrationDescription_Finish">Kalibrasyon tamamlandi.</data>
+  <data name="CalibrationTitle_Welcome">Hosgeldiniz</data>
+  <data name="CalibrationTitle_Mechanical">Mekanik Kontrol</data>
+  <data name="CalibrationTitle_Calibration">Software Ayarla</data>
+  <data name="CalibrationTitle_Finish">Tamamlandi</data>
+  <data name="buttonCancel_Text">&amp;Iptal</data>
+  <data name="buttonFinish_Text">Tamamlandi</data>
+  <data name="InkStrPosEnum_Both">Ikisi de</data>
+  <data name="InkStrPosEnum_Left">Sol</data>
+  <data name="InkStrPosEnum_Right">Sag</data>
+  <data name="InkStrPosEnum_None">Hicbiri</data>
+  <data name="SettingPage_Question">Wher or not to Uygula  Ayarlar has been Degistird?</data>
+  <data name="CreatingPreviewImage">Onizleme Hazirlaniyor ...</data>
+  <data name="JHFCopyRightString">TelifHakki (C) QHH InBicimiation Technology Co., Ltd. Tum Haklari Saklidir.</data>
+  <data name="Confirm_Update">Guncelleme yapilsin mi ?</data>
+  <data name="EncryptDog_Expired">Software suresi doldu!</data>
+  <data name="EncryptDog_VidNotMatch">Guvenlik Kilidi ureticininkiyle uyusmuyor !</data>
+  <data name="EncryptDog_Illegal">Donanim guvenlik anahtari kacak yada hatali!</data>
+  <data name="EncryptDog_NoFound">Donanim guvenlik anahtari bulunamadi, Bir tane girin!</data>
+  <data name="EncryptDog_Warning">Uyari: 100 saatten az kullanim zamani!</data>
+  <data name="PumpInkTimeToLong">Pompa Boya zamanasimi</data>
+  <data name="EncryptDog_Locktype_LOCAL">Masaustu Versiyonu</data>
+  <data name="EncryptDog_Locktype_MASTER">Ag Versiyonu - Komut Cihazi</data>
+  <data name="EncryptDog_Locktype_SLAVE">Ag Versiyonu - Bagimli Cihazi</data>
+  <data name="EncryptDog_Restart">Yeni Guvenlik Kilidi Anahtari yeniden baglandiktan sonra aktiflenecek!</data>
+  <data name="EncryptDog_Fatalpwd">Kalici ve Gecerli Sifre</data>
+  <data name="FeatherType_Gradient">Gradyan</data>
+  <data name="FeatherType_Uniform">UniBicimi</data>
+  <data name="FeatherType_Wave">Dalga</data>
+  <data name="FeatherType_Advance">Gelismis</data>
+  <data name="FeatherType_Uv">UV</data>
+  <data name="EpsonFeatherType_None">Hicbiri</data>
+  <data name="EpsonFeatherType_Small">zayif</data>
+  <data name="EpsonFeatherType_Medium">Orta</data>
+  <data name="EpsonFeatherType_Large">Guclu</data>
+  <data name="EpsonFeatherType_Custom">OzelAyarlar</data>
+  <data name="UIError_GetRealTimeInfoFail">Gercek Zamanli Bilgi akis hatasi!</data>
+  <data name="Xaar382_UnsavedWarning">Kaydedilmeyen degisiklikler yok sayilsin mi?</data>
+  <data name="EpsonAutoCleanWay_Default">Varsayilan</data>
+  <data name="EpsonAutoCleanWay_Customized">Kisisellestirilmis</data>
+  <data name="EpsonAutoCleanWay_Strong">Guclu</data>
+  <data name="EpsonAutoCleanWay_Normal">Normal</data>
+  <data name="EpsonAutoCleanWay_Weak">zayif</data>
+  <data name="EpsonAutoCleanWay_Refill">kartus</data>
+  <data name="FixedSpeed">SabitHiz</data>
+  <data name="ClampWithMinMax">Cok buyuk yada cok kucuk degerler gecerli deger olarak duzeltildi.</data>
+  <data name="WhiteInkOptionIntersect">Kesmek</data>
+  <data name="WhiteInkOptionNOT">NOT</data>
+  <data name="EnumLayerType_Color">Renk</data>
+  <data name="EnumLayerType_White">Beyaz</data>
+  <data name="EnumLayerType_Varnish">Cila</data>
+  <data name="EnumLayerType_Contrast">Gri</data>
+  <data name="ColorLayer">tabaka</data>
+  <data name="NoFoundUSBReturn">UsB Baglanamadi, Software islemi sonlandiriyor.</data>
+  <data name="MultipleInkEnum_Default">Varsayilan</data>
+  <data name="MultipleInkEnum_Double">Ikili</data>
+  <data name="MultipleInkEnum_More">Fazlasi</data>
+  <data name="XResDivMode_HighPrecision">YuksekHassaslik</data>
+  <data name="XResDivMode_HighQuality">YuksekHiz</data>
+  <data name="XResDivMode_PrintMode3">BaskiModu3</data>
+  <data name="XResDivMode_PrintMode4">BaskiModu4</data>
+  <data name="EpsonSaveCali_Ok">Yukleme Basarili.</data>
+  <data name="EpsonLoadCali_Faild">Yukleme Basarisiz.</data>
+  <data name="EpsonLoadCali_Ok">Yukleme Basarili.</data>
+  <data name="EpsonLoadCali_VerTooOld">Upgrade versiyonu temel versiyondan daha dusuk.</data>
+  <data name="EpsonLoadCali_VerTooLatest">Upgrade versiyonu mevcut en yuksek  versiyondan daha yuksek.</data>
+  <data name="EpsonLoadCali_SizeError">Uzunluk Ayar Hatasi.</data>
+  <data name="EpsonLoadCali_FlagError">Hata Imi.</data>
+  <data name="EpsonLoadCali_GetSizeFaild">Data uzunlugu veri aktarimi hatasi!</data>
+  <data name="EpsonLoadCali_GetRetFaild">Yukleme alma sonuc hatasi!</data>
+  <data name="UiToolBar_MeasurePaperHeight">Kagit yuksekligini hesapla</data>
+  <data name="XCoordinatesDirection_Default">Varsayilan</data>
+  <data name="XCoordinatesDirection_YcontinueYinterleave">YDevamEtYaralikEkle</data>
+  <data name="XCoordinatesDirection_YinterleaveYcontinue">YaralikEkleYDevamEt</data>
+  <data name="SymmetricType_Type0">Tur 0</data>
+  <data name="SymmetricType_Type1">Tur 1</data>
+  <data name="UIError_YInterleaveNumError">Simetrik Renk Emri verildiginde , Y aralik sayisi 2 ile carpilmali!</data>
+  <data name="UVStatus_OFF">Kapali</data>
+  <data name="UVStatus_ON60">0.6</data>
+  <data name="UVStatus_ON100">1</data>
+  <data name="UVStatus_ALLWIN_OFF">Kapali</data>
+  <data name="UVStatus_ALLWIN_LOW">Dusuk</data>
+  <data name="UVStatus_ALLWIN_MID">Orta</data>
+  <data name="UVStatus_ALLWIN_HIGH">Hizli</data>
+  <data name="EpsonFeatherType_GZ_LOW">Dusuk</data>
+  <data name="EpsonFeatherType_GZ_MID">Orta</data>
+  <data name="EpsonFeatherType_GZ_HIGH">Hizli</data>
+  <data name="EpsonFeatherType_Label">Kalite:</data>
+  <data name="UvLightType_UvLightType1">SifirAlti_055_085S</data>
+  <data name="UvLightType_UvLightType2">UvLightYaz12</data>
+  <data name="Title_wellcomeWord">Allwin Dijital Yazici Kullandiginiz icin tesekkur ederiz.</data>
+  <data name="Conten_wellcomeWord">Ilkolarak--Lutfen Allwin Orjinal Boya Kullanin：
+ 1） Boya cevre duyarlidir ve Odor orani dusuktur, baski suresince yumusak ve cokertilmistir, uretkenligi arttirir ve maliyeti dusurur；
+ 2）Enjektor omrunu uzatir.
+
+Ikinci--Makine cevresel gereksinimleri：
+ BoyaSicakligi 18-27℃，HavaNemOrani40-70%， tozsuzCevre；
+ 1）Boyatankinin altindaki isitmayi ac ayni zamanda, boya kutusu elektrikli battaniye ile sarilabilir yada diger isitma sistemiyle boya sicakligi 30℃ ye cikarilir,  baski kafasi isitmasini ac (1024 nolu makine bu ozellige sahip )；
+ 2）Boya boya tubu boya kutusuna yerlestirilirken, deligi kucuk yap ve kapagi iyice kapat, boyanin ucmamasi ve icine toz girmemesi icin.
+ 3 )Kisin baski yapilirken,  baski yapmadan 10 dakika once puskutrme acilmali ( Epson kafa da buna gerek yok)； 
+ 4）Boya tubunde baloncuk olmamali cunku baski sirasinda bosluklar olur, kabarciklardan arindirilmali ve sonra baskiya baslanmali.；
+ 5） Lutfen baski kafasinin kapagini acik birakmayin ve havaya maruz birakmayin. Eger durma suresi uzunsa, Software de puskurtmeyi ayarlayin.Epson makine kullanilmadiginda kapagin baski kafasi ile eslesmesi icin sistemi resetleyin.</data>
+  <data name="Title_firstPage">Bir--Makinenin Acilmasi：</data>
+  <data name="Title_secondPage">Iki -- Dcihaz genel bakim methodu</data>
+  <data name="Title_thirdPage">Uc: Ekipman Genel Bakim Ozellikleri</data>
+  <data name="Conten_firstPage">1、(Konica) Ilk olarak takili vidayi yerinden cikar. Tasiyiciyi yavasca sola harek ettir ve alttaki bolumden cikar.
+2、(Konica) Tasiyiciyi yerinden cikar. Kaucuk kaplamin move out the carriage(konica)，On the base of rubber covered with a layer of plastic wrap to prevent dust.
+  3  Makineyi baslatmadan once , yazici kafasinda zarar verecek bir toz veya kir olup olmadigini kontrol et.
+4. Boya tubunde kabarcik olmamali, bu baskida kopmalar yapabilir , baskidan once bu kabarciklar temizlenmeli, sonra baski yapilmali；
+5.  Lutfen baski kafasinin kapagini acik birakmayin ve havaya maruz birakmayin. Eger durma suresi uzunsa, Software de puskurtmeyi ayarlayin.Epson makine kullanilmadiginda kapagin baski kafasi ile eslesmesi icin sistemi resetleyin.   
+6.Allwin ile kullanilan Inkjet ekipmanlari patent yapilandirma fonksiyonu , resim  isimlendirilmesi gerektiginde , lutfen software fonksiyonu kullanim talimatinda Sensor kullanim fonksiyonunu acin, bu yol ile isimlendirme kalitesi saglanir.</data>
+  <data name="Conten_secondPage">Eger resimde baski boyunca kirilmalar olusursa, lutfen asagidaki yontemleri uygulayin :
+ 1）Gozlmle baslik yuzyindeki sinyali : Eger atik boya varsa lutfen vakum temizleyici ile temizleyin yada dikissiz bez ile yavasca temizleyin. Eger atik boya yok ise , lutfen boya bass fonksiyonunu kullan ve sonra  boya basimi sorunsuz olacak.  Daha sonra dikissiz bez kullan diger boyayi emmesi icin.. 
+2 ) Baski kafasi yuzeyini silmek icin dikissiz bez kullandiginda , lutfen kafalari ileri veya hareket ettirme ..
+3 Bakim icin makineyi kapat, temizleyiciyi sagdaki nemli kaucuk kaputa dok, baski kafasi nemli temizleyiciye denk gelene kadar tasiyiciyi sag sona hareket ettir.
+4、Temizleyici Bakimi：
+1、Lutfen nemli kaucuk kaput ile temizleyin.
+2、temizleyiciyi kaucuk kaputtan cikar ve temizle, ve her hafta yeni temizleyici kullan..</data>
+  <data name="Conten_thirdPage">1. Boya tankinin altinda tortu olusup tikanmamasi icin , cokuntuleri  alt boya tankindan her yil temizle.
+ 
+2.Nem kapagini he ay temizle ve kapagin altindaki temizleyiciyi de temizle.
+
+3.Yazici Kafasi yuzeyini temizle: Baski Kafasinin yuzeyi yada her iki tarafi Kirle kaplandigi zaman, Yazici Kafasi yuzeyini temizleyici ile temizle.
+4. Besleme Silindir gereksinimleri :kopuk kagidi duzenli olarak temizle,  silindir yuzeyini sil. 
+
+5. Alkol veya ipek pamuk bez ile  Kaucuk Silindir uzerindeki ve arkasindaki boya izlerini temizle.
+6. Kafes bari temizligi ： hergun Duzenli olarak gozlemle ve temizle; Saf sulu veya alkollu Temizlik bezi kullanarak kir vb seyleri temizle.
+
+7. X,Y Tonleri gerilim Kontrolu ：her uc ayda bir kontrol et. Eger gecsemisse ayarla.
+
+8. Vakum temizleyicisinde arta kalan boyayi temizle .</data>
+  <data name="Title_finishPage">Operason Sihirbazi</data>
+  <data name="Description_finishPage">Operason Sihirbazi tamamlandi!</data>
+  <data name="InkUsageStatistics">Ink Kullanim Istatistikleri</data>
+  <data name="FaildGenDoubleSideFile">cif Yonlu baski dosyasinda hata olustu.</data>
+  <data name="CurSystemNoSurpportThisFeature">Mevcut sistem bu fonksiyonu desteklemiyor</data>
+  <data name="GetWrongInfo">Hata bilgisi al, orjinal degere don !</data>
+  <data name="UIError_EnumUSBFail">Enum USB Fail!</data>
+  <data name="UIError_FWFactoryDataDiffer">Iki anakartin fabrika bilgisi farkli!</data>
+  <data name="UIInfo_FactoryDataValue">Fabrika bilgisi{0}</data>
+  <data name="UIError_NoUSB">USB Disconnected!</data>
+  <data name="UIError_SetCleanParamFail">Temizleme Parametresi Ayar Hatasi!</data>
+  <data name="UIError_ManualCleanNotSupport">Mevcut Akim FW Surucu Versiyonu Manuel Temizleme Fonksiyonunu Desteklemiyor,Versiyonu yukseltin! </data>
+  <data name="JobID3D">BaskiTabakasi:</data>
+  <data name="PauseBetweenLayersStatus">tabakalar Arasinda Durakla</data>
+  <data name="Pumping_Ink">Pompalama {0}.</data>
+  <data name="CanleType_PrintingJob">Isi Basi</data>
+  <data name="CanleType_All">Butun Is</data>
+  <data name="CanleType_AlwaysQuestion">HerzamanSor</data>
+  <data name="HorizontalCalibrationMode_Color">RenkKalibreleme</data>
+  <data name="HorizontalCalibrationMode_Full">FullKalibreleme</data>
+  <data name="HorizontalCalibrationMode_Quick">HizliKalibreleme</data>
+  <data name="HorizontalCalibrationMode_FullNoStep">FullKalibreleme2</data>
+  <data name="CalibrationSubStep_Origin">Baslangic Kalibreleme</data>
+</root>

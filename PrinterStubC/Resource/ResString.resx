@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PrintDirection_Unidirection" xml:space="preserve">
+    <value>Unidirection</value>
+  </data>
+  <data name="PrintDirection_Bidirection" xml:space="preserve">
+    <value>Bidirection</value>
+  </data>
+  <data name="UILengthUnit_Inch" xml:space="preserve">
+    <value>Inches</value>
+  </data>
+  <data name="UILengthUnit_Feet" xml:space="preserve">
+    <value>Feet</value>
+  </data>
+  <data name="UILengthUnit_Millimeter" xml:space="preserve">
+    <value>Millimeters</value>
+  </data>
+  <data name="UILengthUnit_Centimeter" xml:space="preserve">
+    <value>Centimeters</value>
+  </data>
+  <data name="UILengthUnit_Meter" xml:space="preserve">
+    <value>Meters</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Inch" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Feet" xml:space="preserve">
+    <value>ft</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Millimeter" xml:space="preserve">
+    <value>mm</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Centimeter" xml:space="preserve">
+    <value>cm</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Meter" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="JobStatus_Idle" xml:space="preserve">
+    <value>Idle</value>
+  </data>
+  <data name="JobStatus_Printing" xml:space="preserve">
+    <value>Printing</value>
+  </data>
+  <data name="JobStatus_Aborting" xml:space="preserve">
+    <value>Aborting</value>
+  </data>
+  <data name="JobStatus_Paused" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="JobStatus_Printed" xml:space="preserve">
+    <value>Printed</value>
+  </data>
+  <data name="JobStatus_Waiting" xml:space="preserve">
+    <value>Waiting</value>
+  </data>
+  <data name="JobStatus_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="JetStatusEnum_PowerOff" xml:space="preserve">
+    <value>Power Off</value>
+  </data>
+  <data name="JetStatusEnum_Offline" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="JetStatusEnum_PrinterOffline" xml:space="preserve">
+    <value>Printer Offline</value>
+  </data>
+  <data name="JetStatusEnum_Ready" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="JetStatusEnum_Busy" xml:space="preserve">
+    <value>Printing</value>
+  </data>
+  <data name="JetStatusEnum_Pause" xml:space="preserve">
+    <value>Paused</value>
+  </data>
+  <data name="JetStatusEnum_Aborting" xml:space="preserve">
+    <value>Aborting</value>
+  </data>
+  <data name="JetStatusEnum_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="JetStatusEnum_Cleaning" xml:space="preserve">
+    <value>Cleaning</value>
+  </data>
+  <data name="JetStatusEnum_Moving" xml:space="preserve">
+    <value>Moving</value>
+  </data>
+  <data name="JetStatusEnum_Measuring" xml:space="preserve">
+    <value>Measuring</value>
+  </data>
+  <data name="JetStatusEnum_Spraying" xml:space="preserve">
+    <value>Spraying</value>
+  </data>
+  <data name="JetStatusEnum_Initializing" xml:space="preserve">
+    <value>Initializing</value>
+  </data>
+  <data name="JetStatusEnum_Updating" xml:space="preserve">
+    <value>Updating</value>
+  </data>
+  <data name="JetStatusEnum_Unknown" xml:space="preserve">
+    <value>Unknown Status</value>
+  </data>
+  <data name="Confirm_Delete" xml:space="preserve">
+    <value>Are you sure to delete?</value>
+  </data>
+  <data name="Confirm_ClearEnv" xml:space="preserve">
+    <value>Are you sure to clear environment?</value>
+  </data>
+  <data name="Confirm_AbortPrinter" xml:space="preserve">
+    <value>Are you sure to abort current printing jobs or all unprinted jobs?</value>
+  </data>
+  <data name="Confirm_ResetPrinter" xml:space="preserve">
+    <value>Are you sure to reset printer?</value>
+  </data>
+  <data name="Confirm_Exit" xml:space="preserve">
+    <value>Are you sure to exit?</value>
+  </data>
+  <data name="DisplayTime_Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="DisplayTime_Minute" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="DisplayTime_Second" xml:space="preserve">
+    <value>Second</value>
+  </data>
+  <data name="DisplayTime_MilliSecond" xml:space="preserve">
+    <value>MilliSecond</value>
+  </data>
+  <data name="CaliWizard_Title" xml:space="preserve">
+    <value>Calibration Wizard</value>
+  </data>
+  <data name="CaliWizard_Description" xml:space="preserve">
+    <value>Fill the value as the printed image.</value>
+  </data>
+  <data name="CaliWizard_Cancel" xml:space="preserve">
+    <value>Are you sure to exit the calibarion wizard?</value>
+  </data>
+  <data name="CaliWizard_Finish" xml:space="preserve">
+    <value>The calibration wizard finished successfully.</value>
+  </data>
+  <data name="CalibrationSubStep_Horizontal" xml:space="preserve">
+    <value>Horizontal Calibration</value>
+  </data>
+  <data name="CalibrationSubStep_Left" xml:space="preserve">
+    <value>Left Calibration</value>
+  </data>
+  <data name="CalibrationSubStep_Right" xml:space="preserve">
+    <value>Right Calibration</value>
+  </data>
+  <data name="CalibrationSubStep_Bidirection" xml:space="preserve">
+    <value>Bidirection Calibration</value>
+  </data>
+  <data name="CalibrationSubStep_Vertical" xml:space="preserve">
+    <value>Vertical Calibration</value>
+  </data>
+  <data name="CalibrationSubStep_Step" xml:space="preserve">
+    <value>Step Calibration</value>
+  </data>
+  <data name="CalibrationSubStep_Overlap" xml:space="preserve">
+    <value>Overlap Calibration</value>
+  </data>
+  <data name="ButtonNext" xml:space="preserve">
+    <value>&amp;Next &gt;</value>
+  </data>
+  <data name="ButtonFinish" xml:space="preserve">
+    <value>&amp;Finish</value>
+  </data>
+  <data name="SoftwareProductName" xml:space="preserve">
+    <value>Printer Manager</value>
+  </data>
+  <data name="SoftwareProductName2" xml:space="preserve">
+    <value>Printer Center</value>
+  </data>
+  <data name="SpeedEnum_HighSpeed" xml:space="preserve">
+    <value>High Speed</value>
+  </data>
+  <data name="SpeedEnum_MiddleSpeed" xml:space="preserve">
+    <value>Middle Speed</value>
+  </data>
+  <data name="SpeedEnum_MiddleSpeed_1" xml:space="preserve">
+    <value>Standard Speed</value>
+  </data>
+  <data name="SpeedEnum_LowSpeed" xml:space="preserve">
+    <value>Low Speed</value>
+  </data>
+  <data name="SpeedEnum_CustomSpeed" xml:space="preserve">
+    <value>OverClock Speed</value>
+  </data>
+  <data name="BoardEnum_CoreBoard" xml:space="preserve">
+    <value>Core Board</value>
+  </data>
+  <data name="BoardEnum_PeriphBoard" xml:space="preserve">
+    <value>Peripheral Board</value>
+  </data>
+  <data name="BoardEnum_HeadBoard" xml:space="preserve">
+    <value>Head Board</value>
+  </data>
+  <data name="UpdaterError_WrongFile" xml:space="preserve">
+    <value>Invalid update file format</value>
+  </data>
+  <data name="UpdaterError_VersionNoMatch" xml:space="preserve">
+    <value>Version mismatch between firmware and hardware.</value>
+  </data>
+  <data name="UpdateDisplay_Begin" xml:space="preserve">
+    <value>Start Updating...</value>
+  </data>
+  <data name="UpdateDisplay_Success" xml:space="preserve">
+    <value>Update successfully.Please restart printer. </value>
+  </data>
+  <data name="UpdateDisplay_Failed" xml:space="preserve">
+    <value>Update failed!</value>
+  </data>
+  <data name="UpdateDisplay_Status" xml:space="preserve">
+    <value>Update status:</value>
+  </data>
+  <data name="UpdateDisplay_Percentage" xml:space="preserve">
+    <value>% Complete</value>
+  </data>
+  <data name="UIError_NoHelpFile" xml:space="preserve">
+    <value>Help file not found.</value>
+  </data>
+  <data name="UIError_NoAcrobat" xml:space="preserve">
+    <value>Not found Acrobat Reader in this computer.</value>
+  </data>
+  <data name="UIError_FileNotExist" xml:space="preserve">
+    <value>Below files have been deleted.</value>
+  </data>
+  <data name="UIError_CannotPrintStaus" xml:space="preserve">
+    <value>Can not print job in status{0},Please try again later ?</value>
+  </data>
+  <data name="UIError_SetOriginFailed" xml:space="preserve">
+    <value>Can not set this point as origin.</value>
+  </data>
+  <data name="UIError_MeasureMediaWidthFailed" xml:space="preserve">
+    <value>Measure media width failed.</value>
+  </data>
+  <data name="UISuccess_RstoreSetting" xml:space="preserve">
+    <value>Restore setting successful.</value>
+  </data>
+  <data name="UISuccess_ClearEnv" xml:space="preserve">
+    <value>Clear environment successful.</value>
+  </data>
+  <data name="Confirm_SaveToBoard" xml:space="preserve">
+    <value>Are you sure to replace board setting with current setting?</value>
+  </data>
+  <data name="UIError_SaveSetToBoardFail" xml:space="preserve">
+    <value>Save printer settings to board failed!</value>
+  </data>
+  <data name="UISuccess_SaveSetToBoardSuccess" xml:space="preserve">
+    <value>Save printer settings to board successfully!</value>
+  </data>
+  <data name="Confirm_LoadFromBoard" xml:space="preserve">
+    <value>Are you sure to load?</value>
+  </data>
+  <data name="Confirm_GoHome" xml:space="preserve">
+    <value>Do you want to move carriage to home station?</value>
+  </data>
+  <data name="Confirm_PrintNow" xml:space="preserve">
+    <value>Now start to print?</value>
+  </data>
+  <data name="Confirm_Print" xml:space="preserve">
+    <value>No printing job was selected，Please select printing job first!</value>
+  </data>
+  <data name="UIError_LoadSetFromBoardFail" xml:space="preserve">
+    <value>Load printer settings failed!</value>
+  </data>
+  <data name="UISuccess_LoadSetFromBoardSuccess" xml:space="preserve">
+    <value>Load printer settings successfully!</value>
+  </data>
+  <data name="UIError_SetPasswordFail" xml:space="preserve">
+    <value>Set password failed!</value>
+  </data>
+  <data name="UIError_GetHWSettingFail" xml:space="preserve">
+    <value>Get HW setting failed!</value>
+  </data>
+  <data name="UIError_SetHWSettingFail" xml:space="preserve">
+    <value>Set HW setting failed!</value>
+  </data>
+  <data name="UIError_UpdateFail" xml:space="preserve">
+    <value>Updating failed!</value>
+  </data>
+  <data name="UIError_ClearFWFactoryData" xml:space="preserve">
+    <value>Clear factory data failed!</value>
+  </data>
+  <data name="UIError_NullFactoryData" xml:space="preserve">
+    <value>Some setting items are not set. Please set all items!</value>
+  </data>
+  <data name="UIError_OnlyOneProgram" xml:space="preserve">
+    <value>Can only run one program!</value>
+  </data>
+  <data name="UIError_SaveRealTimeFail" xml:space="preserve">
+    <value>Set realtime setting error!</value>
+  </data>
+  <data name="UISuccess_SetPassword" xml:space="preserve">
+    <value>Set password successfully.</value>
+  </data>
+  <data name="UISuccess_SetHWSetting" xml:space="preserve">
+    <value>Set HW setting successfully.Please restart printer.</value>
+  </data>
+  <data name="UISuccess_ClearFWFactoryData" xml:space="preserve">
+    <value>Clear factory data successfully.</value>
+  </data>
+  <data name="UISuccess_UpdateSuccess" xml:space="preserve">
+    <value>Update successfully.Please restart printer.</value>
+  </data>
+  <data name="UIError_ColorNumGroupNumError" xml:space="preserve">
+    <value>The number of colors or the number of groups is set incorrectly, Whether to continue?</value>
+  </data>
+  <data name="UIError_ColorNumError" xml:space="preserve">
+    <value>Total number of colors than the system supports a maximum number of colors, Whether to continue?</value>
+  </data>
+  <data name="UIError_SsystemMapDismatch" xml:space="preserve">
+    <value>Port mapping set number less than the number of headboard.</value>
+  </data>
+  <data name="DispName_RemainTime" xml:space="preserve">
+    <value>Remain time</value>
+  </data>
+  <data name="DispName_PowerOnTotalTime" xml:space="preserve">
+    <value>Power on total time</value>
+  </data>
+  <data name="DispName_PrintingTotalTime" xml:space="preserve">
+    <value>Printing total time</value>
+  </data>
+  <data name="DispName_ModuleID" xml:space="preserve">
+    <value>Module ID</value>
+  </data>
+  <data name="DispName_ManufacturerID" xml:space="preserve">
+    <value>Manufacturer ID</value>
+  </data>
+  <data name="Restart_Lang" xml:space="preserve">
+    <value>The language will take action after you re-launch.</value>
+  </data>
+  <data name="Restart_Skin" xml:space="preserve">
+    <value>The skin will take action after you re-launch.</value>
+  </data>
+  <data name="DispName_Pass" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="DispName_Head" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="DispName_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="FileFilter_Prn" xml:space="preserve">
+    <value>Rip Files (*.prn;*.prt)|*.prn;*.prt</value>
+  </data>
+  <data name="FileFilter_Env" xml:space="preserve">
+    <value>Setting Files (*.xml)|*.xml</value>
+  </data>
+  <data name="FileFilter_Txt" xml:space="preserve">
+    <value>Text Files (*.txt)|*.txt</value>
+  </data>
+  <data name="FileFilter_Dat" xml:space="preserve">
+    <value>Update Files (*.dat)|*.dat</value>
+  </data>
+  <data name="FileFilter_Prg" xml:space="preserve">
+    <value>Update Files (*.prg)|*.prg</value>
+  </data>
+  <data name="FileFilter_Tvc" xml:space="preserve">
+    <value>Temperature-voltage curve Files (*.tvc)|*.tvc</value>
+  </data>
+  <data name="FileFilter_Plb" xml:space="preserve">
+    <value>Layout Files (*.plb)|*.plb</value>
+  </data>
+  <data name="PrintJobAnyway" xml:space="preserve">
+    <value>Would you like to print job anyway?</value>
+  </data>
+  <data name="NoPreviewImage" xml:space="preserve">
+    <value>No preview</value>
+  </data>
+  <data name="PrintingProgress" xml:space="preserve">
+    <value>Printing {0}%</value>
+  </data>
+  <data name="UpdatingProgress" xml:space="preserve">
+    <value>Updating {0}%</value>
+  </data>
+  <data name="WhiteInkPrintMode_NotPrintWhiteInk" xml:space="preserve">
+    <value>No white ink</value>
+  </data>
+  <data name="WhiteInkPrintMode_UnderBaseWholeImage" xml:space="preserve">
+    <value>UnderBase Whole Image</value>
+  </data>
+  <data name="WhiteInkPrintMode_OverCoatWholeImage" xml:space="preserve">
+    <value>OverCoat Whole Image</value>
+  </data>
+  <data name="WhiteInkPrintMode_UnderBaseSpotColor" xml:space="preserve">
+    <value>UnderBase Spot Color</value>
+  </data>
+  <data name="WhiteInkPrintMode_MiddleWholeImage" xml:space="preserve">
+    <value>Sandwich whole</value>
+  </data>
+  <data name="WhiteInkPrintMode_MiddleSpotColor" xml:space="preserve">
+    <value>Sandwich spot color</value>
+  </data>
+  <data name="WhiteInkPrintMode_OverCoatSpotColor" xml:space="preserve">
+    <value>OverCoat Spot Color</value>
+  </data>
+  <data name="JobListColumnHeader_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="JobListColumnHeader_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="JobListColumnHeader_Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="JobListColumnHeader_Resolution" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="JobListColumnHeader_Passes" xml:space="preserve">
+    <value>Passes</value>
+  </data>
+  <data name="JobListColumnHeader_BiDirection" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="JobListColumnHeader_Copies" xml:space="preserve">
+    <value>Copies</value>
+  </data>
+  <data name="JobListColumnHeader_PrintedPasses" xml:space="preserve">
+    <value>Printed Passes</value>
+  </data>
+  <data name="JobListColumnHeader_PrintedDate" xml:space="preserve">
+    <value>Printed Date</value>
+  </data>
+  <data name="JobListColumnHeader_PrintTime" xml:space="preserve">
+    <value>Print Time</value>
+  </data>
+  <data name="JobListColumnHeader_Location" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="UIViewMode_TopDown" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="UIViewMode_LeftRight" xml:space="preserve">
+    <value>Wide Screen</value>
+  </data>
+  <data name="UIViewMode_NotifyIcon" xml:space="preserve">
+    <value>Notify Icon</value>
+  </data>
+  <data name="UIViewMode_OldView" xml:space="preserve">
+    <value>Old View</value>
+  </data>
+  <data name="ColorEnum_Cyan" xml:space="preserve">
+    <value>Cyan</value>
+  </data>
+  <data name="ColorEnum_Magenta" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="ColorEnum_Yellow" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="ColorEnum_Black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="ColorEnum_LightCyan" xml:space="preserve">
+    <value>LightCyan</value>
+  </data>
+  <data name="ColorEnum_LightMagenta" xml:space="preserve">
+    <value>LightMagenta</value>
+  </data>
+  <data name="ColorEnum_Orange" xml:space="preserve">
+    <value>Orange</value>
+  </data>
+  <data name="ColorEnum_Green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="ColorEnum_White" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="ColorEnum_LightYellow" xml:space="preserve">
+    <value>LightYellow</value>
+  </data>
+  <data name="ColorEnum_LightBlack" xml:space="preserve">
+    <value>LightBlack</value>
+  </data>
+  <data name="ColorEnum_Red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="ColorEnum_Blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="ColorEnum_Vanish" xml:space="preserve">
+    <value>Vanish</value>
+  </data>
+  <data name="ColorEnum_SkyBlue" xml:space="preserve">
+    <value>SkyBlue</value>
+  </data>
+  <data name="ColorEnum_Gray" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="ColorEnum_Pink" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="ColorEnum_NULL" xml:space="preserve">
+    <value>NULL</value>
+  </data>
+  <data name="CalibrationDescription_Welcome" xml:space="preserve">
+    <value>Start calibration ...</value>
+  </data>
+  <data name="CalibrationDescription_Mechanical" xml:space="preserve">
+    <value>Adjust head with tools.</value>
+  </data>
+  <data name="CalibrationDescription_Calibration" xml:space="preserve">
+    <value>Fill the value as the calibration.</value>
+  </data>
+  <data name="CalibrationDescription_Finish" xml:space="preserve">
+    <value>Calibration has been finished.</value>
+  </data>
+  <data name="CalibrationTitle_Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="CalibrationTitle_Mechanical" xml:space="preserve">
+    <value>Mechanical Check</value>
+  </data>
+  <data name="CalibrationTitle_Calibration" xml:space="preserve">
+    <value>Software Adjust</value>
+  </data>
+  <data name="CalibrationTitle_Finish" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="buttonCancel_Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="buttonFinish_Text" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="InkStrPosEnum_Both" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="InkStrPosEnum_Left" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="InkStrPosEnum_Right" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="InkStrPosEnum_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="FW_Voltage" xml:space="preserve">
+    <value>Voltage correct </value>
+  </data>
+  <data name="SettingPage_Question" xml:space="preserve">
+    <value>Whether or not to Apply the setting has been changed?</value>
+  </data>
+  <data name="CreatingPreviewImage" xml:space="preserve">
+    <value>Generating preview ...</value>
+  </data>
+  <data name="JHFCopyRightString" xml:space="preserve">
+    <value>Copyright (C) QHH Information Technology Co., Ltd. All rights reserved.</value>
+  </data>
+  <data name="Confirm_Update" xml:space="preserve">
+    <value>Are you sure want to update?</value>
+  </data>
+  <data name="EncryptDog_Expired" xml:space="preserve">
+    <value>Your software has expired!</value>
+  </data>
+  <data name="EncryptDog_VidNotMatch" xml:space="preserve">
+    <value>Dongle is not match with printer manufacture!</value>
+  </data>
+  <data name="EncryptDog_Illegal" xml:space="preserve">
+    <value>Security hardware key illegal or damaged!</value>
+  </data>
+  <data name="EncryptDog_NoFound" xml:space="preserve">
+    <value>Not found Security hardware key. Please insert one!</value>
+  </data>
+  <data name="EncryptDog_Warning" xml:space="preserve">
+    <value>Warning: less than 100 hours available time!</value>
+  </data>
+  <data name="PumpInkTimeToLong" xml:space="preserve">
+    <value>Pump ink overtime</value>
+  </data>
+  <data name="EncryptDog_Locktype_LOCAL" xml:space="preserve">
+    <value>desktop version</value>
+  </data>
+  <data name="EncryptDog_Locktype_MASTER" xml:space="preserve">
+    <value>network version - master device</value>
+  </data>
+  <data name="EncryptDog_Locktype_SLAVE" xml:space="preserve">
+    <value>network version - slave device</value>
+  </data>
+  <data name="EncryptDog_Restart" xml:space="preserve">
+    <value>The New Dongle key will take action after you re-launch!</value>
+  </data>
+  <data name="EncryptDog_Fatalpwd" xml:space="preserve">
+    <value>Permanent and effective password</value>
+  </data>
+  <data name="FeatherType_Gradient" xml:space="preserve">
+    <value>Gradient</value>
+  </data>
+  <data name="FeatherType_Uniform" xml:space="preserve">
+    <value>Uniform</value>
+  </data>
+  <data name="FeatherType_Wave" xml:space="preserve">
+    <value>Wave</value>
+  </data>
+  <data name="FeatherType_Advance" xml:space="preserve">
+    <value>Advance</value>
+  </data>
+  <data name="FeatherType_Uv" xml:space="preserve">
+    <value>UV</value>
+  </data>
+  <data name="FeatherType_Joint" xml:space="preserve">
+    <value>Joint</value>
+  </data>
+  <data name="EpsonFeatherType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="EpsonFeatherType_Small" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="EpsonFeatherType_Medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="EpsonFeatherType_Large" xml:space="preserve">
+    <value>Strong</value>
+  </data>
+  <data name="EpsonFeatherType_SuperLarge" xml:space="preserve">
+    <value>SuperLarge</value>
+  </data>
+  <data name="EpsonFeatherType_Custom" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="UIError_GetRealTimeInfoFail" xml:space="preserve">
+    <value>Get RealTime Information Fail!</value>
+  </data>
+  <data name="Xaar382_UnsavedWarning" xml:space="preserve">
+    <value>Are you sure you want to give up the unsaved changes?</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Customized" xml:space="preserve">
+    <value>Customized</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Strong" xml:space="preserve">
+    <value>Strong</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Weak" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Refill" xml:space="preserve">
+    <value>Refill</value>
+  </data>
+  <data name="FixedSpeed" xml:space="preserve">
+    <value>FixedSpeed</value>
+  </data>
+  <data name="ClampWithMinMax" xml:space="preserve">
+    <value>Value is too large or too small, has been fixed as a legal value.</value>
+  </data>
+  <data name="WhiteInkOptionIntersect" xml:space="preserve">
+    <value>Intersect</value>
+  </data>
+  <data name="WhiteInkOptionNOT" xml:space="preserve">
+    <value>NOT</value>
+  </data>
+  <data name="EnumLayerType_Color" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="EnumLayerType_White" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="EnumLayerType_Varnish" xml:space="preserve">
+    <value>Varnish</value>
+  </data>
+  <data name="EnumLayerType_Contrast" xml:space="preserve">
+    <value>Gray</value>
+  </data>
+  <data name="ColorLayer" xml:space="preserve">
+    <value>Layer</value>
+  </data>
+  <data name="NoFoundUSBReturn" xml:space="preserve">
+    <value>Not connected usb, software initiates termination.</value>
+  </data>
+  <data name="MultipleInkEnum_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="MultipleInkEnum_Double" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="MultipleInkEnum_More" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="XResDivMode_HighPrecision" xml:space="preserve">
+    <value>HighPrecision</value>
+  </data>
+  <data name="XResDivMode_HighQuality" xml:space="preserve">
+    <value>HighSpeed</value>
+  </data>
+  <data name="XResDivMode_PrintMode3" xml:space="preserve">
+    <value>PrintMode3</value>
+  </data>
+  <data name="XResDivMode_PrintMode4" xml:space="preserve">
+    <value>PrintMode4</value>
+  </data>
+  <data name="EpsonSaveCali_Ok" xml:space="preserve">
+    <value>Successfully loaded.</value>
+  </data>
+  <data name="EpsonLoadCali_Faild" xml:space="preserve">
+    <value>Failed to load.</value>
+  </data>
+  <data name="EpsonLoadCali_Ok" xml:space="preserve">
+    <value>Successfully loaded.</value>
+  </data>
+  <data name="EpsonLoadCali_VerTooOld" xml:space="preserve">
+    <value>The upgrade version lower than the basic version.</value>
+  </data>
+  <data name="EpsonLoadCali_VerTooLatest" xml:space="preserve">
+    <value>The upgrade version is higher than the current highest version.</value>
+  </data>
+  <data name="EpsonLoadCali_SizeError" xml:space="preserve">
+    <value>setup length error.</value>
+  </data>
+  <data name="EpsonLoadCali_FlagError" xml:space="preserve">
+    <value>Flag error.</value>
+  </data>
+  <data name="EpsonLoadCali_GetSizeFaild" xml:space="preserve">
+    <value>Failed to get transmission data length.</value>
+  </data>
+  <data name="EpsonLoadCali_GetRetFaild" xml:space="preserve">
+    <value>Failed to get Load result.</value>
+  </data>
+  <data name="UiToolBar_MeasurePaperHeight" xml:space="preserve">
+    <value>Measure paper height</value>
+  </data>
+  <data name="XCoordinatesDirection_Default" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="XCoordinatesDirection_YcontinueYinterleave" xml:space="preserve">
+    <value>YcontinueYinterleave</value>
+  </data>
+  <data name="XCoordinatesDirection_YinterleaveYcontinue" xml:space="preserve">
+    <value>YinterleaveYcontinue</value>
+  </data>
+  <data name="SymmetricType_Type0" xml:space="preserve">
+    <value>Type 0</value>
+  </data>
+  <data name="SymmetricType_Type1" xml:space="preserve">
+    <value>Type 1</value>
+  </data>
+  <data name="UIError_YInterleaveNumError" xml:space="preserve">
+    <value>When symmetric color order, Y interleave number must be a multiple of 2</value>
+  </data>
+  <data name="UVStatus_OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="UVStatus_ON60" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="UVStatus_ON100" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="UVStatus_ALLWIN_OFF" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="UVStatus_ALLWIN_LOW" xml:space="preserve">
+    <value>LOW</value>
+  </data>
+  <data name="UVStatus_ALLWIN_MID" xml:space="preserve">
+    <value>MIDDLE</value>
+  </data>
+  <data name="UVStatus_ALLWIN_HIGH" xml:space="preserve">
+    <value>HIGH</value>
+  </data>
+  <data name="EpsonFeatherType_GZ_LOW" xml:space="preserve">
+    <value>LOW</value>
+  </data>
+  <data name="EpsonFeatherType_GZ_MID" xml:space="preserve">
+    <value>MIDDLE</value>
+  </data>
+  <data name="EpsonFeatherType_GZ_HIGH" xml:space="preserve">
+    <value>HIGH</value>
+  </data>
+  <data name="EpsonFeatherType_Label" xml:space="preserve">
+    <value>Quality:</value>
+  </data>
+  <data name="UvLightType_UvLightType1" xml:space="preserve">
+    <value>SubZero_055_085S</value>
+  </data>
+  <data name="UvLightType_UvLightType2" xml:space="preserve">
+    <value>UvLightType12</value>
+  </data>
+  <data name="Title_wellcomeWord" xml:space="preserve">
+    <value>Thank you for using Allwin digital printer</value>
+  </data>
+  <data name="Conten_wellcomeWord" xml:space="preserve">
+    <value>First --Please use allwin orginal ink：
+ 1）the ink is environment protection and low Odor, it is stale and smoothly during printing, it can improve yield effectly and reduce the cost；
+ 2）Prolong the lifetime of the nozzle.
+
+Second--Machine environment requirement：
+ ink temperature 18-27℃，air moisture40-70%，the environment without dust；
+ 1）when the tempareture lower than 15℃，（konica）open the heating function of the sub inktank, at the same time the ink bottle can be packed by electric blanket or other heating method to make the ink temperature be 30℃, open printhead heating function(1024 machine with this function)；
+ 2）when ink tube insert ink bottle, the hole please be smaller and the lid keep sealed  to reduce the ink volatilized and prevent the dust get into it.
+3 when pringt in winter, it can open spray for 10 minute to preheat( epson machine don’t need this step)； 
+ 4）please check the ink tube whether with bubble, if it has the bubble please except it firstly；
+ 5）The picture add test bar in the two sides to prevent the nozzle clog  caused by ink too less when printing.
+</value>
+  </data>
+  <data name="Title_firstPage" xml:space="preserve">
+    <value>First--About opening machine：</value>
+  </data>
+  <data name="Title_secondPage" xml:space="preserve">
+    <value>Second-- Device maintance common method</value>
+  </data>
+  <data name="Title_thirdPage" xml:space="preserve">
+    <value>Third:Equipment regular maintenance specification</value>
+  </data>
+  <data name="Conten_firstPage" xml:space="preserve">
+    <value>1、firstly please pull up the fixed screw(konica)，the carriage move to left slowly and then seprate from bottom base.
+2、move out the carriage(konica)，On the base of rubber covered with a layer of plastic wrap to prevent dust.
+3  before start the machine, please check whether with some dirty things to prevent damage the print head.
+4. The ink tube should without bubble or will cause to break line when printing, it needs to expel the bubble then print；
+5. Please don’t let the print head leave capping and expose on the air. If the stop time is long, please set spray in the software; when the epson machine don’t use please click reset function to make capping match printhead. 
+6.Inkjet equipment with allwin encoder Patent configuration function , when the picture need to title please open software function operate manual to guide using encoder function so that can ensure the quality of titling.
+</value>
+  </data>
+  <data name="Conten_secondPage" xml:space="preserve">
+    <value>If the picture shows break line during printing, please deal with as following methods：
+ 1）please abserve the surface of the head with flashlight: if find there with gathered ink please clean it with vacuum cleaner or with non-woven fabrics to rub it lightly, if don’t have gathered ink please use press ink function then press the ink will be OK. Then use non-woven fabrics to absord other ink.
+2. When use the non-woven fabrics rub the printhead surface, please don’t rub one printhead  back and forth, rubbing the printhead just to absorb the ink.
+3 close the machine maintance, firstly, please fill  cleaner into moisture base rubber on the right, move the crriage to the last right to make printhead match with moisture base completely.
+4、cleaning maintance：
+1、please clean the moisture base rubber and impurity.
+2、please pull out the cleaner form rubber base, then clean it and fill in new cleaner every week.
+</value>
+  </data>
+  <data name="Conten_thirdPage" xml:space="preserve">
+    <value>1.please clean the  scrape in the sub inktank in every winter to prevent the ink stay at the buttom of the ink tank then cause to clog ink tube and ink head.
+ 
+2.Clean moisture capping every month and clean the cleaner under the capping.
+
+3.Clean printhead surface: when the printhead  surface  or two sides with dirty things, please clean the printhead surface with cleaner.
+
+4. Feeding roller requirement：please change foam paper regularly；rub the surface of the roller
+
+5. Please clean the ink marks on the rubber pinch roller  with  alcohol and Cotton silk stuff beside the pinch roller.
+
+6. Raster bar cleaning：abserve and clean everyday; use swab adding some distilled water and alcohol to scrab dust and dirty things； 
+
+7. X,Y direction tension inspection：inspect it every three month, if it’s loosed please adjust it；
+
+8. Please clean the abandon ink of vacuum cleaner and waste cartridge regularly.
+
+</value>
+  </data>
+  <data name="Title_finishPage" xml:space="preserve">
+    <value>Operation Wizard
+    </value>
+  </data>
+  <data name="Description_finishPage" xml:space="preserve">
+    <value>Operation Wizard has been finished!
+    </value>
+  </data>
+  <data name="InkUsageStatistics" xml:space="preserve">
+    <value>Ink usage statistics</value>
+  </data>
+  <data name="FaildGenDoubleSideFile" xml:space="preserve">
+    <value>Failed to generate double-sided print files.</value>
+  </data>
+  <data name="CurSystemNoSurpportThisFeature" xml:space="preserve">
+    <value>The current system does not support this function.</value>
+  </data>
+  <data name="GetWrongInfo" xml:space="preserve">
+    <value>Get info erro,return original value!</value>
+  </data>
+  <data name="UIError_EnumUSBFail" xml:space="preserve">
+    <value>Enum USB Fail!</value>
+  </data>
+  <data name="UIError_FWFactoryDataDiffer" xml:space="preserve">
+    <value>Factory data of two mainbord differ!</value>
+  </data>
+  <data name="UIInfo_FactoryDataValue" xml:space="preserve">
+    <value>Factory data {0} </value>
+  </data>
+  <data name="UIError_NoUSB" xml:space="preserve">
+    <value>USB Disconnected!</value>
+  </data>
+  <data name="UIError_SetCleanParamFail" xml:space="preserve">
+    <value>Set Clean Parameter error!</value>
+  </data>
+  <data name="UIError_ManualCleanNotSupport" xml:space="preserve">
+    <value>The current FW driver version does not support manual cleaning function, please upgrade!</value>
+  </data>
+  <data name="JobID3D" xml:space="preserve">
+    <value>Printing layer:</value>
+  </data>
+  <data name="PauseBetweenLayersStatus" xml:space="preserve">
+    <value>Pause Between Layers</value>
+  </data>
+  <data name="Pumping_Ink" xml:space="preserve">
+    <value>Pumping {0}.</value>
+  </data>
+  <data name="CanleType_PrintingJob" xml:space="preserve">
+    <value>Printing Job</value>
+  </data>
+  <data name="CanleType_All" xml:space="preserve">
+    <value>All Job</value>
+  </data>
+  <data name="CanleType_AlwaysQuestion" xml:space="preserve">
+    <value>Always Question</value>
+  </data>
+  <data name="HorizontalCalibrationMode_Color" xml:space="preserve">
+    <value>ColorCalibration</value>
+  </data>
+  <data name="HorizontalCalibrationMode_Full" xml:space="preserve">
+    <value>FullCalibration</value>
+  </data>
+  <data name="HorizontalCalibrationMode_Quick" xml:space="preserve">
+    <value>QuickCalibration</value>
+  </data>
+  <data name="HorizontalCalibrationMode_FullNoStep" xml:space="preserve">
+    <value>GroupCalibration</value>
+  </data>
+  <data name="CalibrationSubStep_Origin" xml:space="preserve">
+    <value>Orgin Calibration</value>
+  </data>
+  <data name="PrintTemperatureWarning" xml:space="preserve">
+    <value>Whether print temperature reaches the set value?</value>
+  </data>
+  <data name="Software_AWB_JobSettingError" xml:space="preserve">
+    <value>The current print mode is AWB,but job setting error, can't print. </value>
+  </data>
+  <data name="Software_3D_LayerIndexError" xml:space="preserve">
+    <value>The layer number currently being added to the print queue is not continuous with the layer number being printed. Are you sure you want to add it? "Yes", continue; "No", Cancel.</value>
+  </data>
+  <data name="Confirm_DeleteMode" xml:space="preserve">
+    <value>Do you want to remove mode {0}</value>
+  </data>
+  <data name="AutoJumpWhite" xml:space="preserve">
+    <value>AutoSkipWhite</value>
+  </data>
+  <data name="BetweenNozzleFeather" xml:space="preserve">
+    <value>BetweenNozzleFeather</value>
+  </data>
+  <data name="Bidirection" xml:space="preserve">
+    <value>Bidirection</value>
+  </data>
+  <data name="Feather" xml:space="preserve">
+    <value>Feather</value>
+  </data>
+  <data name="FeatherType" xml:space="preserve">
+    <value>FeatherType</value>
+  </data>
+  <data name="IntensityFeather" xml:space="preserve">
+    <value>IntensityFeather</value>
+  </data>
+  <data name="MultipleInk" xml:space="preserve">
+    <value>MultipleInk</value>
+  </data>
+  <data name="PrintMode" xml:space="preserve">
+    <value>PrintMode</value>
+  </data>
+  <data name="ReversePrint" xml:space="preserve">
+    <value>ReversePrint</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="MirrorX" xml:space="preserve">
+    <value>MirrorX</value>
+  </data>
+  <data name="LeftLightLeftPrint" xml:space="preserve">
+    <value>LeftLightLeftPrint</value>
+  </data>
+  <data name="LeftLightRightPrint" xml:space="preserve">
+    <value>LeftLightRightPrint</value>
+  </data>
+  <data name="RightLightLeftPrint" xml:space="preserve">
+    <value>RightLightLeftPrint</value>
+  </data>
+  <data name="RightLightRightPrint" xml:space="preserve">
+    <value>RightLightRightPrint</value>
+  </data>
+  <data name="RepeatPrint" xml:space="preserve">
+    <value>RepeatPrint</value>
+  </data>
+  <data name="BladeDelayStopTime" xml:space="preserve">
+    <value>Blade delay stop time(ms):</value>
+  </data>
+  <data name="CleaningSpeed" xml:space="preserve">
+    <value>Cleaning speed(Hz):</value>
+  </data>
+  <data name="ExquisiteFeather" xml:space="preserve">
+    <value>Exquisite Feather</value>
+  </data>
+  <data name="FeatherPercent" xml:space="preserve">
+    <value>Feather Percent</value>
+  </data>
+  <data name="Feather_Custom" xml:space="preserve">
+    <value>Feather Custom</value>
+  </data>
+  <data name="StrCurYearAmountInTotal" xml:space="preserve">
+    <value>This year's total</value>
+  </data>
+  <data name="StrHistoryAmountInTotal" xml:space="preserve">
+    <value>Over the years in total</value>
+  </data>
+  <data name="QuestionSynchronizeInkAndArea" xml:space="preserve">
+    <value>Detect replaced the main board,Whether the synchronization of ink statistics? </value>
+  </data>
+  <data name="SynchronizeInkAndAreaSuccess" xml:space="preserve">
+    <value>Synchronization of ink statistical data successfully.</value>
+  </data>
+  <data name="SynchronizeInkAndAreaFail" xml:space="preserve">
+    <value>Synchronization of ink statistics data fail.</value>
+  </data>
+  <data name="UISuccess_SetCleanParamSuccess" xml:space="preserve">
+    <value>Set Clean Parameter Success!</value>
+  </data>
+  <data name="UIError_TriggerFail" xml:space="preserve">
+    <value>Trigger Fail!</value>
+  </data>
+  <data name="UISuccess_TriggerSuccess" xml:space="preserve">
+    <value>Trigger Success!</value>
+  </data>
+  <data name="ActualNumStr" xml:space="preserve">
+    <value>Actual number of connections:</value>
+  </data>
+  <data name="NoPassNumStr" xml:space="preserve">
+    <value>The requested nozzles include:</value>
+  </data>
+  <data name="PassNumStr" xml:space="preserve">
+    <value>Number of Nozzles requested:</value>
+  </data>
+  <data name="TotalReqNumStr" xml:space="preserve">
+    <value>Total number of nozzle requested:</value>
+  </data>
+  <data name="StrDryOffsetDistance" xml:space="preserve">
+    <value>Dry Offset Distance</value>
+  </data>
+  <data name="StrDryInAdvance" xml:space="preserve">
+    <value>Dry In Advance</value>
+  </data>
+  <data name="StrFwNoSurportDoubleY" xml:space="preserve">
+    <value>The software supports dual y-axis functions but fails to get the parameters. The fw may not support this feature.</value>
+  </data>
+  <data name="UIInfo_FactoryDataValue1" xml:space="preserve">
+    <value>Factory data {0} </value>
+  </data>
+  <data name="strFwVersionError" xml:space="preserve">
+    <value>The mainboard upgrade package version does not match!</value>
+  </data>
+  <data name="StrMeasureZMaxMsg" xml:space="preserve">
+    <value>Before measuring, please make sure that the resolution of the z-axis encoder and detector length  are correct. Moreover, no medium is placed at the measuring point.</value>
+  </data>
+  <data name="StrZMaxTooShort" xml:space="preserve">
+    <value>Z axis max lenght value is too small!</value>
+  </data>
+  <data name="StrMesureResultError" xml:space="preserve">
+    <value>Abnormal measurement results!("zMaxPos" less than 0)</value>
+  </data>
+  <data name="VersionCheck_Download" xml:space="preserve">
+    <value>Download new version</value>
+  </data>
+  <data name="VersionCheck_HB_Reason" xml:space="preserve">
+    <value>Update reason: {0}</value>
+  </data>
+  <data name="VersionCheck_HB_Version" xml:space="preserve">
+    <value>Current HB version need to be updated, new version [{0}]</value>
+  </data>
+  <data name="VersionCheck_Support" xml:space="preserve">
+    <value>Please contact technical support</value>
+  </data>
+  <data name="UIError_Error" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="UISuccess_Success" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="HB_Version_Low" xml:space="preserve">
+    <value>Headboard program version is too low, please update the latest headboard program!</value>
+  </data>
+  <data name="Applicationofmotorparametersfailed" xml:space="preserve">
+    <value>Application of motor parameters failed!</value>
+  </data>
+  <data name="BackgroundWorkerIsBusy" xml:space="preserve">
+    <value>Background Worker Is Busy!</value>
+  </data>
+  <data name="BiaxialDeviationScaleCoefficient" xml:space="preserve">
+    <value>Biaxial deviation scale coefficient cannot be 0.</value>
+  </data>
+  <data name="ColorNegativePressureError" xml:space="preserve">
+    <value>Color Negative Pressure Error|</value>
+  </data>
+  <data name="ConfirmStartPrinting" xml:space="preserve">
+    <value>Automatic Ink Test on status, make sure you start printing?</value>
+  </data>
+  <data name="EnterCorrectValue" xml:space="preserve">
+    <value>Please enter the correct value</value>
+  </data>
+  <data name="EnterTargetValue" xml:space="preserve">
+    <value>Please enter target barometric valu</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>Export Failed！</value>
+  </data>
+  <data name="ExportSuccess" xml:space="preserve">
+    <value>Export Success！</value>
+  </data>
+  <data name="FiledoesnotExist" xml:space="preserve">
+    <value>File does not Exist!</value>
+  </data>
+  <data name="GetDirtyCmdFialed" xml:space="preserve">
+    <value>GetDirtyCmd fialed! cmd={0}</value>
+  </data>
+  <data name="GetEp6PipeDatafail" xml:space="preserve">
+    <value>Get Ep6 Pipe Data fail!</value>
+  </data>
+  <data name="Getgraymapfialed" xml:space="preserve">
+    <value>Get gray map fialed!</value>
+  </data>
+  <data name="GetHapondPrintParamFailed" xml:space="preserve">
+    <value>Get HapondPrintParam Failed</value>
+  </data>
+  <data name="GetQRCodeFailed" xml:space="preserve">
+    <value>Get QR Code Failed!</value>
+  </data>
+  <data name="Getwaveformfailed" xml:space="preserve">
+    <value>Get waveform faile!</value>
+  </data>
+  <data name="GetYhomepositionfialed" xml:space="preserve">
+    <value>Get Y home position fialed!</value>
+  </data>
+  <data name="HighExternalPressure" xml:space="preserve">
+    <value>High External Pressure|</value>
+  </data>
+  <data name="InputEmpty" xml:space="preserve">
+    <value>Input can't be empty.</value>
+  </data>
+  <data name="inputerror" xml:space="preserve">
+    <value>input error !</value>
+  </data>
+  <data name="IPEmpty" xml:space="preserve">
+    <value>IP address cannot be empty!</value>
+  </data>
+  <data name="LoadJobConfigError" xml:space="preserve">
+    <value>Load JobConfig Error:</value>
+  </data>
+  <data name="LowExternalPressure" xml:space="preserve">
+    <value>Low External Pressure|</value>
+  </data>
+  <data name="ModeExist" xml:space="preserve">
+    <value>This Mode does exist!</value>
+  </data>
+  <data name="Nozzleparametersreadsuccessfully" xml:space="preserve">
+    <value>Nozzle parameters read successfully!</value>
+  </data>
+  <data name="OpenUV" xml:space="preserve">
+    <value>Please Open the UV light after 10 min.</value>
+  </data>
+  <data name="Pleaseselectdotbit" xml:space="preserve">
+    <value>Please select dotbit!</value>
+  </data>
+  <data name="PowerOffMachine" xml:space="preserve">
+    <value>Do you want to power off the machine?</value>
+  </data>
+  <data name="Printrecordnotfound" xml:space="preserve">
+    <value>Print record not found</value>
+  </data>
+  <data name="PrintSwitchHasBeenTurnedOff" xml:space="preserve">
+    <value>Print switch has been turned off!</value>
+  </data>
+  <data name="ReadError" xml:space="preserve">
+    <value>Read Error！</value>
+  </data>
+  <data name="ReadFileError" xml:space="preserve">
+    <value>Read file error!</value>
+  </data>
+  <data name="ReadingWait" xml:space="preserve">
+    <value>Reading, please wait until the current read is complete and try again.</value>
+  </data>
+  <data name="SafetyCylinder1FeedInk" xml:space="preserve">
+    <value>Safety Cylinder 1 Feed Ink|</value>
+  </data>
+  <data name="SafetyCylinder2FeedInk" xml:space="preserve">
+    <value>Safety Cylinder 2 Feed Ink|</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>Save Failed！</value>
+  </data>
+  <data name="SaveJobConfigError" xml:space="preserve">
+    <value>Save JobConfig Error:</value>
+  </data>
+  <data name="SaveJobMediaModesError" xml:space="preserve">
+    <value>Save JobMediaModes Error:</value>
+  </data>
+  <data name="SendCmdError" xml:space="preserve">
+    <value>Send commond error!</value>
+  </data>
+  <data name="Set1024graymapfialed" xml:space="preserve">
+    <value>Set 1024 gray map fialed!</value>
+  </data>
+  <data name="SetFailed" xml:space="preserve">
+    <value>Set Failed!</value>
+  </data>
+  <data name="Setgraymapfialed" xml:space="preserve">
+    <value>Set gray map fialed!</value>
+  </data>
+  <data name="Setgraymapsuccess" xml:space="preserve">
+    <value>Set gray map success!</value>
+  </data>
+  <data name="SetMBIDFailed" xml:space="preserve">
+    <value>Failed to set mainboard ID</value>
+  </data>
+  <data name="SetMBIDSuccess" xml:space="preserve">
+    <value>Set the mainboard ID success</value>
+  </data>
+  <data name="SetSuccess" xml:space="preserve">
+    <value>Set Success!</value>
+  </data>
+  <data name="SetXaar382Modefialed" xml:space="preserve">
+    <value>Set Xaar382 Mode fialed!</value>
+  </data>
+  <data name="Statisticalfailure" xml:space="preserve">
+    <value>Statistical failure!</value>
+  </data>
+  <data name="SwitchInkTypeError" xml:space="preserve">
+    <value>SwitchInkType Error!cmd {0},index {1}</value>
+  </data>
+  <data name="Theselectedvaluecannotbeempty" xml:space="preserve">
+    <value>The selected value cannot be empty.</value>
+  </data>
+  <data name="timeout" xml:space="preserve">
+    <value>time out!</value>
+  </data>
+  <data name="UpdatePrinterSettingError" xml:space="preserve">
+    <value>UpdatePrinterSetting  SwitchInkType Error!cmd {0}</value>
+  </data>
+  <data name="wavefromfileerror" xml:space="preserve">
+    <value>wavefrom file error!</value>
+  </data>
+  <data name="WhiteNegativePressureError" xml:space="preserve">
+    <value>White Negative Pressure Error|</value>
+  </data>
+  <data name="WriteHeadboardSucessed" xml:space="preserve">
+    <value>Write Headboard has Sucessed!</value>
+  </data>
+  <data name="zMaxLengthZero" xml:space="preserve">
+    <value>zMaxLength is Zero</value>
+  </data>
+  <data name="FactoryTool_labChange" xml:space="preserve">
+    <value>Delta：{0}(pulse)</value>
+  </data>
+  <data name="FactoryTool_PossionX" xml:space="preserve">
+    <value>X position:{0}(pulse)</value>
+  </data>
+  <data name="FactoryTool_PossionY" xml:space="preserve">
+    <value>Y position:{0}(pulse)</value>
+  </data>
+  <data name="FactoryTool_PossionY2" xml:space="preserve">
+    <value>Y2 position:{0}(pulse)</value>
+  </data>
+  <data name="FactoryTool_PossionZ" xml:space="preserve">
+    <value>Z position:{0}(pulse)</value>
+  </data>
+  <data name="LayoutUpdateSuccess" xml:space="preserve">
+    <value>Layout update successfully, restart the PM.</value>
+  </data>
+  <data name="HapondIoMsg_RollUp" xml:space="preserve">
+    <value>Rubber Roll is Up!</value>
+  </data>
+  <data name="HapondIoMsg_CheckPressInk" xml:space="preserve">
+    <value>Please check press ink unit!</value>
+  </data>
+  <data name="HapondIoMsg_OpenCooling" xml:space="preserve">
+    <value>Please open cooling unit!</value>
+  </data>
+  <data name="HorizontalCalibrationMode_GroupQuick" xml:space="preserve">
+    <value>GroupQuick</value>
+  </data>
+  <data name="HorizontalCalibrationMode_GroupColor" xml:space="preserve">
+    <value>GroupColor</value>
+  </data>
+  <data name="HorizontalCalibrationMode_GroupFull" xml:space="preserve">
+    <value>GroupAllCalibration</value>
+  </data>
+  <data name="CancelMoisturizing" xml:space="preserve">
+    <value>Cancel Moisturizing</value>
+  </data>
+  <data name="Moisturize" xml:space="preserve">
+    <value>Moisturize</value>
+  </data>
+  <data name="ParamterRatio" xml:space="preserve">
+    <value>Paramter</value>
+  </data>
+  <data name="HeadParamter" xml:space="preserve">
+    <value>HeadParamter</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>DataType</value>
+  </data>
+  <data name="Confirm_DeleteLayout" xml:space="preserve">
+    <value>Do you want to remove layout：{0} ?</value>
+  </data>
+  <data name="CloseColorNozzleModelEnum_Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="CloseColorNozzleModelEnum_Easy" xml:space="preserve">
+    <value>Easy</value>
+  </data>
+  <data name="CloseColorNozzleModelEnum_Feather" xml:space="preserve">
+    <value>Feather</value>
+  </data>
+  <data name="CloseColorNozzle_DownCloseNozzle" xml:space="preserve">
+    <value>LowerCloseNumber</value>
+  </data>
+  <data name="CloseColorNozzle_DownPercent" xml:space="preserve">
+    <value>LowerSamplingPercentage</value>
+  </data>
+  <data name="CloseColorNozzle_OverLapNozzle" xml:space="preserve">
+    <value>OverLapNozzle</value>
+  </data>
+  <data name="CloseColorNozzle_UpCloseNozzle" xml:space="preserve">
+    <value>UpperCloseNumber</value>
+  </data>
+  <data name="CloseColorNozzle_UpPercent" xml:space="preserve">
+    <value>UpperSamplingPercentage</value>
+  </data>
+  <data name="CloseColorNozzle_UpPercent1" xml:space="preserve">
+    <value>UpperSamplingPercentage</value>
+  </data>
+  <data name="StrMakesureMediaReady" xml:space="preserve">
+    <value>Please make sure the media is ready.</value>
+  </data>
+  <data name="ColseNozzle_AlreadyExists" xml:space="preserve">
+    <value>Already exists in the list.</value>
+  </data>
+  <data name="ColseNozzle_ClearAll_Question" xml:space="preserve">
+    <value>Do you want to clear the list of all the data?</value>
+  </data>
+  <data name="EncryptDog_MisBoardId" xml:space="preserve">
+    <value>The headkey and the board ID do not match</value>
+  </data>
+  <data name="SendCmdFailed" xml:space="preserve">
+    <value>发送命令失败！</value>
+  </data>
+</root>

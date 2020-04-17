@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>工厂设置</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>服务站位置</value>
+  </data>
+  <data name="m_LabelHighSpeed.Text" xml:space="preserve">
+    <value>组</value>
+  </data>
+  <data name="m_LabelWidth.Text" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="m_LabelColorNum.Text" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing" />
+  <data name="m_LabelStripeSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelStripeSpace.Text" xml:space="preserve">
+    <value>颜色间距</value>
+  </data>
+  <data name="m_LabelStripeWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="m_LabelStripeWidth.Text" xml:space="preserve">
+    <value>组间距</value>
+  </data>
+  <data name="m_LabelHeadType.Text" xml:space="preserve">
+    <value>头类型</value>
+  </data>
+  <data name="m_LabelYSpace.Text" xml:space="preserve">
+    <value>Y 间距</value>
+  </data>
+  <data name="m_LabelAngle.Text" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="m_LabelWhiteInkNum.Text" xml:space="preserve">
+    <value>白色数</value>
+  </data>
+  <data name="m_LabelCoatColorNum.Text" xml:space="preserve">
+    <value>覆膜颜色数</value>
+  </data>
+  <data name="m_GroupBoxVender.Text" xml:space="preserve">
+    <value>厂商</value>
+  </data>
+  <data name="groupBox8colorarrangement.Text" xml:space="preserve">
+    <value>{0}色排列方式</value>
+  </data>
+  <data name="checkBox8CCompatibilityMode.Text" xml:space="preserve">
+    <value>8色兼容模式</value>
+  </data>
+  <data name="checkBox4ColorMirror.Text" xml:space="preserve">
+    <value>镜像排列</value>
+  </data>
+  <data name="checkBox_VerY.Text" xml:space="preserve">
+    <value>颜色错排</value>
+  </data>
+  <data name="m_CheckBoxSupportLcd.Text" xml:space="preserve">
+    <value>Lcd面板支持</value>
+  </data>
+  <data name="m_CheckBoxMirror.Text" xml:space="preserve">
+    <value>垂直排列</value>
+  </data>
+  <data name="m_CheckBoxXaar382Mode.Text" xml:space="preserve">
+    <value>Xaar382 Pixle模式</value>
+  </data>
+  <data name="checkBoxZMeasur.Text" xml:space="preserve">
+    <value>支持Z轴测量</value>
+  </data>
+  <data name="m_CheckBoxOneHeadDivider.Text" xml:space="preserve">
+    <value>一头双色</value>
+  </data>
+  <data name="m_CheckBoxIsHeadLeft.Text" xml:space="preserve">
+    <value>小车在右侧</value>
+  </data>
+  <data name="buttonHeadMix.Text" xml:space="preserve">
+    <value>喷头混装设置</value>
+  </data>
+  <data name="checkBoxStaggered.Text" xml:space="preserve">
+    <value>喷头错排</value>
+  </data>
+  <data name="checkBoxMediaSensor.Text" xml:space="preserve">
+    <value>介质传感器</value>
+  </data>
+  <data name="checkBoxWhiteInkRight.Text" xml:space="preserve">
+    <value>白墨在右侧</value>
+  </data>
+  <data name="LableInkType.Text" xml:space="preserve">
+    <value>墨水类型</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>喷射速度</value>
+  </data>
+  <data name="m_GroupBoxInk.Text" xml:space="preserve">
+    <value>墨水</value>
+  </data>
+  <data name="m_RadioButtonServoEncoder.Text" xml:space="preserve">
+    <value>使用伺服编码器</value>
+  </data>
+  <data name="m_RadioButtonEncoder.Text" xml:space="preserve">
+    <value>使用光栅编码器</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>编码数</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>扩展设置</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>头板个数</value>
+  </data>
+  <data name="comboBoxTopologyMode.Items" xml:space="preserve">
+    <value>1条光纤连接一个扩展板</value>
+  </data>
+  <data name="comboBoxTopologyMode.Items1" xml:space="preserve">
+    <value>2条光纤连接同一个扩展板</value>
+  </data>
+  <data name="comboBoxTopologyMode.Items2" xml:space="preserve">
+    <value>2条光纤连接不同扩展板</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>拓扑模式:</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label_FlatDistanceY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_FlatDistanceY.Text" xml:space="preserve">
+    <value>平台距离Y:</value>
+  </data>
+  <data name="label_FlatDistanceY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labelzMaxRoute.Text" xml:space="preserve">
+    <value>Z最大行程:</value>
+  </data>
+  <data name="labelAccDistanceR.Text" xml:space="preserve">
+    <value>终点端缓冲距离:</value>
+  </data>
+  <data name="lblDefaultZ.Text" xml:space="preserve">
+    <value>Z默认位置:</value>
+  </data>
+  <data name="m_Label_YEncoderDPI.Text" xml:space="preserve">
+    <value>Y分辨率:</value>
+  </data>
+  <data name="m_Label_MaxOffsetPos.Text" xml:space="preserve">
+    <value>最大偏差位置:</value>
+  </data>
+  <data name="label_FlatDistance.Text" xml:space="preserve">
+    <value>平台距离X:</value>
+  </data>
+  <data name="combobox_RasterSence.Items" xml:space="preserve">
+    <value>50800[0.5u光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items1" xml:space="preserve">
+    <value>25400[1u光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items2" xml:space="preserve">
+    <value>12700[2u光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items3" xml:space="preserve">
+    <value>5080[5u光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items4" xml:space="preserve">
+    <value>2540[10u光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items5" xml:space="preserve">
+    <value>1270[20u光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items6" xml:space="preserve">
+    <value>1440[360光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items7" xml:space="preserve">
+    <value>1200[300光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items8" xml:space="preserve">
+    <value>800[200光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items9" xml:space="preserve">
+    <value>720[180光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items10" xml:space="preserve">
+    <value>600[150光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items11" xml:space="preserve">
+    <value>540[光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items12" xml:space="preserve">
+    <value>480[光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items13" xml:space="preserve">
+    <value>450[150光栅]</value>
+  </data>
+  <data name="combobox_RasterSence.Items14" xml:space="preserve">
+    <value>360[光栅]</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>打印分辨率:</value>
+  </data>
+  <data name="labelAccDistanceL.Text" xml:space="preserve">
+    <value>原点端缓冲距离:</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>光栅分辨率:</value>
+  </data>
+  <data name="grouperRipColorOrder.Text" xml:space="preserve">
+    <value>RIP色序</value>
+  </data>
+  <data name="grouperPrintColorOrder.Text" xml:space="preserve">
+    <value>打印色序</value>
+  </data>
+  <data name="checkBoxWrapAroundOnX.Text" xml:space="preserve">
+    <value>X方向回绕</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>对称方式:</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>排列方式:</value>
+  </data>
+  <data name="checkBoxSymmetricColorOder.Text" xml:space="preserve">
+    <value>对称色序</value>
+  </data>
+  <data name="grouper1.Text" xml:space="preserve">
+    <value>组排列</value>
+  </data>
+  <data name="checkBoxOnlyUseOneHead.Text" xml:space="preserve">
+    <value>单头打印</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>X编码器DPI:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>制造商名:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>打印机名:</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>最大组数:</value>
+  </data>
+  <data name="checkBoxWeakSovent.Text" xml:space="preserve">
+    <value>弱溶剂</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Y交错数:</value>
+  </data>
+  <data name="checkBoxHeadDir.Text" xml:space="preserve">
+    <value>喷头方向</value>
+  </data>
+  <data name="checkBoxPort14.Text" xml:space="preserve">
+    <value>端口4</value>
+  </data>
+  <data name="checkBoxPort13.Text" xml:space="preserve">
+    <value>端口3</value>
+  </data>
+  <data name="checkBoxPort12.Text" xml:space="preserve">
+    <value>端口2</value>
+  </data>
+  <data name="checkBoxPort11.Text" xml:space="preserve">
+    <value>端口1</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>转接板1端口选择:</value>
+  </data>
+  <data name="checkBoxPort24.Text" xml:space="preserve">
+    <value>端口4</value>
+  </data>
+  <data name="checkBoxPort23.Text" xml:space="preserve">
+    <value>端口3</value>
+  </data>
+  <data name="checkBoxPort22.Text" xml:space="preserve">
+    <value>端口2</value>
+  </data>
+  <data name="checkBoxPort21.Text" xml:space="preserve">
+    <value>端口1</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>转接板2端口选择:</value>
+  </data>
+  <data name="m_ButtonOK.Text" xml:space="preserve">
+    <value>确定(&amp;O)</value>
+  </data>
+  <data name="m_ButtonClear.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="m_ButtonWriteInkCurve.Text" xml:space="preserve">
+    <value>墨水曲线</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
+  </data>
+  <data name="label_YMaxLen.Text" xml:space="preserve">
+    <value>Y最大行程</value>
+  </data>
+  <data name="cbxThreeColor_2.Text" xml:space="preserve">
+    <value>一头三色</value>
+  </data>
+  <data name="checkBoxHeadDir_2.Text" xml:space="preserve">
+    <value>喷头方向</value>
+  </data>
+  <data name="checkBoxOnlyUseOneHead_2.Text" xml:space="preserve">
+    <value>只用1头</value>
+  </data>
+  <data name="checkBoxWeakSovent_2.Text" xml:space="preserve">
+    <value>ECO</value>
+  </data>
+  <data name="checkBoxWrapAroundOnX_2.Text" xml:space="preserve">
+    <value>X方向回绕</value>
+  </data>
+  <data name="grouperColorOrder_2.Text" xml:space="preserve">
+    <value>色序</value>
+  </data>
+  <data name="label1_2.Text" xml:space="preserve">
+    <value>布局类型:</value>
+  </data>
+  <data name="label3_2.Text" xml:space="preserve">
+    <value>最大组数:</value>
+  </data>
+  <data name="label5_2.Text" xml:space="preserve">
+    <value>制造商名:</value>
+  </data>
+  <data name="label6_2.Text" xml:space="preserve">
+    <value>打印机名:</value>
+  </data>
+  <data name="label7_2.Text" xml:space="preserve">
+    <value>对称方式:</value>
+  </data>
+  <data name="label8_2.Text" xml:space="preserve">
+    <value>Y交错数:</value>
+  </data>
+  <data name="label9_2.Text" xml:space="preserve">
+    <value>2Bit模式:</value>
+  </data>
+  <data name="labelWhiteVarnishLayout_2.Text" xml:space="preserve">
+    <value>白亮模式:</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>扩展设置</value>
+  </data>
+  <data name="checkBoxSymmetricColorOder_2.Text" xml:space="preserve">
+    <value>对称色序</value>
+  </data>
+  <data name="label_VOffset.Text" xml:space="preserve">
+    <value>覆膜颜色偏移</value>
+  </data>
+  <data name="checkBoxMotorDebug.Text" xml:space="preserve">
+    <value>调机模式(跳过初始化动作,开机就绪)</value>
+  </data>
+  <data name="lblHeadCount.Text" xml:space="preserve">
+    <value>喷头数</value>
+  </data>
+</root>

@@ -1,0 +1,145 @@
+
+
+Param = {
+	Junctions = 8,
+	NzlsPerHead = 4,
+}
+
+-- id,name,support max heads,Heat channels,Temperature channels,Voltage channels,,half voltagechannels per head
+-- #define HEAD_BOARD_TYPE_KM1024_8HEAD	  =	23,
+
+function GetHeadBoardParam()
+	return  23, "km1024iMHE",8,1,1,2,4;   --2 fullVoltages, 4 halfVoltages
+end
+
+function GetSupportHeadCount()
+	return 2;
+end
+
+function GetSupportHeadList()
+	return "km1024iMHE","km3688";
+end
+
+function GetHeatChannel(hbId,jId,id,hbs)
+	return hbId*8+ 7 -jId;
+end
+
+function GetTempertureChannel(hbId,jId,id,hbs)
+	return hbId*8+ 7 -jId;
+end
+
+function GetDataChannel(hbId,jId,id,hbs,bReverse)
+	map = { 
+		hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2+1,
+		hbs*Param.Junctions*2+hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2+1,
+		hbs*Param.Junctions*2+hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2,  
+        hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2
+	}
+	if bReverse == 0 then
+		return map[id+1];
+        else
+   		return map[3-id+1];
+	end
+end
+
+function GetDataChannel_102(hbId,jId,id,hbs)
+	map = { 
+		hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2+1,
+		hbs*Param.Junctions*2+hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2+1,
+		hbs*Param.Junctions*2+hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2,  
+        hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2
+	}
+	return 1,map[id+1]
+end
+
+function GetNozzleLineElecDir(nzlID)
+	ret = math.floor((nzlID/2)%2)
+	return ret	
+end
+
+function GetVoltageChannel(hbId,jId,id,hbs)
+	return hbId*8 + 7 -jId;
+end
+
+function GetConnector(dataChn,hbs)
+	local hbId;
+	local jId;
+	hbId = math.floor(dataChn/16);
+	jId = math.floor((dataChn - hbId*16)/2);
+	return hbId,jId;
+end
+
+function GetHeadBoardIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -9*s;
+	t = 16*s;
+	w = 18*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -9*s;
+	t = 22*s;
+	w = 18*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionInfo()
+
+	return 126,24,    -- w,h
+		   645,484,  "J604",
+		   645,452,  "J603",
+		   480,484,  "J605",
+		   480,452,  "J602",
+		   314,484,  "J608",
+		   314,452,  "J607",
+		   148,484,  "J609",
+		   148,452,  "J606";
+end
+
+function DrawJunction(headboardId,jId)
+	local s = 10.0;
+	local rt = 16*s
+	local rw = 8.5*s;
+	local rb = 28*s
+
+	local jh = 1*s;
+	local jw = 2.8*s;
+	local x,y;
+	local str = tostring(headboardId+1).. tostring("-")..tostring(jId+1);
+	
+	--
+	SetPenColor(0x0);
+	DrawHeadBoardOutLine(-rw,rt,rw*2,rb-rt,2*s);
+	SetBrushColor(0x0);
+
+	for i = 0,7,1 do
+		x = -math.modf(i/2)*1.5*jw + 1.75*jw;
+		if(i%2==0) 
+			then y = 24*s + jh*1.5;
+			else y = 24*s;
+		end
+		
+		if( i==jId )
+			then 
+				FillRectangle(x,y,jh,jw);
+			else
+				DrawRectangle(x,y,jh,jw);
+		end
+
+	end
+
+	SetFontSize(6*s);
+	SetFontFamily("Arial");	
+	DrawString(str,-rw,rt,2*rw,rt);
+	
+	return 1;
+
+end

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_ComboBoxLang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 55</value>
+  </data>
+  <data name="m_ComboBoxUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 82</value>
+  </data>
+  <data name="m_CheckBoxBeepBeforePrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 210</value>
+  </data>
+  <data name="m_CheckBoxBeepBeforePrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="m_CheckBoxBeepBeforePrint.Text" xml:space="preserve">
+    <value>打印开始发声</value>
+  </data>
+  <data name="m_CheckBoxDelJobAfterPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 163</value>
+  </data>
+  <data name="m_CheckBoxDelJobAfterPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 18</value>
+  </data>
+  <data name="m_CheckBoxDelJobAfterPrint.Text" xml:space="preserve">
+    <value>打印完成后删除作业</value>
+  </data>
+  <data name="m_ButtonWorkFolder.Text" xml:space="preserve">
+    <value>浏览(&amp;B)...</value>
+  </data>
+  <data name="m_LabelWorkfolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelWorkfolder.Text" xml:space="preserve">
+    <value>工作目录</value>
+  </data>
+  <data name="m_labelColumn.Text" xml:space="preserve">
+    <value>在打印排列中显示:</value>
+  </data>
+  <data name="m_labelViewMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 31</value>
+  </data>
+  <data name="m_labelViewMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="m_labelViewMode.Text" xml:space="preserve">
+    <value>查看模式:</value>
+  </data>
+  <data name="m_labelLang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 58</value>
+  </data>
+  <data name="m_labelLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="m_labelLang.Text" xml:space="preserve">
+    <value>语言:</value>
+  </data>
+  <data name="m_labelUnit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 85</value>
+  </data>
+  <data name="m_labelUnit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="m_labelUnit.Text" xml:space="preserve">
+    <value>单位:</value>
+  </data>
+  <data name="buttonHotFolder.Text" xml:space="preserve">
+    <value>浏览(&amp;B)...</value>
+  </data>
+  <data name="checkBoxHotFolder.Text" xml:space="preserve">
+    <value>热文件夹</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>记录所有</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>打印面积记录</value>
+  </data>
+  <data name="checkBoxShowAttention.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="checkBoxShowAttention.Text" xml:space="preserve">
+    <value>显示操作向导</value>
+  </data>
+  <data name="m_CheckBoxDelFileAfterPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 187</value>
+  </data>
+  <data name="m_CheckBoxDelFileAfterPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 17</value>
+  </data>
+  <data name="m_CheckBoxDelFileAfterPrint.Text" xml:space="preserve">
+    <value>打印完成后删除文件</value>
+  </data>
+  <data name="comCancelButtonAction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 109</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 112</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>取消打印默认行为:</value>
+  </data>
+  <data name="checkBoxHoriMovDirReverse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 234</value>
+  </data>
+  <data name="checkBoxHoriMovDirReverse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="checkBoxHoriMovDirReverse.Text" xml:space="preserve">
+    <value>左右运动反向</value>
+  </data>
+  <data name="comboBoxSkins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 136</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 139</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>皮肤:</value>
+  </data>
+  <data name="checkBoxShowMeasurBeforPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="checkBoxShowMeasurBeforPrint.Text" xml:space="preserve">
+    <value>打印前测量</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBoxVertMovDirReverse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBoxVertMovDirReverse.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="checkBoxVertMovDirReverse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxVertMovDirReverse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 258</value>
+  </data>
+  <data name="checkBoxVertMovDirReverse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="checkBoxVertMovDirReverse.Text" xml:space="preserve">
+    <value>前后运动反向</value>
+  </data>
+  <data name="checkBoxZMovDirReverse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxZMovDirReverse.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="checkBoxZMovDirReverse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxZMovDirReverse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 18</value>
+  </data>
+  <data name="checkBoxZMovDirReverse.Text" xml:space="preserve">
+    <value>Z轴运动反向</value>
+  </data>
+  <data name="checkBox_HotFolderPrintImmediately.Text" xml:space="preserve">
+    <value>立即打印</value>
+  </data>
+</root>

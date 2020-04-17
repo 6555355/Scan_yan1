@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="numYCarryCleanPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 101</value>
+  </data>
+  <data name="numYCarryCleanPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="numYCarryCleanPos.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;numYCarryCleanPos.Name" xml:space="preserve">
+    <value>numYCarryCleanPos</value>
+  </data>
+  <data name="&gt;&gt;numYCarryCleanPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numYCarryCleanPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;numYCarryCleanPos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelYCarryCleanPos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelYCarryCleanPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelYCarryCleanPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 103</value>
+  </data>
+  <data name="labelYCarryCleanPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="labelYCarryCleanPos.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="labelYCarryCleanPos.Text" xml:space="preserve">
+    <value>YCarryCleanPos:</value>
+  </data>
+  <data name="&gt;&gt;labelYCarryCleanPos.Name" xml:space="preserve">
+    <value>labelYCarryCleanPos</value>
+  </data>
+  <data name="&gt;&gt;labelYCarryCleanPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelYCarryCleanPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;labelYCarryCleanPos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="numZCarryCleanPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 101</value>
+  </data>
+  <data name="numZCarryCleanPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="numZCarryCleanPos.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;numZCarryCleanPos.Name" xml:space="preserve">
+    <value>numZCarryCleanPos</value>
+  </data>
+  <data name="&gt;&gt;numZCarryCleanPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numZCarryCleanPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;numZCarryCleanPos.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelZCarryCleanPos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelZCarryCleanPos.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelZCarryCleanPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 103</value>
+  </data>
+  <data name="labelZCarryCleanPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="labelZCarryCleanPos.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="labelZCarryCleanPos.Text" xml:space="preserve">
+    <value>ZCarryCleanPos:</value>
+  </data>
+  <data name="&gt;&gt;labelZCarryCleanPos.Name" xml:space="preserve">
+    <value>labelZCarryCleanPos</value>
+  </data>
+  <data name="&gt;&gt;labelZCarryCleanPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelZCarryCleanPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;labelZCarryCleanPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numcleanTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 74</value>
+  </data>
+  <data name="numcleanTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="numcleanTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;numcleanTimes.Name" xml:space="preserve">
+    <value>numcleanTimes</value>
+  </data>
+  <data name="&gt;&gt;numcleanTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numcleanTimes.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;numcleanTimes.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cleanTimes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cleanTimes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cleanTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 76</value>
+  </data>
+  <data name="cleanTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="cleanTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="cleanTimes.Text" xml:space="preserve">
+    <value>cleanTimes:</value>
+  </data>
+  <data name="&gt;&gt;cleanTimes.Name" xml:space="preserve">
+    <value>cleanTimes</value>
+  </data>
+  <data name="&gt;&gt;cleanTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cleanTimes.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;cleanTimes.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="button_set.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 133</value>
+  </data>
+  <data name="button_set.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="button_set.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="button_set.Text" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="&gt;&gt;button_set.Name" xml:space="preserve">
+    <value>button_set</value>
+  </data>
+  <data name="&gt;&gt;button_set.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_set.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;button_set.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="numScraperPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 74</value>
+  </data>
+  <data name="numScraperPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="numScraperPos.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;numScraperPos.Name" xml:space="preserve">
+    <value>numScraperPos</value>
+  </data>
+  <data name="&gt;&gt;numScraperPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numScraperPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;numScraperPos.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="numcleanRowNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 47</value>
+  </data>
+  <data name="numcleanRowNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="numcleanRowNum.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;numcleanRowNum.Name" xml:space="preserve">
+    <value>numcleanRowNum</value>
+  </data>
+  <data name="&gt;&gt;numcleanRowNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numcleanRowNum.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;numcleanRowNum.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="numxDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 47</value>
+  </data>
+  <data name="numxDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="numxDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;numxDistance.Name" xml:space="preserve">
+    <value>numxDistance</value>
+  </data>
+  <data name="&gt;&gt;numxDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numxDistance.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;numxDistance.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="num_zCLeanPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>421, 20</value>
+  </data>
+  <data name="num_zCLeanPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="num_zCLeanPos.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;num_zCLeanPos.Name" xml:space="preserve">
+    <value>num_zCLeanPos</value>
+  </data>
+  <data name="&gt;&gt;num_zCLeanPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;num_zCLeanPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;num_zCLeanPos.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="numxStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 20</value>
+  </data>
+  <data name="numxStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="numxStartPos.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;numxStartPos.Name" xml:space="preserve">
+    <value>numxStartPos</value>
+  </data>
+  <data name="&gt;&gt;numxStartPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numxStartPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;numxStartPos.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelcleanRowNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelcleanRowNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 49</value>
+  </data>
+  <data name="labelcleanRowNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="labelcleanRowNum.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelcleanRowNum.Text" xml:space="preserve">
+    <value>cleanRowNum:</value>
+  </data>
+  <data name="&gt;&gt;labelcleanRowNum.Name" xml:space="preserve">
+    <value>labelcleanRowNum</value>
+  </data>
+  <data name="&gt;&gt;labelcleanRowNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelcleanRowNum.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;labelcleanRowNum.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelScraperPos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelScraperPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 76</value>
+  </data>
+  <data name="labelScraperPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="labelScraperPos.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelScraperPos.Text" xml:space="preserve">
+    <value>ScraperPos:</value>
+  </data>
+  <data name="&gt;&gt;labelScraperPos.Name" xml:space="preserve">
+    <value>labelScraperPos</value>
+  </data>
+  <data name="&gt;&gt;labelScraperPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelScraperPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;labelScraperPos.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label_zCLeanPos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_zCLeanPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 22</value>
+  </data>
+  <data name="label_zCLeanPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label_zCLeanPos.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label_zCLeanPos.Text" xml:space="preserve">
+    <value>zCLeanPos:</value>
+  </data>
+  <data name="&gt;&gt;label_zCLeanPos.Name" xml:space="preserve">
+    <value>label_zCLeanPos</value>
+  </data>
+  <data name="&gt;&gt;label_zCLeanPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_zCLeanPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;label_zCLeanPos.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labelxDistance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelxDistance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 49</value>
+  </data>
+  <data name="labelxDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="labelxDistance.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelxDistance.Text" xml:space="preserve">
+    <value>xDistance:</value>
+  </data>
+  <data name="&gt;&gt;labelxDistance.Name" xml:space="preserve">
+    <value>labelxDistance</value>
+  </data>
+  <data name="&gt;&gt;labelxDistance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelxDistance.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;labelxDistance.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label_xStartPos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_xStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 22</value>
+  </data>
+  <data name="label_xStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label_xStartPos.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label_xStartPos.Text" xml:space="preserve">
+    <value>xStartPos:</value>
+  </data>
+  <data name="&gt;&gt;label_xStartPos.Name" xml:space="preserve">
+    <value>label_xStartPos</value>
+  </data>
+  <data name="&gt;&gt;label_xStartPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_xStartPos.Parent" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;label_xStartPos.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="groupBox_CleanParameter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox_CleanParameter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox_CleanParameter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>571, 174</value>
+  </data>
+  <data name="groupBox_CleanParameter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox_CleanParameter.Text" xml:space="preserve">
+    <value>Clean Parameter</value>
+  </data>
+  <data name="&gt;&gt;groupBox_CleanParameter.Name" xml:space="preserve">
+    <value>groupBox_CleanParameter</value>
+  </data>
+  <data name="&gt;&gt;groupBox_CleanParameter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox_CleanParameter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox_CleanParameter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>571, 174</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GmaCleanSetting</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

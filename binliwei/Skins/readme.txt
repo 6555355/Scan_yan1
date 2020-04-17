@@ -1,0 +1,13 @@
+background.png					//作业信息信息显示区域背景
+background_main.png			//图片显示区域背景
+btnMax.png							//最大化按钮
+btnClose.png						//关闭按钮
+btnMin.png							//最小化按钮
+btnRes.png							//恢复按钮
+formheader.png					//标题栏背景
+H_border.png						//底部边框
+btnCustom.png						//标题栏自定义按钮,保留,但需要有这个资源
+toolbarSetting.png			//工具栏下的条状设置区域背景
+toolsbar.png						//工具栏背景
+V_border_L.png					//左侧边框样式
+V_border_R.png					//右侧边框样式

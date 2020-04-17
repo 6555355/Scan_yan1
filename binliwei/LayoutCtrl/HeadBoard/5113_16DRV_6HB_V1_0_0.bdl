@@ -1,0 +1,121 @@
+Param = {
+	Junctions = 6,
+	NzlsPerHead =  8,
+}
+-- id,name,support max heads,Heat channels,Temperature channels,Voltage channels,,half voltagechannels per head
+
+function GetHeadBoardParam()
+	return  83, "Epson_DX6",6,1,1,2,0;   --2 fullVoltages, 4 halfVoltages
+end
+
+function GetSupportHeadCount()
+	return 1;
+end
+
+function GetSupportHeadList()
+	return "Epson_DX6";
+end
+
+function GetHeatChannel(hbId,jId,id,hbs)
+	return hbId*8+ jId;
+end
+
+function GetTempertureChannel(hbId,jId,id,hbs)
+	return hbId*8+ jId;
+end
+
+function GetDataChannel(hbId,jId,id,hbs,bReverse)
+	-- val = {1,0,3,2,5,4,7,6};
+	-- return hbId*64+jId*8+ val[id+1];
+     if bReverse == 0 then
+           return hbId*64+jId*8+id;
+      else
+           return hbId*64+jId*8+7-id;
+      end
+end
+
+
+function GetNozzleLineElecDir(nzlID)
+	return 0	
+end
+
+function GetVoltageChannel(hbId,jId,id,hbs)
+	return hbId*8 + jId;
+end
+
+function GetConnector(dataChn,hbs)
+	local hbId;
+	local jId;
+	hbId = math.floor(dataChn/64);
+	jId = math.floor((dataChn - hbId*64)/8);
+	return hbId,jId;
+end
+
+function GetHeadBoardIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -9*s;
+	t = 16*s;
+	w = 18*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -9*s;
+	t = 22*s;
+	w = 18*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionInfo()
+
+	return 130,90,    -- w,h
+		  166,770,   "J1",
+		  306,770,  "J2",
+		  446,770,  "J3",
+		  586,770,  "J4",
+		  726,770,  "J5",
+		  866,770,  "J6"
+		  
+end
+
+function DrawJunction(headboardId,jId)
+	local s = 10.0;
+	local rt = 10*s
+	local rw = 11*s;
+	local rb = 18*s
+
+	local jh = 0.5*s;
+	local jw = 1*s;
+	local x,y;
+	local str = tostring(headboardId+1).. tostring("-")..tostring(jId+1);
+	
+	--
+	SetPenColor(0x0);
+	DrawHeadBoardOutLine(-rw,rt,rw*2,rb-rt,1.6*s);
+	SetBrushColor(0x0);
+
+	for i = 0,5,1 do
+		x = -3*jw-3.5*jw/2 +(jw*1.5)*i;
+		y = 16*s;	
+		if( i==jId )
+			then 
+				FillRectangle(x,y,jh,jw);
+			else
+				DrawRectangle(x,y,jh,jw);
+		end
+
+	end
+
+	SetFontSize(5*s);
+	SetFontFamily("Arial");	
+	DrawString(str,-rw,rt,2*rw,rt);
+	
+	return 1;
+end

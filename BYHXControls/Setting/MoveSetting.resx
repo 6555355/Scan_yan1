@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="m_ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button4Up.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button4Up.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button4Up.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>130, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABI
+        CQAAAk1TRnQBSQFMAgEBBgEAAVABAAFQAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/00AAuwIAAT5MgABFAkA
+        BPktAAL5AwAC7AgABPksAAT5DAAE+SsABvkLAAT5KgAI+QoABPkpAAr5BgAK+SUADPkGAAj5KgAE+QsA
+        BvkrAAT5DAAE+SwABPkJAALsAgAC+S0ABPkJAAEUMgAE+QkAAuz/ACIABPkeAAH5HQAE+Q4AAfkPAAL5
+        DQAC+Q0ABPkNAAL5DwAD+QsABPkMAAT5DAAD+QkACvkJAAb5CwAE+QsACvkDAAv5BwAI+QoABPkKAAv5
+        AwAM+QUACvkGAAr5BwAL+QMAC/kFAAz5BgAI+QkACvkDAAr5CgAE+QsABvkLAAP5DwAD+QsABPkMAAT5
+        DQAC+Q8AAvkMAAT5DQAC+Q8AAfkPAAH5DQAE+TwABPmWAAFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEB
+        AQABAQYAAQEWAAP/AQAE/wQAAf8B4wH8AT8EAAH/AfcB/AE/BAAB/gFzAfwBPwQAAfwBIwH8AT8EAAH4
+        AR8B/AE/BAAB8AEPAfwBPwQAAeABBwHgAQcEAAHAAQMB8AEPBAAB/AE/AfgBHwQAAfwBPwH8AT8EAAH8
+        AT8BxgF/BAAB/AE/Ae8B/wQAAfwBPwHnAf8EAAL/AccB/wQABP8EAA7/AfwBPwP/AX8C/wH8AT8B/wF/
+        Af8BPwH+AX8B/AE/Af4BfwH/AR8B/AE/AfwBPwH8AX8BwAEPAfgBHwH8AT8B+AEBAcABBwHwAQ8B/AE/
+        AfABAQHAAQMB4AEHAeABBwHwAQEBwAEHAcABAwHwAQ8B+AEBAcABDwH8AT8B+AEfAfwBfwH/AR8B/AE/
+        AfwBPwH+AX8B/wE/AfwBPwH+AX8B/wF/Af8BfwH8AT8G/wH8AT8S/ws=
+</value>
+  </data>
+  <data name="button4Up.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button4Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 170</value>
+  </data>
+  <data name="button4Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="button4Up.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="button4Up.Text" xml:space="preserve">
+    <value>&amp;Move</value>
+  </data>
+  <data name="&gt;&gt;button4Up.Name" xml:space="preserve">
+    <value>button4Up</value>
+  </data>
+  <data name="&gt;&gt;button4Up.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4Up.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;button4Up.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button4Down.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button4Down.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="button4Down.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button4Down.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button4Down.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 170</value>
+  </data>
+  <data name="button4Down.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="button4Down.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="button4Down.Text" xml:space="preserve">
+    <value>&amp;Move</value>
+  </data>
+  <data name="&gt;&gt;button4Down.Name" xml:space="preserve">
+    <value>button4Down</value>
+  </data>
+  <data name="&gt;&gt;button4Down.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4Down.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;button4Down.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_ComboBox4speed.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_ComboBox4speed.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_ComboBox4speed.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_ComboBox4speed.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_ComboBox4speed.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_ComboBox4speed.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_ComboBox4speed.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_ComboBox4speed.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_ComboBox4speed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 172</value>
+  </data>
+  <data name="m_ComboBox4speed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="m_ComboBox4speed.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBox4speed.Name" xml:space="preserve">
+    <value>m_ComboBox4speed</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBox4speed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBox4speed.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBox4speed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 176</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>4th-axis:</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonMoveUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMoveUp.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="buttonMoveUp.ImageIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonMoveUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonMoveUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 132</value>
+  </data>
+  <data name="buttonMoveUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="buttonMoveUp.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="buttonMoveUp.Text" xml:space="preserve">
+    <value>&amp;Move</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveUp.Name" xml:space="preserve">
+    <value>buttonMoveUp</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveUp.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveUp.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonMoveDown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMoveDown.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="buttonMoveDown.ImageIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonMoveDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonMoveDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 132</value>
+  </data>
+  <data name="buttonMoveDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="buttonMoveDown.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="buttonMoveDown.Text" xml:space="preserve">
+    <value>&amp;Move</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveDown.Name" xml:space="preserve">
+    <value>buttonMoveDown</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveDown.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveDown.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonMoveB.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMoveB.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="buttonMoveB.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonMoveB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonMoveB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 94</value>
+  </data>
+  <data name="buttonMoveB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="buttonMoveB.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="buttonMoveB.Text" xml:space="preserve">
+    <value>&amp;Move</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveB.Name" xml:space="preserve">
+    <value>buttonMoveB</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveB.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveB.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="button_MoveF.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button_MoveF.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="button_MoveF.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button_MoveF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_MoveF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 94</value>
+  </data>
+  <data name="button_MoveF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="button_MoveF.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="button_MoveF.Text" xml:space="preserve">
+    <value>&amp;Move</value>
+  </data>
+  <data name="&gt;&gt;button_MoveF.Name" xml:space="preserve">
+    <value>button_MoveF</value>
+  </data>
+  <data name="&gt;&gt;button_MoveF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_MoveF.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;button_MoveF.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="button_MoveR.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button_MoveR.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="button_MoveR.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button_MoveR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_MoveR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>304, 56</value>
+  </data>
+  <data name="button_MoveR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="button_MoveR.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="button_MoveR.Text" xml:space="preserve">
+    <value>&amp;Move</value>
+  </data>
+  <data name="&gt;&gt;button_MoveR.Name" xml:space="preserve">
+    <value>button_MoveR</value>
+  </data>
+  <data name="&gt;&gt;button_MoveR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_MoveR.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;button_MoveR.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="buttonMoveLeft.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonMoveLeft.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="buttonMoveLeft.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonMoveLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonMoveLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 56</value>
+  </data>
+  <data name="buttonMoveLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 24</value>
+  </data>
+  <data name="buttonMoveLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="buttonMoveLeft.Text" xml:space="preserve">
+    <value>&amp;Move</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveLeft.Name" xml:space="preserve">
+    <value>buttonMoveLeft</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveLeft.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;buttonMoveLeft.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="m_ComboBoxZspeed.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_ComboBoxZspeed.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_ComboBoxZspeed.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_ComboBoxZspeed.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_ComboBoxZspeed.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_ComboBoxZspeed.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_ComboBoxZspeed.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_ComboBoxZspeed.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_ComboBoxZspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 134</value>
+  </data>
+  <data name="m_ComboBoxZspeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="m_ComboBoxZspeed.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxZspeed.Name" xml:space="preserve">
+    <value>m_ComboBoxZspeed</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxZspeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxZspeed.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxZspeed.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="m_LabelZspeed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelZspeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelZspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 138</value>
+  </data>
+  <data name="m_LabelZspeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="m_LabelZspeed.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelZspeed.Text" xml:space="preserve">
+    <value>Z Speed:</value>
+  </data>
+  <data name="m_LabelZspeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelZspeed.Name" xml:space="preserve">
+    <value>m_LabelZspeed</value>
+  </data>
+  <data name="&gt;&gt;m_LabelZspeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelZspeed.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_LabelZspeed.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_LabelLeftEdge.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelLeftEdge.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelLeftEdge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 62</value>
+  </data>
+  <data name="m_LabelLeftEdge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="m_LabelLeftEdge.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelLeftEdge.Text" xml:space="preserve">
+    <value>X Speed:</value>
+  </data>
+  <data name="m_LabelLeftEdge.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLeftEdge.Name" xml:space="preserve">
+    <value>m_LabelLeftEdge</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLeftEdge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLeftEdge.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLeftEdge.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="m_LabelY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 100</value>
+  </data>
+  <data name="m_LabelY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="m_LabelY.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelY.Text" xml:space="preserve">
+    <value>Y Speed:</value>
+  </data>
+  <data name="m_LabelY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelY.Name" xml:space="preserve">
+    <value>m_LabelY</value>
+  </data>
+  <data name="&gt;&gt;m_LabelY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelY.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_LabelY.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 96</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="m_NumericUpDownMoveYSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownMoveYSpeed.Name" xml:space="preserve">
+    <value>m_NumericUpDownMoveYSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownMoveYSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownMoveYSpeed.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownMoveYSpeed.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 58</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
+  </data>
+  <data name="m_NumericUpDownMoveXSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownMoveXSpeed.Name" xml:space="preserve">
+    <value>m_NumericUpDownMoveXSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownMoveXSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownMoveXSpeed.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownMoveXSpeed.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="m_LabelLength.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelLength.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 24</value>
+  </data>
+  <data name="m_LabelLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="m_LabelLength.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelLength.Text" xml:space="preserve">
+    <value>Length:</value>
+  </data>
+  <data name="m_LabelLength.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLength.Name" xml:space="preserve">
+    <value>m_LabelLength</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLength.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLength.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="m_NumericUpDownLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 24</value>
+  </data>
+  <data name="m_NumericUpDownLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 21</value>
+  </data>
+  <data name="m_NumericUpDownLength.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownLength.Name" xml:space="preserve">
+    <value>m_NumericUpDownLength</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownLength.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownLength.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="m_ButtonStop.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonStop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 215</value>
+  </data>
+  <data name="m_ButtonStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 24</value>
+  </data>
+  <data name="m_ButtonStop.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_ButtonStop.Text" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonStop.Name" xml:space="preserve">
+    <value>m_ButtonStop</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonStop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonStop.Parent" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonStop.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="m_GroupBoxMove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="m_GroupBoxMove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 256</value>
+  </data>
+  <data name="m_GroupBoxMove.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="m_GroupBoxMove.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxMove.Name" xml:space="preserve">
+    <value>m_GroupBoxMove</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxMove.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.GradientControls.Grouper, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxMove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxMove.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>552, 336</value>
+  </data>
+  <data name="&gt;&gt;m_ToolTip.Name" xml:space="preserve">
+    <value>m_ToolTip</value>
+  </data>
+  <data name="&gt;&gt;m_ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MoveSetting</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.BYHXUserControl, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

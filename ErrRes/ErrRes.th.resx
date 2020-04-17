@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CoreBoard_Service_SX2" xml:space="preserve">
+    <value>เรียกช่างซ่อม :0.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA0" xml:space="preserve">
+    <value>เรียกช่างซ่อม :1.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA1" xml:space="preserve">
+    <value>เรียกช่างซ่อม : 2.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA2" xml:space="preserve">
+    <value>เรียกช่างซ่อม :3.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA3" xml:space="preserve">
+    <value>เรียกช่างซ่อม :4.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADTOMAINROAD" xml:space="preserve">
+    <value>เรียกช่างซ่อม :5.</value>
+  </data>
+  <data name="CoreBoard_Service_BYHX_DATA" xml:space="preserve">
+    <value>เรียกช่างซ่อม :6.</value>
+  </data>
+  <data name="CoreBoard_Service_EEPROM_CHK" xml:space="preserve">
+    <value>เรียกช่างซ่อม : 16.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SX2RESET" xml:space="preserve">
+    <value>การรีเซทชิพ usb อย่างผิดกฎหมาย.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGHEADER" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGHEADERSIZE" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_JOBSTARTHEADER" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 3.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_BANDDATASIZE" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 4.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGFORMAT" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 5.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_DMA0WORKING" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 6.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_PRINTPOINT" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 7.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_OLIMIT" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 8.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_OPPLIMIT" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 9.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPINITS1" xml:space="preserve">
+    <value>เคลื่อนที่ขั้นที่ 1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPINITS2" xml:space="preserve">
+    <value>เคลื่อนที่ขั้นที่ 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADINITS1" xml:space="preserve">
+    <value>แผงหัวพิมพ์ ขั้น 1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADINITS2" xml:space="preserve">
+    <value>แผงหัวพิมพ์ขั้น 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADTOMAINROAD" xml:space="preserve">
+    <value>ข้อบกพร่อง lvds.</value>
+  </data>
+  <data name="CoreBoard_Fatal_BYHX_DATA" xml:space="preserve">
+    <value>ไม่ได้เตรียมความพร้อมโดยซอฟท์แวร์.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_BANDDIRECTION" xml:space="preserve">
+    <value>ค่าบกพร่องของแถบทิศทาง.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPUPDATE_FAIL" xml:space="preserve">
+    <value>การปรับปรุง dsp ล้มเหลว.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_READ" xml:space="preserve">
+    <value>การอ่าน eeprom ล้มเหลว.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_WRITE" xml:space="preserve">
+    <value>การเขียนบน eeprom ล้มเหลว.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_DATA" xml:space="preserve">
+    <value>ไม่ได้เตรียมความพร้อมโปรแกรมโดยโรงงาน.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADBOARD_RESET" xml:space="preserve">
+    <value>แผงบอร์ดหัวพิมพ์ถูกรีเซท.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SPECTRAHVBINITS1" xml:space="preserve">
+    <value>แผงแรงดันไฟฟ้าสูง spectra ไม่สามารถถูกเตรียมในขั้นที่ 1 ได้.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PRINTHEAD_NOTMATCH" xml:space="preserve">
+    <value>แผงบอร์ดหัวพิมพ์ไม่ตรงกับข้อมูลที่ตั้งจากโรงงานโปรดรีเซทข้อมูลจากโรงงานหรือเปลี่ยนแผงหัวพิมพ์ใหม่.</value>
+  </data>
+  <data name="CoreBoard_Fatal_MANUFACTURERID_NOTMATCH" xml:space="preserve">
+    <value>idของบอร์ดไม่ตรงกับของบริษัท ฯ โปรดอัพเดท.</value>
+  </data>
+  <data name="CoreBoard_Err_EP0OVERUN_SETUPDATA" xml:space="preserve">
+    <value>พอร์ท ep0 แตกหัก.</value>
+  </data>
+  <data name="CoreBoard_Err_USB1_USB1CONNECT" xml:space="preserve">
+    <value>เชื่อมต่อ usb 1.1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_USB1_USB1CONNECT" xml:space="preserve">
+    <value>เชื่อมต่อ usb 1.1.</value>
+  </data>
+  <data name="CoreBoard_Err_UART2_TXTIMEOUT" xml:space="preserve">
+    <value>เวลานอกการเคลื่อนที่การสื่อสาร.</value>
+  </data>
+  <data name="CoreBoard_Err_UART1_TXTIMEOUT" xml:space="preserve">
+    <value>เวลานอกการสื่อสารกับแผงหัวพิมพ์.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_PRINTDATA" xml:space="preserve">
+    <value>ข้อมูลพิมพ์ไม่ตรงกับไฟ.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_LESSDATA" xml:space="preserve">
+    <value>Print data is less than fire number</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_ULTRADATA" xml:space="preserve">
+    <value>ข้อมูลพิมพ์น้อยกว่าจำนวนไฟ.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_WRONGSTATUS" xml:space="preserve">
+    <value>ข้อมูลพิมพ์ไม่เท่ากับจำนวนไฟ.</value>
+  </data>
+  <data name="CoreBoard_Initialing_ARM" xml:space="preserve">
+    <value>การเขียนอักษรย่อ arm.</value>
+  </data>
+  <data name="CoreBoard_Initialing_SX2" xml:space="preserve">
+    <value>การเตรียม usb.</value>
+  </data>
+  <data name="CoreBoard_Initialing_FPGA" xml:space="preserve">
+    <value>กำลังเขียนอักษรย่อ fpga.</value>
+  </data>
+  <data name="CoreBoard_Initialing_DSP" xml:space="preserve">
+    <value>การเขียนอักษรย่อ dsp.</value>
+  </data>
+  <data name="CoreBoard_Initialing_HEADBOARD" xml:space="preserve">
+    <value>การเตรียมแผงหัวพิมพ์.</value>
+  </data>
+  <data name="CoreBoard_Initialing_HVB" xml:space="preserve">
+    <value>Initializing Spectra high voltage board.</value>
+  </data>
+  <data name="CoreBoard_Warning_UNKNOWNHEADERTYPE" xml:space="preserve">
+    <value>การเตือนที่ไม่มีใครทราบ</value>
+  </data>
+  <data name="CoreBoard_Warning_EP0OVERUN_REQUEST_IGNORE" xml:space="preserve">
+    <value>หยุดการทำงาน ep0.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_CYAN" xml:space="preserve">
+    <value>การปั้มน้ำหมึกสีฟ้า.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_MAGENTA" xml:space="preserve">
+    <value>การปั้มน้ำหมึกสีแดง.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_YELLOW" xml:space="preserve">
+    <value>การปั้มน้ำหมึกสีเหลือง.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_BLACK" xml:space="preserve">
+    <value>การปั้มน้ำหมึกสีดำ.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_LIGHTCYAN" xml:space="preserve">
+    <value>การปั้มน้ำหมึกสีฟ้าอ่อน.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_LIGHTMAGENTA" xml:space="preserve">
+    <value>การปั้มน้ำหมึกสีแดงอ่อน.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATING" xml:space="preserve">
+    <value>กำลังอัพเกรด.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_SUCCESS" xml:space="preserve">
+    <value>การปรับปรุงสำเร็จ.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_BEGIN_TIMEOUT" xml:space="preserve">
+    <value>เวลานอกการเริ่มต้น dsp.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_DATA_TIMEOUT" xml:space="preserve">
+    <value>เวลานอกข้อมูล dsp.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_END_TIMEOUT" xml:space="preserve">
+    <value>เวลานอกการสิ้นสุด dsp.</value>
+  </data>
+  <data name="CoreBoard_Updating_ILIGALFILE" xml:space="preserve">
+    <value>รูปแบบแฟ้มข้อมูลที่ปรับปรุงผิดพลาด.</value>
+  </data>
+  <data name="CoreBoard_Updating_INTERNAL_DATA" xml:space="preserve">
+    <value>ข้อมูลถูกปรับปรุงอย่างผิดกฎหมาย.</value>
+  </data>
+  <data name="CoreBoard_Updating_CHECKSUM" xml:space="preserve">
+    <value>ตรวจสอบข้อผิดพลาดอัพเกรด.</value>
+  </data>
+  <data name="CoreBoard_Updating_FLASHOP" xml:space="preserve">
+    <value>ข้อผิดพลาดที่หน่วยความจำแฟลช.</value>
+  </data>
+  <data name="COMCommand_Abort_Command" xml:space="preserve">
+    <value>ทำให้คำสั่งสื่อสารเป็นโมฆะ</value>
+  </data>
+  <data name="COMCommand_Abort_Parameter" xml:space="preserve">
+    <value>ทำให้สภาพแวดล้อมสื่อสารเป็นโมฆะ</value>
+  </data>
+  <data name="COMCommand_Abort_MoveAgain" xml:space="preserve">
+    <value>เคลื่อนที่อีกครั้ง!</value>
+  </data>
+  <data name="COMCommand_Abort_TxTimeOut" xml:space="preserve">
+    <value>หมดเวลาส่ง</value>
+  </data>
+  <data name="COMCommand_Abort_FormatErr" xml:space="preserve">
+    <value>ข้อบกพร่อง crc ของข้อมูลคอมพิวเตอร์</value>
+  </data>
+  <data name="COMCommand_Abort_MeasureSensor" xml:space="preserve">
+    <value>เซนเซอร์วัดกระดาษบกพร่อง</value>
+  </data>
+  <data name="COMCommand_Abort_NoPaper" xml:space="preserve">
+    <value>ไม่มีกระดาษ</value>
+  </data>
+  <data name="COMCommand_Abort_PaperJamX" xml:space="preserve">
+    <value>กระดาษติดในแนวระนาบ.</value>
+  </data>
+  <data name="COMCommand_Abort_PaperJamY" xml:space="preserve">
+    <value>กระดาษติดในแนวดิ่ง.</value>
+  </data>
+  <data name="COMCommand_Abort_IndexNoMatch" xml:space="preserve">
+    <value>ดัชนีบกพร่อง</value>
+  </data>
+  <data name="COMCommand_Abort_LimitSensor" xml:space="preserve">
+    <value>เซนเซอร์จำกัดแบบสัมผัส</value>
+  </data>
+  <data name="COMCommand_Abort_SensorPause" xml:space="preserve">
+    <value>สถานที่ตั้งเซนเซอร์แบบสัมผัส</value>
+  </data>
+  <data name="Software_BoardCommunication" xml:space="preserve">
+    <value>การสื่อสารของ usb บกพร่อง</value>
+  </data>
+  <data name="Software_NoDevice" xml:space="preserve">
+    <value>ไม่สามารถเปิดอุปกรณ์ usb ได้</value>
+  </data>
+  <data name="Software_Parser" xml:space="preserve">
+    <value>รูปแบบแฟ้มข้อมูลเป็นโมฆะ</value>
+  </data>
+  <data name="Software_PrintMode" xml:space="preserve">
+    <value>สภาพแวดล้อมการพิมพ์บกพร่อง</value>
+  </data>
+  <data name="Software_MediaTooSmall" xml:space="preserve">
+    <value>ความกว้างกระดาษน้อยเกินไป.</value>
+  </data>
+  <data name="Software_Shakhand" xml:space="preserve">
+    <value>ข้อบกพร่องความร่วมมือระหว่างซอฟท์แวร์และ fw</value>
+  </data>
+  <data name="Software_MismatchID" xml:space="preserve">
+    <value>หมายเลขประจำตัวเครื่องพิมพ์ไม่ได้รับการรับรอง โปรดปรับปรุงซอฟท์แวร์ให้ทันสมัย!</value>
+  </data>
+  <data name="Software_Language" xml:space="preserve">
+    <value>ไม่รองรับภาษา</value>
+  </data>
+  <data name="Software_VersionNoMatch" xml:space="preserve">
+    <value>รุ่นปัจจุบัน คือ {0} โปรดปรับปรุงให้ทันสมัยเป็นรุ่น {1}</value>
+  </data>
+  <data name="Software_FileResolutionNoMatchPrinter" xml:space="preserve">
+    <value>ความละเอียดที่พิมพ์ไม่ตรงกับความละเอียดเครื่องพิมพ์!</value>
+  </data>
+  <data name="Software_FileNoSupportResolution" xml:space="preserve">
+    <value>ไม่รองรับความละเอียดในการพิมพ์!</value>
+  </data>
+  <data name="Software_FileNoSupportForamt" xml:space="preserve">
+    <value>ไม่รองรับรูปแบบแฟ้มข้อมูล!</value>
+  </data>
+  <data name="Software_FilePassMatchResolution" xml:space="preserve">
+    <value>ไม่สามารถพิมพ์งานนี้ด้วยการตั้งค่าพาส(จำนวนซ้ำ)ปัจจุบัน กด ok เพื่อพิมพ์งานนี้ด้วย {0} พาส.</value>
+  </data>
+  <data name="Software_FileColorNumber" xml:space="preserve">
+    <value>หมายเลขสีที่พิมพ์ไม่ตรงกับเครื่องพิมพ์!</value>
+  </data>
+  <data name="Software_StepTolTooMuch" xml:space="preserve">
+    <value>ไม่มีการป้อนกลับในทิศทาง y หรือไม่ได้คำนวณขั้น!</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>ป้อนรหัสผ่านแบบจำกัดเวลาผิดพลาด มีพยัญชนะต้องห้ามอยู่ด้วย รหัสผ่านถูกล้มเลิก โปรดป้อนใหม่อีกครั้งหนึ่ง.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_WRONG" xml:space="preserve">
+    <value>Illegal time-limit password. The password is ignored,  please input again.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>Time-limit password and manufacturer ID mismatch. The password is ignored,  please input again.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>รหัสผ่านแบบจำกัดเวลาและเลขประจำตัวโรงงานผลิตไม่ตรงกัน รหัสผ่านถูกล้มเลิก โปรดป้อนใหม่อีกครั้งหนึ่ง.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_FIRST" xml:space="preserve">
+    <value>First warning: 100 hours left against current time-limit password,  please request a new password from the producer.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_SECOND" xml:space="preserve">
+    <value>Second warning: 50 hours left against current time-limit password,  please request a new password from the producer.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_LAST" xml:space="preserve">
+    <value>คำเตือนสุดท้าย : หลังจาก 1 ชั่วโมงแล้วการพิมพ์ใดๆจะหยุดลง ให้ร้องขอรหัสผ่านใหม่จากบริษัท เซ็นทรัลอินดัสตรี้ จำกัดทันที!</value>
+  </data>
+  <data name="CoreBoard_Fatal_LIMITEDTIME_RUNOUT" xml:space="preserve">
+    <value>ข้อบกพร่องร้ายแรง: เกินเวลารหัสแบบจำกัดเวลา โปรดป้อนรหัสใหม่.</value>
+  </data>
+  <data name="CoreBoard_Fatal_UILANGUAGE_NOT_MATCH" xml:space="preserve">
+    <value>Serious Error: The language of the software setting does not correspond to authority. Please reset the software language or input the new language matching password again,  and restart the printer.</value>
+  </data>
+  <data name="COMCommand_Abort_Encoder" xml:space="preserve">
+    <value>เครื่องถอดรหัสบกพร่อง!</value>
+  </data>
+  <data name="COMCommand_Abort_StepEncoder" xml:space="preserve">
+    <value>ไม่พบขั้นตอนการเข้ารหัส!</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_EEPROM_READ" xml:space="preserve">
+    <value>เรียกซ่อมแผงวงจรหลัก: การอ่าน eeprom ล้มเหลว</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_EEPROM_WRITE" xml:space="preserve">
+    <value>เรียกซ่อมแผงวงจรหลัก: การเขียนบน eeprom ล้มเหลว</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_MAINBOARDSERIOUSERROR" xml:space="preserve">
+    <value>แผงวงจรหลักบกพร่องร้ายแรง : ข้อมูลโรงงานไม่ได้ตั้งค่ามาหรือตั้งค่าไม่ถูกต้อง</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_I2CWRITEFPGA_ERROR" xml:space="preserve">
+    <value>ข้อบกพร่องภายในแผงวงจรหลัก : i2c เขียน ข้อบกพร่อง fpga</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_I2CREADFPGA_ERROR" xml:space="preserve">
+    <value>ข้อบกพร่องภายในแผงวงจรหลัก : i2c เขียน ข้อบกพร่อง fpga</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_CALIBRATIONVNOSET" xml:space="preserve">
+    <value>คำเตือนแผงวงจรหลัก : การปรับค่าแรงดันไฟฟ้าไม่ได้ตั้งเอาไว้, ใช้ค่าที่ตั้งเอาไว้ก่อน</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_BASEVNOSET" xml:space="preserve">
+    <value>คำเตือนแผงวงจรหลัก : แรงดันไฟฟ้าฐานไม่ได้ตั้งเอาไว้, ใช้ค่าที่ตั้งเอาไว้ก่อน</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_SPRAYPARAMETERSNOSET" xml:space="preserve">
+    <value>คำเตือนแผงวงจรหลัก : สภาพแวดล้อมการพ่นไม่ได้ตั้ง, ใช้ค่าที่ตั้งเอาไว้ก่อน</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_USERSETTINGNOSET" xml:space="preserve">
+    <value>คำเตือนแผงวงจรหลัก : ข้อมูลผู้ใช้(ชนิดของน้ำหมึก, อัตราเร็วแบบไอพ่นไม่ได้ตั้งไว้, ใช้ค่าที่ตั้งเอาไว้ก่อน)</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_EEPROM_READ" xml:space="preserve">
+    <value>เรียกช่างซ่อมแผงหัวพิมพ์ : การอ่าน eeprom ล้มเหลว</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_EEPROM_WRITE" xml:space="preserve">
+    <value>service call: เรียกช่างซ่อมแผงหัวพิมพ์ : การเขียน eeprom ล้มเหลว</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_NOHEADBOARDFEATURESDATA" xml:space="preserve">
+    <value>แผงหัวพิมพ์บกพร่องร้ายแรง : ข้อมูลแผงหัวพิมพ์ไม่ถูกเขียนหรือจัดรูปแบบบกพร่อง</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_HEADBOARDFEATURESDATANOMATCH" xml:space="preserve">
+    <value>แผงหัวพิมพ์บกพร่องอย่างร้ายแรง : ข้อมูลแผงหัวพิมพ์และที่ผู้ใช้ตั้งค่าไม่ตรงกัน</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_NOFINDBYHX" xml:space="preserve">
+    <value>ไม่สามารถค้นพบข้อมูลส่วนหัว</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_HEADERTYPE" xml:space="preserve">
+    <value>ชนิดส่วนหัวไม่ใช่ 0,1,2</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_JOBHEADERMARKED" xml:space="preserve">
+    <value>อ่านแถบสี ส่วนหัวของงานทำให้ความสับสนแรกปรากฏเป็นรอย</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_STILLFIREAFTERPRINT" xml:space="preserve">
+    <value>band ไฟยังคงเข้ามาหลังพิมพ์แถบเสร็จสมบูรณ์แล้ว.</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_NOTENOUGHFIRE" xml:space="preserve">
+    <value>มีไฟไม่พอบนจำนวนของคำสั่งที่ได้รับตอนจบงานพิมพ์</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_GREATERTHANBANDHEADER" xml:space="preserve">
+    <value>the actual print data is greater than the data in Band header.</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_LESSTHANBANDHEADER" xml:space="preserve">
+    <value>ข้อมูลการพิมพ์จริงน้อยกว่าข้อมูลในแถบส่วนหัว.</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_FIBERNOTCONNECTED" xml:space="preserve">
+    <value>ข้อผิดพลาดภายใน 10.</value>
+  </data>
+  <data name="Software_GetHWSettingFail" xml:space="preserve">
+    <value>ได้การตั้งค่า hw ล้มเหลลว!</value>
+  </data>
+  <data name="COMCommand_Abort_ReadEEPROM" xml:space="preserve">
+    <value>อ่าน eeprom บกพร่อง.</value>
+  </data>
+  <data name="COMCommand_Abort_WriteEEPROM" xml:space="preserve">
+    <value>การเขียน eeprom บกพร่อง!</value>
+  </data>
+  <data name="COMCommand_Abort_WriteEEPROMTwice" xml:space="preserve">
+    <value>เขียน eeprom 2 ครั้ง โดยทั่วไปแล้วมีการรายงานข้อบกพร่องนี้ แผงวงจรหลักไม่ตอบสนองต่อสัญญาณ!</value>
+  </data>
+  <data name="COMCommand_Abort_TimeOver" xml:space="preserve">
+    <value>การจำกัดเวลาจะต้องใช้จนหมด!</value>
+  </data>
+  <data name="COMCommand_Abort_TimeWarning" xml:space="preserve">
+    <value>เพื่อจำกัดเวลาไม่ให้เกิน 50 ชั่วโมง!</value>
+  </data>
+  <data name="COMCommand_Abort_Lang" xml:space="preserve">
+    <value>ภาษาและข้อจำกัดไม่ตรงกัน!</value>
+  </data>
+  <data name="COMCommand_Abort_IllegalContent" xml:space="preserve">
+    <value>เนื้อหาของ eeprom บกพร่อง ค่าที่ใช้กำหนดการทำงานของ eeprom ไม่สมบูรณ์!</value>
+  </data>
+  <data name="COMCommand_Abort_IllegalPwd" xml:space="preserve">
+    <value>รหัสผ่านผิดพลาด!</value>
+  </data>
+  <data name="CoreBoard_Updating_EREASE" xml:space="preserve">
+    <value>แขนสว่างวูบถูกลบทิ้ง.</value>
+  </data>
+  <data name="CoreBoard_Updating_FX2NOEEPROM" xml:space="preserve">
+    <value>ไม่สามารถใช้ eeprom ได้.</value>
+  </data>
+  <data name="CoreBoard_Updating_FX2UPDATELOADER" xml:space="preserve">
+    <value>ปรับปรุงเครื่องอ่านข้อมูลล้มเหลว!</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>ป้อนรหัสผ่านเสริมผิดพลาด, โดยมีค่า 0 ~ นอก f.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_WRONG" xml:space="preserve">
+    <value>ไม่ใช่รหัสผ่านเสริมที่ถูกต้องตามกฎหมาย.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>รหัสผ่านเสริมและผู้จำหน่ายสินค้าไม่ตรงกัน.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>รหัสผ่านเสริมและแผงวงจรไม่ตรงกัน.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_PROHIBIT_SENSOR" xml:space="preserve">
+    <value>เพื่อความปลอดภัย, เมื่อถังน้ำหมึกเต็มปั้มน้ำหมึกทั้งหมดหยุดทำงาน.</value>
+  </data>
+  <data name="CoreBoard_Warning_OVER_SPEED_NOT_SUPPORT" xml:space="preserve">
+    <value>แผงหัวพิมพ์ไม่สนับสนุนอัตราเร็วเกินไป ระบบจะบีบบังคัยให้ใช้อัตราเร็วสูง.</value>
+  </data>
+  <data name="CoreBoard_Err_UV_CTR_WRONGSTATUS" xml:space="preserve">
+    <value>สถานะภายใน.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_WRONGCOMMAND" xml:space="preserve">
+    <value>Fpga ได้รับคำสั่งผิด.</value>
+  </data>
+  <data name="CoreBoard_Err_MOTION_SPEED_BAD" xml:space="preserve">
+    <value>อัตราเร็วการเคลื่อนที่สูงเกินไปหรือไม่เสมอกัน, การปล่อยข้อมูลออกมายังไม่เสร็จเมื่อได้รับคำสั่งจุดระเบิด.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_MOVING_TIMEOUT" xml:space="preserve">
+    <value>การเคลื่อนที่เกินเวลา.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_WRONGAUTOCLEAN" xml:space="preserve">
+    <value>คำสั่งทำความสะอาดอัตโนมัติผิดพลาด.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_WRONGBANDINFO" xml:space="preserve">
+    <value>คำสั่งทำความสะอาดอัตโนมัติผิดพลาด.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_DEBUG1" xml:space="preserve">
+    <value>Debug status 1.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_DEBUG2" xml:space="preserve">
+    <value>Debug status 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_SW1" xml:space="preserve">
+    <value>ข้อบกพร่องภายใน, แถบเปล่า และระยะทาง y เป็นศูนย์.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGPINCONF" xml:space="preserve">
+    <value>ข้อผิดพลาดจาก pinconf เขียนไปที่ FPGA.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_COLORNUM_WRONG" xml:space="preserve">
+    <value>หมายเลขของสีต่างๆที่ตั้งจากโรงงานไม่ถูกต้อง.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_EEPROM_WRT_ERR" xml:space="preserve">
+    <value>การเขียนลงบน eeprom ของแผงหัวพิมพ์ล้มเหลว.</value>
+  </data>
+  <data name="CoreBoard_Service_SDRAM_CHECK" xml:space="preserve">
+    <value>Sdram ไม่ผ่านการตรวจ.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_SPOTCOLOR1" xml:space="preserve">
+    <value>การปั้มจุดสี 1.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_SPOTCOLOR2" xml:space="preserve">
+    <value>การปั้มจุดสี 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_OVERHEAT" xml:space="preserve">
+    <value>ร้อนหัว, ฮีตเตอร์ทุกตัวถูกปิด.</value>
+  </data>
+  <data name="Software_MediaHeightTooSmall" xml:space="preserve">
+    <value>ความสูงของกระดาษเล็กเกินไป</value>
+  </data>
+  <data name="Software_MediaWidthTooSmall" xml:space="preserve">
+    <value>ความกว้างกระดาษน้อยเกินไป.</value>
+  </data>
+</root>

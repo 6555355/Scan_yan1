@@ -1,0 +1,1113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CoreBoard_Service_SX2" xml:space="preserve">
+    <value>Servis Cagir: 0.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA0" xml:space="preserve">
+    <value>Servis Cagir: 1.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA1" xml:space="preserve">
+    <value>Servis Cagir: 2.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA2" xml:space="preserve">
+    <value>Servis Cagir: 3.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA3" xml:space="preserve">
+    <value>Servis Cagir: 4.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADTOMAINROAD" xml:space="preserve">
+    <value>Servis Cagir: 5.</value>
+  </data>
+  <data name="CoreBoard_Service_BYHX_DATA" xml:space="preserve">
+    <value>Servis Cagir: 6.</value>
+  </data>
+  <data name="CoreBoard_Service_EEPROM_CHK" xml:space="preserve">
+    <value>Servis Cagir: 16.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SX2RESET" xml:space="preserve">
+    <value>Usb chip illegal yenileme.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGHEADER" xml:space="preserve">
+    <value>Kafa Veri Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGHEADERSIZE" xml:space="preserve">
+    <value>Kafa Olcusu Veri Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_JOBSTARTHEADER" xml:space="preserve">
+    <value>Is yuklu Kafaya ek veri eklenmemeli</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_BANDDATASIZE" xml:space="preserve">
+    <value>Kafa Bandi bant veri miktari ve numarasi gercek bant verisi ile eslesmiyor</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGFORMAT" xml:space="preserve">
+    <value>Veri Seri Formati Yanlis</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_DMA0WORKING" xml:space="preserve">
+    <value>DMA0 bant tamamlandiktan sonra da calisiyor.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_PRINTPOINT" xml:space="preserve">
+    <value>Baski Baslat veya Bitir Pozisyon Hatasii</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_OLIMIT" xml:space="preserve">
+    <value>Bant baslangic pozisyonu orjin pozisyonundan kucuk</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_OPPLIMIT" xml:space="preserve">
+    <value>Goruntu cok Genis.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPINITS1" xml:space="preserve">
+    <value>Hareket Kademe 1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPINITS2" xml:space="preserve">
+    <value>Hareket Kademe 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADINITS1" xml:space="preserve">
+    <value>Kafa Paneli  Kademe 1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADINITS2" xml:space="preserve">
+    <value>Kafa Paneli Kademe 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADTOMAINROAD" xml:space="preserve">
+    <value>LVDS Hata.</value>
+  </data>
+  <data name="CoreBoard_Fatal_BYHX_DATA" xml:space="preserve">
+    <value>Software baslatilamadi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_BANDDIRECTION" xml:space="preserve">
+    <value>Bant yonu deger Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPUPDATE_FAIL" xml:space="preserve">
+    <value>DSP Guncelleme basarisiz.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_READ" xml:space="preserve">
+    <value>EEPROM Okuma basarisiz.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_WRITE" xml:space="preserve">
+    <value>EEPROM Yazma basarisiz.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_DATA" xml:space="preserve">
+    <value>Fabrika tarafindan baslatilamadi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADBOARD_RESET" xml:space="preserve">
+    <value>Kafa Paneli tekrar ayarla.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SPECTRAHVBINITS1" xml:space="preserve">
+    <value>Spectra Yuksek Voltaj Paneli Kademe 1 de baslatilamadi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PRINTHEAD_NOTMATCH" xml:space="preserve">
+    <value>Kafa Paneli fabrika veri setiyle uyumsuz. Lutfen fabrika verilerini yenileyin yada Kafa Panelini yenisiyle degistirin.</value>
+  </data>
+  <data name="CoreBoard_Fatal_MANUFACTURERID_NOTMATCH" xml:space="preserve">
+    <value>Panel Uretici ID si FW ile uyusmuyor.Lutfen FW Guncelle.</value>
+  </data>
+  <data name="CoreBoard_Err_EP0OVERUN_SETUPDATA" xml:space="preserve">
+    <value>EP0 port bozuk.</value>
+  </data>
+  <data name="CoreBoard_Err_USB1_USB1CONNECT" xml:space="preserve">
+    <value>USB1.1 Baglan.</value>
+  </data>
+  <data name="CoreBoard_Fatal_USB1_USB1CONNECT" xml:space="preserve">
+    <value>USB1.1 Baglan.</value>
+  </data>
+  <data name="CoreBoard_Err_UART2_TXTIMEOUT" xml:space="preserve">
+    <value>Hareket COM ZamanAsimi.</value>
+  </data>
+  <data name="CoreBoard_Err_UART1_TXTIMEOUT" xml:space="preserve">
+    <value>Kafa Paneli COM ZamanAsimi.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_PRINTDATA" xml:space="preserve">
+    <value>Baski verisi firin ile uyumsuz.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_LESSDATA" xml:space="preserve">
+    <value>Baski verisi firin sayisindan az</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_ULTRADATA" xml:space="preserve">
+    <value>Baski verisi firin sayisindan fazla</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_WRONGSTATUS" xml:space="preserve">
+    <value>Baski verisi firin sayisina esit degil.</value>
+  </data>
+  <data name="CoreBoard_Initialing_ARM" xml:space="preserve">
+    <value>Tanimlaniyor ARM.</value>
+  </data>
+  <data name="CoreBoard_Initialing_SX2" xml:space="preserve">
+    <value>Tanimlaniyor USB.</value>
+  </data>
+  <data name="CoreBoard_Initialing_FPGA" xml:space="preserve">
+    <value>Tanimlaniyor FPGA.</value>
+  </data>
+  <data name="CoreBoard_Initialing_DSP" xml:space="preserve">
+    <value>Tanimlaniyor DSP.</value>
+  </data>
+  <data name="CoreBoard_Initialing_HEADBOARD" xml:space="preserve">
+    <value>Tanimlaniyor OnPanel.</value>
+  </data>
+  <data name="CoreBoard_Initialing_HVB" xml:space="preserve">
+    <value>Tanimlaniyor Spectra Yuksek Voltaj Paneli.</value>
+  </data>
+  <data name="CoreBoard_Warning_UNKNOWNHEADERTYPE" xml:space="preserve">
+    <value>Bilinmeyen Uyari</value>
+  </data>
+  <data name="CoreBoard_Warning_EP0OVERUN_REQUEST_IGNORE" xml:space="preserve">
+    <value>EP0 AsiriCalisma.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_CYAN" xml:space="preserve">
+    <value>Pompala Camgobegi.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_MAGENTA" xml:space="preserve">
+    <value>Pompala macenta.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_YELLOW" xml:space="preserve">
+    <value>Pompala sari.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_BLACK" xml:space="preserve">
+    <value>Pompala siyah.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_LIGHTCYAN" xml:space="preserve">
+    <value>Pompala acik Camgobegi.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_LIGHTMAGENTA" xml:space="preserve">
+    <value>Pompala acik macenta.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATING" xml:space="preserve">
+    <value>Guncelliyor.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_SUCCESS" xml:space="preserve">
+    <value>Guncelleme basarili.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_BEGIN_TIMEOUT" xml:space="preserve">
+    <value>DSP baslama ZamanAsimi.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_DATA_TIMEOUT" xml:space="preserve">
+    <value>DSP veri ZamanAsimi.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_END_TIMEOUT" xml:space="preserve">
+    <value>DSP Bitis ZamanAsimi.</value>
+  </data>
+  <data name="CoreBoard_Updating_ILIGALFILE" xml:space="preserve">
+    <value>Yanlis Dosya Guncelleme Formati.</value>
+  </data>
+  <data name="CoreBoard_Updating_INTERNAL_DATA" xml:space="preserve">
+    <value>Illegal Veri Guncelleme.</value>
+  </data>
+  <data name="CoreBoard_Updating_CHECKSUM" xml:space="preserve">
+    <value>Saglama Guncelleme Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Updating_FLASHOP" xml:space="preserve">
+    <value>Flash Hatasii.</value>
+  </data>
+  <data name="COMCommand_Abort_Command" xml:space="preserve">
+    <value>Gecersiz COM command</value>
+  </data>
+  <data name="COMCommand_Abort_Parameter" xml:space="preserve">
+    <value>Gecersiz COMParametresi</value>
+  </data>
+  <data name="COMCommand_Abort_MoveAgain" xml:space="preserve">
+    <value>Tekrar Hareketettir!</value>
+  </data>
+  <data name="COMCommand_Abort_TxTimeOut" xml:space="preserve">
+    <value>COM Gonder Zaman Asimi</value>
+  </data>
+  <data name="COMCommand_Abort_FormatErr" xml:space="preserve">
+    <value>COM veri CRC Hata</value>
+  </data>
+  <data name="COMCommand_Abort_MeasureSensor" xml:space="preserve">
+    <value>Sensor Kagit olcum Hatasii</value>
+  </data>
+  <data name="COMCommand_Abort_NoPaper" xml:space="preserve">
+    <value>Kagit Yok</value>
+  </data>
+  <data name="COMCommand_Abort_PaperJamX" xml:space="preserve">
+    <value>Yatayda kagit s?k?smas?.</value>
+  </data>
+  <data name="COMCommand_Abort_PaperJamY" xml:space="preserve">
+    <value>Dikeyde kagit s?k?smas?.</value>
+  </data>
+  <data name="COMCommand_Abort_IndexNoMatch" xml:space="preserve">
+    <value>Indeks Hatasi?</value>
+  </data>
+  <data name="COMCommand_Abort_LimitSensor" xml:space="preserve">
+    <value>Sensor Limitine dokun</value>
+  </data>
+  <data name="COMCommand_Abort_SensorPause" xml:space="preserve">
+    <value>Yerlesik sensore dokun</value>
+  </data>
+  <data name="Software_BoardCommunication" xml:space="preserve">
+    <value>USB Baglanti Hata</value>
+  </data>
+  <data name="Software_NoDevice" xml:space="preserve">
+    <value>USB Aygit Acilamiyor</value>
+  </data>
+  <data name="Software_Parser" xml:space="preserve">
+    <value>Gecersiz Dosya Bicimi</value>
+  </data>
+  <data name="Software_PrintMode" xml:space="preserve">
+    <value>BaskiParametresi Hata</value>
+  </data>
+  <data name="Software_MediaTooSmall" xml:space="preserve">
+    <value>kagit Genisligi cok kucuk.</value>
+  </data>
+  <data name="Software_MediaWidthTooSmall" xml:space="preserve">
+    <value>Orjinal nokta ayari ve ortu baski genislik faktoru yuzunden, cizimin alana kismi baskisini durdur! (Basilabilir Genislik {0} only), Devam etmek istiyormusun?</value>
+  </data>
+  <data name="Software_Shakhand" xml:space="preserve">
+    <value>Software ve FV arasinda uyusmazlik Hatasii</value>
+  </data>
+  <data name="Software_MismatchID" xml:space="preserve">
+    <value>Yazici id si desteklenmiyor! Lutfen software guncelleyin!</value>
+  </data>
+  <data name="Software_Language" xml:space="preserve">
+    <value>Dil desteklenmiyor</value>
+  </data>
+  <data name="Software_VersionNoMatch" xml:space="preserve">
+    <value>Mevcut Versiyon {0}, Lutfen versiyonu Upgrade edin{1}</value>
+  </data>
+  <data name="Software_FileResolutionNoMatchPrinter" xml:space="preserve">
+    <value>Baski Counurlugu yazici cozunurlugu ile uyusmuyor!</value>
+  </data>
+  <data name="Software_FileNoSupportResolution" xml:space="preserve">
+    <value>Baski cozunurlugu desteklenmiyor</value>
+  </data>
+  <data name="Software_FileNoSupportForamt" xml:space="preserve">
+    <value>Dosya Bicimi Desteklenmiyor!</value>
+  </data>
+  <data name="Software_FilePassMatchResolution" xml:space="preserve">
+    <value>Mevcut gecis ayarlari ile bu is basilamaz. Ok e basin bu isi {0} Gecis ile basmak icin.</value>
+  </data>
+  <data name="Software_FileColorNumber" xml:space="preserve">
+    <value>Baski renk numarasi yazici ile uyusmuyor!</value>
+  </data>
+  <data name="Software_StepTolTooMuch" xml:space="preserve">
+    <value>Y geribeslemeyi kaybetti,yada Kademe kalibrelenemedi!</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>ZamanAsimi Sifre Girsi Hatasii,gecersiz karakter iceriyor. Bu sifre reddedildi,lutfen yeniden girin.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_WRONG" xml:space="preserve">
+    <value>ZamanAsimi Sifresi Illegal.Bu sifre reddedildi,lutfen yeniden girin.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>ZamanAsimi Sifresi ve Uretici ID si uyusmuyor. Bu sifre reddedildi,lutfen yeniden girin.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>ZamanAsimi Sifresi ve Panel ID si uyusmuyor. Bu sifre reddedildi,lutfen yeniden girin.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_FIRST" xml:space="preserve">
+    <value>Ilk Uyari: Yeni ZamanAsimi Sifresi icin 100 saat kaldi. Lutfen ureticiden yeni sifre talep edin!</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_SECOND" xml:space="preserve">
+    <value>Ikinci Uyari: Yeni ZamanAsimi Sifresi icin 50 saat kaldi. Lutfen ureticiden yeni sifre talep edin!</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_LAST" xml:space="preserve">
+    <value>Son Uyari: 1 saat sonra tum baskilar durdurulacak!  Lutfen ureticiden acilen yeni sifre talep edin!</value>
+  </data>
+  <data name="CoreBoard_Fatal_LIMITEDTIME_RUNOUT" xml:space="preserve">
+    <value>Ciddi Hata: ZamanAsimi Sifre suresi asildi., Lutfen yeni sifre girin.</value>
+  </data>
+  <data name="CoreBoard_Fatal_UILANGUAGE_NOT_MATCH" xml:space="preserve">
+    <value>Ciddi Hata: Software Ayar Dili Yonetime yazilibilgi gecemiyor.. Software dilini yenileyin yada yeni bir dil ayarlayin, ve sistemi yeniden baslatin.</value>
+  </data>
+  <data name="COMCommand_Abort_Encoder" xml:space="preserve">
+    <value>Sensor Hata!</value>
+  </data>
+  <data name="COMCommand_Abort_StepEncoder" xml:space="preserve">
+    <value>Kademe Sensoru Bulunamadi!</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_EEPROM_READ" xml:space="preserve">
+    <value>Anakart Servis Cagir: EEPROM Okuma Hatasii</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_EEPROM_WRITE" xml:space="preserve">
+    <value>Anakart Servis Cagir: EEPROM Yazma Hatasii</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_MAINBOARDSERIOUSERROR" xml:space="preserve">
+    <value>Anakart Ciddi Hata: Fabrika bilgisi ayarlanmadi yada yanlis ayarlandi</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_I2CWRITEFPGA_ERROR" xml:space="preserve">
+    <value>Anakart Dahili Hata: I2C Yaz FPGA Hata</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_I2CREADFPGA_ERROR" xml:space="preserve">
+    <value>Anakart Dahili Hata: I2C Yaz FPGA Hata</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_CALIBRATIONVNOSET" xml:space="preserve">
+    <value>Anakart Uyari: Valtaj ayari yapilmadi, lutfen varsayilan voltaji kullan</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_BASEVNOSET" xml:space="preserve">
+    <value>Anakart Uyari: Temel Voltaj Ayarlanmadi, lutfen varsayilan voltaji kullan</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_SPRAYPARAMETERSNOSET" xml:space="preserve">
+    <value>Anakart Uyari: PuskurtmeParametresi ayarlanmadi, lutfen varsayilan voltaji kullan</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_USERSETTINGNOSET" xml:space="preserve">
+    <value>Anakart Uyari: Kullanici Bilgisi (Boya turu, jet Hiz ayarlanmadi, lutfen varsayilan voltaji kullan</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_EEPROM_READ" xml:space="preserve">
+    <value>OnPanelServis Cagir: EEPROM Oku Hatasii</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_EEPROM_WRITE" xml:space="preserve">
+    <value>OnPanel Servis Cagir: EEPROM Yaz Hatasii</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_NOHEADBOARDFEATURESDATA" xml:space="preserve">
+    <value>OnPanel Ciddi Hata: Anapanel bilgisi yazilamadi, yada format Hatasii</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_HEADBOARDFEATURESDATANOMATCH" xml:space="preserve">
+    <value>OnPanel Ciddi Hata: Anapanel bilgileri ve Kullanici Ayarlari uyusmuyor</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_NOFINDBYHX" xml:space="preserve">
+    <value>Kafa bilgisi buunamadi</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_HEADERTYPE" xml:space="preserve">
+    <value>Kafa turu 0,1,2 degil</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_JOBHEADERMARKED" xml:space="preserve">
+    <value>Bant oku, is kafasi ilk karisikligi isaretledi</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_STILLFIREAFTERPRINT" xml:space="preserve">
+    <value>Firin hala bant printi tamamlandiktan sonra geliyor.</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_NOTENOUGHFIRE" xml:space="preserve">
+    <value>Alininan is emrine yetecek kadar firin yok</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_GREATERTHANBANDHEADER" xml:space="preserve">
+    <value>Mevcut Baski verisi bant basindaki veriden buyuk</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_LESSTHANBANDHEADER" xml:space="preserve">
+    <value>Mevcut Baski verisi bant basindaki veriden kucuk</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_FIBERNOTCONNECTED" xml:space="preserve">
+    <value>Dahili 10.</value>
+  </data>
+  <data name="Software_GetHWSettingFail" xml:space="preserve">
+    <value>HW Ayarlamasi basarisiz!</value>
+  </data>
+  <data name="Software_MustUpdateFW" xml:space="preserve">
+    <value>Yeni FW guncellenmeli.</value>
+  </data>
+  <data name="Software_FWIsNotDogKey" xml:space="preserve">
+    <value>Yanlis Guncelleme Dosya Bicimi.Sifrelenmedi.</value>
+  </data>
+  <data name="Software_UpdateFileWrongFormat" xml:space="preserve">
+    <value>Yanlis Guncelleme Dosya Bicimi</value>
+  </data>
+  <data name="COMCommand_Abort_ReadEEPROM" xml:space="preserve">
+    <value>Oku EEPROM Hata.</value>
+  </data>
+  <data name="COMCommand_Abort_WriteEEPROM" xml:space="preserve">
+    <value>Yaz EEPROM Hata!</value>
+  </data>
+  <data name="COMCommand_Abort_WriteEEPROMTwice" xml:space="preserve">
+    <value>Yaz EEPROM 2 Sefer, genel hata raporu, Ana Panel sinyal gonderemedi!</value>
+  </data>
+  <data name="COMCommand_Abort_TimeOver" xml:space="preserve">
+    <value>Zaman asimi bitirilmeli!</value>
+  </data>
+  <data name="COMCommand_Abort_TimeWarning" xml:space="preserve">
+    <value>Zamani 50 saatten az olarak ayarlama!</value>
+  </data>
+  <data name="COMCommand_Abort_Lang" xml:space="preserve">
+    <value>Dil ve sinirlamalar uyusmuyor!</value>
+  </data>
+  <data name="COMCommand_Abort_IllegalContent" xml:space="preserve">
+    <value>EEPROM icerik Hatasii, EEPROM bicimlendirmesi tamamlanmadi!</value>
+  </data>
+  <data name="COMCommand_Abort_IllegalPwd" xml:space="preserve">
+    <value>Yanlis Sifre!</value>
+  </data>
+  <data name="COMCommand_Abort_SwDogEey" xml:space="preserve">
+    <value>Software guvenlik kilidi yok!</value>
+  </data>
+  <data name="COMCommand_Abort_NotifyMeasure" xml:space="preserve">
+    <value>Medya hesaplansin mi?</value>
+  </data>
+  <data name="COMCommand_Abort_NotifyGoHome" xml:space="preserve">
+    <value>Baslangic Noktasina donulsun mu?</value>
+  </data>
+  <data name="CoreBoard_Updating_EREASE" xml:space="preserve">
+    <value>ARM flash silinsin.</value>
+  </data>
+  <data name="CoreBoard_Updating_FX2NOEEPROM" xml:space="preserve">
+    <value>EEPROM kullanimdisi.</value>
+  </data>
+  <data name="CoreBoard_Updating_FX2UPDATELOADER" xml:space="preserve">
+    <value>Guncelleme yukleyici Hatasii !</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>0 ~ F outside</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_WRONG" xml:space="preserve">
+    <value>Yasal olmayan opsiyonel sifre.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>Opsiyonel Sifre ve saticilar uyusmuyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>Opsiyonel Sifre ve panel uyusmuyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_PROHIBIT_SENSOR" xml:space="preserve">
+    <value>Boya Guvenlik depozu dolul, tum boya pompalari durduruldu.</value>
+  </data>
+  <data name="CoreBoard_Warning_OVER_SPEED_NOT_SUPPORT" xml:space="preserve">
+    <value>Kafa Paneli yuksekhizi desteklemiyor, sistem yuksek hiz kullanmaya zorlandi.</value>
+  </data>
+  <data name="CoreBoard_Err_UV_CTR_WRONGSTATUS" xml:space="preserve">
+    <value>Dahili Durum.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_WRONGCOMMAND" xml:space="preserve">
+    <value>FPGA yanlis comut aldi.</value>
+  </data>
+  <data name="CoreBoard_Err_MOTION_SPEED_BAD" xml:space="preserve">
+    <value>Hareket hizi cok yuksek yada duzensiz, verisi cikisi isitma emrini  bitirilemedi.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_MOVING_TIMEOUT" xml:space="preserve">
+    <value>Hareket fazlasi</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_WRONGAUTOCLEAN" xml:space="preserve">
+    <value>Yanlis otomotikTemizle talimati</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_WRONGBANDINFO" xml:space="preserve">
+    <value>Yanlis otomotikTemizle talimati</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_DEBUG1" xml:space="preserve">
+    <value>HataOnarma Durum 1.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_DEBUG2" xml:space="preserve">
+    <value>HataOnarma Durum 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_SW1" xml:space="preserve">
+    <value>Dahili Hata, banti bosalt ve blank bve ve y-Araligini 0 yap.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGPINCONF" xml:space="preserve">
+    <value>PINCONF writing FPGA Hatasi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_COLORNUM_WRONG" xml:space="preserve">
+    <value>Fabrika renk numaralarini yanlis ayarladi</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_EEPROM_WRT_ERR" xml:space="preserve">
+    <value>OnPanel EEPROM yazimHatasii.</value>
+  </data>
+  <data name="CoreBoard_Service_SDRAM_CHECK" xml:space="preserve">
+    <value>SDRAM kontrolu gecmedi.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_SPOTCOLOR1" xml:space="preserve">
+    <value>Pompala spot Renk 1.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_SPOTCOLOR2" xml:space="preserve">
+    <value>Pompala spot Renk 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_OVERHEAT" xml:space="preserve">
+    <value>Enjektor yuksekisi, Tumu Isiticier kapatildi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SHAKEHAND_ERR" xml:space="preserve">
+    <value>Software versiyon Hatasii yada protokolde olmayan bir hata.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SWVERSION_ERR" xml:space="preserve">
+    <value>Aygityazilimi ozel software istiyor, versiyon Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Fatal_NOT_SUPPORT_2C_SHARE_1H" xml:space="preserve">
+    <value>Mevcut sistem Tek Kafada iki rengi desteklemiyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>Giris sifresi yanlis, -0 ~ F arasinda degil.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_WRONG" xml:space="preserve">
+    <value>Resmi Sifre degil.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>Paya sifresi ve saticininki uyusmuyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>Paya sifresi ve panelinki uyusmuyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDINK_FIRST" xml:space="preserve">
+    <value>Boya tanki limiti 10 lt den sonra tekrar doldur ilk alarm!</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDINK_SECOND" xml:space="preserve">
+    <value>Boya tanki limiti 5 lt den sonra tekrar doldur ikinci alarm!</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDINK_LAST" xml:space="preserve">
+    <value>Tekrar doldurma limitlerinin altinda, son uyari!</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_UNKNOWN_DOT_VOLUME" xml:space="preserve">
+    <value>Enjektor mevcut boya sifresini desteklemiyor.</value>
+  </data>
+  <data name="CoreBoard_Fatal_LIMITEDINK_RUNOUT" xml:space="preserve">
+    <value>Boya miktar limitlerinin uzerinde, yeni sifre girin.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SWVERSION_ERR_INK_PWD" xml:space="preserve">
+    <value>Aygityazilimi boya sifresini desteklemek icinSaftware istiyor, versiyon Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Updating_GZ_ILIGALFILE" xml:space="preserve">
+    <value>Ozel Aygityazilimi gerekli.</value>
+  </data>
+  <data name="CoreBoard_Updating_INKP_ILIGALFILE" xml:space="preserve">
+    <value>ozel Boyasifresi aygit yazilimi gerekli.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATEERR_16H_ILIGALFILE" xml:space="preserve">
+    <value>8Kafa Hardware I 16kafa Aygityaziliini guncelleyemez.</value>
+  </data>
+  <data name="CoreBoard_Warning_FPGA_LESSDATA" xml:space="preserve">
+    <value>Baski verisi firin sayisindan az yada tetiklendiginde bos.</value>
+  </data>
+  <data name="CoreBoard_Warning_FPGA_ULTRADATA" xml:space="preserve">
+    <value>Baski verisi firin sayisindan fazla.</value>
+  </data>
+  <data name="CoreBoard_Service_FLASH" xml:space="preserve">
+    <value>FPGA from flash okunamiyor.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SECURITY_CHIP_ERR" xml:space="preserve">
+    <value>Panel Yazma  id Hatasii?</value>
+  </data>
+  <data name="CoreBoard_Service_SDRAM_NOMATCH" xml:space="preserve">
+    <value>SDRAM mevcut ayarlari desteklemek icin cok kucuk.</value>
+  </data>
+  <data name="CoreBoard_Service_READBOARDID_FAIL" xml:space="preserve">
+    <value>Panel Okuma id Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Updating_PCDATA_ERR" xml:space="preserve">
+    <value>Veri Bicimi Yanlis.</value>
+  </data>
+  <data name="CoreBoard_Updating_NO_HEADNUM" xml:space="preserve">
+    <value>Enjektor numarasi mevcut degil.</value>
+  </data>
+  <data name="CoreBoard_Updating_HBDATA_ERR" xml:space="preserve">
+    <value>Anakart onpanel veri Hatasii gonderiyor.</value>
+  </data>
+  <data name="CoreBoard_Updating_PRHD_SETERR" xml:space="preserve">
+    <value>OnPanel Ayarlar Enjektor Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_EXCEEDSIZE" xml:space="preserve">
+    <value>Gonderilen Nominal voltaj Sicaklik egri verisi boyut araligini asiyor.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_PCSND_DATA" xml:space="preserve">
+    <value>Veri Formati Yanlis.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_SAVE_ROM" xml:space="preserve">
+    <value>Anakart veri bellek saklama Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_NO_SPACE" xml:space="preserve">
+    <value>Anakart bellegiyeni verileri almak icin yeterli alana sahip degil.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_UNKN_HDNUM" xml:space="preserve">
+    <value>Gonderilen Enjektor numarasi mevcut degil.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_MAP" xml:space="preserve">
+    <value>Anakart belek egim verisi hafiza Hatasii ile karsilasti.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_READ_ROM" xml:space="preserve">
+    <value>Anakart belek okuma Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_ROM_CHKSUM" xml:space="preserve">
+    <value>Toplam egim tplam dogrulama Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Err_HB_NOSUPPORT_FUNC" xml:space="preserve">
+    <value>OnPanel turu bu ozelligi desteklemiyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSONHEAD_TEMP_TOO_LOW" xml:space="preserve">
+    <value>Kafa Sicaklik cok Dusuk.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSONHEAD_TEMP_TOO_HIGH" xml:space="preserve">
+    <value>Kafa Sicaklik cok Yuksek.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSONHEAD_NOT_CONNECT" xml:space="preserve">
+    <value>Baski Kafabaglanamadi.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_FPGA_ULTRADATA" xml:space="preserve">
+    <value>FPGA core Paneli veri raporu cok fazla.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_FPGA_LESSDATA" xml:space="preserve">
+    <value>FPGA core Paneli veri raporu cok az.</value>
+  </data>
+  <data name="CoreBoard_Warning_UNKNOWN_NOZZLE_COUNT" xml:space="preserve">
+    <value>Bilinmeyen Mevcut Enjektor kafa numarasi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EPSON_HEAD_BAD" xml:space="preserve">
+    <value>Baski Kafasi Hatasii.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EPSON_HEAD_FPGA_ERR" xml:space="preserve">
+    <value>Kafa Paneli FPGA Hata.</value>
+  </data>
+  <data name="CoreBoard_Fatal_T_JET_PASSNUM_ERR" xml:space="preserve">
+    <value>t-jet Gec numarasi Hatasii.</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_PUMP_STOP" xml:space="preserve">
+    <value>Vunku 4 sn den uzun sure boya kutusundan sinyal alinmadi, bu nedenle butun boya kutularini kapat.</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_SETFPGA_HDTYPE" xml:space="preserve">
+    <value>fpga 8 Kafasini ayarla yada 16Kafa basarisiz.</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_UART1_TXTIMEOUT" xml:space="preserve">
+    <value>COM hareket ZamanAsimi.</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_ENTERSLEEP" xml:space="preserve">
+    <value>Cihaz uyku modunda.</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_DEBUG" xml:space="preserve">
+    <value>Bulnan hatayi onar.</value>
+  </data>
+  <data name="COMCommand_Abort_InternalErr_2" xml:space="preserve">
+    <value>Dahili Hata 2.</value>
+  </data>
+  <data name="COMCommand_Abort_InternalErr_1" xml:space="preserve">
+    <value>Dahili Hata 1.</value>
+  </data>
+  <data name="COMCommand_Abort_OverTemp_Protect" xml:space="preserve">
+    <value>Sicaklik fazlayukleme korumasi.</value>
+  </data>
+  <data name="COMCommand_Abort_OverCurrent_Protect" xml:space="preserve">
+    <value>Akim fazlayukleme korumasi.</value>
+  </data>
+  <data name="CoreBoard_Updating_TRY_AGAIN" xml:space="preserve">
+    <value>Lutfen Upgrade yeniden.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_DRIVER_OVERHEAT" xml:space="preserve">
+    <value>Baski Kafa surucusu asiri sicak.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_XHOT_ERROR" xml:space="preserve">
+    <value>Baski Kafasi asiri sicak.</value>
+  </data>
+  <data name="CoreBoard_Service_ARM_MOTION" xml:space="preserve">
+    <value>ARM Hareket sistei Sistem baslatma Hatasii..</value>
+  </data>
+  <data name="CoreBoard_Service_HEADBOARD_INIT_FAIL" xml:space="preserve">
+    <value>Kafa Paneli baslatma basarisiz.</value>
+  </data>
+  <data name="CoreBoard_Fatal_CALIBRATION_DATA" xml:space="preserve">
+    <value>Factory baslatma ayarlari basarisiz.</value>
+  </data>
+  <data name="CoreBoard_Err_PUMPINKTIMEOUT" xml:space="preserve">
+    <value>Boya Pompasi Zamanasimi</value>
+  </data>
+  <data name="CoreBoard_Service_HEADBOARD_NO_FW" xml:space="preserve">
+    <value>OnPanel var ama legal Firmware yok.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADBOARD_CONFIG" xml:space="preserve">
+    <value>Kafa Paneli duzgunce yapilandirilmadi.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_COMM_TIMEOUT" xml:space="preserve">
+    <value>CAN Baglanti Hatasii , Zamanasimi gonder.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_COMM_ERROR" xml:space="preserve">
+    <value>CAN Baglanti Hatasii, Hata Sayaci AsiriCalisiyor.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_BUFFER_ERROR" xml:space="preserve">
+    <value>CAN Baglanti Hata, Arabellek Hatasii bulundu.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_CONTROLLER_ERROR" xml:space="preserve">
+    <value>CANdenetci Hatasi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_NO_TEMPERATURE_SENSOR" xml:space="preserve">
+    <value>Sicaklik sensoru bulunamadi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INK_SPILL" xml:space="preserve">
+    <value>Boya Kartusuna Negatif basinc tortusu.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INK_SUPPLY_LOW" xml:space="preserve">
+    <value>Boya kartusu yetersiz boya.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_SUPPLY_SLOW" xml:space="preserve">
+    <value>Pompaya devamet 10 sn den fazla boya icin.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_OPRATION_EEPROM_FAIL" xml:space="preserve">
+    <value>OnPanel operasyon bellekHatasii .</value>
+  </data>
+  <data name="CoreBoard_Service_HB_FPGA_ERROR" xml:space="preserve">
+    <value>OnPanel FPGA Hatasi.</value>
+  </data>
+  <data name="CoreBoard_Err_HEAD_OFFSET" xml:space="preserve">
+    <value>Kafanin elektrik gozlerine araligi yanlis ayarli..</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_INT" xml:space="preserve">
+    <value>KuralDisi Uyari  FPGA.</value>
+  </data>
+  <data name="CoreBoard_Err_NO_DMA_LLI" xml:space="preserve">
+    <value>Sistem-urettigi baglanti listesi cok yavas,</value>
+  </data>
+  <data name="CoreBoard_Err_DMA_LLI_LEN" xml:space="preserve">
+    <value>Baglanti listeleri  disinda  oncedentanimlilarin onunde gitmeli.</value>
+  </data>
+  <data name="CoreBoard_Err_CADG_CTL_LINE_FAULT" xml:space="preserve">
+    <value>Makine Astar hatasi.</value>
+  </data>
+  <data name="CoreBoard_Err_CADG_INIT_PLC" xml:space="preserve">
+    <value>Plc birim hatasi.</value>
+  </data>
+  <data name="CoreBoard_Err_CADG_PRINT_FAULT" xml:space="preserve">
+    <value>Baski hatasi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FUNC_BOARD_STARTUP" xml:space="preserve">
+    <value>Fonksiyonel Panel Baslatildi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PRINT_DATA_ERROR" xml:space="preserve">
+    <value>Baski verisi yanlis yada eksik.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_DATA_ERROR" xml:space="preserve">
+    <value>Factory Ayarlari veri Hatasi.</value>
+  </data>
+  <data name="COMCommand_Abort_RatioEEPROM" xml:space="preserve">
+    <value>Olculen Deger ve  Varsayilan Deger arasindaki fark cok buyuk.</value>
+  </data>
+  <data name="COMCommand_Abort_RatioMeasure" xml:space="preserve">
+    <value>Olculen Deger ve  mevcut Deger arasindaki fark cok buyuk.</value>
+  </data>
+  <data name="COMCommand_Abort_NoSupportCorrectRatio" xml:space="preserve">
+    <value>Otomatik Olcume fonksiyonu desteklenmiyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_SCORPION_WARNING" xml:space="preserve">
+    <value>Yazicida alarm var.</value>
+  </data>
+  <data name="CoreBoard_Warning_HB_FW_VERSION" xml:space="preserve">
+    <value>Upgrade Kiti nin icerdigi  icermek  FW versiyonu cok Dusuk OnPanel icin , daha fazla desteklenmiyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_HB_FW_ID_ERROR" xml:space="preserve">
+    <value>Kafa Paneli FW ID si uyusmuyor, mevcut kafa FW yi upgrade edemiyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_HB_FW_UPDATER" xml:space="preserve">
+    <value>Upgrade sirasinda hata olustu.</value>
+  </data>
+  <data name="CoreBoard_Warning_HBFPGA_FW_UPDATER" xml:space="preserve">
+    <value>FPGA Kafa Paneli  Upgrade islem hatasi olustu.</value>
+  </data>
+  <data name="CoreBoard_Warning_FUNC_FW_UPDATER" xml:space="preserve">
+    <value>Upgrade sirasinda Fonksiyonel Panel Hatasi olustu.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PANEL_EX_LOST" xml:space="preserve">
+    <value>Auxiliary control panel basarisiz to communicate.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PANEL_EX_BUSY" xml:space="preserve">
+    <value>Auxiliary control panel is busy.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_HEAD_FPGA_ERR" xml:space="preserve">
+    <value>FPGA Kafa Paneli hatasi.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_HEAD_LVDS_ERR" xml:space="preserve">
+    <value>Anakart LVDS kayip kilit raporu.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_HEAD_REPORT_LVDS_ERR" xml:space="preserve">
+    <value>Kafa kalibi LVDS kayip kilit raporu.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_WAVEFROM_Init_fail" xml:space="preserve">
+    <value>Dalgabicimi baslatma bicimlendirmesi Hatasi.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_WAVEFROM_Download_fail" xml:space="preserve">
+    <value>Dalgabicimi yukleme Hatasi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_UV_RUNOUT" xml:space="preserve">
+    <value>UV Zaman asimi.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>'0'-'f' arasinda olmayan illegal harfler iceriyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_WRONG" xml:space="preserve">
+    <value>Sifre illegal.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_MANUFACTURERIDNOTMATH" xml:space="preserve">
+    <value>Sifre firma ile eslesmiyor..</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_BOARDIDNOTMATH" xml:space="preserve">
+    <value>Sifre anakart ile eslesmiyor.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_FIRST" xml:space="preserve">
+    <value>UV ilk zamanasimi.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_SECOND" xml:space="preserve">
+    <value>UV ikinci zamanasimi.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_LAST" xml:space="preserve">
+    <value>UV son zamanasimi.</value>
+  </data>
+  <data name="CoreBoard_Warning_TILE_IN_TILE" xml:space="preserve">
+    <value>Elektrik goz boslugu cok kucuk, elektrik goz sinyali degersiz.</value>
+  </data>
+  <data name="CoreBoard_Warning_TILE_POS_FULL" xml:space="preserve">
+    <value>Elektrik goz Tamponu dolu, elektrik goz sinyali degersiz.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSED_TILE" xml:space="preserve">
+    <value>Baski veri Hazir olusu cok gec ,  elektrik goz sinyali degersiz.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMPLONG_ALARM" xml:space="preserve">
+    <value>Boya Pompasi Zamanasimi</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_OVERCOOL" xml:space="preserve">
+    <value>Enjektor Sicaklik is cok Dusuk (Istisnalar), Isitici kontrolu kapanmaya zorlandi,</value>
+  </data>
+  <data name="CoreBoard_Fatal_OVERCHANGE" xml:space="preserve">
+    <value>Enjektor Sicaklik Degisiklikleri cok siddetli (Istisnalar), Isitici kontrolu kapanmaya zorlandi,</value>
+  </data>
+  <data name="CoreBoard_Err_PM_FEATURE_UNSUPPORTED" xml:space="preserve">
+    <value>Software Desteklemiyor degisken Sicaklik oranini, software I upgrade edin.</value>
+  </data>
+  <data name="CoreBoard_Err_PM_SCALE_NOT_MATCH" xml:space="preserve">
+    <value>Software Sicaklik orani  tutarsiz, ve  Varsayilan oran fabrika ayarlarina getirilmeli.</value>
+  </data>
+  <data name="CoreBoard_Fatal_TEMP_RATIO_UNSUPPORT" xml:space="preserve">
+    <value>Kafa paneli Desteklemiyor degisken Sicaklik oranini, kafapanelini I upgrade edin.</value>
+  </data>
+  <data name="COMCommand_Abort_OutOfPrintRang" xml:space="preserve">
+    <value>Baski Pozisyonu AsiriCalisti, gorseli basmayi dene yada genisligi daralt yada  or ibaskiyi baslangic pozisyonuna getir.</value>
+  </data>
+  <data name="CoreBoard_Err_TargetTempLocked" xml:space="preserve">
+    <value>Sicaklik kontrolu kitlenemedi.</value>
+  </data>
+  <data name="CoreBoard_Err_HIGH_VOL_TOO_LOW" xml:space="preserve">
+    <value>Kafa Paneli basinci cok Dusuk.</value>
+  </data>
+  <data name="CoreBoard_Err_WAVEFORM_INDEX" xml:space="preserve">
+    <value>DalgaBicimi yuklemesi basarisiz.</value>
+  </data>
+  <data name="CoreBoard_Err_WAVEFORM_CONFIG" xml:space="preserve">
+    <value>DalgaBicimi bicimlendirmesi basarisiz.</value>
+  </data>
+  <data name="CoreBoard_Err_SET_VOLT_ERROR" xml:space="preserve">
+    <value>Tam/yarim basinc ayar Hatasi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_WAVEFORM_INVALID" xml:space="preserve">
+    <value>Hicbir DalgaBicimi kimligi etkindegil.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FULL_HALF_VOLT_ERROR" xml:space="preserve">
+    <value>yarim basinc oplam basinctan fazla.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_PARAM_UNVALID" xml:space="preserve">
+    <value>Eeprom Parametreleri is illegal, Ayarlanmali.</value>
+  </data>
+  <data name="CoreBoard_Service_HBFW_ERROR" xml:space="preserve">
+    <value>Kafa Paneli FW ve  Panel uyusmuyor, Kafa paneli yeniden yerlestirilmeli.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADVENDERDISMATHCH" xml:space="preserve">
+    <value>Enjektor sahibi uyusmuyor.</value>
+  </data>
+  <data name="CoreBoard_Err_NO_PAPER" xml:space="preserve">
+    <value>Yazici kagit disina cikti.</value>
+  </data>
+  <data name="CoreBoard_Warning_EnterBakPrintMode" xml:space="preserve">
+    <value>Kapali baski moduna gecti.</value>
+  </data>
+  <data name="CoreBoard_Err_ILLEGAL_VOL" xml:space="preserve">
+    <value>Gecerli bir voltaj degeri yok.</value>
+  </data>
+  <data name="CoreBoard_Err_EEPROM_LOCKED" xml:space="preserve">
+    <value>EEPROM kilitlendi.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DOUBLEY_ERRPOS" xml:space="preserve">
+    <value>Iki Y Ekseni arasindaki Pozisyon Kaydirma cok buyuk.</value>
+  </data>
+  <data name="CoreBoard_Warning_DOUBLEY_CORRECTOVERLIMIT" xml:space="preserve">
+    <value>Ikili Eksen Pozisyonu arasindaki duzeltme numarasi kisitli.</value>
+  </data>
+  <data name="COMCommand_Abort_DoubleYERR" xml:space="preserve">
+    <value>Acil Durdur, cunku Pozisyon Kaydirma is cok buyuk.</value>
+  </data>
+  <data name="COMCommand_Abort_InitERR" xml:space="preserve">
+    <value>DSP baslatma basarisiz..</value>
+  </data>
+  <data name="COMCommand_Abort_NoPaperCancelPrint" xml:space="preserve">
+    <value>Yazici kagit disina cikti.</value>
+  </data>
+  <data name="CoreBoard_Err_SAND_LAYING" xml:space="preserve">
+    <value>Zimpara yerlestirme islemde. in process,sonra tekrar deneyin.</value>
+  </data>
+  <data name="CoreBoard_Err_CUR_ACTION_NOT_SUPPORT" xml:space="preserve">
+    <value>Yazici durumu mevcut aksiyonu desteklemiyor.</value>
+  </data>
+  <data name="CoreBoard_Err_LVDS_DISCONNECT" xml:space="preserve">
+    <value>Kafa plaka pompa boya mesaj zamanasimi gincellenmedi, muhtemelen LVDS baglantisi koptu.</value>
+  </data>
+  <data name="CoreBoard_Err_NOSUPPORT_DELAY" xml:space="preserve">
+    <value>Kafa Paneli versiyonu dalgaturu zaman ertelemesini desteklemiyor, dalga turunu kafa paneli versiyonuna gore degistir.</value>
+  </data>
+  <data name="CoreBoard_Warning_OLD_HB_BOOTLOADER" xml:space="preserve">
+    <value>Kafa Paneli onyukleyici cok eski oldugundan, upgrade cok yavas sonuclaniyor.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EXT_INIT_ERR" xml:space="preserve">
+    <value>Harici cihaz baslatmasi tamamlanmadi.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_ERROR" xml:space="preserve">
+    <value>Upgrade Hatasi.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_TIMEOUT" xml:space="preserve">
+    <value>Upgrade ZamanAsimi.</value>
+  </data>
+  <data name="CoreBoard_Warning_NO_PAPER" xml:space="preserve">
+    <value>Yazici kagit disina tasti</value>
+  </data>
+  <data name="CoreBoard_Warning_NO_MATERIAL" xml:space="preserve">
+    <value>Yazici kagit disina tasti</value>
+  </data>
+  <data name="CoreBoard_Err_NOT_SUPPORT_PRINT" xml:space="preserve">
+    <value>Baski fonksiyonu desteklenmiyor.</value>
+  </data>
+  <data name="CoreBoard_Err_EXTBOARD_UART_FAIL" xml:space="preserve">
+    <value>Genisletme Paneli Seri baglantisi basarisiz.</value>
+  </data>
+  <data name="CoreBoard_Err_EXTBOARD_ERROR" xml:space="preserve">
+    <value>Genisletme Paneli Hatasi.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_UNDERFLOW" xml:space="preserve">
+    <value>FPGA Tampon asagitasiyor.</value>
+  </data>
+  <data name="CoreBoard_Err_USB_TRANSFER" xml:space="preserve">
+    <value>USB veri aktarimi KuralDisi.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_PROGRAM" xml:space="preserve">
+    <value>FPGA mantik Hatasi kuraldisi kullanima sebep oluyor.</value>
+  </data>
+  <data name="EnumCADG_PrintError_BackDoorOpened" xml:space="preserve">
+    <value>Arka Kapak Acildi</value>
+  </data>
+  <data name="EnumCADG_PrintError_FeedShaftJam" xml:space="preserve">
+    <value>Shaft Besleme S?k?smas?</value>
+  </data>
+  <data name="EnumCADG_PrintError_InkEmpty" xml:space="preserve">
+    <value>Boya Bos</value>
+  </data>
+  <data name="EnumCADG_PrintError_LeftDoorOpened" xml:space="preserve">
+    <value>Sol Kapak Acil</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperKnifeJam" xml:space="preserve">
+    <value>Kagit Bicak S?k?smas?</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperKnifeNotSet" xml:space="preserve">
+    <value>Kag?t B?cak Ayarlanamad?</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA0" xml:space="preserve">
+    <value>A0 AzKagit</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA1" xml:space="preserve">
+    <value>A1 AzKagit</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA2" xml:space="preserve">
+    <value>A2 AzKagit</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA3" xml:space="preserve">
+    <value>A3 AzKagit</value>
+  </data>
+  <data name="EnumCADG_PrintError_PrintShaftJam" xml:space="preserve">
+    <value>Baski Shaft S?k?smas?</value>
+  </data>
+  <data name="EnumCADG_PrintError_RightDoorOpened" xml:space="preserve">
+    <value>Sag Kapak Acildi</value>
+  </data>
+  <data name="EnumCADG_PrintError_ServerStatusError" xml:space="preserve">
+    <value>Sunucu Durum Hatasii</value>
+  </data>
+  <data name="CoreBoard_Initialing_PANEL" xml:space="preserve">
+    <value>PLC Tanimlaniyor</value>
+  </data>
+  <data name="Software_MediaHeightTooSmall" xml:space="preserve">
+    <value>Orjinal nokta ayari ve ortu baski genislik faktoru yuzunden, cizimin alana kismi baskisini durdur! (Basilabilir Genislik {0} only), Devam etmek istiyormusun?</value>
+  </data>
+</root>

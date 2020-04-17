@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="m_ButtonCancel.Text">&amp;Iptal</data>
+  <data name="m_ButtonOK.Text">&amp;OK</data>
+  <data name="label32.Text">Y2 Hareket Uzunlugu</data>
+  <data name="m_ButtonMoveNew.Text">&amp;Yeni Hareket</data>
+  <data name="m_LabelSpeed.Text">Hiz</data>
+  <data name="m_LabelLength.Text">Uzunluk</data>
+  <data name="m_LabelDirection.Text">Yonu</data>
+  <data name="m_ButtonMove.Text">&amp;HareketEttir</data>
+  <data name="m_ButtonStop.Text">&amp;Dur</data>
+  <data name="m_GroupBoxMoveTest.Text">Hareket Test</data>
+  <data name="m_ButtonPosition.Text">&amp;Pozisyon</data>
+  <data name="m_LabelTimeOut.Text">ZamanAsimi</data>
+  <data name="m_ButtonSetTimeout.Text">Ayarla</data>
+  <data name="m_LabelCopyRight.Text">TelifHakki (C) 2006-2014 Beijing BYHX Tech. Dev. Co., Ltd. Tum Haklari Saklidir.</data>
+  <data name="label1.Text">X</data>
+  <data name="label2.Text">Y</data>
+  <data name="label21.Text">Y1</data>
+  <data name="label5.Text">4</data>
+  <data name="label6.Text">3</data>
+  <data name="label3.Text">2</data>
+  <data name="label4.Text">Z</data>
+  <data name="m_GroupBoxPosition.Text">Pozisyon Test</data>
+  <data name="m_ButtonWriteSpeed.Text">&amp;Yaz</data>
+  <data name="label10.Text">Firin S?kl?g?(Hz):</data>
+  <data name="m_NumericUpDownSpeedSet.ToolTip">Hz</data>
+  <data name="groupBox2.Text">Hiz Ayarla</data>
+  <data name="chfloatstatusnum.Text">Kabuledilen Bolge Numarasi</data>
+  <data name="chfloatprestatus.Text">Onceki bolge</data>
+  <data name="chfloatcurStatus.Text">Mevcut Bolge</data>
+  <data name="pumpTimeMS.Text">PompaZamani</data>
+  <data name="buttonGetInkStatus.Text">Al</data>
+  <data name="buttonErrorInfoTest.Text">Hata Bilgisini Hata Kodundan Al [0x02020000]</data>
+  <data name="label9.Text">Seri Port Komut:</data>
+  <data name="btnSendSerialCmd.Text">Gonder</data>
+  <data name="label8.Text">Sag UV</data>
+  <data name="m_ButtonWriteUV.Text">&amp;Yaz</data>
+  <data name="m_ButtonReadUV.Text">&amp;Oku</data>
+  <data name="label7.Text">Sol UV</data>
+  <data name="groupBox1.Text">UV Ayarla</data>
+  <data name="btnAutoTestclb.Text">自动测量齿轮比</data>
+  <data name="tabPagegeneral.Text">Genel</data>
+  <data name="buttonTrayControlApply.Text">应用</data>
+  <data name="buttonTrayControl.Text">托盘控制</data>
+  <data name="groupBox4.Text">托盘控制</data>
+  <data name="buttonFeedingControl.Text">Besleme Kontrol</data>
+  <data name="buttonRead.Text">Oku</data>
+  <data name="button4.Text">Uygula</data>
+  <data name="tabPageColorDeep.Text">Renk Derinlik</data>
+  <data name="label11.Text">ErtelemeZamani:</data>
+  <data name="m_LabelHead.Text">Kafa</data>
+  <data name="m_LabelHorSample.Text">1</data>
+  <data name="m_LabelCurPulseWidth.Text">SinyalGenisligi:</data>
+  <data name="m_ButtonToBoard.Text">&amp;PanoyaUygula</data>
+  <data name="m_ButtonRefresh.Text">&amp;Yenile</data>
+  <data name="tabPageRabillyDebug.Text">SinyalGenisligi</data>
+  <data name="label22.Text">T1(us):</data>
+  <data name="label15.Text">Ta(us):</data>
+  <data name="label14.Text">ErtelemeZamani(us):</data>
+  <data name="label13.Text">T2(us):</data>
+  <data name="label12.Text">Firin S?kl?g?(Hz):</data>
+  <data name="buttonSet.Text">Ayarla</data>
+  <data name="buttonGet.Text">Al</data>
+  <data name="tabPageInkTest.Text">BoyaTest</data>
+  <data name="label18.Text">Y加速时间(ms):</data>
+  <data name="label19.Text">X加速时间(ms):</data>
+  <data name="buttonAccTimeSet.Text">Ayarla</data>
+  <data name="tabPageAccSpeedTest.Text">Ivme Hiz Test</data>
+  <data name="buttonStopPrint.Text">Baskiyi Durdur</data>
+  <data name="buttonStartPrint.Text">Baski Baslat</data>
+  <data name="tabPageVPrint.Text">VBaski</data>
+  <data name="button6.Text">Ciftyonlu</data>
+  <data name="button5.Text">SayfaKarsit</data>
+  <data name="button3.Text">SayfaKademe</data>
+  <data name="numAutoCappingDelay.ToolTip">ms</data>
+  <data name="label23.Text">OtomatikKapakKapamaErtelemeZamani(ms):</data>
+  <data name="buttonReadWaitMediaReadyTim.Text">Oku</data>
+  <data name="label20.Text">MedyaHazirOlmaZamaniniBekle(ms):</data>
+  <data name="buttonWaitMediaReadyTim.Text">Ayarla</data>
+  <data name="groupBox3.Text">纸板机参数</data>
+  <data name="label17.Text">Xaar382 Modu:</data>
+  <data name="buttonXaar382Mode.Text">Ayarla</data>
+  <data name="label16.Text">Firin S?kl?g?(Hz):</data>
+  <data name="buttonSetFrieFreq.Text">Ayarla</data>
+  <data name="tabPage2.Text">Diger</data>
+  <data name="buttonReadAll.Text">TumunuOku</data>
+  <data name="button7.Text">保存为WF</data>
+  <data name="label31.Text">A/B面:</data>
+  <data name="radioButtonB.Text">B</data>
+  <data name="radioButtonA.Text">A</data>
+  <data name="numWaveformId.ToolTip">喷头座编号，从0开始</data>
+  <data name="label30.Text">喷头座编号:</data>
+  <data name="numHbId.ToolTip">头板编号，从0开始</data>
+  <data name="label29.Text">头板编号:</data>
+  <data name="buttonReadWf.Text">Oku</data>
+  <data name="groupBox7.Text">读京瓷DalgaBicimi</data>
+  <data name="label26.Text">Indeks(Hex):</data>
+  <data name="label25.Text">Deger(Hex):</data>
+  <data name="radioButtonShijinzhi.Text">十进制</data>
+  <data name="buttonSaveAS.Text">另存</data>
+  <data name="label28.Text">显示方式:</data>
+  <data name="radioButtonASCII.Text">ASCII</data>
+  <data name="radioButtonHex.Text">Hex</data>
+  <data name="groupBox6.Text">Veri Al(Hex)</data>
+  <data name="label27.Text">长度:</data>
+  <data name="groupBox5.Text">Veri Gonder</data>
+  <data name="btnGetHeadData.Text">Gonder</data>
+  <data name="label24.Text">Komut(Hex):</data>
+  <data name="tabPageHeadData.Text">KafaVerisi</data>
+  <data name="button1.Text">&amp;Iptal</data>
+  <data name="button2.Text">&amp;OK</data>
+  <data name="$this.Text">FabrikaHataOnar</data>
+</root>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_LabelWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelWidth.Text" xml:space="preserve">
+    <value>寬度</value>
+  </data>
+  <data name="checkBoxFixPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="checkBoxFixPos.Text" xml:space="preserve">
+    <value>機械彩條</value>
+  </data>
+  <data name="m_CheckBoxNormalType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="m_CheckBoxNormalType.Text" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="m_LabelStripeWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelStripeWidth.Text" xml:space="preserve">
+    <value>寬度</value>
+  </data>
+  <data name="m_LabelStripeSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelStripeSpace.Text" xml:space="preserve">
+    <value>距離</value>
+  </data>
+  <data name="m_LabelStripePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelStripePos.Text" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="m_CheckBoxMixedType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="m_CheckBoxMixedType.Text" xml:space="preserve">
+    <value>彩色重疊</value>
+  </data>
+  <data name="m_CheckBoxHeightWithImageType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="m_CheckBoxHeightWithImageType.Text" xml:space="preserve">
+    <value>和圖像同高</value>
+  </data>
+  <data name="m_GroupBoxInkStripe.Text" xml:space="preserve">
+    <value>彩條</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>傳感器位置</value>
+  </data>
+  <data name="m_LabelHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelHeight.Text" xml:space="preserve">
+    <value>紙長</value>
+  </data>
+  <data name="m_ButtonMeasure.Text" xml:space="preserve">
+    <value>測量</value>
+  </data>
+  <data name="m_LabelMargin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelMargin.Text" xml:space="preserve">
+    <value>測量邊距</value>
+  </data>
+  <data name="m_CheckBoxMeasureBeforePrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="m_CheckBoxMeasureBeforePrint.Text" xml:space="preserve">
+    <value>列印前測量介質</value>
+  </data>
+  <data name="m_GroupBoxMedia.Text" xml:space="preserve">
+    <value>介質</value>
+  </data>
+  <data name="m_labelPrintPrespraytime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="m_labelPrintPrespraytime.Text" xml:space="preserve">
+    <value>印前閃噴持續時間</value>
+  </data>
+  <data name="m_CheckBoxSprayBeforePrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="m_CheckBoxSprayBeforePrint.Text" xml:space="preserve">
+    <value>列印前閃噴</value>
+  </data>
+  <data name="m_LabelAutoSpray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelAutoSpray.Text" xml:space="preserve">
+    <value>自動閃噴</value>
+  </data>
+  <data name="m_NumericUpDownSprayCycle.ToolTip" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="m_LabelSprayCycle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelSprayCycle.Text" xml:space="preserve">
+    <value>閃噴週期</value>
+  </data>
+  <data name="m_CheckBoxIdleSpray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="m_CheckBoxIdleSpray.Text" xml:space="preserve">
+    <value>空閒閃噴</value>
+  </data>
+  <data name="m_NumericUpDownSprayTimes.ToolTip" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="m_LabelSprayTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelSprayTimes.Text" xml:space="preserve">
+    <value>閃噴次數</value>
+  </data>
+  <data name="checkBoxConstantStep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="checkBoxConstantStep.Text" xml:space="preserve">
+    <value>恆定步進</value>
+  </data>
+  <data name="label_FeatherType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="label_FeatherType.Text" xml:space="preserve">
+    <value>羽化類型</value>
+  </data>
+  <data name="m_LabelFeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelFeather.Text" xml:space="preserve">
+    <value>羽化</value>
+  </data>
+  <data name="m_NmericUpDownWaveLen.ToolTip" xml:space="preserve">
+    <value>波長</value>
+  </data>
+  <data name="m_NumericUpDownFeatherPercent.ToolTip" xml:space="preserve">
+    <value>漸變百分比</value>
+  </data>
+  <data name="checkBoxJointFeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="checkBoxJointFeather.Text" xml:space="preserve">
+    <value>喷头间羽化</value>
+  </data>
+  <data name="labelPlatformCorrect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="labelPlatformCorrect.Text" xml:space="preserve">
+    <value>平台矯正</value>
+  </data>
+  <data name="m_LabelJobSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelJobSpace.Text" xml:space="preserve">
+    <value>作業間距</value>
+  </data>
+  <data name="checkBoxExquisiteFeather.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="checkBoxExquisiteFeather.Text" xml:space="preserve">
+    <value>精細羽化</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>墨量:</value>
+  </data>
+  <data name="m_CheckBoxAutoJumpWhite.Text" xml:space="preserve">
+    <value>自動跳白</value>
+  </data>
+  <data name="m_CheckBoxYContinue.Text" xml:space="preserve">
+    <value>Y連續列印</value>
+  </data>
+  <data name="m_NumericUpDownStepTime.ToolTip" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="m_LabelStepTime.Text" xml:space="preserve">
+    <value>跳白時間</value>
+  </data>
+  <data name="m_GroupBoxPrintSetting.Text" xml:space="preserve">
+    <value>列印設置</value>
+  </data>
+  <data name="labelUVoffsetDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="labelUVoffsetDistance.Text" xml:space="preserve">
+    <value>UV燈偏移距離</value>
+  </data>
+  <data name="m_CheckBoxMirror.Text" xml:space="preserve">
+    <value>鏡像打印</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Z清洗位置:</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Z保濕位置:</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Z2工作位置:</value>
+  </data>
+  <data name="buttonMoveToWorkPos.Text" xml:space="preserve">
+    <value>移動到工作位置</value>
+  </data>
+  <data name="labelZWorkPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="labelZWorkPos.Text" xml:space="preserve">
+    <value>Z工作位置:</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Z最大行程</value>
+  </data>
+  <data name="m_LabelZSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="m_LabelZSpace.Text" xml:space="preserve">
+    <value>噴頭距離介質</value>
+  </data>
+  <data name="m_ButtonZManual.Text" xml:space="preserve">
+    <value>Z 手工</value>
+  </data>
+  <data name="m_ButtonMeasureMaxZ.Text" xml:space="preserve">
+    <value>測z最大行程</value>
+  </data>
+  <data name="m_LabelMediaThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelMediaThickness.Text" xml:space="preserve">
+    <value>材料厚度</value>
+  </data>
+  <data name="m_CheckBoxKillBidir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="m_CheckBoxKillBidir.Text" xml:space="preserve">
+    <value>固定色序</value>
+  </data>
+  <data name="m_CheckBoxAutoYCalibrate.Text" xml:space="preserve">
+    <value>碼盤總長控制</value>
+  </data>
+  <data name="m_NumericUpDownCleanTimes.ToolTip" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="checkBoxBSUseSpray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="checkBoxBSUseSpray.Text" xml:space="preserve">
+    <value>保濕位置應用閃噴</value>
+  </data>
+  <data name="checkBoxUseHighParam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 17</value>
+  </data>
+  <data name="checkBoxUseHighParam.Text" xml:space="preserve">
+    <value>空閒閃噴應用強噴參數</value>
+  </data>
+  <data name="m_GroupBoxSpray.Text" xml:space="preserve">
+    <value>閃噴設置</value>
+  </data>
+  <data name="CheckBoxReversePrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="CheckBoxReversePrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 32</value>
+  </data>
+  <data name="CheckBoxReversePrint.Text" xml:space="preserve">
+    <value>反向打印</value>
+  </data>
+  <data name="m_grouperPrintDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 68</value>
+  </data>
+  <data name="m_grouperPrintDir.Text" xml:space="preserve">
+    <value>打印方向</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>平台距離Y:</value>
+  </data>
+  <data name="checkBoxPixelStep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 18</value>
+  </data>
+  <data name="checkBoxPixelStep.Text" xml:space="preserve">
+    <value>像素步進</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>探頭長度:</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>噴頭距離介質:</value>
+  </data>
+  <data name="labelManualSprayFreq.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="labelManualSprayFreq.Text" xml:space="preserve">
+    <value>頻率:</value>
+  </data>
+  <data name="labelManualSprayPeriod.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="labelManualSprayPeriod.Text" xml:space="preserve">
+    <value>周期:</value>
+  </data>
+  <data name="grouperManualSpray.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 559</value>
+  </data>
+  <data name="grouperManualSpray.Text" xml:space="preserve">
+    <value>手動閃噴設置</value>
+  </data>
+  <data name="labelRollLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="labelRollLength.Text" xml:space="preserve">
+    <value>剩余紙長:</value>
+  </data>
+  <data name="buttonFastCalculate.Text" xml:space="preserve">
+    <value>快捷計算</value>
+  </data>
+  <data name="checkBoxEnableDetectRemainingRoll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="checkBoxEnableDetectRemainingRoll.Text" xml:space="preserve">
+    <value>啓用紙長監測</value>
+  </data>
+  <data name="grouper2.Text" xml:space="preserve">
+    <value>紙長監測</value>
+  </data>
+  <data name="checkBoxClosedLoopControl.Text" xml:space="preserve">
+    <value>导带补偿</value>
+  </data>
+  <data name="numUVLightInAdvance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="labelUVLightInAdvance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="labelUVLightInAdvance.Text" xml:space="preserve">
+    <value>UV燈提前開距離</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>移動長度:</value>
+  </data>
+  <data name="grouperEliminateYMotorGap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 661</value>
+  </data>
+  <data name="grouperEliminateYMotorGap.Text" xml:space="preserve">
+    <value>消除Y軸電機間隙</value>
+  </data>
+  <data name="labelSuctionEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="labelSuctionEndPos.Text" xml:space="preserve">
+    <value>吸風結束位置</value>
+  </data>
+  <data name="labelSuctionStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="labelSuctionStartPos.Text" xml:space="preserve">
+    <value>吸風開始位置</value>
+  </data>
+  <data name="labelSuctionTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="labelSuctionTimes.Text" xml:space="preserve">
+    <value>吸風次數</value>
+  </data>
+  <data name="labelHumidInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="labelHumidInterval.Text" xml:space="preserve">
+    <value>加濕間隔</value>
+  </data>
+  <data name="labelHumidPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="labelHumidPos.Text" xml:space="preserve">
+    <value>加濕位置</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>清洗位置Z</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>清洗位置Y</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>清洗位置X</value>
+  </data>
+  <data name="lblEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="lblEndPos.Text" xml:space="preserve">
+    <value>清洗長度修正</value>
+  </data>
+  <data name="lblAutoCleanPosMov.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="lblAutoCleanPosMov.Text" xml:space="preserve">
+    <value>清洗位置修正</value>
+  </data>
+  <data name="m_labelPauseTimeAfterCleaning.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="m_labelPauseTimeAfterCleaning.Text" xml:space="preserve">
+    <value>清洗後停頓時間</value>
+  </data>
+  <data name="m_LabelCleanTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelCleanTimes.Text" xml:space="preserve">
+    <value>清洗次數</value>
+  </data>
+  <data name="m_LabelAutoClean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="m_LabelAutoClean.Text" xml:space="preserve">
+    <value>自動清洗</value>
+  </data>
+  <data name="m_GroupBoxClean.Text" xml:space="preserve">
+    <value>清洗設置</value>
+  </data>
+  <data name="labelStirCycleTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="labelStirCycleTime.Text" xml:space="preserve">
+    <value>攪拌間隔(s):</value>
+  </data>
+  <data name="labelStirPulseTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="labelStirPulseTime.Text" xml:space="preserve">
+    <value>攪拌時間(s):</value>
+  </data>
+  <data name="labelCycleTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="labelCycleTime.Text" xml:space="preserve">
+    <value>循環間隔(s):</value>
+  </data>
+  <data name="labelPulseTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="labelPulseTime.Text" xml:space="preserve">
+    <value>循環時間(s):</value>
+  </data>
+  <data name="grouperWhiteInkMixing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 134</value>
+  </data>
+  <data name="grouperWhiteInkMixing.Text" xml:space="preserve">
+    <value>白墨循環/攪拌</value>
+  </data>
+  <data name="m_Label_MaxTolerancePos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="m_Label_MaxTolerancePos.Text" xml:space="preserve">
+    <value>最大容差位置</value>
+  </data>
+  <data name="m_CheckBox_CorrectOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="m_CheckBox_CorrectOffset.Text" xml:space="preserve">
+    <value>矯正雙軸偏差</value>
+  </data>
+  <data name="m_Grouper_DoubleAxis.Text" xml:space="preserve">
+    <value>雙Y軸</value>
+  </data>
+  <data name="checkBoxOneStepSkipWhite.Text" xml:space="preserve">
+    <value>一步跳白</value>
+  </data>
+  <data name="cbxCappingEnable.Text" xml:space="preserve">
+    <value>保濕</value>
+  </data>
+  <data name="checkBoxZaxisEnable.Text" xml:space="preserve">
+    <value>Z軸控制</value>
+  </data>
+  <data name="grouperLingFeng_RollUVCappingPara.Text" xml:space="preserve">
+    <value>保濕和Z軸</value>
+  </data>
+  <data name="cbxZaxisEnable.Text" xml:space="preserve">
+    <value>Z軸控制</value>
+  </data>
+  <data name="checkBoxzCaliNoStep.Text" xml:space="preserve">
+    <value>新校準</value>
+  </data>
+  <data name="checkBoxCalibrationNoStep.Text" xml:space="preserve">
+    <value>校準后不步進</value>
+  </data>
+  <data name="m_LabelInkPercent.Text" xml:space="preserve">
+    <value>墨量百分比</value>
+  </data>
+  <data name="grouper_HumanCleanSetting.Text" xml:space="preserve">
+    <value>清洗參數</value>
+  </data>
+  <data name="label_HumanCleanXpos.Text" xml:space="preserve">
+    <value>清洗X位置（脈衝）</value>
+  </data>
+  <data name="label_HumanPressInkTime.Text" xml:space="preserve">
+    <value>壓墨時間（秒）</value>
+  </data>
+  <data name="label_HumanRecoverTime.Text" xml:space="preserve">
+    <value>壓墨恢復時間（秒）</value>
+  </data>
+  <data name="label_HumanScarperLen.Text" xml:space="preserve">
+    <value>刮片位置（脈衝）</value>
+  </data>
+  <data name="labelNozzleFeather.Text" xml:space="preserve">
+    <value>噴孔羽化</value>
+  </data>
+</root>

@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_epsonBaseSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="m_epsonBaseSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_epsonBaseSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 407</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_epsonBaseSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_epsonBaseSetting.Name" xml:space="preserve">
+    <value>m_epsonBaseSetting</value>
+  </data>
+  <data name="&gt;&gt;m_epsonBaseSetting.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.EpsonBaseSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_epsonBaseSetting.Parent" xml:space="preserve">
+    <value>m_TabPagePrinterSetting</value>
+  </data>
+  <data name="&gt;&gt;m_epsonBaseSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_BaseSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="m_BaseSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_BaseSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1218, 756</value>
+  </data>
+  <data name="m_BaseSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_BaseSetting.Name" xml:space="preserve">
+    <value>m_BaseSetting</value>
+  </data>
+  <data name="&gt;&gt;m_BaseSetting.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.BaseSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_BaseSetting.Parent" xml:space="preserve">
+    <value>m_TabPagePrinterSetting</value>
+  </data>
+  <data name="&gt;&gt;m_BaseSetting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_TabPagePrinterSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_TabPagePrinterSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_TabPagePrinterSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_TabPagePrinterSetting.Text" xml:space="preserve">
+    <value>Printer</value>
+  </data>
+  <data name="&gt;&gt;m_TabPagePrinterSetting.Name" xml:space="preserve">
+    <value>m_TabPagePrinterSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPagePrinterSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_TabPagePrinterSetting.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPagePrinterSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_MoveSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_MoveSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>552, 336</value>
+  </data>
+  <data name="m_MoveSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_MoveSetting.Name" xml:space="preserve">
+    <value>m_MoveSetting</value>
+  </data>
+  <data name="&gt;&gt;m_MoveSetting.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.MoveSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_MoveSetting.Parent" xml:space="preserve">
+    <value>m_TabPageMoveSetting</value>
+  </data>
+  <data name="&gt;&gt;m_MoveSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_TabPageMoveSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_TabPageMoveSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_TabPageMoveSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_TabPageMoveSetting.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageMoveSetting.Name" xml:space="preserve">
+    <value>m_TabPageMoveSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageMoveSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageMoveSetting.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageMoveSetting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_PreferenceSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="m_PreferenceSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_PreferenceSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 433</value>
+  </data>
+  <data name="m_PreferenceSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_PreferenceSetting.Name" xml:space="preserve">
+    <value>m_PreferenceSetting</value>
+  </data>
+  <data name="&gt;&gt;m_PreferenceSetting.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.PreferenceSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_PreferenceSetting.Parent" xml:space="preserve">
+    <value>m_TabPagePreference</value>
+  </data>
+  <data name="&gt;&gt;m_PreferenceSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_TabPagePreference.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_TabPagePreference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_TabPagePreference.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_TabPagePreference.Text" xml:space="preserve">
+    <value>Preference</value>
+  </data>
+  <data name="&gt;&gt;m_TabPagePreference.Name" xml:space="preserve">
+    <value>m_TabPagePreference</value>
+  </data>
+  <data name="&gt;&gt;m_TabPagePreference.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_TabPagePreference.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPagePreference.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_CalibrationSetting.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_CalibrationSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="m_CalibrationSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_CalibrationSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 513</value>
+  </data>
+  <data name="m_CalibrationSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_CalibrationSetting.Name" xml:space="preserve">
+    <value>m_CalibrationSetting</value>
+  </data>
+  <data name="&gt;&gt;m_CalibrationSetting.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.CalibrationSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_CalibrationSetting.Parent" xml:space="preserve">
+    <value>m_TabPageCaliSetting</value>
+  </data>
+  <data name="&gt;&gt;m_CalibrationSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_TabPageCaliSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_TabPageCaliSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_TabPageCaliSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_TabPageCaliSetting.Text" xml:space="preserve">
+    <value>Calibration</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageCaliSetting.Name" xml:space="preserve">
+    <value>m_TabPageCaliSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageCaliSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageCaliSetting.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageCaliSetting.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="spotColorSetting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="spotColorSetting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 434</value>
+  </data>
+  <data name="spotColorSetting1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;spotColorSetting1.Name" xml:space="preserve">
+    <value>spotColorSetting1</value>
+  </data>
+  <data name="&gt;&gt;spotColorSetting1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.SpotColorSetting_new, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;spotColorSetting1.Parent" xml:space="preserve">
+    <value>m_TabPageWriteColor</value>
+  </data>
+  <data name="&gt;&gt;spotColorSetting1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_TabPageWriteColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_TabPageWriteColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_TabPageWriteColor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_TabPageWriteColor.Text" xml:space="preserve">
+    <value>WhiteInk Setting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageWriteColor.Name" xml:space="preserve">
+    <value>m_TabPageWriteColor</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageWriteColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageWriteColor.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageWriteColor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="doublePrintSetting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="doublePrintSetting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 199</value>
+  </data>
+  <data name="doublePrintSetting1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;doublePrintSetting1.Name" xml:space="preserve">
+    <value>doublePrintSetting1</value>
+  </data>
+  <data name="&gt;&gt;doublePrintSetting1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.DoublePrintSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;doublePrintSetting1.Parent" xml:space="preserve">
+    <value>m_tabPageDoublePrint</value>
+  </data>
+  <data name="&gt;&gt;doublePrintSetting1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tabPageDoublePrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_tabPageDoublePrint.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="m_tabPageDoublePrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_tabPageDoublePrint.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="m_tabPageDoublePrint.Text" xml:space="preserve">
+    <value>Double Side Print</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageDoublePrint.Name" xml:space="preserve">
+    <value>m_tabPageDoublePrint</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageDoublePrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageDoublePrint.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageDoublePrint.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="m_SeviceSetting.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="m_SeviceSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_SeviceSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 400</value>
+  </data>
+  <data name="m_SeviceSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_SeviceSetting.Name" xml:space="preserve">
+    <value>m_SeviceSetting</value>
+  </data>
+  <data name="&gt;&gt;m_SeviceSetting.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.SeviceSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_SeviceSetting.Parent" xml:space="preserve">
+    <value>m_TabPageService</value>
+  </data>
+  <data name="&gt;&gt;m_SeviceSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_TabPageService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_TabPageService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_TabPageService.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_TabPageService.Text" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageService.Name" xml:space="preserve">
+    <value>m_TabPageService</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageService.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPageService.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_Printer3DSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_Printer3DSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 459</value>
+  </data>
+  <data name="m_Printer3DSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_Printer3DSetting.Name" xml:space="preserve">
+    <value>m_Printer3DSetting</value>
+  </data>
+  <data name="&gt;&gt;m_Printer3DSetting.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.Printer3DSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_Printer3DSetting.Parent" xml:space="preserve">
+    <value>m_TabPage_3DPrinter</value>
+  </data>
+  <data name="&gt;&gt;m_Printer3DSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_TabPage_3DPrinter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_TabPage_3DPrinter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="m_TabPage_3DPrinter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_TabPage_3DPrinter.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="m_TabPage_3DPrinter.Text" xml:space="preserve">
+    <value>3D Printer</value>
+  </data>
+  <data name="&gt;&gt;m_TabPage_3DPrinter.Name" xml:space="preserve">
+    <value>m_TabPage_3DPrinter</value>
+  </data>
+  <data name="&gt;&gt;m_TabPage_3DPrinter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_TabPage_3DPrinter.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabPage_3DPrinter.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="userExtensionSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="userExtensionSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 400</value>
+  </data>
+  <data name="userExtensionSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;userExtensionSetting.Name" xml:space="preserve">
+    <value>userExtensionSetting</value>
+  </data>
+  <data name="&gt;&gt;userExtensionSetting.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.UserExtensionSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;userExtensionSetting.Parent" xml:space="preserve">
+    <value>tabPageUserExtention</value>
+  </data>
+  <data name="&gt;&gt;userExtensionSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageUserExtention.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="tabPageUserExtention.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageUserExtention.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="tabPageUserExtention.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tabPageUserExtention.Text" xml:space="preserve">
+    <value>User Extension</value>
+  </data>
+  <data name="&gt;&gt;tabPageUserExtention.Name" xml:space="preserve">
+    <value>tabPageUserExtention</value>
+  </data>
+  <data name="&gt;&gt;tabPageUserExtention.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageUserExtention.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;tabPageUserExtention.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="defineUVPowerLevel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="defineUVPowerLevel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 302</value>
+  </data>
+  <data name="defineUVPowerLevel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;defineUVPowerLevel1.Name" xml:space="preserve">
+    <value>defineUVPowerLevel1</value>
+  </data>
+  <data name="&gt;&gt;defineUVPowerLevel1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.DefineUVPowerLevel, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;defineUVPowerLevel1.Parent" xml:space="preserve">
+    <value>tabPageUVPowerLevel</value>
+  </data>
+  <data name="&gt;&gt;defineUVPowerLevel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageUVPowerLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="tabPageUVPowerLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="tabPageUVPowerLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tabPageUVPowerLevel.Text" xml:space="preserve">
+    <value>UV Power Level</value>
+  </data>
+  <data name="&gt;&gt;tabPageUVPowerLevel.Name" xml:space="preserve">
+    <value>tabPageUVPowerLevel</value>
+  </data>
+  <data name="&gt;&gt;tabPageUVPowerLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageUVPowerLevel.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;tabPageUVPowerLevel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="jobConfigModes1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="jobConfigModes1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 428</value>
+  </data>
+  <data name="jobConfigModes1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;jobConfigModes1.Name" xml:space="preserve">
+    <value>jobConfigModes1</value>
+  </data>
+  <data name="&gt;&gt;jobConfigModes1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.JobConfigModes, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;jobConfigModes1.Parent" xml:space="preserve">
+    <value>tabPagJobModes</value>
+  </data>
+  <data name="&gt;&gt;jobConfigModes1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPagJobModes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="tabPagJobModes.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPagJobModes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="tabPagJobModes.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tabPagJobModes.Text" xml:space="preserve">
+    <value>Job Mode</value>
+  </data>
+  <data name="&gt;&gt;tabPagJobModes.Name" xml:space="preserve">
+    <value>tabPagJobModes</value>
+  </data>
+  <data name="&gt;&gt;tabPagJobModes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPagJobModes.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;tabPagJobModes.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="mediaConfigs1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="mediaConfigs1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 428</value>
+  </data>
+  <data name="mediaConfigs1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mediaConfigs1.Name" xml:space="preserve">
+    <value>mediaConfigs1</value>
+  </data>
+  <data name="&gt;&gt;mediaConfigs1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.MediaConfigs, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;mediaConfigs1.Parent" xml:space="preserve">
+    <value>tabPageMediaMode</value>
+  </data>
+  <data name="&gt;&gt;mediaConfigs1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageMediaMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="tabPageMediaMode.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageMediaMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="tabPageMediaMode.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tabPageMediaMode.Text" xml:space="preserve">
+    <value>Media Mode</value>
+  </data>
+  <data name="&gt;&gt;tabPageMediaMode.Name" xml:space="preserve">
+    <value>tabPageMediaMode</value>
+  </data>
+  <data name="&gt;&gt;tabPageMediaMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageMediaMode.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;tabPageMediaMode.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="temperatureSetting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="temperatureSetting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 104</value>
+  </data>
+  <data name="temperatureSetting1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;temperatureSetting1.Name" xml:space="preserve">
+    <value>temperatureSetting1</value>
+  </data>
+  <data name="&gt;&gt;temperatureSetting1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.TemperatureSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;temperatureSetting1.Parent" xml:space="preserve">
+    <value>tabPagePressureSet</value>
+  </data>
+  <data name="&gt;&gt;temperatureSetting1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pressureSetting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
+  </data>
+  <data name="pressureSetting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 157</value>
+  </data>
+  <data name="pressureSetting1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pressureSetting1.Name" xml:space="preserve">
+    <value>pressureSetting1</value>
+  </data>
+  <data name="&gt;&gt;pressureSetting1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.PressureSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pressureSetting1.Parent" xml:space="preserve">
+    <value>tabPagePressureSet</value>
+  </data>
+  <data name="&gt;&gt;pressureSetting1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPagePressureSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="tabPagePressureSet.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPagePressureSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="tabPagePressureSet.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="tabPagePressureSet.Text" xml:space="preserve">
+    <value>Pressure&amp;Temperature Set</value>
+  </data>
+  <data name="&gt;&gt;tabPagePressureSet.Name" xml:space="preserve">
+    <value>tabPagePressureSet</value>
+  </data>
+  <data name="&gt;&gt;tabPagePressureSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPagePressureSet.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;tabPagePressureSet.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="m_tabPageCloseColorNozzle.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="closeColorNozzle1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="closeColorNozzle1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>748, 530</value>
+  </data>
+  <data name="closeColorNozzle1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;closeColorNozzle1.Name" xml:space="preserve">
+    <value>closeColorNozzle1</value>
+  </data>
+  <data name="&gt;&gt;closeColorNozzle1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.CloseColorNozzle_New, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;closeColorNozzle1.Parent" xml:space="preserve">
+    <value>m_tabPageCloseColorNozzle</value>
+  </data>
+  <data name="&gt;&gt;closeColorNozzle1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tabPageCloseColorNozzle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_tabPageCloseColorNozzle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_tabPageCloseColorNozzle.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_tabPageCloseColorNozzle.Text" xml:space="preserve">
+    <value>Nozzle Overlap</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCloseColorNozzle.Name" xml:space="preserve">
+    <value>m_tabPageCloseColorNozzle</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCloseColorNozzle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCloseColorNozzle.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCloseColorNozzle.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="customCloseNozzle1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="customCloseNozzle1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 466</value>
+  </data>
+  <data name="customCloseNozzle1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;customCloseNozzle1.Name" xml:space="preserve">
+    <value>customCloseNozzle1</value>
+  </data>
+  <data name="&gt;&gt;customCloseNozzle1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.CustomCloseNozzle, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;customCloseNozzle1.Parent" xml:space="preserve">
+    <value>m_tabPageCustomCloseNozzle</value>
+  </data>
+  <data name="&gt;&gt;customCloseNozzle1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tabPageCustomCloseNozzle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_tabPageCustomCloseNozzle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_tabPageCustomCloseNozzle.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="m_tabPageCustomCloseNozzle.Text" xml:space="preserve">
+    <value>CustomCloseNozzle</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCustomCloseNozzle.Name" xml:space="preserve">
+    <value>m_tabPageCustomCloseNozzle</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCustomCloseNozzle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCustomCloseNozzle.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCustomCloseNozzle.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="workposSetting1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="workposSetting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="workposSetting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="workposSetting1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;workposSetting1.Name" xml:space="preserve">
+    <value>workposSetting1</value>
+  </data>
+  <data name="&gt;&gt;workposSetting1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.WorkposSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;workposSetting1.Parent" xml:space="preserve">
+    <value>m_tabPageWorkPosSetting</value>
+  </data>
+  <data name="&gt;&gt;workposSetting1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tabPageWorkPosSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_tabPageWorkPosSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_tabPageWorkPosSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="m_tabPageWorkPosSetting.Text" xml:space="preserve">
+    <value>WorkPosSetting</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageWorkPosSetting.Name" xml:space="preserve">
+    <value>m_tabPageWorkPosSetting</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageWorkPosSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageWorkPosSetting.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageWorkPosSetting.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="debugQuality1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="debugQuality1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="debugQuality1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="debugQuality1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="debugQuality1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;debugQuality1.Name" xml:space="preserve">
+    <value>debugQuality1</value>
+  </data>
+  <data name="&gt;&gt;debugQuality1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.DebugQuality, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;debugQuality1.Parent" xml:space="preserve">
+    <value>m_tabPageCustomDebugQuality</value>
+  </data>
+  <data name="&gt;&gt;debugQuality1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_tabPageCustomDebugQuality.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 21</value>
+  </data>
+  <data name="m_tabPageCustomDebugQuality.Size" type="System.Drawing.Size, System.Drawing">
+    <value>842, 583</value>
+  </data>
+  <data name="m_tabPageCustomDebugQuality.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="m_tabPageCustomDebugQuality.Text" xml:space="preserve">
+    <value>DebugQuality</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCustomDebugQuality.Name" xml:space="preserve">
+    <value>m_tabPageCustomDebugQuality</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCustomDebugQuality.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCustomDebugQuality.Parent" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_tabPageCustomDebugQuality.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="m_TabControlSetting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_TabControlSetting.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="m_TabControlSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_TabControlSetting.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_TabControlSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 608</value>
+  </data>
+  <data name="m_TabControlSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_TabControlSetting.Name" xml:space="preserve">
+    <value>m_TabControlSetting</value>
+  </data>
+  <data name="&gt;&gt;m_TabControlSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_TabControlSetting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_TabControlSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_ButtonOK.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 9</value>
+  </data>
+  <data name="m_ButtonOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 24</value>
+  </data>
+  <data name="m_ButtonOK.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_ButtonOK.Text" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOK.Name" xml:space="preserve">
+    <value>m_ButtonOK</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOK.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_ButtonCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 9</value>
+  </data>
+  <data name="m_ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 24</value>
+  </data>
+  <data name="m_ButtonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_ButtonCancel.Text" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCancel.Name" xml:space="preserve">
+    <value>m_ButtonCancel</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCancel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 608</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>850, 42</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>850, 650</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

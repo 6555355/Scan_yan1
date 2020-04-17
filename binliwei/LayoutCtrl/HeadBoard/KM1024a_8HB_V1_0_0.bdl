@@ -1,0 +1,124 @@
+Param = {
+	Junctions = 8,
+	NzlsPerHead = 4,
+}
+
+-- id,name,support max heads,Heat channels,Temperature channels,Voltage channels,half voltagechannels per head
+-- #define HEAD_BOARD_TYPE_KM1024A_8HEAD       =   76,
+
+function GetHeadBoardParam()
+	return  76, "km1024a",8,1,1,4,0;
+end
+
+function GetSupportHeadCount()
+	return 2;
+end
+
+function GetSupportHeadList()
+	return "km1024a","km3688";
+end
+
+function GetHeatChannel(hbId,jId,id,hbs)
+	return hbId*8+7-jId;
+end
+
+function GetTempertureChannel(hbId,jId,id,hbs)
+	return hbId*8+7-jId;
+end
+
+function GetDataChannel(hbId,jId,id,hbs)
+	map = { 
+	hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2+1,
+	hbs*Param.Junctions*2+hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2+1,
+	hbs*Param.Junctions*2+hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2,  
+        hbId*Param.Junctions*2+jId*Param.NzlsPerHead/2
+	}
+	return map[id+1]
+end
+
+function GetVoltageChannel(hbId,jId,id,hbs)
+	return hbId*8+7-jId;
+end
+
+function GetConnector(dataChn,hbs)
+	local hbId;
+	local jId;
+	hbId = math.floor(dataChn/16);
+	jId = math.floor((dataChn - hbId*16)/2);
+	return hbId,jId;
+end
+
+function GetHeadBoardIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -9*s;
+	t = 16*s;
+	w = 18*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -9*s;
+	t = 22*s;
+	w = 18*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionInfo()
+
+	return 126,80,    -- w,h
+		   881,738,  "J1",
+		   881,442,  "J2",
+		   691,738,  "J3",
+		   691,442,  "J4",
+		   326,738,  "J5",
+		   326,442,  "J6",
+                   148,738,  "J7",
+		   150,442,  "J8";		     
+end
+
+function DrawJunction(headboardId,jId)
+	local s = 10.0;
+	local rt = 16*s
+	local rw = 8.5*s;
+	local rb = 28*s
+
+	local jh = 1*s;
+	local jw = 2.8*s;
+	local x,y;
+	local str = tostring(headboardId+1).. tostring("-")..tostring(jId+1);
+	
+	--
+	SetPenColor(0x0);
+	DrawHeadBoardOutLine(-rw,rt,rw*2,rb-rt,2*s);
+	SetBrushColor(0x0);
+
+	for i = 0,7,1 do
+		x = -math.modf(i/2)*1.5*jw + 1.75*jw;
+		if(i%2==0) 
+			then y = 24*s + jh*1.5;
+			else y = 24*s;
+		end
+		
+		if( i==jId )
+			then 
+				FillRectangle(x,y,jh,jw);
+			else
+				DrawRectangle(x,y,jh,jw);
+		end
+
+	end
+
+	SetFontSize(6*s);
+	SetFontFamily("Arial");	
+	DrawString(str,-rw,rt,2*rw,rt);
+	
+	return 1;
+
+end

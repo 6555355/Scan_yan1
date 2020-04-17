@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="$this.Text" xml:space="preserve">
+    <value>小车/IO调试工具</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="btnStop.Text" xml:space="preserve">
+    <value>停止运动</value>
+  </data>
+  <data name="cbAutoRefresh.Text" xml:space="preserve">
+    <value>自动刷新</value>
+  </data>
+  <data name="cbDoubleYSynchro.Text" xml:space="preserve">
+    <value>双Y同步</value>
+  </data>
+  <data name="cbFixedLength_X.Text" xml:space="preserve">
+    <value>定长移动</value>
+  </data>
+  <data name="cbFixedLength_Y.Text" xml:space="preserve">
+    <value>定长移动</value>
+  </data>
+  <data name="cbFixedLength_Y2.Text" xml:space="preserve">
+    <value>定长移动</value>
+  </data>
+  <data name="cbFixedLength_Z.Text" xml:space="preserve">
+    <value>定长移动</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>IO状态</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>全局指令</value>
+  </data>
+  <data name="groupBox_X.Text" xml:space="preserve">
+    <value>X轴 当前位置：0000脉冲</value>
+  </data>
+  <data name="groupBox_Y.Text" xml:space="preserve">
+    <value>Y轴 当前位置：0000脉冲</value>
+  </data>
+  <data name="groupBox_Y2.Text" xml:space="preserve">
+    <value>Y2轴 当前位置：0000脉冲</value>
+  </data>
+  <data name="groupBox_Z.Text" xml:space="preserve">
+    <value>Z轴 当前位置：0000脉冲</value>
+  </data>
+  <data name="labChange_X.Text" xml:space="preserve">
+    <value>变化值：000脉冲</value>
+  </data>
+  <data name="labChange_Y.Text" xml:space="preserve">
+    <value>变化值：000脉冲</value>
+  </data>
+  <data name="labChange_Y2.Text" xml:space="preserve">
+    <value>变化值：000脉冲</value>
+  </data>
+  <data name="labChange_Z.Text" xml:space="preserve">
+    <value>变化值：000脉冲</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>速度：</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>脉冲</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>速度：</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>速度：</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>脉冲</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>速度：</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>脉冲</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>脉冲</value>
+  </data>
+  <data name="labIO1.Text" xml:space="preserve">
+    <value>急停：J20</value>
+  </data>
+  <data name="labIO10.Text" xml:space="preserve">
+    <value>通用：J32.9</value>
+  </data>
+  <data name="labIO2.Text" xml:space="preserve">
+    <value>测款|溢墨：HB</value>
+  </data>
+  <data name="labIO3.Text" xml:space="preserve">
+    <value>6轴原点：J21</value>
+  </data>
+  <data name="labIO4.Text" xml:space="preserve">
+    <value>5轴原点：J18</value>
+  </data>
+  <data name="labIO5.Text" xml:space="preserve">
+    <value>未应用：J31</value>
+  </data>
+  <data name="labIO6.Text" xml:space="preserve">
+    <value>通用：J32.5</value>
+  </data>
+  <data name="labIO7.Text" xml:space="preserve">
+    <value>通用：J32.6</value>
+  </data>
+  <data name="labIO8.Text" xml:space="preserve">
+    <value>通用：J32.7</value>
+  </data>
+  <data name="labIO9.Text" xml:space="preserve">
+    <value>通用：J32.8</value>
+  </data>
+  <data name="labIO_XE.Text" xml:space="preserve">
+    <value>终点：J17</value>
+  </data>
+  <data name="labIO_XO.Text" xml:space="preserve">
+    <value>原点：J23</value>
+  </data>
+  <data name="labIO_Y2E.Text" xml:space="preserve">
+    <value>终点：J15</value>
+  </data>
+  <data name="labIO_Y2O.Text" xml:space="preserve">
+    <value>原点：J18</value>
+  </data>
+  <data name="labIO_YE.Text" xml:space="preserve">
+    <value>终点：J15</value>
+  </data>
+  <data name="labIO_YO.Text" xml:space="preserve">
+    <value>原点：J24</value>
+  </data>
+  <data name="labIO_ZE.Text" xml:space="preserve">
+    <value>终点：J22</value>
+  </data>
+  <data name="labIO_ZO.Text" xml:space="preserve">
+    <value>原点：J16</value>
+  </data>
+  <data name="labelGrating1.Text" xml:space="preserve">
+    <value>光栅坐标：</value>
+  </data>
+  <data name="labelGrating2.Text" xml:space="preserve">
+    <value>光栅坐标：</value>
+  </data>
+  <data name="labelGrating3.Text" xml:space="preserve">
+    <value>光栅坐标：</value>
+  </data>
+  <data name="labelGrating5.Text" xml:space="preserve">
+    <value>光栅坐标：</value>
+  </data>
+  <data name="labelPWM1.Text" xml:space="preserve">
+    <value>脉冲坐标：</value>
+  </data>
+  <data name="labelPWM2.Text" xml:space="preserve">
+    <value>脉冲坐标：</value>
+  </data>
+  <data name="labelPWM3.Text" xml:space="preserve">
+    <value>脉冲坐标：</value>
+  </data>
+  <data name="labelPWM5.Text" xml:space="preserve">
+    <value>脉冲坐标：</value>
+  </data>
+</root>

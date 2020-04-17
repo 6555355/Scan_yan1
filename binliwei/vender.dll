@@ -1,0 +1,410 @@
+[VenderID]
+    LIYU = 0x1,
+		INWEAR = 0x2,
+		INWEAR_ROLL_UV = 0x82,
+		INWEAR_FLAT_UV = 0x93,
+		INWEAR_ROLL_TEXTILE = 0x202, 
+		INWEAR_BELT_TEXTILE = 0x302, 
+		INWEAR_FLAT_TEXTILE = 0x702, 
+		INWEAR_UV = 0x13,
+
+		ALLWIN = 0x3,
+		ALLWIN_FLAT_UV = 0x83,
+		ALLWIN_ROLL_TEXTILE =0x203,
+		ALLWIN_BELT_TEXTILE=0x303,
+
+		ALLWIN_TEXTILE4 = 0x1E,
+		ALLWIN_ROLL_UV = 0x9E,
+ 	        ALLWIN_TEXTILE2 = 0x50,
+ 	        ALLWIN_EPSON4 = 0x51,
+ 	        ALLWIN_UV_EPSON4 = 0xD1,
+
+		KINCOLOR = 0x4,
+		KINCOLOR_FLAT_UV = 0x84,
+		KINCOLOR_FLAT_SOLVENT = 0x104,
+		
+		HUMAN = 0x5,
+		HUMAN_FLAT_UV = 0x85,
+		
+		MYJET = 0x6,
+		MYJET_FLAT_UV = 0x86,
+		
+		SPRINTER = 0x7,
+		SPRINTER_FLAT_UV = 0x87,
+                SPRINTER_ROLL_UV = 0x187,
+		
+		COLORJET = 0x8,
+		COLORJET_FLAT_UV = 0x88,
+		COLORJET_ROLL_TEXTILE =0x208,
+		COLORJET_BELT_TEXTILE=0x308,
+		
+		HAPOND = 0x9,
+		HAPOND_FLAT_UV = 0x89,
+    HAPOND_ROLL_UV = 0x189,
+		HAPOND_BAR_CODE=0x509,
+		
+		RODINJET = 0xA,
+		RODINJET_FLAT_UV = 0x8A,
+
+		GONGZENG = 0xB,
+		GONGZENG_FLAT_UV = 0x8B,
+		GONGZENG_ROLL_UV = 0x18B,
+		GONGZENG_BELT_TEXTILE = 0x30B,
+		GONGZENG_DS_UV = 0xA0B,
+
+		BRITEJET = 0xC,
+		BRITEJET_FLAT_UV = 0x8C,
+		
+    JHF = 0xD,
+    JHF_FLAT_UV = 0x8D,
+    
+		VOXINDIA = 0xE,
+		VOXINDIA_FLAT_UV = 0x8E,
+
+		WITCOLOR = 0xF,
+		WITCOLOR_FLAT_UV = 0x8F,
+		WITCOLOR_ROLL_UV = 0x018F,		
+		
+		MONOTECH = 0x10,
+		MONOTECH_FLAT_UV = 0x90,
+		MONOTECH_BELT_TEXTILE = 0x310,
+
+		MEIJET = 0x11,
+		MEIJET_FLAT_UV = 0x91,
+	
+		DOCAN = 0x12,
+		DOCAN_FLAT_UV = 0x92,
+
+		MICOLOR = 0x14,
+		MICOLOR_FLAT_UV = 0x94,
+
+		HUMAN_STITCH  = 0x15,
+		HUMAN_ROLL_UV = 0x95,
+		HUMAN_BELT_TEXTILE = 0x305,
+
+		TOPJET   = 0x16,
+		TOPJET_FLAT_UV = 0x96,
+
+		DESIGN   = 0x17,
+		DESIGN_FLAT_UV = 0x97,
+		
+		TATE = 0x18,
+		TATE_FLAT_UV = 0x98,
+		
+		RABILY = 0x19,
+		RABILY_FLAT_UV = 0x99,
+		
+		BOXIN = 0x1A,
+		BOXIN_FLAT_UV = 0x9A,
+		BOXIN_BAR_CODE = 0x51A,
+
+		BEMAJET = 0x1B,
+		BEMAJET_FLAT_UV = 0x9B,
+
+		COLORTOP = 0x1C,
+		COLORTOP_FLAT_UV = 0x9C,
+
+		INKWIN = 0x1D,
+		INKWIN_FLAT_UV = 0x9D,
+		
+		DGI = 0x1F,
+		DGI_FLAT_UV = 0x9F,
+		
+		BluePrint = 0X20,
+		BluePrint_Flat_UV = 0xA0,
+		BluePrint_Roll_UV = 0x1A0,
+		BluePrint_Belt_UV = 0x820,
+		
+ 	  RasterDigital = 0x21,
+    RasterDigital_FLAT = 0xA1,
+    
+    LOTUS = 0x22,
+          
+    GETHRAY = 0x23,
+    GETHRAY_ROLL_TEXTILE = 0x223,
+
+    BeautyColor = 0x24,
+    BeautyColor_Flat_UV = 0xA4,
+
+ 	  YATAO = 0x40,
+ 	  
+    YUEDA = 0x43,
+		YUEDA_FLAT_UV = 0xC3,
+		YUEDA_ROLL_UV = 0x1C3,
+		YUEDA_BELT_UV = 0x843,
+    YUEDA_BELT_TEXTILE = 0x343,
+    YUEDA_FLAT_TEXTILE = 0x743,
+
+    KEDITEC = 0x44,
+		KEDITEC_ROLL_TEXTILE = 0x244,
+    KEDITEC_FLAT_TEXTILE = 0x744,
+
+ 	  MagicCC = 0x48,
+ 	  MagicCC_flat_UV = 0xC8,
+
+    ALLPRINT = 0x49,
+    ALLPRINT_BELT_TEXTILE = 0x349,
+    ALLPRINT_FLAT_TEXTILE = 0x749,
+    ALLPRINT_DOUBLE_FLAT = 0x949,
+      
+    JINTU = 0x4A,
+    JINTU_Flat_UV  = 0xCA,
+ 
+    FLORA = 0x4B,
+    FLORA_Flat_UV = 0xCB,
+    FLORA_FLAT_TEXTILE = 0x74B,
+    FLORA_BELT_TEXTILE = 0x34B,
+
+    WANDE = 0x4C,
+    WANDE_ROLL_UV = 0x1CC,
+    
+    YINKELI = 0x4D,
+    YINKELI_FLAT_TEXTILE = 0x74D,	
+    
+    JIADA = 0x4E,
+    JIADA_BAR_CODE = 0x54E,
+    
+    Hongtu = 0x4F,
+    Hongtu_TILE_PRINT = 0X44F,
+    
+    Starjet = 0X50,
+    Starjet_flat_uv = 0XD0,
+ 	  
+ 	  KEQIANG = 0X51,
+ 	  KEQIANG_BAR_CODE = 0x551,
+ 	  
+ 	  HUMAN_REV = 0x52,
+ 	  HUMAN_TEXTILE = 0x53, 	  
+ 	  
+ 	  BinterJET = 0x54,
+ 	  
+ 	  SKYSHIP = 0x55,
+ 	  SKYSHIP_FLAT_UV = 0xD5,
+    SKYSHIP_ROLL_UV = 0x1D5, 	  
+
+ 	  BIGPRINTER = 0x56,
+ 	  BIGPRINTER_FLAT_UV = 0xD6,
+ 	  
+ 	  SIGNSTAR = 0x57,
+		LINGFENG = 0x58,
+		LINGFENG_FLAT_UV = 0xD8,
+
+		SCORPION = 0x0059,
+		SCORPION_ROLL_UV = 0x1D9,
+		SCORPION_ROLL_TEXTILE	= 0x259,
+		
+		HUAXIN = 0x5A,
+		HUAXIN_BAR_CODE = 0X55A,
+		
+		ADDTOP = 0x5B,
+		ADDTOP_ROLL_UV = 0X1DB,
+		
+		DEHAN = 0x5C,
+		DEHAN_BAR_CODE = 0X55C,
+		
+		XIECHEN = 0x5D,
+		XIECHEN_FLAT_UV = 0XDD,
+		
+		ZXHZ = 0x5E,
+		ZXHZ_3D_PRINT = 0x65E,
+		
+		SHIXIU = 0x5F,
+		SHIXIU_FLAT_UV = 0xDF,
+		
+		SAISHUN = 0x0060,
+		SAISHUN_BELT_TEXTILE = 0x360,
+		SAISHUN_FLAT_TEXTILE = 0x760,
+		
+		AUDLEY = 0x61,
+		
+		MASTERWORD = 0x62,
+		
+		YONGTAI = 0x63,
+		YONGTAI_FLAT_UV = 0xE3,
+		YONGTAI_BAR_CODE = 0x563,
+		
+		HESEN = 0x64,
+		HESEN_BAR_CODE = 0x564,
+		
+		JANNFU = 0x65,          
+		
+		AOJET = 0x66,        
+		AOJET_FLAT_UV = 0XE6,
+		
+		LOLY = 0x67,
+		LOLY_FLAT_UV =0xE7,
+		LOLY_ROLL_UV =0x1E7,
+		LOLY_ROLL_TEXTILE = 0X267,
+		
+		YORKDEAL = 0x68,
+		
+		NKT = 0x6A,
+		NKT_TILE_PRINT = 0x46A,
+		NKT_FLAT_SOLVENT = 0x16A,
+		NKT_BELT_TEXTILE = 0x36A,
+			
+		CADG_TILE_PRINT = 0x469,
+	
+	  KEDA = 0x6B,
+		KEDA_TILE_PRINT = 0x46B,
+		KEDA_3D_PRINT = 0x66B,
+		
+		MC_BAR_CODE = 0x46C,
+		JANNFU_BAR_CODE = 0x565,
+		UNI-M_BAR_CODE = 0x541,
+		MASTERWORD_BAR_CODE = 0x562,
+	  
+		YISHAN_FLAT_UV = 0xED,
+		YISHAN_ROLL_UV = 0x1ED,
+		
+    ORIC = 0x6F,
+		ORIC_ROLL_UV = 0x1EF,
+		
+		LECAI = 0x42,
+		LECAI_FLAT_UV = 0xC2,
+		LECAI_ROLL_UV = 0x1C2,
+		
+		MARTIN = 0x70,
+		MARTIN_TEXTTILE = 0x470,
+
+		TIANLONG_BELT_TEXTILE = 0X347,
+		TIANLONG_FLAT_TEXTILE = 0X747,
+		
+		WEILIU_BELT_TEXTILE = 0x36E,
+		
+		FHZL_3D_PRINT = 0x645,
+		BAOYAN_3D_PRINT = 0x646,
+		
+		GENDAO = 0x71,
+		
+		ZhengYe = 0x72,
+		ZhengYe_FLAT_UV = 0xF2,	
+		
+		CAILUN = 0x73,
+		CAILUN_BELT_TEXTILE = 0x373,
+		
+		Saer = 0x74,
+		Saer_roll_textile = 0x274,
+
+    XuanLan = 0x75,
+		XuanLan_Belt_UV = 0x875,
+		
+		BoHui = 0x76,
+		BoHui_Flat_textile = 0x776,
+		
+		FangDa = 0x77,
+		FangDa_Belt_textile = 0x377,
+
+		RuiTu = 0x78,
+        
+    ZhuoZhan = 0x79,
+    ZhuoZhan_belt_UV = 0x879,
+    
+    QZDY = 0x7A,
+    QZDY_Belt_textile = 0x37A,
+    
+    KeSaiEn = 0x7B,
+    KeSaiEn_roll_textile = 0x27B,   
+    
+    FuMeiLiYin = 0x7C,
+    FuMeiLiYin_roll_textile = 0x27C, 
+		
+ 	  BYHX_ENG = 0x7F,
+[PrinterHeadEnum]
+		Xaar_126 = 1,
+		Xaar_XJ128_40W  = 2 ,
+		Xaar_XJ128_80W  = 3,
+		Xaar_500  = 4,
+
+		Spectra_S_128  =  5,
+		Spectra_NOVA_256  =  6,
+		Spectra_GALAXY_256  =  7,
+
+		Konica_KM512M_14pl = 8,
+		Konica_KM256M_14pl = 9,
+		Konica_KM128M_14pl = 10,
+		Konica_KM512L_42pl = 11,
+		Konica_KM256L_42pl = 12,
+		Konica_KM128L_42pl = 13,
+
+
+		Xaar_Electron_35W    = 14,
+		Xaar_Electron_70W    = 15,
+		Xaar_Proton382_35pl  = 16,
+		Xaar_1001_GS6 = 17,
+
+
+		Spectra_Polaris_15pl = 19,
+		Konica_KM512LNX_35pl	= 20,
+		Spectra_Polaris_35pl = 21,
+		
+		EGen5 = 22,
+
+		Konica_KM1024M_14pl	= 23,
+		Konica_KM1024L_42pl	= 24,
+		Spectra_Polaris_80pl = 25,
+		Xaar_Proton382_60pl  = 26,
+
+		Konica_KM512MAX_14pl	= 27,
+		Konica_KM512LAX_30pl	= 28,
+
+		Spectra_Emerald_10pl = 29,
+		Spectra_Emerald_30pl = 30,
+
+		Konica_KM512i_MHB_12pl =	31, 
+		Konica_KM512i_LHB_30pl =	32, 
+
+
+		Spectra_PolarisColor4_15pl = 33,
+		Spectra_PolarisColor4_35pl = 34,
+		Spectra_PolarisColor4_80pl = 35,
+
+		Xaar_Proton382_15pl = 36,
+		Konica_KM512i_MAB_C_15pl =	37,
+		Konica_KM1024i_MHE_13pl = 38,
+		Konica_KM1024S_6pl = 39,
+
+		RICOH_GEN4P_7pl = 40,
+		RICOH_GEN4_7pl  = 41,
+		RICOH_GEN4L_15pl = 42,
+
+    Kyocera_KJ4A_TA06_6pl = 43,
+    Kyocera_KJ4B_0300_5pl_1h2c = 44,
+    Kyocera_KJ4B_1200_1p5pl = 45,
+
+		Spectra_SG1024MA_25pl = 46,
+    Konica_KM1024i_MAE_13pl = 47,
+    Konica_KM1024i_LHE_30pl	= 48,
+    
+    Xaar_501_6pl=49,
+	  Xaar_501_12pl = 50,
+    Konica_KM1024i_SHE_6pl	= 51,
+	  
+		Konica_KM1800i_3P5pl = 52,
+		Spectra_SG1024SA_12pl = 53,
+		Konica_KM512i_LNB_30pl = 54,
+	  Konica_KM1024i_SAE_6pl = 55,
+		Konica_KM512SH_4pl = 56,
+		XAAR_1002_GS40 = 57,
+		Konica_KM512i_SH_6pl = 58,
+	
+    Kyocera_KJ4B_QA06_5pl = 59,
+    Kyocera_KJ4B_YH06_5pl = 60,
+    Kyocera_KJ4A_AA06_3pl = 61,
+
+    Kyocera_KJ4A_RH06 =62,
+    Kyocera_KJ4A_0300_5pl = 63,
+    Kyocera_KJ4A_1200_1p5pl = 64,
+    
+    Konica_KM512i_SAB_6pl = 65,
+    Spectra_SG1024XSA_7pl = 66,
+    Spectra_SG1024LA_80pl = 67,
+    Konica_KM3688_6pl	=	68,
+    Konica_M600SH_2C = 69,
+    Fujifilm_GMA9905300_5pl = 70,
+    Fujifilm_GMA3305300_5pl = 71, 
+    Konica_KM1024A_6_26pl = 72,
+        Epson_S2840		=	73,
+		Epson_5113 = 74,
+		Ricoh_Gen6 = 75,
+		Ricoh_Gen5 = 76,

@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_ButtonToBoard.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonToBoard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_ButtonToBoard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 446</value>
+  </data>
+  <data name="m_ButtonToBoard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_ButtonToBoard.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="m_ButtonToBoard.Text" xml:space="preserve">
+    <value>&amp;ApplyToBoard</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonToBoard.Name" xml:space="preserve">
+    <value>m_ButtonToBoard</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonToBoard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonToBoard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonToBoard.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_ButtonRefresh.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonRefresh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>654, 446</value>
+  </data>
+  <data name="m_ButtonRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="m_ButtonRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="m_ButtonRefresh.Text" xml:space="preserve">
+    <value>&amp;Refresh</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonRefresh.Name" xml:space="preserve">
+    <value>m_ButtonRefresh</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonRefresh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonRefresh.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBox_WaveNameSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 380</value>
+  </data>
+  <data name="textBox_WaveNameSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="textBox_WaveNameSample.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="textBox_WaveNameSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBox_WaveNameSample.Name" xml:space="preserve">
+    <value>textBox_WaveNameSample</value>
+  </data>
+  <data name="&gt;&gt;textBox_WaveNameSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_WaveNameSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;textBox_WaveNameSample.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label_WaveNameSample.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_WaveNameSample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_WaveNameSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 383</value>
+  </data>
+  <data name="label_WaveNameSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="label_WaveNameSample.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label_WaveNameSample.Text" xml:space="preserve">
+    <value>WaveName</value>
+  </data>
+  <data name="label_WaveNameSample.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label_WaveNameSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_WaveNameSample.Name" xml:space="preserve">
+    <value>label_WaveNameSample</value>
+  </data>
+  <data name="&gt;&gt;label_WaveNameSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_WaveNameSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;label_WaveNameSample.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_SerialNumber.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7pt</value>
+  </data>
+  <data name="label_SerialNumber.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_SerialNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 353</value>
+  </data>
+  <data name="label_SerialNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 18</value>
+  </data>
+  <data name="label_SerialNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label_SerialNumber.Text" xml:space="preserve">
+    <value>###</value>
+  </data>
+  <data name="label_SerialNumber.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_SerialNumber.Name" xml:space="preserve">
+    <value>label_SerialNumber</value>
+  </data>
+  <data name="&gt;&gt;label_SerialNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_SerialNumber.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;label_SerialNumber.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label_SerialNumberSample.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_SerialNumberSample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_SerialNumberSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 357</value>
+  </data>
+  <data name="label_SerialNumberSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="label_SerialNumberSample.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label_SerialNumberSample.Text" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="label_SerialNumberSample.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label_SerialNumberSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_SerialNumberSample.Name" xml:space="preserve">
+    <value>label_SerialNumberSample</value>
+  </data>
+  <data name="&gt;&gt;label_SerialNumberSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_SerialNumberSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;label_SerialNumberSample.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="button_WaveformDownloadSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 406</value>
+  </data>
+  <data name="button_WaveformDownloadSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="button_WaveformDownloadSample.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button_WaveformDownloadSample.Text" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="button_WaveformDownloadSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button_WaveformDownloadSample.Name" xml:space="preserve">
+    <value>button_WaveformDownloadSample</value>
+  </data>
+  <data name="&gt;&gt;button_WaveformDownloadSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_WaveformDownloadSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;button_WaveformDownloadSample.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_WaveformDownloadSample.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_WaveformDownloadSample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_WaveformDownloadSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 411</value>
+  </data>
+  <data name="label_WaveformDownloadSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="label_WaveformDownloadSample.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label_WaveformDownloadSample.Text" xml:space="preserve">
+    <value>WaveformDownload</value>
+  </data>
+  <data name="label_WaveformDownloadSample.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label_WaveformDownloadSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_WaveformDownloadSample.Name" xml:space="preserve">
+    <value>label_WaveformDownloadSample</value>
+  </data>
+  <data name="&gt;&gt;label_WaveformDownloadSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_WaveformDownloadSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;label_WaveformDownloadSample.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="numericUpDown_VoltageInkSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 302</value>
+  </data>
+  <data name="numericUpDown_VoltageInkSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="numericUpDown_VoltageInkSample.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="numericUpDown_VoltageInkSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_VoltageInkSample.Name" xml:space="preserve">
+    <value>numericUpDown_VoltageInkSample</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_VoltageInkSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_VoltageInkSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_VoltageInkSample.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_VoltageInkSample.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_VoltageInkSample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_VoltageInkSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 302</value>
+  </data>
+  <data name="label_VoltageInkSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="label_VoltageInkSample.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label_VoltageInkSample.Text" xml:space="preserve">
+    <value>Ink Voltage</value>
+  </data>
+  <data name="label_VoltageInkSample.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label_VoltageInkSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_VoltageInkSample.Name" xml:space="preserve">
+    <value>label_VoltageInkSample</value>
+  </data>
+  <data name="&gt;&gt;label_VoltageInkSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_VoltageInkSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;label_VoltageInkSample.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="numericUpDown_AutoVoltageInkSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 330</value>
+  </data>
+  <data name="numericUpDown_AutoVoltageInkSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="numericUpDown_AutoVoltageInkSample.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="numericUpDown_AutoVoltageInkSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_AutoVoltageInkSample.Name" xml:space="preserve">
+    <value>numericUpDown_AutoVoltageInkSample</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_AutoVoltageInkSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_AutoVoltageInkSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown_AutoVoltageInkSample.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label_AutoVoltageSample.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_AutoVoltageSample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_AutoVoltageSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 330</value>
+  </data>
+  <data name="label_AutoVoltageSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="label_AutoVoltageSample.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label_AutoVoltageSample.Text" xml:space="preserve">
+    <value>Ink Auto Voltage</value>
+  </data>
+  <data name="label_AutoVoltageSample.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label_AutoVoltageSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_AutoVoltageSample.Name" xml:space="preserve">
+    <value>label_AutoVoltageSample</value>
+  </data>
+  <data name="&gt;&gt;label_AutoVoltageSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_AutoVoltageSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;label_AutoVoltageSample.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="m_NumericUpDownInkTempSetSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 244</value>
+  </data>
+  <data name="m_NumericUpDownInkTempSetSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_NumericUpDownInkTempSetSample.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="m_NumericUpDownInkTempSetSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownInkTempSetSample.Name" xml:space="preserve">
+    <value>m_NumericUpDownInkTempSetSample</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownInkTempSetSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownInkTempSetSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownInkTempSetSample.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="m_LabelInkTempSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelInkTempSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelInkTempSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 244</value>
+  </data>
+  <data name="m_LabelInkTempSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="m_LabelInkTempSet.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="m_LabelInkTempSet.Text" xml:space="preserve">
+    <value>Ink Set Temperature</value>
+  </data>
+  <data name="m_LabelInkTempSet.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="m_LabelInkTempSet.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_LabelInkTempSet.Name" xml:space="preserve">
+    <value>m_LabelInkTempSet</value>
+  </data>
+  <data name="&gt;&gt;m_LabelInkTempSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelInkTempSet.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_LabelInkTempSet.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_NumericUpDownInkTempCurSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 272</value>
+  </data>
+  <data name="m_NumericUpDownInkTempCurSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_NumericUpDownInkTempCurSample.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="m_NumericUpDownInkTempCurSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownInkTempCurSample.Name" xml:space="preserve">
+    <value>m_NumericUpDownInkTempCurSample</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownInkTempCurSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownInkTempCurSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownInkTempCurSample.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblInkCartridgesTemp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInkCartridgesTemp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInkCartridgesTemp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 272</value>
+  </data>
+  <data name="lblInkCartridgesTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="lblInkCartridgesTemp.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblInkCartridgesTemp.Text" xml:space="preserve">
+    <value>Ink cartridges Temp</value>
+  </data>
+  <data name="lblInkCartridgesTemp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblInkCartridgesTemp.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblInkCartridgesTemp.Name" xml:space="preserve">
+    <value>lblInkCartridgesTemp</value>
+  </data>
+  <data name="&gt;&gt;lblInkCartridgesTemp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInkCartridgesTemp.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;lblInkCartridgesTemp.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="m_labelHeatingTemp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_labelHeatingTemp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_labelHeatingTemp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 104</value>
+  </data>
+  <data name="m_labelHeatingTemp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="m_labelHeatingTemp.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="m_labelHeatingTemp.Text" xml:space="preserve">
+    <value>Heating Temp</value>
+  </data>
+  <data name="m_labelHeatingTemp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_labelHeatingTemp.Name" xml:space="preserve">
+    <value>m_labelHeatingTemp</value>
+  </data>
+  <data name="&gt;&gt;m_labelHeatingTemp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_labelHeatingTemp.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_labelHeatingTemp.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="m_NumericUpDownHeatTempSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 104</value>
+  </data>
+  <data name="m_NumericUpDownHeatTempSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_NumericUpDownHeatTempSample.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_NumericUpDownHeatTempSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownHeatTempSample.Name" xml:space="preserve">
+    <value>m_NumericUpDownHeatTempSample</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownHeatTempSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownHeatTempSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownHeatTempSample.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="m_NumericUpDownTempSetSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 48</value>
+  </data>
+  <data name="m_NumericUpDownTempSetSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_NumericUpDownTempSetSample.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_NumericUpDownTempSetSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownTempSetSample.Name" xml:space="preserve">
+    <value>m_NumericUpDownTempSetSample</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownTempSetSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownTempSetSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownTempSetSample.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="m_LabelLeft.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelLeft.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelLeft.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 48</value>
+  </data>
+  <data name="m_LabelLeft.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="m_LabelLeft.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelLeft.Text" xml:space="preserve">
+    <value>Set Temperature</value>
+  </data>
+  <data name="m_LabelLeft.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="m_LabelLeft.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLeft.Name" xml:space="preserve">
+    <value>m_LabelLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLeft.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLeft.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_LabelLeft.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="m_LabelRight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 76</value>
+  </data>
+  <data name="m_LabelRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="m_LabelRight.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelRight.Text" xml:space="preserve">
+    <value>Nozzle Temp</value>
+  </data>
+  <data name="m_LabelRight.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelRight.Name" xml:space="preserve">
+    <value>m_LabelRight</value>
+  </data>
+  <data name="&gt;&gt;m_LabelRight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelRight.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_LabelRight.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="m_LabelHead.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelHead.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelHead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
+  <data name="m_LabelHead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="m_LabelHead.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelHead.Text" xml:space="preserve">
+    <value>Head</value>
+  </data>
+  <data name="m_LabelHead.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHead.Name" xml:space="preserve">
+    <value>m_LabelHead</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHead.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHead.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="m_LabelHorSample.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelHorSample.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelHorSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="m_LabelHorSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="m_LabelHorSample.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelHorSample.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_LabelHorSample.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="m_LabelHorSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHorSample.Name" xml:space="preserve">
+    <value>m_LabelHorSample</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHorSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHorSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHorSample.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="m_labelVolSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_labelVolSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_labelVolSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 132</value>
+  </data>
+  <data name="m_labelVolSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="m_labelVolSet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_labelVolSet.Text" xml:space="preserve">
+    <value>Voltage Adjust</value>
+  </data>
+  <data name="m_labelVolSet.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_labelVolSet.Name" xml:space="preserve">
+    <value>m_labelVolSet</value>
+  </data>
+  <data name="&gt;&gt;m_labelVolSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_labelVolSet.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_labelVolSet.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="m_labelVolCur.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_labelVolCur.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_labelVolCur.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 160</value>
+  </data>
+  <data name="m_labelVolCur.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="m_labelVolCur.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_labelVolCur.Text" xml:space="preserve">
+    <value>CurrentBaseVol</value>
+  </data>
+  <data name="m_labelVolCur.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_labelVolCur.Name" xml:space="preserve">
+    <value>m_labelVolCur</value>
+  </data>
+  <data name="&gt;&gt;m_labelVolCur.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_labelVolCur.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_labelVolCur.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="m_LabelBaseVol.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelBaseVol.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelBaseVol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 188</value>
+  </data>
+  <data name="m_LabelBaseVol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="m_LabelBaseVol.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelBaseVol.Text" xml:space="preserve">
+    <value>Base Voltage</value>
+  </data>
+  <data name="m_LabelBaseVol.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelBaseVol.Name" xml:space="preserve">
+    <value>m_LabelBaseVol</value>
+  </data>
+  <data name="&gt;&gt;m_LabelBaseVol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelBaseVol.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_LabelBaseVol.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="m_NumericUpDownTempCurSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 76</value>
+  </data>
+  <data name="m_NumericUpDownTempCurSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_NumericUpDownTempCurSample.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_NumericUpDownTempCurSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownTempCurSample.Name" xml:space="preserve">
+    <value>m_NumericUpDownTempCurSample</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownTempCurSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownTempCurSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownTempCurSample.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="m_NumericUpDownVolAdjustSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 132</value>
+  </data>
+  <data name="m_NumericUpDownVolAdjustSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_NumericUpDownVolAdjustSample.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_NumericUpDownVolAdjustSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolAdjustSample.Name" xml:space="preserve">
+    <value>m_NumericUpDownVolAdjustSample</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolAdjustSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolAdjustSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolAdjustSample.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="m_NumericUpDownVolCurSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 160</value>
+  </data>
+  <data name="m_NumericUpDownVolCurSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_NumericUpDownVolCurSample.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_NumericUpDownVolCurSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolCurSample.Name" xml:space="preserve">
+    <value>m_NumericUpDownVolCurSample</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolCurSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolCurSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolCurSample.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="m_NumericUpDownVolBaseSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 188</value>
+  </data>
+  <data name="m_NumericUpDownVolBaseSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_NumericUpDownVolBaseSample.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_NumericUpDownVolBaseSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolBaseSample.Name" xml:space="preserve">
+    <value>m_NumericUpDownVolBaseSample</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolBaseSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolBaseSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownVolBaseSample.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="m_LabelCurPulseWidth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelCurPulseWidth.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelCurPulseWidth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 216</value>
+  </data>
+  <data name="m_LabelCurPulseWidth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="m_LabelCurPulseWidth.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelCurPulseWidth.Text" xml:space="preserve">
+    <value>PulseWidth</value>
+  </data>
+  <data name="m_LabelCurPulseWidth.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelCurPulseWidth.Name" xml:space="preserve">
+    <value>m_LabelCurPulseWidth</value>
+  </data>
+  <data name="&gt;&gt;m_LabelCurPulseWidth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelCurPulseWidth.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_LabelCurPulseWidth.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="m_NumericUpDownPulseWidthSample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 216</value>
+  </data>
+  <data name="m_NumericUpDownPulseWidthSample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_NumericUpDownPulseWidthSample.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_NumericUpDownPulseWidthSample.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownPulseWidthSample.Name" xml:space="preserve">
+    <value>m_NumericUpDownPulseWidthSample</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownPulseWidthSample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownPulseWidthSample.Parent" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownPulseWidthSample.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="m_GroupBoxTemperature.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 4</value>
+  </data>
+  <data name="m_GroupBoxTemperature.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 436</value>
+  </data>
+  <data name="m_GroupBoxTemperature.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="m_GroupBoxTemperature.Text" xml:space="preserve">
+    <value>Temperature and Voltage</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxTemperature.Name" xml:space="preserve">
+    <value>m_GroupBoxTemperature</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxTemperature.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.GradientControls.Grouper, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxTemperature.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxTemperature.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="m_TimerRefresh.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="m_CheckBoxAutoRefresh.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_CheckBoxAutoRefresh.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_CheckBoxAutoRefresh.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_CheckBoxAutoRefresh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 446</value>
+  </data>
+  <data name="m_CheckBoxAutoRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 18</value>
+  </data>
+  <data name="m_CheckBoxAutoRefresh.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="m_CheckBoxAutoRefresh.Text" xml:space="preserve">
+    <value>Auto refresh</value>
+  </data>
+  <data name="m_CheckBoxAutoRefresh.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxAutoRefresh.Name" xml:space="preserve">
+    <value>m_CheckBoxAutoRefresh</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxAutoRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxAutoRefresh.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxAutoRefresh.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_ButtonDefault.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonDefault.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 446</value>
+  </data>
+  <data name="m_ButtonDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="m_ButtonDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="m_ButtonDefault.Text" xml:space="preserve">
+    <value>&amp;Default Value</value>
+  </data>
+  <data name="m_ButtonDefault.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonDefault.Name" xml:space="preserve">
+    <value>m_ButtonDefault</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonDefault.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonDefault.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="m_LabelRightMax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelRightMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 448</value>
+  </data>
+  <data name="m_LabelRightMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 20</value>
+  </data>
+  <data name="m_LabelRightMax.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelRightMax.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelRightMax.Name" xml:space="preserve">
+    <value>m_LabelRightMax</value>
+  </data>
+  <data name="&gt;&gt;m_LabelRightMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelRightMax.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_LabelRightMax.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonExport.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="buttonExport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 446</value>
+  </data>
+  <data name="buttonExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="buttonExport.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonExport.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="buttonExport.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonExport.Name" xml:space="preserve">
+    <value>buttonExport</value>
+  </data>
+  <data name="&gt;&gt;buttonExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonExport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonExport.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonImport.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="buttonImport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 446</value>
+  </data>
+  <data name="buttonImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="buttonImport.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="buttonImport.Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="buttonImport.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;buttonImport.Name" xml:space="preserve">
+    <value>buttonImport</value>
+  </data>
+  <data name="&gt;&gt;buttonImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonImport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonImport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>767, 483</value>
+  </data>
+  <data name="&gt;&gt;m_TimerRefresh.Name" xml:space="preserve">
+    <value>m_TimerRefresh</value>
+  </data>
+  <data name="&gt;&gt;m_TimerRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>KonicTemperature_Layout</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.BYHXUserControl, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

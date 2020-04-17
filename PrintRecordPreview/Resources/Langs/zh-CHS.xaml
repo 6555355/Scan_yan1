@@ -1,0 +1,293 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="StrMotorParameters">电机参数</s:String>
+    <s:String x:Key="StrInkStatistics">墨量统计</s:String>
+    <s:String x:Key="StrAddJobToTask">加入打印队列</s:String>
+    <s:String x:Key="StrMechanicalStripe">机械彩条</s:String>
+    <s:String x:Key="StrExquisiteFeather">精细羽化</s:String>
+    <s:String x:Key="StrGoHomeX">X回原点</s:String>
+    <s:String x:Key="StrGoHomeY">Y回原点</s:String>
+    <s:String x:Key="StrGoHomeZ">Z回原点</s:String>
+    <s:String x:Key="StrSetOriginY">设置打印原点Y</s:String>
+    <s:String x:Key="StrPretreatment">预处理</s:String>
+    <s:String x:Key="StrRollOrFlat">卷板切换</s:String>
+    <s:String x:Key="StrRetractableCloth">拉力控制</s:String>
+    <s:String x:Key="StrSwitchInk">切换墨水</s:String>
+    <s:String x:Key="StrSand">铺沙</s:String>
+    <s:String x:Key="StrOnlineState">关闭电源</s:String>
+    <s:String x:Key="StrSeperationPurge">分色挤墨</s:String>
+    <s:String x:Key="StrAuxiliaryControl">辅助控制</s:String>
+    <s:String x:Key="StrCapping">喷头保湿</s:String>
+    <s:String x:Key="StrDoubleSidePrintCaribration">双面打印校准</s:String>
+    <s:String x:Key="StrDoubleSidePrint">双面打印操作</s:String>
+    <s:String x:Key="StrDoubleSidePrintA">打印A面</s:String>
+    <s:String x:Key="StrDoubleSidePrintB">打印B面</s:String>
+    <s:String x:Key="StrMeasureWidth">测量介质宽度</s:String>
+    <s:String x:Key="StrMeasureHeight">测量介质高度</s:String>
+    <s:String x:Key="StrMeasureHeight1">介质高度</s:String>
+    <s:String x:Key="StrSingleClean">单色清洗</s:String>
+    <s:String x:Key="StrErrorProcessSuggestion">处理建议</s:String>
+    <s:String x:Key="StrErrorCode">错误号</s:String>
+    <s:String x:Key="StrErrorInfo">处理建议</s:String>
+    <s:String x:Key="StrErrorMsg">错误详情</s:String>
+    <s:String x:Key="StrErrorTime">错误时间</s:String>
+    <s:String x:Key="StrVoteNum">得票数</s:String>
+    <s:String x:Key="StrClose">关闭</s:String>
+    <s:String x:Key="AddJob">添加作业</s:String>
+    <s:String x:Key="Print">打印</s:String>
+    <s:String x:Key="Pause">暂停</s:String>
+    <s:String x:Key="Resume">继续</s:String>
+    <s:String x:Key="Abort">终止</s:String>
+    <s:String x:Key="CheckNozzle">喷嘴检查</s:String>
+    <s:String x:Key="AutoClean">自动清洗</s:String>
+    <s:String x:Key="Spray">闪喷</s:String>
+    <s:String x:Key="PrintTotalLength">总打印长度</s:String>
+
+    <s:String x:Key="Menu">主菜单</s:String>
+    <s:String x:Key="Setting">设置</s:String>
+    <s:String x:Key="Load">加载</s:String>
+    <s:String x:Key="Save">保存</s:String>
+    <s:String x:Key="SaveToPrinter">保存到打印机</s:String>
+    <s:String x:Key="LoadFromPrinter">从打印机加载</s:String>
+    <s:String x:Key="Edit">编辑</s:String>
+    <s:String x:Key="Tool">工具</s:String>
+    <s:String x:Key="Update">升级</s:String>
+    <s:String x:Key="Password">密码</s:String>
+    <s:String x:Key="DemoPage">测试页</s:String>
+    <s:String x:Key="Calibration">校准</s:String>
+    <s:String x:Key="HWSetting">HW 设置</s:String>
+    <s:String x:Key="UVSetting">UV 设置</s:String>
+    <s:String x:Key="WaveFormSetting">波形设置</s:String>
+    <s:String x:Key="RealTimeSetting">实时设置</s:String>
+    <s:String x:Key="About">关于</s:String>
+    <s:String x:Key="Dongle">加密狗</s:String>
+    <s:String x:Key="Debug">调试</s:String>
+    <s:String x:Key="FactoryDebug">工厂调试</s:String>
+    <s:String x:Key="IOBoard">主板</s:String>
+    <s:String x:Key="Status">状态</s:String>
+
+    <s:String x:Key="PrintFileInfomation">打印文件信息</s:String>
+    <s:String x:Key="PrintFile">打印文件</s:String>
+    <s:String x:Key="CopySize">份数</s:String>
+    <s:String x:Key="PrintSize">大小</s:String>
+    <s:String x:Key="DPI">DPI</s:String>
+    <s:String x:Key="Pass">Pass</s:String>
+    <s:String x:Key="Direction">方向</s:String>
+    <s:String x:Key="PrintedPass">实际打印Passes</s:String>
+    <s:String x:Key="PrintedDate">打印日期</s:String>
+    <s:String x:Key="PrintedTime">打印耗时</s:String>
+    <s:String x:Key="RealTimeArea">实时长度</s:String>
+    <s:String x:Key="RealTimePro">实时产量</s:String>
+    <s:String x:Key="PrintedLength">打印长度(m)</s:String>
+    <s:String x:Key="PrintedArea">打印面积(㎡)</s:String>
+
+    <s:String x:Key="OrigionAndStep">原点和步进</s:String>
+    <s:String x:Key="XOrigin">X原点</s:String>
+    <s:String x:Key="YOrigin">Y原点</s:String>
+    <s:String x:Key="ZOrigin">Z原点</s:String>
+    <s:String x:Key="Step">步进调整</s:String>
+    <s:String x:Key="PrintMode">打印模式</s:String>
+    <s:String x:Key="Graylevel">灰度级别</s:String>
+    <s:String x:Key="DoubleOren">双向</s:String>
+
+    <s:String x:Key="HeadTemperature">喷头温度</s:String>
+    <s:String x:Key="QueueFilePreview">队列文件预览</s:String>
+    <s:String x:Key="Copies">份数</s:String>
+    <s:String x:Key="CopyUnit">份</s:String>
+    <s:String x:Key="TotalImage">总作业图</s:String>
+    <s:String x:Key="CurrentImage">当前作业图</s:String>
+    <s:String x:Key="DoubeYRatio">系数</s:String>
+
+    <s:String x:Key="First">置首</s:String>
+    <s:String x:Key="Up">上移</s:String>
+    <s:String x:Key="Down">下移</s:String>
+    <s:String x:Key="Last">置尾</s:String>
+    <s:String x:Key="Delete">删除</s:String>
+    <s:String x:Key="FileName">文件名</s:String>
+    <s:String x:Key="Location">位置</s:String>
+
+    <s:String x:Key="SystemSetting">系统设置</s:String>
+    <s:String x:Key="Purge">压墨</s:String>
+    <s:String x:Key="AllPurge">压墨</s:String>
+    <s:String x:Key="PurgeOff">停止压墨</s:String>
+
+    <s:String x:Key="SupplyTakeup">进布/收布</s:String>
+    <s:String x:Key="Feeding">步进方式</s:String>
+    <s:String x:Key="Takeup">收布方式</s:String>
+
+    <s:String x:Key="Motion">运动</s:String>
+    <s:String x:Key="Left">左移</s:String>
+    <s:String x:Key="Right">右移</s:String>
+    <s:String x:Key="Forward">前移</s:String>
+    <s:String x:Key="Backward">后移</s:String>
+    <s:String x:Key="Home">归位</s:String>
+    <s:String x:Key="SetOrigin">设置打印原点</s:String>
+    <s:String x:Key="Stop">停止</s:String>
+
+    <s:String x:Key="InkPumpStatus">墨量</s:String>
+    <s:String x:Key="MainInk">主墨盒</s:String>
+    <s:String x:Key="InkPump">墨泵</s:String>
+    <s:String x:Key="InkSensor">副墨盒</s:String>
+
+    <!--Begin 作业编辑-->
+    <s:String x:Key="EditJob">作业编辑</s:String>
+    <s:String x:Key="MultiFileMode">多文件模式</s:String>
+    <s:String x:Key="Cancel">取消</s:String>
+    <s:String x:Key="ClipAndTile">剪切拼贴</s:String>
+    <s:String x:Key="Layout">排版</s:String>
+    <s:String x:Key="Clip">剪切</s:String>
+    <s:String x:Key="Tile">拼贴</s:String>
+    <s:String x:Key="Width">宽</s:String>
+    <s:String x:Key="Height">高</s:String>
+    <s:String x:Key="XCount">X数量</s:String>
+    <s:String x:Key="YCount">Y数量</s:String>
+    <s:String x:Key="XDis">X 间距</s:String>
+    <s:String x:Key="YDis">Y 间距</s:String>
+    <s:String x:Key="Note">注脚</s:String>
+    <s:String x:Key="NoteDis">注脚边距</s:String>
+    <s:String x:Key="Font">字体</s:String>
+    <s:String x:Key="JobSize">作业大小</s:String>
+    <s:String x:Key="Resolution">分辨率</s:String>
+    <s:String x:Key="PassNum">Pass数</s:String>
+    <s:String x:Key="FilePath">文件路径</s:String>
+    
+    <s:String x:Key="JobList">作业列表</s:String>
+    <s:String x:Key="Total">共</s:String>
+    <s:String x:Key="OneUnit">个</s:String>
+    <s:String x:Key="LayoutToolTip">从工作列表拖拽图片至下方排版区域，进行自由排版</s:String>
+    <s:String x:Key="ImageTooLarge">图片太大</s:String>
+    <s:String x:Key="ResolutionDiffer">分辨率不一致</s:String>
+    <s:String x:Key="SaveLayoutFailed">保存排版失败</s:String>
+    <s:String x:Key="BringToFront">置前</s:String>
+    <s:String x:Key="SendToBack">置后</s:String>
+    <s:String x:Key="Clear">清空</s:String>
+    <s:String x:Key="ClearAll">清空所有</s:String>
+
+    <s:String x:Key="BasicSetting">基本设置</s:String>
+    <s:String x:Key="MediaType">介质类型</s:String>
+    <s:String x:Key="PrintSetting">打印设置</s:String>
+    <s:String x:Key="AutoSkipWhite">自动跳白</s:String>
+    <s:String x:Key="StepTime">跳白时间</s:String>
+    <s:String x:Key="JobSpace">作业间距</s:String>
+    <s:String x:Key="FeatherType">羽化类型</s:String>
+    <s:String x:Key="Feather">羽化</s:String>
+    <s:String x:Key="Max">最大</s:String>
+    <s:String x:Key="MultipleInk">墨量</s:String>
+    <s:String x:Key="ZAdjustment">Z轴调整</s:String>
+    <s:String x:Key="StableColorOrder">固定色序</s:String>
+    <s:String x:Key="PixelStepMode">像素步进</s:String>
+    <s:String x:Key="YPrintContinue">Y连续打印</s:String>
+    <s:String x:Key="XDiv">XDiv</s:String>
+    <s:String x:Key="Media">介质</s:String>
+    <s:String x:Key="Margin">测量边距</s:String>
+    <s:String x:Key="ColorBar">彩条</s:String>
+    <s:String x:Key="Space">距离</s:String>
+    <s:String x:Key="Placement">位置</s:String>
+    <s:String x:Key="Normal">普通</s:String>
+    <s:String x:Key="ColorMixed">彩色重叠</s:String>
+    <s:String x:Key="HeightWidthImage">和图像同高</s:String>
+    <s:String x:Key="PrintDirection">打印方向</s:String>
+    <s:String x:Key="AutoCenterPrint">自动居中打印</s:String>
+    <s:String x:Key="MirrorPrint">镜像打印</s:String>
+    <s:String x:Key="ReversePrint">反向打印</s:String>
+    <s:String x:Key="Other">其他</s:String>
+    <s:String x:Key="Origin">原点</s:String>
+    <s:String x:Key="Speed">喷车速度</s:String>
+    <s:String x:Key="Bidirection">双向打印</s:String>
+    <s:String x:Key="UseFileSetting">使用文件位置</s:String>
+    <s:String x:Key="Preview">预览</s:String>
+    <!--End 作业编辑-->
+    <!--Begin 多层打印设置-->
+    <s:String x:Key="MultiLayerSetting">多层打印设置</s:String>
+    <s:String x:Key="LayerNum">层数</s:String>
+    <s:String x:Key="Add">添加</s:String>
+    <s:String x:Key="Layer">层</s:String>
+    <s:String x:Key="Color">颜色</s:String>
+    <s:String x:Key="Attached">Prt附件</s:String>
+    <s:String x:Key="DataSource">数据源</s:String>
+    <s:String x:Key="Mode">模式</s:String>
+    <s:String x:Key="Gray">灰度</s:String>
+    <s:String x:Key="Type">类型</s:String>
+    <s:String x:Key="Not">取反</s:String>
+    <s:String x:Key="Intersect">交集</s:String>
+    <s:String x:Key="Select">选择</s:String>
+    <!--End 多层打印设置-->
+    <!--Begin 多介質參數設置-->
+    <s:String x:Key="MultimediaSetting">多介质设置</s:String>
+    <s:String x:Key="Rename">重命名</s:String>
+    <s:String x:Key="AddCurrentAsNew">新建</s:String>
+    <s:String x:Key="PaperWidth">介质宽度</s:String>
+    <s:String x:Key="PaperThick">介质厚度</s:String>
+    <s:String x:Key="ControlMode">控制模式</s:String>
+    <s:String x:Key="Torque">扭矩值</s:String>
+    <s:String x:Key="PrintHeadHeight">喷头高度</s:String>
+    <s:String x:Key="TorqueMode">力矩模式</s:String>
+    <s:String x:Key="PulseMode">脉冲模式</s:String>
+    <s:String x:Key="IncrementValue">递增值</s:String>
+    <s:String x:Key="IncrementTime">递增时间</s:String>
+    <s:String x:Key="CalibrationParams">校准参数</s:String>
+    <s:String x:Key="strExport">导出</s:String>
+    <s:String x:Key="strImport">导入</s:String>
+    <!--End   多介質參數設置-->
+    <!--Begin 墨量统计-->
+    <s:String x:Key="InkCount">墨量统计</s:String>
+    <s:String x:Key="Job">作业</s:String>
+    <s:String x:Key="TotalCopies">统计份数</s:String>
+    <s:String x:Key="TotalInkCount">总共消耗</s:String>
+    <s:String x:Key="Calcaulate">计算</s:String>
+    <s:String x:Key="JobPreview">作业预览图</s:String>
+    <s:String x:Key="ColumnChart">柱状图</s:String>
+    <s:String x:Key="PieChart">饼状图</s:String>
+    <s:String x:Key="ColumnChartYDesc">墨量(单位: ml)</s:String>
+    <s:String x:Key="ColumnChartXDesc">墨水颜色</s:String>
+    <s:String x:Key="ColumnChartXDescPoint">墨点大小</s:String>
+    <s:String x:Key="InkCountDetail">墨量明细</s:String>
+    <s:String x:Key="Percent">百分占比</s:String>
+    <s:String x:Key="CountL">墨量(L)</s:String>
+    <s:String x:Key="CountML">墨量(ML)</s:String>
+
+    <!--End 墨量统计-->
+    <!--打印记录-->
+    <s:String x:Key="PrintRecord">打印记录</s:String>
+    <s:String x:Key="PrintHistoryExplorer">打印历史查看器</s:String>
+    <!--End 打印记录-->
+    <!--uv setting-->
+    <s:String x:Key="strLeftUvLight">左UV灯</s:String>
+    <s:String x:Key="strRightUvLight">右UV灯</s:String>
+    <s:String x:Key="strReady">就绪时</s:String>
+    <s:String x:Key="strLightLeftSetting">左灯设置:</s:String>
+    <s:String x:Key="strLightRightSetting">右灯设置:</s:String>
+    <s:String x:Key="strShutterLeftPowerOn">左快门打开</s:String>
+    <s:String x:Key="strShutterRightPowerOn">右快门打开</s:String>
+    <s:String x:Key="strPrint">打印时</s:String>
+    <s:String x:Key="strPrintToLeft">向左打印&lt;==</s:String>
+    <s:String x:Key="strPrintToRight">向右==&gt;</s:String>
+    <s:String x:Key="strPowerOn">有效</s:String>
+    <s:String x:Key="strEnergySaving">节能</s:String>
+    <s:String x:Key="strUVLightKind">UV灯类型:</s:String>
+    <s:String x:Key="strInitialLeadOfShutter">快门提前量:</s:String>
+    <s:String x:Key="strRangeFirstNozzle">到零喷嘴距离:</s:String>
+    <!--End uv setting-->
+    
+    
+    <!--colorjet-->
+    <s:String x:Key="ClickToAdd">单击新增</s:String>
+    <s:String x:Key="MinimizeTxt">最小化</s:String>
+    <s:String x:Key="MaximizeTxt">最大化</s:String>
+    <s:String x:Key="RestoreDownTxt">向下还原</s:String>
+    <s:String x:Key="CloseTxt">关闭</s:String>
+    
+    <s:String x:Key="jobBaseSetting">作业基本设置</s:String>
+    <s:String x:Key="JobLeftMargin">作业左间距：</s:String>
+    <s:String x:Key="Reselectfiles">重选文件</s:String>
+    <s:String x:Key="Cutcollagesettings">剪切/拼贴设置</s:String>
+    <s:String x:Key="Additionaltext">附加文本</s:String>
+    <s:String x:Key="CutView">剪切视图</s:String>
+    <s:String x:Key="BidirectionCail">双向校准</s:String>
+    <s:String x:Key="LeftCail">左校准</s:String>
+    <s:String x:Key="RightCail">右校准</s:String>
+    <s:String x:Key="StepCail">进纸校准</s:String>
+    <s:String x:Key="VerticalCail">垂直对齐校准</s:String>
+    <s:String x:Key="TileCount">打印拼贴份数</s:String>
+</ResourceDictionary>

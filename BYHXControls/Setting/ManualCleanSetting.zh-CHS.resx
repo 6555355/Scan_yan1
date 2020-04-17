@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="m_ButtonSet.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="m_ButtonSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelColorJetSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBoxFunctionOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="checkBoxFunctionOn.Text" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="checkBoxFunctionOn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericOriginOffset.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelOriginOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 12</value>
+  </data>
+  <data name="labelOriginOffset.Text" xml:space="preserve">
+    <value>保湿升降高度：</value>
+  </data>
+  <data name="labelOriginOffset.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="labelSpeed.Text" xml:space="preserve">
+    <value>移动速度（Hz）：</value>
+  </data>
+  <data name="labelSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericDelayTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDelayTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="labelDelayTime.Text" xml:space="preserve">
+    <value>延迟时间（ms）：</value>
+  </data>
+  <data name="labelDelayTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelColorJetAPlusSystem.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCleanBelt.Text" xml:space="preserve">
+    <value>清洗导带</value>
+  </data>
+  <data name="buttonCleanBelt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDown1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>清洗导带时间(ms):</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericWetWaitTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelWetWaitTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="labelWetWaitTime.Text" xml:space="preserve">
+    <value>保湿等待时间（min）：</value>
+  </data>
+  <data name="labelWetWaitTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxWetFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 16</value>
+  </data>
+  <data name="checkBoxWetFlag.Text" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="checkBoxWetFlag.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelAutoCapping.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownYStartPos1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>刮片Y向起始位置(1): </value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownYStartPos2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 12</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>刮片Y向起始位置(2): </value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownZEndPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelZEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 12</value>
+  </data>
+  <data name="m_LabelZEndPos.Text" xml:space="preserve">
+    <value>气缸持续时间(毫秒):</value>
+  </data>
+  <data name="m_LabelZEndPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ComboBoxYSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numCleanPumpTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelYSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="m_LabelYSpeed.Text" xml:space="preserve">
+    <value>刮片Y向运动速度:</value>
+  </data>
+  <data name="m_LabelYSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelCleanPumpTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 12</value>
+  </data>
+  <data name="labelCleanPumpTime.Text" xml:space="preserve">
+    <value>清洗泵墨时间(毫秒):</value>
+  </data>
+  <data name="labelCleanPumpTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownYEndPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelYEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="m_LabelYEndPos.Text" xml:space="preserve">
+    <value>刮片Y向停止位置:</value>
+  </data>
+  <data name="m_LabelYEndPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelColorJetSSystem.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ComboBoxHeaderNumPerTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelAxisXStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="m_LabelAxisXStartPos.Text" xml:space="preserve">
+    <value>X向开始位置:</value>
+  </data>
+  <data name="m_LabelAxisXStartPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownXStartPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelHeaderNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="m_LabelHeaderNum.Text" xml:space="preserve">
+    <value>同色喷头组数:</value>
+  </data>
+  <data name="m_LabelHeaderNum.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelColorJetUniversal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_GroupBoxCleanParam.Text" xml:space="preserve">
+    <value>清洗参数设置</value>
+  </data>
+  <data name="m_GroupBoxCleanParam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSet.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="buttonSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericBladeCleanDuration.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelBladeCleanDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 12</value>
+  </data>
+  <data name="labelBladeCleanDuration.Text" xml:space="preserve">
+    <value>刮片清洗持续时间(毫秒):</value>
+  </data>
+  <data name="labelBladeCleanDuration.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericBladeYMobileDistance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelBladeYMobileDistance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="labelBladeYMobileDistance.Text" xml:space="preserve">
+    <value>刮片Y轴移动距离:</value>
+  </data>
+  <data name="labelBladeYMobileDistance.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericScrapPlatformZPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelScrapPlatformzPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="labelScrapPlatformzPos.Text" xml:space="preserve">
+    <value>刮墨平台Z轴位置:</value>
+  </data>
+  <data name="labelScrapPlatformzPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericXAxisPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelxAxisPos.Text" xml:space="preserve">
+    <value>小车X轴位置:</value>
+  </data>
+  <data name="labelxAxisPos.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_GroupBoxCleanParamAoKang.Text" xml:space="preserve">
+    <value>清洗参数设置</value>
+  </data>
+  <data name="m_GroupBoxCleanParamAoKang.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonZBottom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonZCenter.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelCleanTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="labelCleanTime.Text" xml:space="preserve">
+    <value>清洗时间:</value>
+  </data>
+  <data name="labelCleanTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panelColorMask.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxAll.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelCleanColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="m_LabelCleanColor.Text" xml:space="preserve">
+    <value>清洗喷头颜色:</value>
+  </data>
+  <data name="m_LabelCleanColor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonCancel.Text" xml:space="preserve">
+    <value>中止</value>
+  </data>
+  <data name="m_ButtonCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonStartClean.Text" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="m_ButtonStartClean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_GroupBoxClean.Text" xml:space="preserve">
+    <value>清洗动作</value>
+  </data>
+  <data name="m_GroupBoxClean.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

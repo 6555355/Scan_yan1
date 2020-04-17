@@ -1,0 +1,19 @@
+﻿<Hash CRCVers="V1.0">A412610A</Hash>
+<JobModes>
+  <Items>
+    <JobMode>
+      <Items />
+      <Name>6</Name>
+      <LayerNum>1</LayerNum>
+      <LayerColorArray>0</LayerColorArray>
+      <SpotColor1Mask>0</SpotColor1Mask>
+      <Item>
+        <FeatherType>UV</FeatherType>
+        <ExquisiteFeather>false</ExquisiteFeather>
+        <MultipleInk>2</MultipleInk>
+        <FeatherType_Value>0</FeatherType_Value>
+        <Feather_Custom>0</Feather_Custom>
+      </Item>
+    </JobMode>
+  </Items>
+</JobModes>

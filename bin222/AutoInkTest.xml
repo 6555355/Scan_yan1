@@ -1,0 +1,30 @@
+﻿<Hash CRCVers="V1.0">55CD568F</Hash>
+<AllParam>
+  <AutoInkPara>
+    <Enable>false</Enable>
+    <VStep>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </VStep>
+    <PStep>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+      <float>0</float>
+    </PStep>
+    <PrintTimes>0</PrintTimes>
+    <VolNumPerHead>0</VolNumPerHead>
+    <PlusNumPerHead>0</PlusNumPerHead>
+    <HeadNum>0</HeadNum>
+  </AutoInkPara>
+</AllParam>

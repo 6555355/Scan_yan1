@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonAbort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonAbort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 34</value>
+  </data>
+  <data name="buttonAbort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonAbort.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonAbort.Text" xml:space="preserve">
+    <value>Abort</value>
+  </data>
+  <data name="&gt;&gt;buttonAbort.Name" xml:space="preserve">
+    <value>buttonAbort</value>
+  </data>
+  <data name="&gt;&gt;buttonAbort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAbort.Parent" xml:space="preserve">
+    <value>groupBoxCameraCari</value>
+  </data>
+  <data name="&gt;&gt;buttonAbort.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonPrintCameraCari.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 34</value>
+  </data>
+  <data name="buttonPrintCameraCari.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonPrintCameraCari.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="buttonPrintCameraCari.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintCameraCari.Name" xml:space="preserve">
+    <value>buttonPrintCameraCari</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintCameraCari.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintCameraCari.Parent" xml:space="preserve">
+    <value>groupBoxCameraCari</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintCameraCari.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="numYoriginOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>332, 36</value>
+  </data>
+  <data name="numYoriginOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="numYoriginOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numYoriginOffset.Name" xml:space="preserve">
+    <value>numYoriginOffset</value>
+  </data>
+  <data name="&gt;&gt;numYoriginOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numYoriginOffset.Parent" xml:space="preserve">
+    <value>groupBoxCameraCari</value>
+  </data>
+  <data name="&gt;&gt;numYoriginOffset.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelYoriginOffset.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelYoriginOffset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelYoriginOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 38</value>
+  </data>
+  <data name="labelYoriginOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="labelYoriginOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelYoriginOffset.Text" xml:space="preserve">
+    <value>Y origin offset:</value>
+  </data>
+  <data name="&gt;&gt;labelYoriginOffset.Name" xml:space="preserve">
+    <value>labelYoriginOffset</value>
+  </data>
+  <data name="&gt;&gt;labelYoriginOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelYoriginOffset.Parent" xml:space="preserve">
+    <value>groupBoxCameraCari</value>
+  </data>
+  <data name="&gt;&gt;labelYoriginOffset.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numXoriginOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 34</value>
+  </data>
+  <data name="numXoriginOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="numXoriginOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;numXoriginOffset.Name" xml:space="preserve">
+    <value>numXoriginOffset</value>
+  </data>
+  <data name="&gt;&gt;numXoriginOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numXoriginOffset.Parent" xml:space="preserve">
+    <value>groupBoxCameraCari</value>
+  </data>
+  <data name="&gt;&gt;numXoriginOffset.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 36</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>X origin offset:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBoxCameraCari</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBoxCameraCari.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 161</value>
+  </data>
+  <data name="groupBoxCameraCari.Size" type="System.Drawing.Size, System.Drawing">
+    <value>703, 73</value>
+  </data>
+  <data name="groupBoxCameraCari.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBoxCameraCari.Text" xml:space="preserve">
+    <value>Camera Caribration</value>
+  </data>
+  <data name="&gt;&gt;groupBoxCameraCari.Name" xml:space="preserve">
+    <value>groupBoxCameraCari</value>
+  </data>
+  <data name="&gt;&gt;groupBoxCameraCari.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxCameraCari.Parent" xml:space="preserve">
+    <value>m_WizardPageWelcom</value>
+  </data>
+  <data name="&gt;&gt;groupBoxCameraCari.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxChoosePlate.Items" xml:space="preserve">
+    <value>A平台</value>
+  </data>
+  <data name="comboBoxChoosePlate.Items1" xml:space="preserve">
+    <value>B平台</value>
+  </data>
+  <data name="comboBoxChoosePlate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="comboBoxChoosePlate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="comboBoxChoosePlate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxChoosePlate.Name" xml:space="preserve">
+    <value>comboBoxChoosePlate</value>
+  </data>
+  <data name="&gt;&gt;comboBoxChoosePlate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxChoosePlate.Parent" xml:space="preserve">
+    <value>panelChoosePlate</value>
+  </data>
+  <data name="&gt;&gt;comboBoxChoosePlate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelChoosePlate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelChoosePlate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 22</value>
+  </data>
+  <data name="labelChoosePlate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="labelChoosePlate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelChoosePlate.Text" xml:space="preserve">
+    <value>Plate:</value>
+  </data>
+  <data name="&gt;&gt;labelChoosePlate.Name" xml:space="preserve">
+    <value>labelChoosePlate</value>
+  </data>
+  <data name="&gt;&gt;labelChoosePlate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelChoosePlate.Parent" xml:space="preserve">
+    <value>panelChoosePlate</value>
+  </data>
+  <data name="&gt;&gt;labelChoosePlate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelChoosePlate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 102</value>
+  </data>
+  <data name="panelChoosePlate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>703, 52</value>
+  </data>
+  <data name="panelChoosePlate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelChoosePlate.Name" xml:space="preserve">
+    <value>panelChoosePlate</value>
+  </data>
+  <data name="&gt;&gt;panelChoosePlate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelChoosePlate.Parent" xml:space="preserve">
+    <value>m_WizardPageWelcom</value>
+  </data>
+  <data name="&gt;&gt;panelChoosePlate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_WizardPageWelcom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_WizardPageWelcom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 630</value>
+  </data>
+  <data name="m_WizardPageWelcom.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageWelcom.Name" xml:space="preserve">
+    <value>m_WizardPageWelcom</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageWelcom.Type" xml:space="preserve">
+    <value>BYHXControls.WizardPage, PrinterStubC, Version=1.0.7310.31173, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageWelcom.Parent" xml:space="preserve">
+    <value>m_WizardCalibration</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageWelcom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_WizardPageFinish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_WizardPageFinish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 630</value>
+  </data>
+  <data name="m_WizardPageFinish.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageFinish.Name" xml:space="preserve">
+    <value>m_WizardPageFinish</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageFinish.Type" xml:space="preserve">
+    <value>BYHXControls.WizardPage, PrinterStubC, Version=1.0.7310.31173, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageFinish.Parent" xml:space="preserve">
+    <value>m_WizardCalibration</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageFinish.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_CalibrationSettingHor.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_CalibrationSettingHor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="m_CalibrationSettingHor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="m_CalibrationSettingHor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_CalibrationSettingHor.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 0, 20, 0</value>
+  </data>
+  <data name="m_CalibrationSettingHor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 630</value>
+  </data>
+  <data name="m_CalibrationSettingHor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_CalibrationSettingHor.Name" xml:space="preserve">
+    <value>m_CalibrationSettingHor</value>
+  </data>
+  <data name="&gt;&gt;m_CalibrationSettingHor.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.CalibrationSetting_Layout, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_CalibrationSettingHor.Parent" xml:space="preserve">
+    <value>m_WizardPageCali</value>
+  </data>
+  <data name="&gt;&gt;m_CalibrationSettingHor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_WizardPageCali.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_WizardPageCali.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 630</value>
+  </data>
+  <data name="m_WizardPageCali.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageCali.Name" xml:space="preserve">
+    <value>m_WizardPageCali</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageCali.Type" xml:space="preserve">
+    <value>BYHXControls.WizardPage, PrinterStubC, Version=1.0.7310.31173, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageCali.Parent" xml:space="preserve">
+    <value>m_WizardCalibration</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageCali.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_ButtonAngle.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonAngle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="m_ButtonAngle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 9, 0, 0</value>
+  </data>
+  <data name="m_ButtonAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="m_ButtonAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="m_ButtonAngle.Text" xml:space="preserve">
+    <value>&amp;Angle Check</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonAngle.Name" xml:space="preserve">
+    <value>m_ButtonAngle</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonAngle.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonAngle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_ButtonVerticalCheck.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonVerticalCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonVerticalCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 42</value>
+  </data>
+  <data name="m_ButtonVerticalCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 9, 0, 0</value>
+  </data>
+  <data name="m_ButtonVerticalCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="m_ButtonVerticalCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_ButtonVerticalCheck.Text" xml:space="preserve">
+    <value>&amp;Vertical Check</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonVerticalCheck.Name" xml:space="preserve">
+    <value>m_ButtonVerticalCheck</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonVerticalCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonVerticalCheck.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonVerticalCheck.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_ButtonNozzleCheck.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonNozzleCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonNozzleCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 75</value>
+  </data>
+  <data name="m_ButtonNozzleCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 9, 0, 0</value>
+  </data>
+  <data name="m_ButtonNozzleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="m_ButtonNozzleCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_ButtonNozzleCheck.Text" xml:space="preserve">
+    <value>&amp;Nozzle Check</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonNozzleCheck.Name" xml:space="preserve">
+    <value>m_ButtonNozzleCheck</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonNozzleCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonNozzleCheck.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonNozzleCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_ButtonCrossCheck.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonCrossCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonCrossCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 108</value>
+  </data>
+  <data name="m_ButtonCrossCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 9, 0, 0</value>
+  </data>
+  <data name="m_ButtonCrossCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="m_ButtonCrossCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_ButtonCrossCheck.Text" xml:space="preserve">
+    <value>&amp;Cross Check</value>
+  </data>
+  <data name="m_ButtonCrossCheck.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCrossCheck.Name" xml:space="preserve">
+    <value>m_ButtonCrossCheck</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCrossCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCrossCheck.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCrossCheck.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_ButtonOverallCheck.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonOverallCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonOverallCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 141</value>
+  </data>
+  <data name="m_ButtonOverallCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 9, 0, 0</value>
+  </data>
+  <data name="m_ButtonOverallCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="m_ButtonOverallCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="m_ButtonOverallCheck.Text" xml:space="preserve">
+    <value>&amp;Calibration Check</value>
+  </data>
+  <data name="m_ButtonOverallCheck.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOverallCheck.Name" xml:space="preserve">
+    <value>m_ButtonOverallCheck</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOverallCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOverallCheck.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOverallCheck.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_ButtonOverLapCheck.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="m_ButtonOverLapCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonOverLapCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 174</value>
+  </data>
+  <data name="m_ButtonOverLapCheck.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 9, 0, 0</value>
+  </data>
+  <data name="m_ButtonOverLapCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 24</value>
+  </data>
+  <data name="m_ButtonOverLapCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="m_ButtonOverLapCheck.Text" xml:space="preserve">
+    <value>&amp;Overlap Check</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOverLapCheck.Name" xml:space="preserve">
+    <value>m_ButtonOverLapCheck</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOverLapCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOverLapCheck.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonOverLapCheck.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 88</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 208</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>m_WizardPageMechanic</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonCrossCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonCrossCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 121</value>
+  </data>
+  <data name="radioButtonCrossCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="radioButtonCrossCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="radioButtonCrossCheck.Text" xml:space="preserve">
+    <value>radioButton4</value>
+  </data>
+  <data name="&gt;&gt;radioButtonCrossCheck.Name" xml:space="preserve">
+    <value>radioButtonCrossCheck</value>
+  </data>
+  <data name="&gt;&gt;radioButtonCrossCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonCrossCheck.Parent" xml:space="preserve">
+    <value>grouperMechanic</value>
+  </data>
+  <data name="&gt;&gt;radioButtonCrossCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonNozzleCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonNozzleCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 161</value>
+  </data>
+  <data name="radioButtonNozzleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="radioButtonNozzleCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radioButtonNozzleCheck.Text" xml:space="preserve">
+    <value>radioButton3</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNozzleCheck.Name" xml:space="preserve">
+    <value>radioButtonNozzleCheck</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNozzleCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNozzleCheck.Parent" xml:space="preserve">
+    <value>grouperMechanic</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNozzleCheck.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonVerticalCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonVerticalCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 81</value>
+  </data>
+  <data name="radioButtonVerticalCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="radioButtonVerticalCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButtonVerticalCheck.Text" xml:space="preserve">
+    <value>radioButton2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonVerticalCheck.Name" xml:space="preserve">
+    <value>radioButtonVerticalCheck</value>
+  </data>
+  <data name="&gt;&gt;radioButtonVerticalCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonVerticalCheck.Parent" xml:space="preserve">
+    <value>grouperMechanic</value>
+  </data>
+  <data name="&gt;&gt;radioButtonVerticalCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radioButtonAngle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonAngle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 41</value>
+  </data>
+  <data name="radioButtonAngle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="radioButtonAngle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButtonAngle.Text" xml:space="preserve">
+    <value>radioButton1</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAngle.Name" xml:space="preserve">
+    <value>radioButtonAngle</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAngle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAngle.Parent" xml:space="preserve">
+    <value>grouperMechanic</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAngle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grouperMechanic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 88</value>
+  </data>
+  <data name="grouperMechanic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 200</value>
+  </data>
+  <data name="grouperMechanic.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="grouperMechanic.Text" xml:space="preserve">
+    <value>Mechanical Check</value>
+  </data>
+  <data name="&gt;&gt;grouperMechanic.Name" xml:space="preserve">
+    <value>grouperMechanic</value>
+  </data>
+  <data name="&gt;&gt;grouperMechanic.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.GradientControls.Grouper, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grouperMechanic.Parent" xml:space="preserve">
+    <value>m_WizardPageMechanic</value>
+  </data>
+  <data name="&gt;&gt;grouperMechanic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_WizardPageMechanic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_WizardPageMechanic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 630</value>
+  </data>
+  <data name="m_WizardPageMechanic.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageMechanic.Name" xml:space="preserve">
+    <value>m_WizardPageMechanic</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageMechanic.Type" xml:space="preserve">
+    <value>BYHXControls.WizardPage, PrinterStubC, Version=1.0.7310.31173, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageMechanic.Parent" xml:space="preserve">
+    <value>m_WizardCalibration</value>
+  </data>
+  <data name="&gt;&gt;m_WizardPageMechanic.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_WizardCalibration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="m_WizardCalibration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="m_WizardCalibration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 678</value>
+  </data>
+  <data name="m_WizardCalibration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_WizardCalibration.Name" xml:space="preserve">
+    <value>m_WizardCalibration</value>
+  </data>
+  <data name="&gt;&gt;m_WizardCalibration.Type" xml:space="preserve">
+    <value>BYHXControls.Wizard, PrinterStubC, Version=1.0.7310.31173, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_WizardCalibration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_WizardCalibration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFinishPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnFinishPage.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btnFinishPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btnFinishPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFinishPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 0</value>
+  </data>
+  <data name="btnFinishPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 26</value>
+  </data>
+  <data name="btnFinishPage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnFinishPage.Text" xml:space="preserve">
+    <value>Finish Page</value>
+  </data>
+  <data name="&gt;&gt;btnFinishPage.Name" xml:space="preserve">
+    <value>btnFinishPage</value>
+  </data>
+  <data name="&gt;&gt;btnFinishPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFinishPage.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnFinishPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCaliPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnCaliPage.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btnCaliPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btnCaliPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCaliPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 0</value>
+  </data>
+  <data name="btnCaliPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 26</value>
+  </data>
+  <data name="btnCaliPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnCaliPage.Text" xml:space="preserve">
+    <value>Calibration Configuration</value>
+  </data>
+  <data name="&gt;&gt;btnCaliPage.Name" xml:space="preserve">
+    <value>btnCaliPage</value>
+  </data>
+  <data name="&gt;&gt;btnCaliPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCaliPage.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnCaliPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnMechanicPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnMechanicPage.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btnMechanicPage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btnMechanicPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMechanicPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 0</value>
+  </data>
+  <data name="btnMechanicPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 26</value>
+  </data>
+  <data name="btnMechanicPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnMechanicPage.Text" xml:space="preserve">
+    <value>Mechanical Inspection</value>
+  </data>
+  <data name="&gt;&gt;btnMechanicPage.Name" xml:space="preserve">
+    <value>btnMechanicPage</value>
+  </data>
+  <data name="&gt;&gt;btnMechanicPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMechanicPage.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnMechanicPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnWelcomePage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnWelcomePage.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="btnWelcomePage.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btnWelcomePage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnWelcomePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 26</value>
+  </data>
+  <data name="btnWelcomePage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnWelcomePage.Text" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="&gt;&gt;btnWelcomePage.Name" xml:space="preserve">
+    <value>btnWelcomePage</value>
+  </data>
+  <data name="&gt;&gt;btnWelcomePage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWelcomePage.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnWelcomePage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 28</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1271, 706</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1277, 735</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Calibration Wizard</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CaliWizard</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

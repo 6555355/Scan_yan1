@@ -1,0 +1,125 @@
+
+
+Param = {
+	Junctions = 8,
+	NzlsPerHead = 4,
+}
+
+-- id,name,support max heads,Heat channels,Temperature channels,Voltage channels,half voltagechannels per head
+-- #define HEAD_BOARD_TYPE_KM1024_8HEAD	  =	23,
+
+function GetHeadBoardParam()
+	return  23, "GMA990",8,1,1,4,0;
+end
+
+function GetSupportHeadCount()
+	return 2;
+end
+
+function GetSupportHeadList()
+	return "GMA990","GMA330";
+end
+
+function GetHeatChannel(hbId,jId,id,hbs)
+	return hbId*4+jId;
+end
+
+function GetTempertureChannel(hbId,jId,id,hbs)
+	return hbId*4+jId;
+end
+
+function GetDataChannel(hbId,jId,id,hbs)
+	if(id<Param.NzlsPerHead/2) 
+		then  
+			return hbId*Param.Junctions*Param.NzlsPerHead/2+jId*Param.NzlsPerHead/2 + id;
+		end
+	
+	return  (hbId + hbs)*Param.Junctions*Param.NzlsPerHead/2+jId*Param.NzlsPerHead/2 + id - Param.NzlsPerHead/2; 
+end
+
+function GetVoltageChannel(hbId,jId,id,hbs)
+	return hbId*16+jId*4 +id;
+end
+
+function GetConnector(dataChn,hbs)
+	local hbId;
+	local jId;
+	hbId = math.floor(dataChn/16);
+	jId = math.floor((dataChn - hbId*16)/8);
+	return hbId,jId;
+end
+
+function GetHeadBoardIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -9*s;
+	t = 16*s;
+	w = 18*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionIDRect()
+
+	local l,t,w,h;
+	local s = 10.0;
+	l = -9*s;
+	t = 22*s;
+	w = 18*s;
+	h = 6*s;
+	return l,t,w,h;
+end
+
+function GetJunctionInfo()
+
+	return 112,53,    -- w,h
+		   647,766,  "J42",
+		   647,648,  "J43",
+		   478,766,  "J44",
+		   478,648,  "J45",
+		   295,766,  "J46",
+		   295,648,  "J47",
+		   132,766,  "J48",
+		   132,648,  "J49";
+end
+
+function DrawJunction(headboardId,jId)
+	local s = 10.0;
+	local rt = 18*s
+	local rw = 11*s;
+	local rb = 32*s
+
+	local jh = 1.5*s;
+	local jw = 3*s;
+	local x,y;
+	local str = tostring(headboardId+1).. tostring("-")..tostring(jId+1);
+	
+	--
+	SetPenColor(0x0);
+	DrawHeadBoardOutLine(-rw,rt,rw*2,rb-rt,2*s);
+	SetBrushColor(0x0);
+
+	for i = 0,7,1 do
+		x = -math.modf(i/2)*1.5*jw + 1.75*jw;
+		if(i%2==0) 
+			then y = 28*s + jh*1;
+			else y = 27*s;
+		end
+		
+		if( i==jId )
+			then 
+				FillRectangle(x,y,jh,jw);
+			else
+				DrawRectangle(x,y,jh,jw);
+		end
+
+	end
+
+	SetFontSize(9*s);
+	SetFontFamily("Arial");	
+	DrawString(str,-rw,rt,2*rw,rt);
+	
+	return 1;
+
+end

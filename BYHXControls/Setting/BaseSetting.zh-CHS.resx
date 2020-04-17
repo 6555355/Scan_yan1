@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="buttonFastCalculate.Text" xml:space="preserve">
+    <value>快捷计算</value>
+  </data>
+  <data name="buttonMoveToWorkPos.Text" xml:space="preserve">
+    <value>移动到工作位置</value>
+  </data>
+  <data name="buttonMoveToWorkPos2.Text" xml:space="preserve">
+    <value>移动到工作位置</value>
+  </data>
+  <data name="checkBoxBackBeforPrint.Text" xml:space="preserve">
+    <value>自动回退</value>
+  </data>
+  <data name="checkBoxBackBeforPrintUV.Text" xml:space="preserve">
+    <value>自动回退</value>
+  </data>
+  <data name="checkBoxBSUseSpray.Text" xml:space="preserve">
+    <value>保湿位置应用闪喷</value>
+  </data>
+  <data name="checkBoxClosedLoopControl.Text" xml:space="preserve">
+    <value>导带补偿</value>
+  </data>
+  <data name="checkBoxConstantStep.Text" xml:space="preserve">
+    <value>恒定步进</value>
+  </data>
+  <data name="checkBoxEnableDetectRemainingRoll.Text" xml:space="preserve">
+    <value>启用纸长监测</value>
+  </data>
+  <data name="checkBoxExquisiteFeather.Text" xml:space="preserve">
+    <value>精细羽化</value>
+  </data>
+  <data name="checkBoxFixPos.Text" xml:space="preserve">
+    <value>机械彩条</value>
+  </data>
+  <data name="checkBoxJointFeather.Text" xml:space="preserve">
+    <value>喷头间羽化</value>
+  </data>
+  <data name="checkBoxPixelStep.Text" xml:space="preserve">
+    <value>像素步进</value>
+  </data>
+  <data name="CheckBoxReversePrint.Text" xml:space="preserve">
+    <value>反向打印</value>
+  </data>
+  <data name="checkBoxRunAfterPrinting.Text" xml:space="preserve">
+    <value>开启设置</value>
+  </data>
+  <data name="checkBoxRunAfterPrintingUV.Text" xml:space="preserve">
+    <value>开启设置</value>
+  </data>
+  <data name="checkBoxUseHighParam.Text" xml:space="preserve">
+    <value>空闲闪喷应用强喷参数</value>
+  </data>
+  <data name="grouper2.Text" xml:space="preserve">
+    <value>纸长监测</value>
+  </data>
+  <data name="grouperDrySetting.Text" xml:space="preserve">
+    <value>干燥设置</value>
+  </data>
+  <data name="grouperEliminateYMotorGap.Text" xml:space="preserve">
+    <value>消除Y轴电机间隙</value>
+  </data>
+  <data name="grouperManualSpray.Text" xml:space="preserve">
+    <value>手动闪喷设置</value>
+  </data>
+  <data name="grouperUVCureSetting.Text" xml:space="preserve">
+    <value>UV固化设置</value>
+  </data>
+  <data name="grouperWhiteInkMixing.Text" xml:space="preserve">
+    <value>白墨循环/搅拌</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>墨量:</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>清洗位置Z</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>移动长度:</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>平台距离Y:</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>速度:</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>距离:</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Z2工作位置:</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Z最大行程</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>传感器位置</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>探头长度:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>喷头距离介质:</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Z保湿位置:</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Z清洗位置:</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>清洗位置X</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>清洗位置Y</value>
+  </data>
+  <data name="labelCycleTime.Text" xml:space="preserve">
+    <value>循环间隔(s):</value>
+  </data>
+  <data name="labelHumidInterval.Text" xml:space="preserve">
+    <value>加湿间隔</value>
+  </data>
+  <data name="labelHumidPos.Text" xml:space="preserve">
+    <value>加湿位置</value>
+  </data>
+  <data name="labelManualSprayFreq.Text" xml:space="preserve">
+    <value>频率:</value>
+  </data>
+  <data name="labelManualSprayPeriod.Text" xml:space="preserve">
+    <value>周期:</value>
+  </data>
+  <data name="labelPlatformCorrect.Text" xml:space="preserve">
+    <value>平台矫正</value>
+  </data>
+  <data name="labelPulseTime.Text" xml:space="preserve">
+    <value>循环时间(s):</value>
+  </data>
+  <data name="labelRollLength.Text" xml:space="preserve">
+    <value>剩余纸长:</value>
+  </data>
+  <data name="labelStirCycleTime.Text" xml:space="preserve">
+    <value>搅拌间隔(s):</value>
+  </data>
+  <data name="labelStirPulseTime.Text" xml:space="preserve">
+    <value>搅拌时间(s):</value>
+  </data>
+  <data name="labelSuctionEndPos.Text" xml:space="preserve">
+    <value>吸风结束位置</value>
+  </data>
+  <data name="labelSuctionStartPos.Text" xml:space="preserve">
+    <value>吸风开始位置</value>
+  </data>
+  <data name="labelSuctionTimes.Text" xml:space="preserve">
+    <value>吸风次数</value>
+  </data>
+  <data name="labelUVLightInAdvance.Text" xml:space="preserve">
+    <value>UV灯提前开距离:</value>
+  </data>
+  <data name="labelUVoffsetDistance.Text" xml:space="preserve">
+    <value>UV灯偏移距离:</value>
+  </data>
+  <data name="labelZWorkPos.Text" xml:space="preserve">
+    <value>Z工作位置:</value>
+  </data>
+  <data name="label_FeatherType.Text" xml:space="preserve">
+    <value>羽化类型</value>
+  </data>
+  <data name="lblAutoCleanPosMov.Text" xml:space="preserve">
+    <value>清洗位置修正</value>
+  </data>
+  <data name="lblEndPos.Text" xml:space="preserve">
+    <value>清洗长度修正</value>
+  </data>
+  <data name="m_ButtonMeasure.Text" xml:space="preserve">
+    <value>测量</value>
+  </data>
+  <data name="m_ButtonMeasureMaxZ.Text" xml:space="preserve">
+    <value>测z最大行程</value>
+  </data>
+  <data name="m_ButtonZManual.Text" xml:space="preserve">
+    <value>Z 手工</value>
+  </data>
+  <data name="m_CheckBoxAutoJumpWhite.Text" xml:space="preserve">
+    <value>自动跳白</value>
+  </data>
+  <data name="m_CheckBoxAutoYCalibrate.Text" xml:space="preserve">
+    <value>码盘总长控制</value>
+  </data>
+  <data name="m_CheckBoxHeightWithImageType.Text" xml:space="preserve">
+    <value>和图像同高</value>
+  </data>
+  <data name="m_CheckBoxIdleSpray.Text" xml:space="preserve">
+    <value>空闲闪喷</value>
+  </data>
+  <data name="m_CheckBoxKillBidir.Text" xml:space="preserve">
+    <value>固定色序</value>
+  </data>
+  <data name="m_CheckBoxMeasureBeforePrint.Text" xml:space="preserve">
+    <value>打印前测量介质</value>
+  </data>
+  <data name="m_CheckBoxMirror.Text" xml:space="preserve">
+    <value>镜像打印</value>
+  </data>
+  <data name="m_CheckBoxMixedType.Text" xml:space="preserve">
+    <value>彩色重叠</value>
+  </data>
+  <data name="m_CheckBoxNormalType.Text" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="m_CheckBoxSprayBeforePrint.Text" xml:space="preserve">
+    <value>打印前闪喷</value>
+  </data>
+  <data name="m_CheckBoxYContinue.Text" xml:space="preserve">
+    <value>Y连续打印</value>
+  </data>
+  <data name="m_CheckBox_CorrectOffset.Text" xml:space="preserve">
+    <value>矫正双轴偏差</value>
+  </data>
+  <data name="m_GroupBoxClean.Text" xml:space="preserve">
+    <value>清洗设置</value>
+  </data>
+  <data name="m_GroupBoxInkStripe.Text" xml:space="preserve">
+    <value>彩条</value>
+  </data>
+  <data name="m_GroupBoxMedia.Text" xml:space="preserve">
+    <value>介质</value>
+  </data>
+  <data name="m_GroupBoxPrintSetting.Text" xml:space="preserve">
+    <value>打印设置</value>
+  </data>
+  <data name="m_GroupBoxSpray.Text" xml:space="preserve">
+    <value>闪喷设置</value>
+  </data>
+  <data name="m_GroupBoxZ.Text" xml:space="preserve">
+    <value>Z 移动</value>
+  </data>
+  <data name="m_GroupBoxZMeasure.Text" xml:space="preserve">
+    <value>Z 测量</value>
+  </data>
+  <data name="m_grouperPrintDir.Text" xml:space="preserve">
+    <value>打印方向</value>
+  </data>
+  <data name="m_Grouper_DoubleAxis.Text" xml:space="preserve">
+    <value>双Y轴</value>
+  </data>
+  <data name="m_LabelAutoClean.Text" xml:space="preserve">
+    <value>自动清洗</value>
+  </data>
+  <data name="m_LabelAutoSpray.Text" xml:space="preserve">
+    <value>自动闪喷</value>
+  </data>
+  <data name="m_LabelCleanTimes.Text" xml:space="preserve">
+    <value>清洗次数</value>
+  </data>
+  <data name="m_LabelFeather.Text" xml:space="preserve">
+    <value>羽化</value>
+  </data>
+  <data name="m_LabelHeight.Text" xml:space="preserve">
+    <value>纸长</value>
+  </data>
+  <data name="m_LabelJobSpace.Text" xml:space="preserve">
+    <value>作业间距</value>
+  </data>
+  <data name="m_LabelMargin.Text" xml:space="preserve">
+    <value>测量边距</value>
+  </data>
+  <data name="m_LabelMediaThickness.Text" xml:space="preserve">
+    <value>材料厚度</value>
+  </data>
+  <data name="m_labelPauseTimeAfterCleaning.Text" xml:space="preserve">
+    <value>清洗后停顿时间</value>
+  </data>
+  <data name="m_labelPrintPrespraytime.Text" xml:space="preserve">
+    <value>印前闪喷持续时间</value>
+  </data>
+  <data name="m_LabelSprayCycle.Text" xml:space="preserve">
+    <value>闪喷周期</value>
+  </data>
+  <data name="m_LabelSprayTimes.Text" xml:space="preserve">
+    <value>闪喷次数</value>
+  </data>
+  <data name="m_LabelStepTime.Text" xml:space="preserve">
+    <value>跳白时间</value>
+  </data>
+  <data name="m_LabelStripePos.Text" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="m_LabelStripeSpace.Text" xml:space="preserve">
+    <value>距离</value>
+  </data>
+  <data name="m_LabelStripeWidth.Text" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="m_LabelWidth.Text" xml:space="preserve">
+    <value>宽度</value>
+  </data>
+  <data name="m_LabelZSpace.Text" xml:space="preserve">
+    <value>喷头距离介质</value>
+  </data>
+  <data name="m_Label_MaxTolerancePos.Text" xml:space="preserve">
+    <value>最大容差位置</value>
+  </data>
+  <data name="m_NmericUpDownWaveLen.ToolTip" xml:space="preserve">
+    <value>波长</value>
+  </data>
+  <data name="m_NumericUpDownCleanTimes.ToolTip" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="m_NumericUpDownFeatherPercent.ToolTip" xml:space="preserve">
+    <value>渐变百分比</value>
+  </data>
+  <data name="m_NumericUpDownSprayCycle.ToolTip" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="m_NumericUpDownSprayTimes.ToolTip" xml:space="preserve">
+    <value>次</value>
+  </data>
+  <data name="m_NumericUpDownStepTime.ToolTip" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="checkBoxOneStepSkipWhite.Text" xml:space="preserve">
+    <value>一步跳白</value>
+  </data>
+  <data name="cbxCappingEnable.Text" xml:space="preserve">
+    <value>保湿</value>
+  </data>
+  <data name="checkBoxZaxisEnable.Text" xml:space="preserve">
+    <value>Z轴控制</value>
+  </data>
+  <data name="grouperLingFeng_RollUVCappingPara.Text" xml:space="preserve">
+    <value>保湿和Z轴</value>
+  </data>
+  <data name="cbxZaxisEnable.Text" xml:space="preserve">
+    <value>Z轴控制</value>
+  </data>
+  <data name="checkBoxzCaliNoStep.Text" xml:space="preserve">
+    <value>新校准</value>
+  </data>
+  <data name="checkBoxCalibrationNoStep.Text" xml:space="preserve">
+    <value>校准后不步进</value>
+  </data>
+  <data name="m_LabelInkPercent.Text" xml:space="preserve">
+    <value>墨量百分比</value>
+  </data>
+  <data name="grouper_HumanCleanSetting.Text" xml:space="preserve">
+    <value>清洗参数</value>
+  </data>
+  <data name="label_HumanCleanXpos.Text" xml:space="preserve">
+    <value>清洗X位置(脉冲)</value>
+  </data>
+  <data name="label_HumanPressInkTime.Text" xml:space="preserve">
+    <value>压墨时间(秒)</value>
+  </data>
+  <data name="label_HumanRecoverTime.Text" xml:space="preserve">
+    <value>压墨恢复时间(秒)</value>
+  </data>
+  <data name="label_HumanScarperLen.Text" xml:space="preserve">
+    <value>刮片位置(脉冲)</value>
+  </data>
+  <data name="labelNozzleFeather.Text" xml:space="preserve">
+    <value>喷孔羽化</value>
+  </data>
+</root>

@@ -1,0 +1,2964 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CDEE14B-1890-4A9B-BB9C-D0644A51D081}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>BYHXControls</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BYHXPrinterManager</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;nADD_HARDKEY;noCOLORORDER;noRW_AMEND_PARAMETERS;nGLOGAL_ALTERNATINGPRINT</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noCOLORORDER;noRW_AMEND_PARAMETERS</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'GZ_Carton_Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\GZ_Carton_Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;nADD_HARDKEY;noCOLORORDER;noRW_AMEND_PARAMETERS;nGLOGAL_ALTERNATINGPRINT;GZ_CARTON</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'GZ_Carton_Release|AnyCPU'">
+    <OutputPath>bin\GZ_Carton_Release\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noADD_HARDKEY;COLORORDER;RW_AMEND_PARAMETERS;GZ_CARTON</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'FENGHUA_Release|AnyCPU'">
+    <OutputPath>bin\FENGHUA_Release\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noCOLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex|AnyCPU'">
+    <OutputPath>bin\Release_Ex\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noCOLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder|AnyCPU'">
+    <OutputPath>bin\Release_Ex_ColorOder\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_Key|AnyCPU'">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;ADD_HARDKEY</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_ColorOder_Key|AnyCPU'">
+    <OutputPath>bin\Release_ColorOder_Key\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;ADD_HARDKEY</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Key|AnyCPU'">
+    <OutputPath>bin\Release_Key\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;ADD_HARDKEY</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_Color_key_Shidao|AnyCPU'">
+    <OutputPath>bin\Release_Ex_Color_key_Shidao\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_Ex_Color_key_Shidao|AnyCPU'">
+    <OutputPath>bin\Debug_Ex_Color_key_Shidao\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>false</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Allwin_DoubleSide|AnyCPU'">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noCOLORORDER;noRW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Hapond_DoubleSide|AnyCPU'">
+    <OutputPath>bin\Release_Hapond_DoubleSide\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;DOUBLE_SIDE_PRINT_HAPOND</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_Ex_Color_key|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug_Ex_Color_key\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;ADD_HARDKEY</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'FENGHUA_Debug|AnyCPU'">
+    <OutputPath>bin\FENGHUA_Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noCOLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Ssystem_Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Ssystem_Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;nADD_HARDKEY;COLORORDER;RW_AMEND_PARAMETERS;</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Ssystem_Release|AnyCPU'">
+    <OutputPath>bin\Ssystem_Release\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|X64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\WindowsFormsApplication1\bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;nADD_HARDKEY;noCOLORORDER;noRW_AMEND_PARAMETERS;nGLOGAL_ALTERNATINGPRINT</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|X64'">
+    <OutputPath>bin\X64\Release\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noCOLORORDER;noRW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'GZ_Carton_Debug|X64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\X64\GZ_Carton_Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;nADD_HARDKEY;noCOLORORDER;noRW_AMEND_PARAMETERS;nGLOGAL_ALTERNATINGPRINT;GZ_CARTON</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>X64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'GZ_Carton_Release|X64'">
+    <OutputPath>bin\X64\GZ_Carton_Release\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noADD_HARDKEY;COLORORDER;RW_AMEND_PARAMETERS;GZ_CARTON</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>X64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'FENGHUA_Release|X64'">
+    <OutputPath>bin\X64\FENGHUA_Release\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noCOLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex|X64'">
+    <OutputPath>bin\X64\Release_Ex\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noCOLORORDER;RW_AMEND_PARAMETERS;X64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder|X64'">
+    <OutputPath>bin\X64\Release_Ex_ColorOder\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;X64;nADD_HARDKEY;</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_Key|X64'">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;ADD_HARDKEY;X64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_ColorOder_Key|X64'">
+    <OutputPath>bin\X64\Release_ColorOder_Key\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;ADD_HARDKEY;X64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Key|X64'">
+    <OutputPath>bin\X64\Release_Key\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;ADD_HARDKEY</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>X64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_Color_key_Shidao|X64'">
+    <OutputPath>bin\X64\Release_Ex_Color_key_Shidao\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_Ex_Color_key_Shidao|X64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\X64\Debug_Ex_Color_key_Shidao\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;ADD_HARDKEY;X64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Allwin_DoubleSide|X64'">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;NEW_MAINTENANCE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Hapond_DoubleSide|X64'">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;DOUBLE_SIDE_PRINT_HAPOND</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_Ex_Color_key|X64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\X64\Debug_Ex_Color_key\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;nADD_HARDKEY</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>X64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'FENGHUA_Debug|X64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\X64\FENGHUA_Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;noCOLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>X64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Ssystem_Debug|X64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;nADD_HARDKEY;COLORORDER;RW_AMEND_PARAMETERS;X64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Ssystem_Release|X64'">
+    <OutputPath>bin\X64\Ssystem_Release\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;X64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_QuanYin|AnyCPU'">
+    <OutputPath>bin\Release_Ex_ColorOder_QuanYin\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;GLOGAL_ALTERNATINGPRINT;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_QuanYin|X64'">
+    <OutputPath>bin\X64\Release_Ex_ColorOder_QuanYin\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;GLOGAL_ALTERNATINGPRINT;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_Ex_ColorOder_inkSwitch|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug_Ex_ColorOder_inkSwitch\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug_Ex_ColorOder_inkSwitch|X64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;nADD_HARDKEY;</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_inkSwitch|AnyCPU'">
+    <OutputPath>bin\Release_Ex_ColorOder_inkSwitch\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_inkSwitch|X64'">
+    <OutputPath>bin\X64\Release_Ex_ColorOder_inkSwitch\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_Coloroder_DoubleSide_Skyship|AnyCPU'">
+    <OutputPath>bin\Release_Ex_Coloroder_DoubleSide_Skyship\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_Coloroder_DoubleSide_Skyship|X64'">
+    <OutputPath>bin\X64\Release_Ex_Coloroder_DoubleSide_Skyship\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;X64</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_CsPrt|AnyCPU'">
+    <OutputPath>bin\Release_Ex_ColorOder_CsPrt\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_CsPrt|X64'">
+    <OutputPath>bin\X64\Release_Ex_ColorOder_CsPrt\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;X64;CASHEN_RIP_HEADER</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_INWEAR_REVO|AnyCPU'">
+    <OutputPath>..\WindowsFormsApplication1\bin\Release\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release_Ex_ColorOder_INWEAR_REVO|X64'">
+    <OutputPath>bin\X64\Release_Ex_ColorOder_INWEAR_REVO\</OutputPath>
+    <DefineConstants>TRACE;DOTNET1;noLIYUUSB;!ThreeSpeed;XINLAN;COLORORDER;RW_AMEND_PARAMETERS;X64;INWEAR_REVO</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisLogFile>..\bin\BYHXControls.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrinterStubC\PrinterStubC.csproj">
+      <Name>PrinterStubC</Name>
+      <Project>{84149B6F-AA92-445A-82DA-F3FC0FCEA04A}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <Reference Include="SysCtrlLibary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\SysCtrlLibary.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap">
+      <Name>System.Runtime.Serialization.Formatters.Soap</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GradientControls\Constants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GradientControls\CrystalControls.cs" />
+    <Compile Include="GradientControls\CrystalDrawing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GradientControls\CrystalLabel.cs" />
+    <Compile Include="GradientControls\CrystalPanel.cs" />
+    <Compile Include="GradientControls\DropDownPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GradientControls\Grouper.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GradientControls\Style.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JobListView\JobFileReader.cs" />
+    <Compile Include="JobListView\JobListItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JobListView\JThumbnailView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="JobListView\ListViewHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JobListView\PrintRecord.cs" />
+    <Compile Include="JobListView\PrintRecordService.cs" />
+    <Compile Include="JobListView\PrivewFileManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JobListView\UIJob.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JobListView\WorkerTask.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Main\Amplitude.cs" />
+    <Compile Include="Main\CameraViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main\CameraViewer.Designer.cs">
+      <DependentUpon>CameraViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\CameraViewerSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\CameraViewerSettings.Designer.cs">
+      <DependentUpon>CameraViewerSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\GzPurgeControl.cs" />
+    <Compile Include="Main\GzPurgeControl.Designer.cs">
+      <DependentUpon>GzPurgeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\PurgeControl.cs" />
+    <Compile Include="Main\PurgeControl.Designer.cs">
+      <DependentUpon>PurgeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\HeadLayoutControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main\InkTankStatusControl.cs" />
+    <Compile Include="Main\InkTankStatusControl.Designer.cs">
+      <DependentUpon>InkTankStatusControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\UserControl8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main\UserControl8.designer.cs">
+      <DependentUpon>UserControl8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\WaveData.cs" />
+    <Compile Include="Main\WaveDataEx.cs" />
+    <Compile Include="Main\XmlReader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Port\BYHXSoftLock.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Port\CachePrinter.cs" />
+    <Compile Include="Port\Common.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Port\PipePort.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Port\PortManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Port\S4_API.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Port\S4_Structs_Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Port\TcpIpPort.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Preview\CollageStructs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Preview\MyPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Preview\PrintingJobInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Preview\PrintingPreview.cs" />
+    <Compile Include="Preview\UserRect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\AllwinCleanControl.cs" />
+    <Compile Include="Setting\AutoBackHomeSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\AutoBackHomeSetting.Designer.cs">
+      <DependentUpon>AutoBackHomeSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\BaseSetting.cs" />
+    <Compile Include="Setting\BYHXUserControl.cs" />
+    <Compile Include="Setting\CalculateRollLengthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\CalculateRollLengthForm.Designer.cs">
+      <DependentUpon>CalculateRollLengthForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\CalibrationSetting.cs" />
+    <Compile Include="Setting\CalibrationSetting_Layout.cs" />
+    <Compile Include="Setting\CleanSetting3D.cs" />
+    <Compile Include="Setting\CleanSetting3D.Designer.cs">
+      <DependentUpon>CleanSetting3D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\CloseColorNozzle_New.cs" />
+    <Compile Include="Setting\CloseColorNozzle_New.Designer.cs">
+      <DependentUpon>CloseColorNozzle_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\ColorjetManualCleanSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\ColorjetManualCleanSetting.Designer.cs">
+      <DependentUpon>ColorjetManualCleanSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\ColorjetManualCleanSettingA.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\ColorjetManualCleanSettingA.Designer.cs">
+      <DependentUpon>ColorjetManualCleanSettingA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\ColorjetManualCleanSetting2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\ColorjetManualCleanSetting2.Designer.cs">
+      <DependentUpon>ColorjetManualCleanSetting2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\CustomCloseNozzle.cs" />
+    <Compile Include="Setting\CustomCloseNozzle.Designer.cs">
+      <DependentUpon>CustomCloseNozzle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\DebugQuality.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\DebugQuality.Designer.cs">
+      <DependentUpon>DebugQuality.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\LabelButtonTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\LabelButtonTextBox.Designer.cs">
+      <DependentUpon>LabelButtonTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\LabelTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\LabelTextBox.Designer.cs">
+      <DependentUpon>LabelTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\SpotColorSetting_new.cs" />
+    <Compile Include="Setting\KonicTemperature_Layout.cs" />
+    <Compile Include="Setting\PQCleanSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\PQCleanSetting.Designer.cs">
+      <DependentUpon>PQCleanSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\HLCCleanSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\HLCCleanSetting.Designer.cs">
+      <DependentUpon>HLCCleanSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\DoubleYAxisSetting.cs" />
+    <Compile Include="Setting\DoubleYAxisSetting.Designer.cs">
+      <DependentUpon>DoubleYAxisSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\GmaCleanSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\GmaCleanSetting.Designer.cs">
+      <DependentUpon>GmaCleanSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\DOCANManualCleanSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\DOCANManualCleanSetting.Designer.cs">
+      <DependentUpon>DOCANManualCleanSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\ExportJobMediaConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\ExportJobMediaConfig.Designer.cs">
+      <DependentUpon>ExportJobMediaConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\MbIdSetting.cs" />
+    <Compile Include="Setting\MediaConfigs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\MediaConfigs.Designer.cs">
+      <DependentUpon>MediaConfigs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\DefineUVPowerLevel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\DefineUVPowerLevel.Designer.cs">
+      <DependentUpon>DefineUVPowerLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\AutoInkTest.cs" />
+    <Compile Include="Setting\DoublePrintSetting.cs" />
+    <Compile Include="Setting\DoublePrintSetting.Designer.cs">
+      <DependentUpon>DoublePrintSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\EpsonBaseSetting.cs" />
+    <Compile Include="Setting\ExportJobConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\ExportJobConfig.Designer.cs">
+      <DependentUpon>ExportJobConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\FloraParamControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\FloraParamControl.Designer.cs">
+      <DependentUpon>FloraParamControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\GraphicsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\GraphicsPanel.Designer.cs">
+      <DependentUpon>GraphicsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\GraphicsPanel2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\GraphicsPanel2.Designer.cs">
+      <DependentUpon>GraphicsPanel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\HeadBoardPortSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\HeadBoardPortSetting.Designer.cs">
+      <DependentUpon>HeadBoardPortSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\JobConfigModes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\JobConfigModes.Designer.cs">
+      <DependentUpon>JobConfigModes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\MaintenanceSystemSetting.cs" />
+    <Compile Include="Setting\MaintenanceSystemSetting.Designer.cs">
+      <DependentUpon>MaintenanceSystemSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\MaintenanceSystemStatus.cs" />
+    <Compile Include="Setting\MaintenanceSystemStatus.Designer.cs">
+      <DependentUpon>MaintenanceSystemStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\ManualCleanSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\ManualCleanSetting.Designer.cs">
+      <DependentUpon>ManualCleanSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\MicolorAutoSpraySetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\Micolor_CleanParameter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Setting\Micolor_CleanParameterControl.cs" />
+    <Compile Include="Setting\MICOLOR_CleanSection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\MoveSetting.cs" />
+    <Compile Include="Setting\NameEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\NameEdit.Designer.cs">
+      <DependentUpon>NameEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\NktDyjUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\NktDyjUserControl.Designer.cs">
+      <DependentUpon>NktDyjUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\NozzleXYoffset.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\PreferenceSetting.cs" />
+    <Compile Include="Setting\PressureSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\PressureSetting.Designer.cs">
+      <DependentUpon>PressureSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\Printer3DSetting.cs" />
+    <Compile Include="Setting\Printer3DSetting.Designer.cs">
+      <DependentUpon>Printer3DSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\PrinterHWSetting.cs" />
+    <Compile Include="Setting\PrintHeadOrderTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting\PrintHeadOrderTypeForm.Designer.cs">
+      <DependentUpon>PrintHeadOrderTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\SeviceSetting.cs" />
+    <Compile Include="Setting\SpotColorMaskSetting.cs" />
+    <Compile Include="Setting\SpotColorSetting.cs" />
+    <Compile Include="Setting\SystemInfoSetting.cs" />
+    <Compile Include="Setting\TemperatureSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\TemperatureSetting.Designer.cs">
+      <DependentUpon>TemperatureSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\ToolbarSetting.cs" />
+    <Compile Include="Setting\ToolbarSetting_AllWin_JetRix.cs" />
+    <Compile Include="Setting\UserExtensionSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\UserExtensionSetting.Designer.cs">
+      <DependentUpon>UserExtensionSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\UVSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Setting\UVSetting.Designer.cs">
+      <DependentUpon>UVSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\WorkposSetting.cs" />
+    <Compile Include="Setting\WorkposSetting.Designer.cs">
+      <DependentUpon>WorkposSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting\XaarTempertureSetting.cs" />
+    <Compile Include="Setting\ZAixsSetting.cs" />
+    <Compile Include="XPTable\Editors\CellEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\ColorCellEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\ComboBoxCellEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\DateTimeCellEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\DropDownCellEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\DropDownContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\DropDownStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\EditStartAction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\ICellEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\IEditorUsesRendererButtons.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\IKeyMessageFilterClient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\IMouseMessageFilterClient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\KeyMessageFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\MouseMessageFilter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\NumberCellEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Editors\TextCellEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\CellButtonEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\CellCheckBoxEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\CellEditEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\CellEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\CellEventArgsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\CellEventType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\CellFocusEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\CellKeyEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\CellMouseEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\ColumnEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\ColumnEventType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\ColumnModelEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\HeaderMouseEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\PaintCellEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\PaintHeaderEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\RowEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\RowEventType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\SelectionEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Events\TableModelEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ButtonColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Cell.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\CellCheckStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\CellCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\CellImageStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\CellPadding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\CellPos.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\CellStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\CheckBoxColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\CheckBoxColumnStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ColorColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Column.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ColumnAlignment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ColumnCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ColumnModel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ColumnState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ComboBoxColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\DateTimeColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Design\CellCollectionEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Design\CellConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Design\ColumnCollectionEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Design\HelpfulCollectionEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Design\RowCollectionEditor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Design\RowComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Design\RowConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\DropDownColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\GridLines.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\GridLineStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\HeaderContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ImageColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ImageSizeMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\NumberColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\ProgressBarColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Row.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\RowAlignment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\RowCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\RowStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\SelectionStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\Table.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\TableModel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\TableRegion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\TableState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Models\TextColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\ButtonCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\ButtonRendererData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\CellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\CheckBoxCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\CheckBoxRendererData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\ColorCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\ComboBoxCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\DateTimeCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\DropDownCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\DropDownRendererData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\FlatHeaderRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\GradientHeaderRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\HeaderRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\ICellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\IHeaderRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\ImageCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\IRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\NumberCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\NumberRendererData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\ProgressBarCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\Renderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\TextCellRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Renderers\XPHeaderRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\CheckBoxComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\ColorComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\ComparerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\DateTimeComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\HeapSorter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\ImageComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\InsertionSorter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\MergeSorter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\NumberComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\ShellSorter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\SorterBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Sorting\TextComparer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ButtonParts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\CheckBoxStates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ColumnHeaderParts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ColumnHeaderStates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ComboBoxParts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ComboBoxStates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ListViewParts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ListViewStates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ProgressBarParts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\PushButtonStates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\RadioButtonStates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ScrollBarParts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ScrollBarStates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\TabParts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\TextBoxParts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\TextBoxStates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ThemeClasses.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\ThemeManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\UpDownParts.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Themes\UpDownStates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\AsciiChars.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\DLLVERSIONINFO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\KeyEventFFlags.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\MSG.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\NativeMethods.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\NativeWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\POINT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\RECT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\SIZE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\TRACKMOUSEEVENT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\WindowExtendedStyles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\WindowMessages.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="XPTable\Win32\WindowStyles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\CurveList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\DataSourcePointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\GraphObjList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\NoDupePointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\PaneList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\PointPairList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\RadarPointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ScaleStateList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ScrollRangeList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\StockPointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\Y2AxisList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\YAxisList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ZedGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZedGraph\ZoomStateStack.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ArrowObj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Axis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\AxisLabel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Bar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\BarItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\BarSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\BasicArrayPointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Border.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\BoxObj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Chart.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\CollectionPlus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ColorSymbolRotator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\CurveItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\DateAsOrdinalScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\DateScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\EllipseObj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ErrorBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ErrorBarItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ExponentScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Fill.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\FilteredPointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\FontSpec.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\GapLabel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\GasGaugeNeedle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\GasGaugeRegion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\GraphObj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\GraphPane.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\HiLowBarItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\HSBColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ImageObj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\IPointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\IPointListEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\JapaneseCandleStick.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\JapaneseCandleStickItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Label.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Legend.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Line.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\LinearAsOrdinalScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\LinearScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\LineBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\LineItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\LineObj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Link.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Location.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\LogScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\MajorGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\MajorTic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Margin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\MasterPane.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\MinorGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\MinorTic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\OHLCBar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\OHLCBarItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\OrdinalScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\PaneBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\PaneLayoutMgr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\PieItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\PointD.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\PointPair.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\PointPair4.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\PointPairBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\PointPairCV.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\PolyObj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\RollingPointPairList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\SampleMultiPointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\SamplePointList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Scale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ScaleState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ScrollRange.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Selection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\StickItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\StockPt.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Symbol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\TextObj.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\TextScale.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Types.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ValueHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\X2Axis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\XAxis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\XDate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\Y2Axis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\YAxis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ZedGraphException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ZedGraph_v5\ZoomState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="Resources\头板图.png" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\foward.png" />
+    <None Include="Resources\light.png" />
+    <None Include="Resources\pause.png" />
+    <Content Include="XPTable\Models\ColumnModel.bmp" />
+    <Content Include="XPTable\Models\Table.bmp" />
+    <Content Include="XPTable\Models\TableModel.bmp" />
+    <Content Include="ZedGraph_v5\ZedGraph.csproj" />
+    <EmbeddedResource Include="GradientControls\CrystalControls.resx">
+      <DependentUpon>CrystalControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradientControls\CrystalLabel.resx">
+      <DependentUpon>CrystalLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradientControls\CrystalPanel.resx">
+      <DependentUpon>CrystalPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradientControls\DropDownPanel.resx">
+      <DependentUpon>DropDownPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradientControls\Grouper.resx">
+      <DependentUpon>Grouper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobListView\JThumbnailView.resx">
+      <DependentUpon>JThumbnailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JobListView\JThumbnailView.th.resx">
+      <DependentUpon>JThumbnailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\CameraViewer.resx">
+      <DependentUpon>CameraViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\CameraViewer.zh-CHS.resx">
+      <DependentUpon>CameraViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\CameraViewer.zh-CHT.resx">
+      <DependentUpon>CameraViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\CameraViewerSettings.resx">
+      <DependentUpon>CameraViewerSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\CameraViewerSettings.zh-CHS.resx">
+      <DependentUpon>CameraViewerSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\CameraViewerSettings.zh-CHT.resx">
+      <DependentUpon>CameraViewerSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\GzPurgeControl.resx">
+      <DependentUpon>GzPurgeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\GzPurgeControl.tr-TR.resx">
+      <DependentUpon>GzPurgeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\GzPurgeControl.zh-CHS.resx">
+      <DependentUpon>GzPurgeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\GzPurgeControl.zh-CHT.resx">
+      <DependentUpon>GzPurgeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\HeadLayoutControl.tr-TR.resx">
+      <DependentUpon>HeadLayoutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\InkTankStatusControl.tr-TR.resx">
+      <DependentUpon>InkTankStatusControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\InkTankStatusControl.zh-CHS.resx">
+      <DependentUpon>InkTankStatusControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\InkTankStatusControl.zh-CHT.resx">
+      <DependentUpon>InkTankStatusControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\PurgeControl.resx">
+      <DependentUpon>PurgeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\HeadLayoutControl.resx">
+      <DependentUpon>HeadLayoutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\HeadLayoutControl.th.resx">
+      <DependentUpon>HeadLayoutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\HeadLayoutControl.zh-CHS.resx">
+      <DependentUpon>HeadLayoutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\HeadLayoutControl.zh-CHT.resx">
+      <DependentUpon>HeadLayoutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\InkTankStatusControl.resx">
+      <DependentUpon>InkTankStatusControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\PurgeControl.tr-TR.resx">
+      <DependentUpon>PurgeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\PurgeControl.zh-CHS.resx">
+      <DependentUpon>PurgeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\PurgeControl.zh-CHT.resx">
+      <DependentUpon>PurgeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\UserControl8.resx">
+      <DependentUpon>UserControl8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\UserControl8.zh-CHS.resx">
+      <DependentUpon>UserControl8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingJobInfo.resx">
+      <DependentUpon>PrintingJobInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingJobInfo.th.resx">
+      <DependentUpon>PrintingJobInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingJobInfo.tr-TR.resx">
+      <DependentUpon>PrintingJobInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingJobInfo.zh-CHS.resx">
+      <DependentUpon>PrintingJobInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingJobInfo.zh-CHT.resx">
+      <DependentUpon>PrintingJobInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingPreview.resx">
+      <DependentUpon>PrintingPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingPreview.th.resx">
+      <DependentUpon>PrintingPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingPreview.tr-TR.resx">
+      <DependentUpon>PrintingPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingPreview.zh-CHS.resx">
+      <DependentUpon>PrintingPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Preview\PrintingPreview.zh-CHT.resx">
+      <DependentUpon>PrintingPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AllwinCleanControl.resx">
+      <DependentUpon>AllwinCleanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AllwinCleanControl.tr-TR.resx">
+      <DependentUpon>AllwinCleanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AllwinCleanControl.zh-CHS.resx">
+      <DependentUpon>AllwinCleanControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AllwinCleanControl.zh-CHT.resx">
+      <DependentUpon>AllwinCleanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AutoBackHomeSetting.resx">
+      <DependentUpon>AutoBackHomeSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AutoBackHomeSetting.zh-CHS.resx">
+      <DependentUpon>AutoBackHomeSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AutoBackHomeSetting.zh-CHT.resx">
+      <DependentUpon>AutoBackHomeSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AutoInkTest.tr-TR.resx">
+      <DependentUpon>AutoInkTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\BaseSetting.resx">
+      <DependentUpon>BaseSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\BaseSetting.th.resx">
+      <DependentUpon>BaseSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\BaseSetting.tr-TR.resx">
+      <DependentUpon>BaseSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\BaseSetting.zh-CHS.resx">
+      <DependentUpon>BaseSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\BaseSetting.zh-CHT.resx">
+      <DependentUpon>BaseSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\BYHXUserControl.resx">
+      <DependentUpon>BYHXUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalculateRollLengthForm.resx">
+      <DependentUpon>CalculateRollLengthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalculateRollLengthForm.zh-CHS.resx">
+      <DependentUpon>CalculateRollLengthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalculateRollLengthForm.zh-CHT.resx">
+      <DependentUpon>CalculateRollLengthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting.resx">
+      <DependentUpon>CalibrationSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting.th.resx">
+      <DependentUpon>CalibrationSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting.tr-TR.resx">
+      <DependentUpon>CalibrationSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting.zh-CHS.resx">
+      <DependentUpon>CalibrationSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting.zh-CHT.resx">
+      <DependentUpon>CalibrationSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting_Layout.resx">
+      <DependentUpon>CalibrationSetting_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting_Layout.th.resx">
+      <DependentUpon>CalibrationSetting_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting_Layout.tr-TR.resx">
+      <DependentUpon>CalibrationSetting_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting_Layout.zh-CHS.resx">
+      <DependentUpon>CalibrationSetting_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CalibrationSetting_Layout.zh-CHT.resx">
+      <DependentUpon>CalibrationSetting_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CleanSetting3D.resx">
+      <DependentUpon>CleanSetting3D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CleanSetting3D.tr-TR.resx">
+      <DependentUpon>CleanSetting3D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CleanSetting3D.zh-CHS.resx">
+      <DependentUpon>CleanSetting3D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CleanSetting3D.zh-CHT.resx">
+      <DependentUpon>CleanSetting3D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AutoInkTest.resx">
+      <DependentUpon>AutoInkTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AutoInkTest.th.resx">
+      <DependentUpon>AutoInkTest.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AutoInkTest.zh-CHS.resx">
+      <DependentUpon>AutoInkTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\AutoInkTest.zh-CHT.resx">
+      <DependentUpon>AutoInkTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CloseColorNozzle_New.resx">
+      <DependentUpon>CloseColorNozzle_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CloseColorNozzle_New.zh-CHS.resx">
+      <DependentUpon>CloseColorNozzle_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CloseColorNozzle_New.zh-CHT.resx">
+      <DependentUpon>CloseColorNozzle_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorjetManualCleanSetting.resx">
+      <DependentUpon>ColorjetManualCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorjetManualCleanSetting.tr-TR.resx">
+      <DependentUpon>ColorjetManualCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorjetManualCleanSetting.zh-CHS.resx">
+      <DependentUpon>ColorjetManualCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorjetManualCleanSetting.zh-CHT.resx">
+      <DependentUpon>ColorjetManualCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorjetManualCleanSettingA.resx">
+      <DependentUpon>ColorjetManualCleanSettingA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorjetManualCleanSettingA.tr-TR.resx">
+      <DependentUpon>ColorjetManualCleanSettingA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorjetManualCleanSettingA.zh-CHS.resx">
+      <DependentUpon>ColorjetManualCleanSettingA.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorjetManualCleanSettingA.zh-CHT.resx">
+      <DependentUpon>ColorjetManualCleanSettingA.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ColorjetManualCleanSetting2.resx">
+      <DependentUpon>ColorjetManualCleanSetting2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CustomCloseNozzle.resx">
+      <DependentUpon>CustomCloseNozzle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\CustomCloseNozzle.zh-CHS.resx">
+      <DependentUpon>CustomCloseNozzle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DebugQuality.resx">
+      <DependentUpon>DebugQuality.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DebugQuality.zh-CHS.resx">
+      <DependentUpon>DebugQuality.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DebugQuality.zh-CHT.resx">
+      <DependentUpon>DebugQuality.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\LabelButtonTextBox.resx">
+      <DependentUpon>LabelButtonTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\LabelButtonTextBox.zh-CHS.resx">
+      <DependentUpon>LabelButtonTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\LabelButtonTextBox.zh-CHT.resx">
+      <DependentUpon>LabelButtonTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\LabelTextBox.resx">
+      <DependentUpon>LabelTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorSetting_new.resx">
+      <DependentUpon>SpotColorSetting_new.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorSetting_new.tr-TR.resx">
+      <DependentUpon>SpotColorSetting_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorSetting_new.zh-CHS.resx">
+      <DependentUpon>SpotColorSetting_new.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorSetting_new.zh-CHT.resx">
+      <DependentUpon>SpotColorSetting_new.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\KonicTemperature_Layout.resx">
+      <DependentUpon>KonicTemperature_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\KonicTemperature_Layout.th.resx">
+      <DependentUpon>KonicTemperature_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\KonicTemperature_Layout.tr-TR.resx">
+      <DependentUpon>KonicTemperature_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\KonicTemperature_Layout.zh-CHS.resx">
+      <DependentUpon>KonicTemperature_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\KonicTemperature_Layout.zh-CHT.resx">
+      <DependentUpon>KonicTemperature_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PQCleanSetting.resx">
+      <DependentUpon>PQCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PQCleanSetting.zh-CHS.resx">
+      <DependentUpon>PQCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PQCleanSetting.zh-CHT.resx">
+      <DependentUpon>PQCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\HLCCleanSetting.resx">
+      <DependentUpon>HLCCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\HLCCleanSetting.zh-CHS.resx">
+      <DependentUpon>HLCCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\HLCCleanSetting.zh-CHT.resx">
+      <DependentUpon>HLCCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DoubleYAxisSetting.resx">
+      <DependentUpon>DoubleYAxisSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DoubleYAxisSetting.zh-CHS.resx">
+      <DependentUpon>DoubleYAxisSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DoubleYAxisSetting.zh-CHT.resx">
+      <DependentUpon>DoubleYAxisSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\GmaCleanSetting.resx">
+      <DependentUpon>GmaCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\GmaCleanSetting.zh-CHS.resx">
+      <DependentUpon>GmaCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\GmaCleanSetting.zh-CHT.resx">
+      <DependentUpon>GmaCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DOCANManualCleanSetting.resx">
+      <DependentUpon>DOCANManualCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DOCANManualCleanSetting.zh-CHS.resx">
+      <DependentUpon>DOCANManualCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DOCANManualCleanSetting.zh-CHT.resx">
+      <DependentUpon>DOCANManualCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ExportJobMediaConfig.resx">
+      <DependentUpon>ExportJobMediaConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ExportJobMediaConfig.zh-CHS.resx">
+      <DependentUpon>ExportJobMediaConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ExportJobMediaConfig.zh-CHT.resx">
+      <DependentUpon>ExportJobMediaConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MbIdSetting.resx">
+      <DependentUpon>MbIdSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MbIdSetting.th.resx">
+      <DependentUpon>MbIdSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MbIdSetting.zh-CHS.resx">
+      <DependentUpon>MbIdSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MbIdSetting.zh-CHT.resx">
+      <DependentUpon>MbIdSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MediaConfigs.resx">
+      <DependentUpon>MediaConfigs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MediaConfigs.zh-CHS.resx">
+      <DependentUpon>MediaConfigs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MediaConfigs.zh-CHT.resx">
+      <DependentUpon>MediaConfigs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DefineUVPowerLevel.resx">
+      <DependentUpon>DefineUVPowerLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DefineUVPowerLevel.zh-CHS.resx">
+      <DependentUpon>DefineUVPowerLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DefineUVPowerLevel.zh-CHT.resx">
+      <DependentUpon>DefineUVPowerLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DoublePrintSetting.resx">
+      <DependentUpon>DoublePrintSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DoublePrintSetting.tr-TR.resx">
+      <DependentUpon>DoublePrintSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DoublePrintSetting.zh-CHS.resx">
+      <DependentUpon>DoublePrintSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\DoublePrintSetting.zh-CHT.resx">
+      <DependentUpon>DoublePrintSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\EpsonBaseSetting.resx">
+      <DependentUpon>EpsonBaseSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\EpsonBaseSetting.th.resx">
+      <DependentUpon>EpsonBaseSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\EpsonBaseSetting.tr-TR.resx">
+      <DependentUpon>EpsonBaseSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\EpsonBaseSetting.zh-CHS.resx">
+      <DependentUpon>EpsonBaseSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\EpsonBaseSetting.zh-CHT.resx">
+      <DependentUpon>EpsonBaseSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ExportJobConfig.resx">
+      <DependentUpon>ExportJobConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ExportJobConfig.zh-CHS.resx">
+      <DependentUpon>ExportJobConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ExportJobConfig.zh-CHT.resx">
+      <DependentUpon>ExportJobConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\FloraParamControl.resx">
+      <DependentUpon>FloraParamControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\FloraParamControl.zh-CHS.resx">
+      <DependentUpon>FloraParamControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\FloraParamControl.zh-CHT.resx">
+      <DependentUpon>FloraParamControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\GraphicsPanel.resx">
+      <DependentUpon>GraphicsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\GraphicsPanel2.resx">
+      <DependentUpon>GraphicsPanel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\HeadBoardPortSetting.resx">
+      <DependentUpon>HeadBoardPortSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\JobConfigModes.resx">
+      <DependentUpon>JobConfigModes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\JobConfigModes.zh-CHS.resx">
+      <DependentUpon>JobConfigModes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\JobConfigModes.zh-CHT.resx">
+      <DependentUpon>JobConfigModes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MaintenanceSystemSetting.resx">
+      <DependentUpon>MaintenanceSystemSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MaintenanceSystemSetting.zh-CHS.resx">
+      <DependentUpon>MaintenanceSystemSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MaintenanceSystemSetting.zh-CHT.resx">
+      <DependentUpon>MaintenanceSystemSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MaintenanceSystemStatus.resx">
+      <DependentUpon>MaintenanceSystemStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MaintenanceSystemStatus.tr-TR.resx">
+      <DependentUpon>MaintenanceSystemStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MaintenanceSystemStatus.zh-CHS.resx">
+      <DependentUpon>MaintenanceSystemStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MaintenanceSystemStatus.zh-CHT.resx">
+      <DependentUpon>MaintenanceSystemStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ManualCleanSetting.resx">
+      <DependentUpon>ManualCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ManualCleanSetting.tr-TR.resx">
+      <DependentUpon>ManualCleanSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ManualCleanSetting.zh-CHS.resx">
+      <DependentUpon>ManualCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ManualCleanSetting.zh-CHT.resx">
+      <DependentUpon>ManualCleanSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MicolorAutoSpraySetting.resx">
+      <DependentUpon>MicolorAutoSpraySetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MicolorAutoSpraySetting.tr-TR.resx">
+      <DependentUpon>MicolorAutoSpraySetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MicolorAutoSpraySetting.zh-CHS.resx">
+      <DependentUpon>MicolorAutoSpraySetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MicolorAutoSpraySetting.zh-CHT.resx">
+      <DependentUpon>MicolorAutoSpraySetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\Micolor_CleanParameterControl.resx">
+      <DependentUpon>Micolor_CleanParameterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\Micolor_CleanParameterControl.tr-TR.resx">
+      <DependentUpon>Micolor_CleanParameterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\Micolor_CleanParameterControl.zh-CHS.resx">
+      <DependentUpon>Micolor_CleanParameterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\Micolor_CleanParameterControl.zh-CHT.resx">
+      <DependentUpon>Micolor_CleanParameterControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MICOLOR_CleanSection.resx">
+      <DependentUpon>MICOLOR_CleanSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MICOLOR_CleanSection.tr-TR.resx">
+      <DependentUpon>MICOLOR_CleanSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MICOLOR_CleanSection.zh-CHS.resx">
+      <DependentUpon>MICOLOR_CleanSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MICOLOR_CleanSection.zh-CHT.resx">
+      <DependentUpon>MICOLOR_CleanSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MoveSetting.resx">
+      <DependentUpon>MoveSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MoveSetting.tr-TR.resx">
+      <DependentUpon>MoveSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MoveSetting.zh-CHS.resx">
+      <DependentUpon>MoveSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\MoveSetting.zh-CHT.resx">
+      <DependentUpon>MoveSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NameEdit.resx">
+      <DependentUpon>NameEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NameEdit.zh-CHS.resx">
+      <DependentUpon>NameEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NameEdit.zh-CHT.resx">
+      <DependentUpon>NameEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NktDyjUserControl.resx">
+      <DependentUpon>NktDyjUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NktDyjUserControl.tr-TR.resx">
+      <DependentUpon>NktDyjUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NktDyjUserControl.zh-CHS.resx">
+      <DependentUpon>NktDyjUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NktDyjUserControl.zh-CHT.resx">
+      <DependentUpon>NktDyjUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NozzleXYoffset.resx">
+      <DependentUpon>NozzleXYoffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NozzleXYoffset.tr-TR.resx">
+      <DependentUpon>NozzleXYoffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NozzleXYoffset.zh-CHS.resx">
+      <DependentUpon>NozzleXYoffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\NozzleXYoffset.zh-CHT.resx">
+      <DependentUpon>NozzleXYoffset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PreferenceSetting.resx">
+      <DependentUpon>PreferenceSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PreferenceSetting.th.resx">
+      <DependentUpon>PreferenceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PreferenceSetting.tr-TR.resx">
+      <DependentUpon>PreferenceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PreferenceSetting.zh-CHS.resx">
+      <DependentUpon>PreferenceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PreferenceSetting.zh-CHT.resx">
+      <DependentUpon>PreferenceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PressureSetting.resx">
+      <DependentUpon>PressureSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PressureSetting.zh-CHS.resx">
+      <DependentUpon>PressureSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PressureSetting.zh-CHT.resx">
+      <DependentUpon>PressureSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\Printer3DSetting.resx">
+      <DependentUpon>Printer3DSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\Printer3DSetting.tr-TR.resx">
+      <DependentUpon>Printer3DSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\Printer3DSetting.zh-CHS.resx">
+      <DependentUpon>Printer3DSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\Printer3DSetting.zh-CHT.resx">
+      <DependentUpon>Printer3DSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PrinterHWSetting.resx">
+      <DependentUpon>PrinterHWSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PrinterHWSetting.th.resx">
+      <DependentUpon>PrinterHWSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PrinterHWSetting.tr-TR.resx">
+      <DependentUpon>PrinterHWSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PrinterHWSetting.zh-CHS.resx">
+      <DependentUpon>PrinterHWSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PrinterHWSetting.zh-CHT.resx">
+      <DependentUpon>PrinterHWSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PrintHeadOrderTypeForm.resx">
+      <DependentUpon>PrintHeadOrderTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PrintHeadOrderTypeForm.zh-CHS.resx">
+      <DependentUpon>PrintHeadOrderTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\PrintHeadOrderTypeForm.zh-CHT.resx">
+      <DependentUpon>PrintHeadOrderTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SeviceSetting.resx">
+      <DependentUpon>SeviceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SeviceSetting.th.resx">
+      <DependentUpon>SeviceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SeviceSetting.tr-TR.resx">
+      <DependentUpon>SeviceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SeviceSetting.zh-CHS.resx">
+      <DependentUpon>SeviceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SeviceSetting.zh-CHT.resx">
+      <DependentUpon>SeviceSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorMaskSetting.resx">
+      <DependentUpon>SpotColorMaskSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorMaskSetting.tr-TR.resx">
+      <DependentUpon>SpotColorMaskSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorMaskSetting.zh-CHS.resx">
+      <DependentUpon>SpotColorMaskSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorMaskSetting.zh-CHT.resx">
+      <DependentUpon>SpotColorMaskSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorSetting.resx">
+      <DependentUpon>SpotColorSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorSetting.tr-TR.resx">
+      <DependentUpon>SpotColorSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorSetting.zh-CHS.resx">
+      <DependentUpon>SpotColorSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SpotColorSetting.zh-CHT.resx">
+      <DependentUpon>SpotColorSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SystemInfoSetting.resx">
+      <DependentUpon>SystemInfoSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SystemInfoSetting.th.resx">
+      <DependentUpon>SystemInfoSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SystemInfoSetting.tr-TR.resx">
+      <DependentUpon>SystemInfoSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SystemInfoSetting.zh-CHS.resx">
+      <DependentUpon>SystemInfoSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\SystemInfoSetting.zh-CHT.resx">
+      <DependentUpon>SystemInfoSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\TemperatureSetting.resx">
+      <DependentUpon>TemperatureSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\TemperatureSetting.zh-CHS.resx">
+      <DependentUpon>TemperatureSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\TemperatureSetting.zh-CHT.resx">
+      <DependentUpon>TemperatureSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting.resx">
+      <DependentUpon>ToolbarSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting.th.resx">
+      <DependentUpon>ToolbarSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting.tr-TR.resx">
+      <DependentUpon>ToolbarSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting.zh-CHS.resx">
+      <DependentUpon>ToolbarSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting.zh-CHT.resx">
+      <DependentUpon>ToolbarSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting_AllWin_JetRix.resx">
+      <DependentUpon>ToolbarSetting_AllWin_JetRix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting_AllWin_JetRix.th.resx">
+      <DependentUpon>ToolbarSetting_AllWin_JetRix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting_AllWin_JetRix.tr-TR.resx">
+      <DependentUpon>ToolbarSetting_AllWin_JetRix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting_AllWin_JetRix.zh-CHS.resx">
+      <DependentUpon>ToolbarSetting_AllWin_JetRix.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ToolbarSetting_AllWin_JetRix.zh-CHT.resx">
+      <DependentUpon>ToolbarSetting_AllWin_JetRix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\UserExtensionSetting.resx">
+      <DependentUpon>UserExtensionSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\UserExtensionSetting.tr-TR.resx">
+      <DependentUpon>UserExtensionSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\UserExtensionSetting.zh-CHS.resx">
+      <DependentUpon>UserExtensionSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\UserExtensionSetting.zh-CHT.resx">
+      <DependentUpon>UserExtensionSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\UVSetting.resx">
+      <DependentUpon>UVSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\UVSetting.zh-CHS.resx">
+      <DependentUpon>UVSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\UVSetting.zh-CHT.resx">
+      <DependentUpon>UVSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\WorkposSetting.resx">
+      <DependentUpon>WorkposSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\WorkposSetting.zh-CHS.resx">
+      <DependentUpon>WorkposSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\WorkposSetting.zh-CHT.resx">
+      <DependentUpon>WorkposSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\XaarTempertureSetting.resx">
+      <DependentUpon>XaarTempertureSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\XaarTempertureSetting.tr-TR.resx">
+      <DependentUpon>XaarTempertureSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\XaarTempertureSetting.zh-CHS.resx">
+      <DependentUpon>XaarTempertureSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\XaarTempertureSetting.zh-CHT.resx">
+      <DependentUpon>XaarTempertureSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ZAixsSetting.resx">
+      <DependentUpon>ZAixsSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ZAixsSetting.tr-TR.resx">
+      <DependentUpon>ZAixsSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ZAixsSetting.zh-CHS.resx">
+      <DependentUpon>ZAixsSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting\ZAixsSetting.zh-CHT.resx">
+      <DependentUpon>ZAixsSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPTable\Editors\DropDownContainer.resx">
+      <DependentUpon>DropDownContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPTable\Models\Table.resx">
+      <DependentUpon>Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XPTable\Models\TableModel.resx">
+      <DependentUpon>TableModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZedGraph\ZedGraphControl.resx">
+      <DependentUpon>ZedGraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZedGraph_v5\ZedGraphLocale.resx" />
+    <EmbeddedResource Include="ZedGraph_v5\ZedGraphLocale.tr-TR.resx" />
+    <EmbeddedResource Include="ZedGraph_v5\ZedGraphLocale.zh-CHS.resx" />
+    <EmbeddedResource Include="ZedGraph_v5\ZedGraphLocale.zh-CHT.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="XPTable\doc\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

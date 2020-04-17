@@ -1,0 +1,2142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="m_ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_NumericUpDownStep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 4</value>
+  </data>
+  <data name="m_NumericUpDownStep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_NumericUpDownStep.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownStep.Name" xml:space="preserve">
+    <value>m_NumericUpDownStep</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownStep.Parent" xml:space="preserve">
+    <value>panelSteps</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownStep.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_LabelOrigin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_LabelOrigin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelOrigin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="m_LabelOrigin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="m_LabelOrigin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelOrigin.Text" xml:space="preserve">
+    <value>Origin X:</value>
+  </data>
+  <data name="m_LabelOrigin.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelOrigin.Name" xml:space="preserve">
+    <value>m_LabelOrigin</value>
+  </data>
+  <data name="&gt;&gt;m_LabelOrigin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelOrigin.Parent" xml:space="preserve">
+    <value>panelOriginX</value>
+  </data>
+  <data name="&gt;&gt;m_LabelOrigin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_NumericUpDownOrigin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 4</value>
+  </data>
+  <data name="m_NumericUpDownOrigin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="m_NumericUpDownOrigin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownOrigin.Name" xml:space="preserve">
+    <value>m_NumericUpDownOrigin</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownOrigin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownOrigin.Parent" xml:space="preserve">
+    <value>panelOriginX</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownOrigin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_CheckBoxUsePrinterSetting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_CheckBoxUsePrinterSetting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="m_CheckBoxUsePrinterSetting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_CheckBoxUsePrinterSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1635, 0</value>
+  </data>
+  <data name="m_CheckBoxUsePrinterSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 28</value>
+  </data>
+  <data name="m_CheckBoxUsePrinterSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="m_CheckBoxUsePrinterSetting.Text" xml:space="preserve">
+    <value>Use file setting</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxUsePrinterSetting.Name" xml:space="preserve">
+    <value>m_CheckBoxUsePrinterSetting</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxUsePrinterSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxUsePrinterSetting.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxUsePrinterSetting.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_CheckBoxBidirection.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_CheckBoxBidirection.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="m_CheckBoxBidirection.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_CheckBoxBidirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1560, 0</value>
+  </data>
+  <data name="m_CheckBoxBidirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 28</value>
+  </data>
+  <data name="m_CheckBoxBidirection.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="m_CheckBoxBidirection.Text" xml:space="preserve">
+    <value>Bidirection</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxBidirection.Name" xml:space="preserve">
+    <value>m_CheckBoxBidirection</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxBidirection.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxBidirection.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxBidirection.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="m_ComboBoxPass.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_ComboBoxPass.Items" xml:space="preserve">
+    <value>1 Pass</value>
+  </data>
+  <data name="m_ComboBoxPass.Items1" xml:space="preserve">
+    <value>2 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Items2" xml:space="preserve">
+    <value>3 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Items3" xml:space="preserve">
+    <value>4 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Items4" xml:space="preserve">
+    <value>5 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Items5" xml:space="preserve">
+    <value>6 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Items6" xml:space="preserve">
+    <value>7 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Items7" xml:space="preserve">
+    <value>8 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Items8" xml:space="preserve">
+    <value>9 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Items9" xml:space="preserve">
+    <value>12 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Items10" xml:space="preserve">
+    <value>24 Passes</value>
+  </data>
+  <data name="m_ComboBoxPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 4</value>
+  </data>
+  <data name="m_ComboBoxPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="m_ComboBoxPass.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxPass.Name" xml:space="preserve">
+    <value>m_ComboBoxPass</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxPass.Parent" xml:space="preserve">
+    <value>panelPass</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxPass.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_ComboBoxSpeed.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_ComboBoxSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 4</value>
+  </data>
+  <data name="m_ComboBoxSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="m_ComboBoxSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxSpeed.Name" xml:space="preserve">
+    <value>m_ComboBoxSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxSpeed.Parent" xml:space="preserve">
+    <value>panelSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxSpeed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_LabelStep.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelStep.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelStep.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 6</value>
+  </data>
+  <data name="m_LabelStep.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="m_LabelStep.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="m_LabelStep.Text" xml:space="preserve">
+    <value>Steps:</value>
+  </data>
+  <data name="m_LabelStep.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelStep.Name" xml:space="preserve">
+    <value>m_LabelStep</value>
+  </data>
+  <data name="&gt;&gt;m_LabelStep.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelStep.Parent" xml:space="preserve">
+    <value>panelSteps</value>
+  </data>
+  <data name="&gt;&gt;m_LabelStep.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_NumericUpDownOriginY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 4</value>
+  </data>
+  <data name="m_NumericUpDownOriginY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="m_NumericUpDownOriginY.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownOriginY.Name" xml:space="preserve">
+    <value>m_NumericUpDownOriginY</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownOriginY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownOriginY.Parent" xml:space="preserve">
+    <value>panelOriginY</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownOriginY.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_LabelOriginY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelOriginY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelOriginY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 6</value>
+  </data>
+  <data name="m_LabelOriginY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="m_LabelOriginY.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelOriginY.Text" xml:space="preserve">
+    <value>Origin Y:</value>
+  </data>
+  <data name="m_LabelOriginY.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelOriginY.Name" xml:space="preserve">
+    <value>m_LabelOriginY</value>
+  </data>
+  <data name="&gt;&gt;m_LabelOriginY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelOriginY.Parent" xml:space="preserve">
+    <value>panelOriginY</value>
+  </data>
+  <data name="&gt;&gt;m_LabelOriginY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelSpeed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="labelSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="labelSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelSpeed.Text" xml:space="preserve">
+    <value>Speed:</value>
+  </data>
+  <data name="labelSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed.Name" xml:space="preserve">
+    <value>labelSpeed</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed.Parent" xml:space="preserve">
+    <value>panelSpeed</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_ComboBoxMediumSpeed.ItemHeight" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_ComboBoxMediumSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 4</value>
+  </data>
+  <data name="m_ComboBoxMediumSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="m_ComboBoxMediumSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxMediumSpeed.Name" xml:space="preserve">
+    <value>m_ComboBoxMediumSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxMediumSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxMediumSpeed.Parent" xml:space="preserve">
+    <value>panelMediaSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxMediumSpeed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelMediumSpeed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMediumSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMediumSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 8</value>
+  </data>
+  <data name="labelMediumSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="labelMediumSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelMediumSpeed.Text" xml:space="preserve">
+    <value>Medium Speed:</value>
+  </data>
+  <data name="labelMediumSpeed.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelMediumSpeed.Name" xml:space="preserve">
+    <value>labelMediumSpeed</value>
+  </data>
+  <data name="&gt;&gt;labelMediumSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMediumSpeed.Parent" xml:space="preserve">
+    <value>panelMediaSpeed</value>
+  </data>
+  <data name="&gt;&gt;labelMediumSpeed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_CheckBoxHDPrint.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_CheckBoxHDPrint.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="m_CheckBoxHDPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_CheckBoxHDPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2174, 0</value>
+  </data>
+  <data name="m_CheckBoxHDPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 28</value>
+  </data>
+  <data name="m_CheckBoxHDPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="m_CheckBoxHDPrint.Text" xml:space="preserve">
+    <value>HD Print</value>
+  </data>
+  <data name="m_CheckBoxHDPrint.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxHDPrint.Name" xml:space="preserve">
+    <value>m_CheckBoxHDPrint</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxHDPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxHDPrint.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxHDPrint.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="checkBoxAlternatePrint.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxAlternatePrint.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="checkBoxAlternatePrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxAlternatePrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2240, 0</value>
+  </data>
+  <data name="checkBoxAlternatePrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 28</value>
+  </data>
+  <data name="checkBoxAlternatePrint.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="checkBoxAlternatePrint.Text" xml:space="preserve">
+    <value>Alternate Print</value>
+  </data>
+  <data name="checkBoxAlternatePrint.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAlternatePrint.Name" xml:space="preserve">
+    <value>checkBoxAlternatePrint</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAlternatePrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAlternatePrint.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAlternatePrint.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panelOriginX.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelOriginX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 0</value>
+  </data>
+  <data name="panelOriginX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 28</value>
+  </data>
+  <data name="panelOriginX.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;panelOriginX.Name" xml:space="preserve">
+    <value>panelOriginX</value>
+  </data>
+  <data name="&gt;&gt;panelOriginX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelOriginX.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelOriginX.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="panelOriginY.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelOriginY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 0</value>
+  </data>
+  <data name="panelOriginY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 28</value>
+  </data>
+  <data name="panelOriginY.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panelOriginY.Name" xml:space="preserve">
+    <value>panelOriginY</value>
+  </data>
+  <data name="&gt;&gt;panelOriginY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelOriginY.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelOriginY.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="panelSteps.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelSteps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 0</value>
+  </data>
+  <data name="panelSteps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 28</value>
+  </data>
+  <data name="panelSteps.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panelSteps.Name" xml:space="preserve">
+    <value>panelSteps</value>
+  </data>
+  <data name="&gt;&gt;panelSteps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelSteps.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelSteps.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelPass</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelPass.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>795, 0</value>
+  </data>
+  <data name="panelPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="panelPass.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panelPass.Name" xml:space="preserve">
+    <value>panelPass</value>
+  </data>
+  <data name="&gt;&gt;panelPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelPass.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelPass.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Pass:</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelPass</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelSpeed.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>935, 0</value>
+  </data>
+  <data name="panelSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 28</value>
+  </data>
+  <data name="panelSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panelSpeed.Name" xml:space="preserve">
+    <value>panelSpeed</value>
+  </data>
+  <data name="&gt;&gt;panelSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelSpeed.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelSpeed.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="panelMediaSpeed.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelMediaSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1075, 0</value>
+  </data>
+  <data name="panelMediaSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 28</value>
+  </data>
+  <data name="panelMediaSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;panelMediaSpeed.Name" xml:space="preserve">
+    <value>panelMediaSpeed</value>
+  </data>
+  <data name="&gt;&gt;panelMediaSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMediaSpeed.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelMediaSpeed.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="comboBoxMotorControl.Items" xml:space="preserve">
+    <value>PulseMode</value>
+  </data>
+  <data name="comboBoxMotorControl.Items1" xml:space="preserve">
+    <value>TorqueMode</value>
+  </data>
+  <data name="comboBoxMotorControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 4</value>
+  </data>
+  <data name="comboBoxMotorControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 21</value>
+  </data>
+  <data name="comboBoxMotorControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMotorControl.Name" xml:space="preserve">
+    <value>comboBoxMotorControl</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMotorControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMotorControl.Parent" xml:space="preserve">
+    <value>panelMotorSetting</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMotorControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelMotorControl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMotorControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMotorControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 6</value>
+  </data>
+  <data name="labelMotorControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="labelMotorControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelMotorControl.Text" xml:space="preserve">
+    <value>Control Mode:</value>
+  </data>
+  <data name="&gt;&gt;labelMotorControl.Name" xml:space="preserve">
+    <value>labelMotorControl</value>
+  </data>
+  <data name="&gt;&gt;labelMotorControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMotorControl.Parent" xml:space="preserve">
+    <value>panelMotorSetting</value>
+  </data>
+  <data name="&gt;&gt;labelMotorControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelMotorSetting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelMotorSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3075, 0</value>
+  </data>
+  <data name="panelMotorSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 28</value>
+  </data>
+  <data name="panelMotorSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;panelMotorSetting.Name" xml:space="preserve">
+    <value>panelMotorSetting</value>
+  </data>
+  <data name="&gt;&gt;panelMotorSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMotorSetting.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelMotorSetting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;numericOriginY2.Name" xml:space="preserve">
+    <value>numericOriginY2</value>
+  </data>
+  <data name="&gt;&gt;numericOriginY2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericOriginY2.Parent" xml:space="preserve">
+    <value>panelOriginY2</value>
+  </data>
+  <data name="&gt;&gt;numericOriginY2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelOriginY2.Name" xml:space="preserve">
+    <value>labelOriginY2</value>
+  </data>
+  <data name="&gt;&gt;labelOriginY2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelOriginY2.Parent" xml:space="preserve">
+    <value>panelOriginY2</value>
+  </data>
+  <data name="&gt;&gt;labelOriginY2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelOriginY2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelOriginY2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2905, 0</value>
+  </data>
+  <data name="panelOriginY2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 28</value>
+  </data>
+  <data name="panelOriginY2.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;panelOriginY2.Name" xml:space="preserve">
+    <value>panelOriginY2</value>
+  </data>
+  <data name="&gt;&gt;panelOriginY2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelOriginY2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelOriginY2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMediaMode.Name" xml:space="preserve">
+    <value>comboBoxMediaMode</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMediaMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMediaMode.Parent" xml:space="preserve">
+    <value>panelMediaModes</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMediaMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelMediaMode.Name" xml:space="preserve">
+    <value>labelMediaMode</value>
+  </data>
+  <data name="&gt;&gt;labelMediaMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMediaMode.Parent" xml:space="preserve">
+    <value>panelMediaModes</value>
+  </data>
+  <data name="&gt;&gt;labelMediaMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelMediaModes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelMediaModes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2711, 0</value>
+  </data>
+  <data name="panelMediaModes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 28</value>
+  </data>
+  <data name="panelMediaModes.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;panelMediaModes.Name" xml:space="preserve">
+    <value>panelMediaModes</value>
+  </data>
+  <data name="&gt;&gt;panelMediaModes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMediaModes.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelMediaModes.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelTshirtPlat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panelTshirtPlat.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.Name" xml:space="preserve">
+    <value>radioButtonAuto</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.Parent" xml:space="preserve">
+    <value>panelTshirtPlat</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButtonB.Name" xml:space="preserve">
+    <value>radioButtonB</value>
+  </data>
+  <data name="&gt;&gt;radioButtonB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonB.Parent" xml:space="preserve">
+    <value>panelTshirtPlat</value>
+  </data>
+  <data name="&gt;&gt;radioButtonB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButtonA.Name" xml:space="preserve">
+    <value>radioButtonA</value>
+  </data>
+  <data name="&gt;&gt;radioButtonA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonA.Parent" xml:space="preserve">
+    <value>panelTshirtPlat</value>
+  </data>
+  <data name="&gt;&gt;radioButtonA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelplatform.Name" xml:space="preserve">
+    <value>labelplatform</value>
+  </data>
+  <data name="&gt;&gt;labelplatform.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelplatform.Parent" xml:space="preserve">
+    <value>panelTshirtPlat</value>
+  </data>
+  <data name="&gt;&gt;labelplatform.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelTshirtPlat.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelTshirtPlat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2550, 0</value>
+  </data>
+  <data name="panelTshirtPlat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 28</value>
+  </data>
+  <data name="panelTshirtPlat.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;panelTshirtPlat.Name" xml:space="preserve">
+    <value>panelTshirtPlat</value>
+  </data>
+  <data name="&gt;&gt;panelTshirtPlat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTshirtPlat.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelTshirtPlat.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBoxYBackOrigin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxYBackOrigin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="checkBoxYBackOrigin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxYBackOrigin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2462, 0</value>
+  </data>
+  <data name="checkBoxYBackOrigin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 28</value>
+  </data>
+  <data name="checkBoxYBackOrigin.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="checkBoxYBackOrigin.Text" xml:space="preserve">
+    <value>Y back origin</value>
+  </data>
+  <data name="checkBoxYBackOrigin.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkBoxYBackOrigin.Name" xml:space="preserve">
+    <value>checkBoxYBackOrigin</value>
+  </data>
+  <data name="&gt;&gt;checkBoxYBackOrigin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxYBackOrigin.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxYBackOrigin.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBoxPauseBetweenLayers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxPauseBetweenLayers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="checkBoxPauseBetweenLayers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxPauseBetweenLayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2332, 0</value>
+  </data>
+  <data name="checkBoxPauseBetweenLayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 28</value>
+  </data>
+  <data name="checkBoxPauseBetweenLayers.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="checkBoxPauseBetweenLayers.Text" xml:space="preserve">
+    <value>Pause between layers</value>
+  </data>
+  <data name="checkBoxPauseBetweenLayers.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPauseBetweenLayers.Name" xml:space="preserve">
+    <value>checkBoxPauseBetweenLayers</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPauseBetweenLayers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPauseBetweenLayers.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPauseBetweenLayers.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnMoisturize.Name" xml:space="preserve">
+    <value>btnMoisturize</value>
+  </data>
+  <data name="&gt;&gt;btnMoisturize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMoisturize.Parent" xml:space="preserve">
+    <value>panelKeepwet</value>
+  </data>
+  <data name="&gt;&gt;btnMoisturize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panelKeepwet.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelKeepwet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2074, 0</value>
+  </data>
+  <data name="panelKeepwet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="panelKeepwet.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;panelKeepwet.Name" xml:space="preserve">
+    <value>panelKeepwet</value>
+  </data>
+  <data name="&gt;&gt;panelKeepwet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelKeepwet.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelKeepwet.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="panelLayoutSetting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLayout.Name" xml:space="preserve">
+    <value>comboBoxLayout</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLayout.Parent" xml:space="preserve">
+    <value>panelLayoutSetting</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelLayout.Name" xml:space="preserve">
+    <value>labelLayout</value>
+  </data>
+  <data name="&gt;&gt;labelLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLayout.Parent" xml:space="preserve">
+    <value>panelLayoutSetting</value>
+  </data>
+  <data name="&gt;&gt;labelLayout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelLayoutSetting.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelLayoutSetting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1919, 0</value>
+  </data>
+  <data name="panelLayoutSetting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 28</value>
+  </data>
+  <data name="panelLayoutSetting.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;panelLayoutSetting.Name" xml:space="preserve">
+    <value>panelLayoutSetting</value>
+  </data>
+  <data name="&gt;&gt;panelLayoutSetting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelLayoutSetting.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelLayoutSetting.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panelJobMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPringConfigList.Name" xml:space="preserve">
+    <value>comboBoxPringConfigList</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPringConfigList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPringConfigList.Parent" xml:space="preserve">
+    <value>panelJobMode</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPringConfigList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelJobMode.Name" xml:space="preserve">
+    <value>labelJobMode</value>
+  </data>
+  <data name="&gt;&gt;labelJobMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelJobMode.Parent" xml:space="preserve">
+    <value>panelJobMode</value>
+  </data>
+  <data name="&gt;&gt;labelJobMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelJobMode.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelJobMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1730, 0</value>
+  </data>
+  <data name="panelJobMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 28</value>
+  </data>
+  <data name="panelJobMode.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;panelJobMode.Name" xml:space="preserve">
+    <value>panelJobMode</value>
+  </data>
+  <data name="&gt;&gt;panelJobMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelJobMode.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelJobMode.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpYSpeed.Name" xml:space="preserve">
+    <value>m_NumericUpYSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpYSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpYSpeed.Parent" xml:space="preserve">
+    <value>panelYSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpYSpeed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelYSpeed.Name" xml:space="preserve">
+    <value>labelYSpeed</value>
+  </data>
+  <data name="&gt;&gt;labelYSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelYSpeed.Parent" xml:space="preserve">
+    <value>panelYSpeed</value>
+  </data>
+  <data name="&gt;&gt;labelYSpeed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelYSpeed.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelYSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1410, 0</value>
+  </data>
+  <data name="panelYSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 28</value>
+  </data>
+  <data name="panelYSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;panelYSpeed.Name" xml:space="preserve">
+    <value>panelYSpeed</value>
+  </data>
+  <data name="&gt;&gt;panelYSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelYSpeed.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelYSpeed.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStartPrintDir.Name" xml:space="preserve">
+    <value>comboBoxStartPrintDir</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStartPrintDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStartPrintDir.Parent" xml:space="preserve">
+    <value>panelStartPrintDir</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStartPrintDir.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelStartPrintDir.Name" xml:space="preserve">
+    <value>labelStartPrintDir</value>
+  </data>
+  <data name="&gt;&gt;labelStartPrintDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStartPrintDir.Parent" xml:space="preserve">
+    <value>panelStartPrintDir</value>
+  </data>
+  <data name="&gt;&gt;labelStartPrintDir.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelStartPrintDir.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelStartPrintDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1240, 0</value>
+  </data>
+  <data name="panelStartPrintDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 28</value>
+  </data>
+  <data name="panelStartPrintDir.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;panelStartPrintDir.Name" xml:space="preserve">
+    <value>panelStartPrintDir</value>
+  </data>
+  <data name="&gt;&gt;panelStartPrintDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelStartPrintDir.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelStartPrintDir.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;numZWorkPos.Name" xml:space="preserve">
+    <value>numZWorkPos</value>
+  </data>
+  <data name="&gt;&gt;numZWorkPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numZWorkPos.Parent" xml:space="preserve">
+    <value>panelOriginZ</value>
+  </data>
+  <data name="&gt;&gt;numZWorkPos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelOriginZ</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelOriginZ.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelOriginZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 0</value>
+  </data>
+  <data name="panelOriginZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 28</value>
+  </data>
+  <data name="panelOriginZ.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;panelOriginZ.Name" xml:space="preserve">
+    <value>panelOriginZ</value>
+  </data>
+  <data name="&gt;&gt;panelOriginZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelOriginZ.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelOriginZ.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFlatMode.Name" xml:space="preserve">
+    <value>checkBoxFlatMode</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFlatMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFlatMode.Parent" xml:space="preserve">
+    <value>panelJobSpace</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFlatMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;numJobSpace.Name" xml:space="preserve">
+    <value>numJobSpace</value>
+  </data>
+  <data name="&gt;&gt;numJobSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numJobSpace.Parent" xml:space="preserve">
+    <value>panelJobSpace</value>
+  </data>
+  <data name="&gt;&gt;numJobSpace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelJobSpace.Name" xml:space="preserve">
+    <value>labelJobSpace</value>
+  </data>
+  <data name="&gt;&gt;labelJobSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelJobSpace.Parent" xml:space="preserve">
+    <value>panelJobSpace</value>
+  </data>
+  <data name="&gt;&gt;labelJobSpace.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelJobSpace.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelJobSpace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 0</value>
+  </data>
+  <data name="panelJobSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 28</value>
+  </data>
+  <data name="panelJobSpace.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="panelJobSpace.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelJobSpace.Name" xml:space="preserve">
+    <value>panelJobSpace</value>
+  </data>
+  <data name="&gt;&gt;panelJobSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelJobSpace.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panelJobSpace.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="checkBoxAutoCenterPrint.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxAutoCenterPrint.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="checkBoxAutoCenterPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxAutoCenterPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="checkBoxAutoCenterPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="checkBoxAutoCenterPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="checkBoxAutoCenterPrint.Text" xml:space="preserve">
+    <value>AutoCenterPrint</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoCenterPrint.Name" xml:space="preserve">
+    <value>checkBoxAutoCenterPrint</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoCenterPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoCenterPrint.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAutoCenterPrint.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>3281, 28</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numericOriginY2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 4</value>
+  </data>
+  <data name="numericOriginY2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="numericOriginY2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;numericOriginY2.Name" xml:space="preserve">
+    <value>numericOriginY2</value>
+  </data>
+  <data name="&gt;&gt;numericOriginY2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericOriginY2.Parent" xml:space="preserve">
+    <value>panelOriginY2</value>
+  </data>
+  <data name="&gt;&gt;numericOriginY2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelOriginY2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelOriginY2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelOriginY2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 6</value>
+  </data>
+  <data name="labelOriginY2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="labelOriginY2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelOriginY2.Text" xml:space="preserve">
+    <value>Origin Y2:</value>
+  </data>
+  <data name="labelOriginY2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelOriginY2.Name" xml:space="preserve">
+    <value>labelOriginY2</value>
+  </data>
+  <data name="&gt;&gt;labelOriginY2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelOriginY2.Parent" xml:space="preserve">
+    <value>panelOriginY2</value>
+  </data>
+  <data name="&gt;&gt;labelOriginY2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxMediaMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 4</value>
+  </data>
+  <data name="comboBoxMediaMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="comboBoxMediaMode.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMediaMode.Name" xml:space="preserve">
+    <value>comboBoxMediaMode</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMediaMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMediaMode.Parent" xml:space="preserve">
+    <value>panelMediaModes</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMediaMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelMediaMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMediaMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="labelMediaMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="labelMediaMode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelMediaMode.Text" xml:space="preserve">
+    <value>Media Mode:</value>
+  </data>
+  <data name="&gt;&gt;labelMediaMode.Name" xml:space="preserve">
+    <value>labelMediaMode</value>
+  </data>
+  <data name="&gt;&gt;labelMediaMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMediaMode.Parent" xml:space="preserve">
+    <value>panelMediaModes</value>
+  </data>
+  <data name="&gt;&gt;labelMediaMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonAuto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonAuto.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="radioButtonAuto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 0</value>
+  </data>
+  <data name="radioButtonAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 26</value>
+  </data>
+  <data name="radioButtonAuto.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="radioButtonAuto.Text" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.Name" xml:space="preserve">
+    <value>radioButtonAuto</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.Parent" xml:space="preserve">
+    <value>panelTshirtPlat</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonB.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="radioButtonB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 0</value>
+  </data>
+  <data name="radioButtonB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 26</value>
+  </data>
+  <data name="radioButtonB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButtonB.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="&gt;&gt;radioButtonB.Name" xml:space="preserve">
+    <value>radioButtonB</value>
+  </data>
+  <data name="&gt;&gt;radioButtonB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonB.Parent" xml:space="preserve">
+    <value>panelTshirtPlat</value>
+  </data>
+  <data name="&gt;&gt;radioButtonB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="radioButtonA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="radioButtonA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 26</value>
+  </data>
+  <data name="radioButtonA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButtonA.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="&gt;&gt;radioButtonA.Name" xml:space="preserve">
+    <value>radioButtonA</value>
+  </data>
+  <data name="&gt;&gt;radioButtonA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonA.Parent" xml:space="preserve">
+    <value>panelTshirtPlat</value>
+  </data>
+  <data name="&gt;&gt;radioButtonA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelplatform.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="labelplatform.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelplatform.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="labelplatform.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 26</value>
+  </data>
+  <data name="labelplatform.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelplatform.Text" xml:space="preserve">
+    <value>Platform:</value>
+  </data>
+  <data name="labelplatform.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelplatform.Name" xml:space="preserve">
+    <value>labelplatform</value>
+  </data>
+  <data name="&gt;&gt;labelplatform.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelplatform.Parent" xml:space="preserve">
+    <value>panelTshirtPlat</value>
+  </data>
+  <data name="&gt;&gt;labelplatform.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnMoisturize.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnMoisturize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 2</value>
+  </data>
+  <data name="btnMoisturize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 24</value>
+  </data>
+  <data name="btnMoisturize.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnMoisturize.Text" xml:space="preserve">
+    <value>Moisturize</value>
+  </data>
+  <data name="&gt;&gt;btnMoisturize.Name" xml:space="preserve">
+    <value>btnMoisturize</value>
+  </data>
+  <data name="&gt;&gt;btnMoisturize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnMoisturize.Parent" xml:space="preserve">
+    <value>panelKeepwet</value>
+  </data>
+  <data name="&gt;&gt;btnMoisturize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 4</value>
+  </data>
+  <data name="comboBoxLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="comboBoxLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLayout.Name" xml:space="preserve">
+    <value>comboBoxLayout</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLayout.Parent" xml:space="preserve">
+    <value>panelLayoutSetting</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLayout.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelLayout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelLayout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelLayout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="labelLayout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="labelLayout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelLayout.Text" xml:space="preserve">
+    <value>Layout:</value>
+  </data>
+  <data name="&gt;&gt;labelLayout.Name" xml:space="preserve">
+    <value>labelLayout</value>
+  </data>
+  <data name="&gt;&gt;labelLayout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLayout.Parent" xml:space="preserve">
+    <value>panelLayoutSetting</value>
+  </data>
+  <data name="&gt;&gt;labelLayout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxPringConfigList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 4</value>
+  </data>
+  <data name="comboBoxPringConfigList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 21</value>
+  </data>
+  <data name="comboBoxPringConfigList.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPringConfigList.Name" xml:space="preserve">
+    <value>comboBoxPringConfigList</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPringConfigList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPringConfigList.Parent" xml:space="preserve">
+    <value>panelJobMode</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPringConfigList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelJobMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelJobMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="labelJobMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="labelJobMode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelJobMode.Text" xml:space="preserve">
+    <value>Job Mode:</value>
+  </data>
+  <data name="&gt;&gt;labelJobMode.Name" xml:space="preserve">
+    <value>labelJobMode</value>
+  </data>
+  <data name="&gt;&gt;labelJobMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelJobMode.Parent" xml:space="preserve">
+    <value>panelJobMode</value>
+  </data>
+  <data name="&gt;&gt;labelJobMode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_NumericUpYSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 5</value>
+  </data>
+  <data name="m_NumericUpYSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="m_NumericUpYSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpYSpeed.Name" xml:space="preserve">
+    <value>m_NumericUpYSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpYSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpYSpeed.Parent" xml:space="preserve">
+    <value>panelYSpeed</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpYSpeed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelYSpeed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelYSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelYSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 8</value>
+  </data>
+  <data name="labelYSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="labelYSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelYSpeed.Text" xml:space="preserve">
+    <value>Speed Y:</value>
+  </data>
+  <data name="&gt;&gt;labelYSpeed.Name" xml:space="preserve">
+    <value>labelYSpeed</value>
+  </data>
+  <data name="&gt;&gt;labelYSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelYSpeed.Parent" xml:space="preserve">
+    <value>panelYSpeed</value>
+  </data>
+  <data name="&gt;&gt;labelYSpeed.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBoxStartPrintDir.Items" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="comboBoxStartPrintDir.Items1" xml:space="preserve">
+    <value>Backward</value>
+  </data>
+  <data name="comboBoxStartPrintDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 4</value>
+  </data>
+  <data name="comboBoxStartPrintDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
+  </data>
+  <data name="comboBoxStartPrintDir.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStartPrintDir.Name" xml:space="preserve">
+    <value>comboBoxStartPrintDir</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStartPrintDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStartPrintDir.Parent" xml:space="preserve">
+    <value>panelStartPrintDir</value>
+  </data>
+  <data name="&gt;&gt;comboBoxStartPrintDir.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelStartPrintDir.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelStartPrintDir.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelStartPrintDir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 8</value>
+  </data>
+  <data name="labelStartPrintDir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="labelStartPrintDir.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelStartPrintDir.Text" xml:space="preserve">
+    <value>StartPrintDir:</value>
+  </data>
+  <data name="&gt;&gt;labelStartPrintDir.Name" xml:space="preserve">
+    <value>labelStartPrintDir</value>
+  </data>
+  <data name="&gt;&gt;labelStartPrintDir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelStartPrintDir.Parent" xml:space="preserve">
+    <value>panelStartPrintDir</value>
+  </data>
+  <data name="&gt;&gt;labelStartPrintDir.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="numZWorkPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 4</value>
+  </data>
+  <data name="numZWorkPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="numZWorkPos.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;numZWorkPos.Name" xml:space="preserve">
+    <value>numZWorkPos</value>
+  </data>
+  <data name="&gt;&gt;numZWorkPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numZWorkPos.Parent" xml:space="preserve">
+    <value>panelOriginZ</value>
+  </data>
+  <data name="&gt;&gt;numZWorkPos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 6</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Origin Z:</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelOriginZ</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxFlatMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxFlatMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxFlatMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 6</value>
+  </data>
+  <data name="checkBoxFlatMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="checkBoxFlatMode.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBoxFlatMode.Text" xml:space="preserve">
+    <value>Flat Mode</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFlatMode.Name" xml:space="preserve">
+    <value>checkBoxFlatMode</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFlatMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFlatMode.Parent" xml:space="preserve">
+    <value>panelJobSpace</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFlatMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="numJobSpace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 4</value>
+  </data>
+  <data name="numJobSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="numJobSpace.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;numJobSpace.Name" xml:space="preserve">
+    <value>numJobSpace</value>
+  </data>
+  <data name="&gt;&gt;numJobSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numJobSpace.Parent" xml:space="preserve">
+    <value>panelJobSpace</value>
+  </data>
+  <data name="&gt;&gt;numJobSpace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelJobSpace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelJobSpace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelJobSpace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 6</value>
+  </data>
+  <data name="labelJobSpace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="labelJobSpace.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelJobSpace.Text" xml:space="preserve">
+    <value>Origin Y:</value>
+  </data>
+  <data name="labelJobSpace.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelJobSpace.Name" xml:space="preserve">
+    <value>labelJobSpace</value>
+  </data>
+  <data name="&gt;&gt;labelJobSpace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelJobSpace.Parent" xml:space="preserve">
+    <value>panelJobSpace</value>
+  </data>
+  <data name="&gt;&gt;labelJobSpace.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>86</value>
+  </metadata>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>3281, 28</value>
+  </data>
+  <data name="&gt;&gt;m_ToolTip.Name" xml:space="preserve">
+    <value>m_ToolTip</value>
+  </data>
+  <data name="&gt;&gt;m_ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ToolbarSetting</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.BYHXUserControl, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

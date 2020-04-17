@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<LogConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SetLogLevel>0</SetLogLevel>
+  <FlushOnLog>5</FlushOnLog>
+  <MaxFileSize>1048576</MaxFileSize>
+  <MaxFileCount>100</MaxFileCount>
+</LogConfig>

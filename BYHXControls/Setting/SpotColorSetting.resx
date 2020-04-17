@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="table.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="table.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 66</value>
+  </data>
+  <data name="table.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 195</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="table.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;table.Name" xml:space="preserve">
+    <value>table</value>
+  </data>
+  <data name="&gt;&gt;table.Type" xml:space="preserve">
+    <value>XPTable.Models.Table, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;table.Parent" xml:space="preserve">
+    <value>m_GroupBoxInkStripe</value>
+  </data>
+  <data name="&gt;&gt;table.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_CheckBoxMirror.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_CheckBoxMirror.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 33</value>
+  </data>
+  <data name="m_CheckBoxMirror.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 24</value>
+  </data>
+  <data name="m_CheckBoxMirror.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="m_CheckBoxMirror.Text" xml:space="preserve">
+    <value>Mirror Print</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxMirror.Name" xml:space="preserve">
+    <value>m_CheckBoxMirror</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxMirror.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxMirror.Parent" xml:space="preserve">
+    <value>grouper3</value>
+  </data>
+  <data name="&gt;&gt;m_CheckBoxMirror.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CheckBoxReversePrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CheckBoxReversePrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 63</value>
+  </data>
+  <data name="CheckBoxReversePrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 29</value>
+  </data>
+  <data name="CheckBoxReversePrint.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="CheckBoxReversePrint.Text" xml:space="preserve">
+    <value>Reverse Print</value>
+  </data>
+  <data name="CheckBoxReversePrint.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxReversePrint.Name" xml:space="preserve">
+    <value>CheckBoxReversePrint</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxReversePrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxReversePrint.Parent" xml:space="preserve">
+    <value>grouper3</value>
+  </data>
+  <data name="&gt;&gt;CheckBoxReversePrint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grouper3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 288</value>
+  </data>
+  <data name="grouper3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 92</value>
+  </data>
+  <data name="grouper3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="grouper3.Text" xml:space="preserve">
+    <value>Print Direction</value>
+  </data>
+  <data name="&gt;&gt;grouper3.Name" xml:space="preserve">
+    <value>grouper3</value>
+  </data>
+  <data name="&gt;&gt;grouper3.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.GradientControls.Grouper, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grouper3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grouper3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="spotColorMaskSetting1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="spotColorMaskSetting1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="spotColorMaskSetting1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 349</value>
+  </data>
+  <data name="spotColorMaskSetting1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;spotColorMaskSetting1.Name" xml:space="preserve">
+    <value>spotColorMaskSetting1</value>
+  </data>
+  <data name="&gt;&gt;spotColorMaskSetting1.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.SpotColorMaskSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;spotColorMaskSetting1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;spotColorMaskSetting1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 36</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 20</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox1.Text" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>m_GroupBoxInkStripe</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelLayerNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelLayerNum.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelLayerNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 38</value>
+  </data>
+  <data name="labelLayerNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="labelLayerNum.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelLayerNum.Text" xml:space="preserve">
+    <value>Layer Num:</value>
+  </data>
+  <data name="&gt;&gt;labelLayerNum.Name" xml:space="preserve">
+    <value>labelLayerNum</value>
+  </data>
+  <data name="&gt;&gt;labelLayerNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLayerNum.Parent" xml:space="preserve">
+    <value>m_GroupBoxInkStripe</value>
+  </data>
+  <data name="&gt;&gt;labelLayerNum.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_GroupBoxInkStripe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="m_GroupBoxInkStripe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 264</value>
+  </data>
+  <data name="m_GroupBoxInkStripe.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="m_GroupBoxInkStripe.Text" xml:space="preserve">
+    <value>White-ink</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxInkStripe.Name" xml:space="preserve">
+    <value>m_GroupBoxInkStripe</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxInkStripe.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.GradientControls.Grouper, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxInkStripe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxInkStripe.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="spotColorMaskSetting2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="spotColorMaskSetting2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 0</value>
+  </data>
+  <data name="spotColorMaskSetting2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 349</value>
+  </data>
+  <data name="spotColorMaskSetting2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;spotColorMaskSetting2.Name" xml:space="preserve">
+    <value>spotColorMaskSetting2</value>
+  </data>
+  <data name="&gt;&gt;spotColorMaskSetting2.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.SpotColorMaskSetting, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;spotColorMaskSetting2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;spotColorMaskSetting2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxVarnishNoPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxVarnishNoPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 119</value>
+  </data>
+  <data name="checkBoxVarnishNoPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 24</value>
+  </data>
+  <data name="checkBoxVarnishNoPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBoxVarnishNoPrint.Text" xml:space="preserve">
+    <value>Varnish No Print</value>
+  </data>
+  <data name="&gt;&gt;checkBoxVarnishNoPrint.Name" xml:space="preserve">
+    <value>checkBoxVarnishNoPrint</value>
+  </data>
+  <data name="&gt;&gt;checkBoxVarnishNoPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxVarnishNoPrint.Parent" xml:space="preserve">
+    <value>m_groupOffset</value>
+  </data>
+  <data name="&gt;&gt;checkBoxVarnishNoPrint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxWhiteNoPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxWhiteNoPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 76</value>
+  </data>
+  <data name="checkBoxWhiteNoPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="checkBoxWhiteNoPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBoxWhiteNoPrint.Text" xml:space="preserve">
+    <value>White No Print</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWhiteNoPrint.Name" xml:space="preserve">
+    <value>checkBoxWhiteNoPrint</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWhiteNoPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWhiteNoPrint.Parent" xml:space="preserve">
+    <value>m_groupOffset</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWhiteNoPrint.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxColorNoPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxColorNoPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 33</value>
+  </data>
+  <data name="checkBoxColorNoPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="checkBoxColorNoPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBoxColorNoPrint.Text" xml:space="preserve">
+    <value>Color No Print</value>
+  </data>
+  <data name="&gt;&gt;checkBoxColorNoPrint.Name" xml:space="preserve">
+    <value>checkBoxColorNoPrint</value>
+  </data>
+  <data name="&gt;&gt;checkBoxColorNoPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxColorNoPrint.Parent" xml:space="preserve">
+    <value>m_groupOffset</value>
+  </data>
+  <data name="&gt;&gt;checkBoxColorNoPrint.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_groupOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>660, 112</value>
+  </data>
+  <data name="m_groupOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 168</value>
+  </data>
+  <data name="m_groupOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="m_groupOffset.Text" xml:space="preserve">
+    <value>White-ink</value>
+  </data>
+  <data name="&gt;&gt;m_groupOffset.Name" xml:space="preserve">
+    <value>m_groupOffset</value>
+  </data>
+  <data name="&gt;&gt;m_groupOffset.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.GradientControls.Grouper, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;m_groupOffset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_groupOffset.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbo_MultipleInk.ItemHeight" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cbo_MultipleInk.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cbo_MultipleInk.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbo_MultipleInk.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbo_MultipleInk.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbo_MultipleInk.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbo_MultipleInk.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbo_MultipleInk.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cbo_MultipleInk.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cbo_MultipleInk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 365</value>
+  </data>
+  <data name="cbo_MultipleInk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
+  </data>
+  <data name="cbo_MultipleInk.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cbo_MultipleInk.Name" xml:space="preserve">
+    <value>cbo_MultipleInk</value>
+  </data>
+  <data name="&gt;&gt;cbo_MultipleInk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbo_MultipleInk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cbo_MultipleInk.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 368</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Multiple Ink</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox14plTo42pl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox14plTo42pl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox14plTo42pl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 394</value>
+  </data>
+  <data name="checkBox14plTo42pl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="checkBox14plTo42pl.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="checkBox14plTo42pl.Text" xml:space="preserve">
+    <value>Volume Convert</value>
+  </data>
+  <data name="&gt;&gt;checkBox14plTo42pl.Name" xml:space="preserve">
+    <value>checkBox14plTo42pl</value>
+  </data>
+  <data name="&gt;&gt;checkBox14plTo42pl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox14plTo42pl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBox14plTo42pl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 16</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>406, 349</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxEnableSingleLayerMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxEnableSingleLayerMode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxEnableSingleLayerMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 418</value>
+  </data>
+  <data name="checkBoxEnableSingleLayerMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 16</value>
+  </data>
+  <data name="checkBoxEnableSingleLayerMode.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="checkBoxEnableSingleLayerMode.Text" xml:space="preserve">
+    <value>Print one layer at a time</value>
+  </data>
+  <data name="&gt;&gt;checkBoxEnableSingleLayerMode.Name" xml:space="preserve">
+    <value>checkBoxEnableSingleLayerMode</value>
+  </data>
+  <data name="&gt;&gt;checkBoxEnableSingleLayerMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxEnableSingleLayerMode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxEnableSingleLayerMode.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 434</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SpotColorSetting</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.BYHXUserControl, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

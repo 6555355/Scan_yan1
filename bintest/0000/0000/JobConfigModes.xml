@@ -1,0 +1,22 @@
+﻿<Hash CRCVers="V1.0">CF492FF1</Hash>
+<JobModes>
+  <Items>
+    <JobMode>
+      <Items />
+      <Name>6</Name>
+      <LayerNum>1</LayerNum>
+      <LayerColorArray>0</LayerColorArray>
+      <SpotColor1Mask>0</SpotColor1Mask>
+      <Item>
+        <PrintMode>高速度</PrintMode>
+        <Pass>2 Pass</Pass>
+        <FeatherType>渐变</FeatherType>
+        <Feather>弱</Feather>
+        <ExquisiteFeather>false</ExquisiteFeather>
+        <Speed>高速</Speed>
+        <FeatherType_Value>0</FeatherType_Value>
+        <Feather_Custom>33</Feather_Custom>
+      </Item>
+    </JobMode>
+  </Items>
+</JobModes>

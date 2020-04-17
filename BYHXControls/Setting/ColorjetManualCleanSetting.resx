@@ -1,0 +1,990 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="m_GroupBoxCleanParam.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelColorMask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="panelColorMask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>417, 24</value>
+  </data>
+  <data name="panelColorMask.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panelColorMask.Name" xml:space="preserve">
+    <value>panelColorMask</value>
+  </data>
+  <data name="&gt;&gt;panelColorMask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelColorMask.Parent" xml:space="preserve">
+    <value>m_GroupBoxClean</value>
+  </data>
+  <data name="&gt;&gt;panelColorMask.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBoxAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>519, 24</value>
+  </data>
+  <data name="checkBoxAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="checkBoxAll.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBoxAll.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAll.Name" xml:space="preserve">
+    <value>checkBoxAll</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAll.Parent" xml:space="preserve">
+    <value>m_GroupBoxClean</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAll.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="m_LabelCleanColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelCleanColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelCleanColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 26</value>
+  </data>
+  <data name="m_LabelCleanColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="m_LabelCleanColor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="m_LabelCleanColor.Text" xml:space="preserve">
+    <value>PrintHead CH:</value>
+  </data>
+  <data name="&gt;&gt;m_LabelCleanColor.Name" xml:space="preserve">
+    <value>m_LabelCleanColor</value>
+  </data>
+  <data name="&gt;&gt;m_LabelCleanColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelCleanColor.Parent" xml:space="preserve">
+    <value>m_GroupBoxClean</value>
+  </data>
+  <data name="&gt;&gt;m_LabelCleanColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_ButtonCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 47</value>
+  </data>
+  <data name="m_ButtonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="m_ButtonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="m_ButtonCancel.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCancel.Name" xml:space="preserve">
+    <value>m_ButtonCancel</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCancel.Parent" xml:space="preserve">
+    <value>m_GroupBoxClean</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonCancel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_ButtonStartClean.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonStartClean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 47</value>
+  </data>
+  <data name="m_ButtonStartClean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="m_ButtonStartClean.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="m_ButtonStartClean.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonStartClean.Name" xml:space="preserve">
+    <value>m_ButtonStartClean</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonStartClean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonStartClean.Parent" xml:space="preserve">
+    <value>m_GroupBoxClean</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonStartClean.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_GroupBoxClean.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 221</value>
+  </data>
+  <data name="m_GroupBoxClean.Size" type="System.Drawing.Size, System.Drawing">
+    <value>592, 77</value>
+  </data>
+  <data name="m_GroupBoxClean.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="m_GroupBoxClean.Text" xml:space="preserve">
+    <value>Clean Mode</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxClean.Name" xml:space="preserve">
+    <value>m_GroupBoxClean</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxClean.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxClean.Parent" xml:space="preserve">
+    <value>m_GroupBoxCleanParam</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxClean.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonStopCleanBelt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 152</value>
+  </data>
+  <data name="buttonStopCleanBelt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonStopCleanBelt.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="buttonStopCleanBelt.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;buttonStopCleanBelt.Name" xml:space="preserve">
+    <value>buttonStopCleanBelt</value>
+  </data>
+  <data name="&gt;&gt;buttonStopCleanBelt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonStopCleanBelt.Parent" xml:space="preserve">
+    <value>panelColorJetAPlusSystem</value>
+  </data>
+  <data name="&gt;&gt;buttonStopCleanBelt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 24</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>11, 12</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelColorJetAPlusSystem</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonCleanBelt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonCleanBelt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 152</value>
+  </data>
+  <data name="buttonCleanBelt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="buttonCleanBelt.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="buttonCleanBelt.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="&gt;&gt;buttonCleanBelt.Name" xml:space="preserve">
+    <value>buttonCleanBelt</value>
+  </data>
+  <data name="&gt;&gt;buttonCleanBelt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCleanBelt.Parent" xml:space="preserve">
+    <value>panelColorJetAPlusSystem</value>
+  </data>
+  <data name="&gt;&gt;buttonCleanBelt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numCleanBeltTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 22</value>
+  </data>
+  <data name="numCleanBeltTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="numCleanBeltTime.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;numCleanBeltTime.Name" xml:space="preserve">
+    <value>numCleanBeltTime</value>
+  </data>
+  <data name="&gt;&gt;numCleanBeltTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numCleanBeltTime.Parent" xml:space="preserve">
+    <value>panelColorJetAPlusSystem</value>
+  </data>
+  <data name="&gt;&gt;numCleanBeltTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Clean Pump:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelColorJetAPlusSystem</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelColorJetAPlusSystem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 19</value>
+  </data>
+  <data name="panelColorJetAPlusSystem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 181</value>
+  </data>
+  <data name="panelColorJetAPlusSystem.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="panelColorJetAPlusSystem.Text" xml:space="preserve">
+    <value>Wiper Clean</value>
+  </data>
+  <data name="&gt;&gt;panelColorJetAPlusSystem.Name" xml:space="preserve">
+    <value>panelColorJetAPlusSystem</value>
+  </data>
+  <data name="&gt;&gt;panelColorJetAPlusSystem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelColorJetAPlusSystem.Parent" xml:space="preserve">
+    <value>m_GroupBoxCleanParam</value>
+  </data>
+  <data name="&gt;&gt;panelColorJetAPlusSystem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonZBottom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonZBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 90</value>
+  </data>
+  <data name="buttonZBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 23</value>
+  </data>
+  <data name="buttonZBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="buttonZBottom.Text" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="&gt;&gt;buttonZBottom.Name" xml:space="preserve">
+    <value>buttonZBottom</value>
+  </data>
+  <data name="&gt;&gt;buttonZBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonZBottom.Parent" xml:space="preserve">
+    <value>panelAutoCapping</value>
+  </data>
+  <data name="&gt;&gt;buttonZBottom.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonZCenter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonZCenter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 90</value>
+  </data>
+  <data name="buttonZCenter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 23</value>
+  </data>
+  <data name="buttonZCenter.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="buttonZCenter.Text" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="&gt;&gt;buttonZCenter.Name" xml:space="preserve">
+    <value>buttonZCenter</value>
+  </data>
+  <data name="&gt;&gt;buttonZCenter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonZCenter.Parent" xml:space="preserve">
+    <value>panelAutoCapping</value>
+  </data>
+  <data name="&gt;&gt;buttonZCenter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 96</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Manual:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelAutoCapping</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numericWetWaitTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 66</value>
+  </data>
+  <data name="numericWetWaitTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="numericWetWaitTime.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;numericWetWaitTime.Name" xml:space="preserve">
+    <value>numericWetWaitTime</value>
+  </data>
+  <data name="&gt;&gt;numericWetWaitTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericWetWaitTime.Parent" xml:space="preserve">
+    <value>panelAutoCapping</value>
+  </data>
+  <data name="&gt;&gt;numericWetWaitTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numericOriginOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 42</value>
+  </data>
+  <data name="numericOriginOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="numericOriginOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;numericOriginOffset.Name" xml:space="preserve">
+    <value>numericOriginOffset</value>
+  </data>
+  <data name="&gt;&gt;numericOriginOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericOriginOffset.Parent" xml:space="preserve">
+    <value>panelAutoCapping</value>
+  </data>
+  <data name="&gt;&gt;numericOriginOffset.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelWetWaitTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelWetWaitTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelWetWaitTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 71</value>
+  </data>
+  <data name="labelWetWaitTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 12</value>
+  </data>
+  <data name="labelWetWaitTime.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="labelWetWaitTime.Text" xml:space="preserve">
+    <value>Auto Capping Time(min):</value>
+  </data>
+  <data name="&gt;&gt;labelWetWaitTime.Name" xml:space="preserve">
+    <value>labelWetWaitTime</value>
+  </data>
+  <data name="&gt;&gt;labelWetWaitTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelWetWaitTime.Parent" xml:space="preserve">
+    <value>panelAutoCapping</value>
+  </data>
+  <data name="&gt;&gt;labelWetWaitTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBoxWetFlag.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxWetFlag.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="checkBoxWetFlag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxWetFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 17</value>
+  </data>
+  <data name="checkBoxWetFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="checkBoxWetFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="checkBoxWetFlag.Text" xml:space="preserve">
+    <value>Capping Enable</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWetFlag.Name" xml:space="preserve">
+    <value>checkBoxWetFlag</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWetFlag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWetFlag.Parent" xml:space="preserve">
+    <value>panelAutoCapping</value>
+  </data>
+  <data name="&gt;&gt;checkBoxWetFlag.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelOriginOffset.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelOriginOffset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelOriginOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 46</value>
+  </data>
+  <data name="labelOriginOffset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="labelOriginOffset.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="labelOriginOffset.Text" xml:space="preserve">
+    <value>Capping Height:</value>
+  </data>
+  <data name="&gt;&gt;labelOriginOffset.Name" xml:space="preserve">
+    <value>labelOriginOffset</value>
+  </data>
+  <data name="&gt;&gt;labelOriginOffset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelOriginOffset.Parent" xml:space="preserve">
+    <value>panelAutoCapping</value>
+  </data>
+  <data name="&gt;&gt;labelOriginOffset.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panelAutoCapping.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 20</value>
+  </data>
+  <data name="panelAutoCapping.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 180</value>
+  </data>
+  <data name="panelAutoCapping.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="panelAutoCapping.Text" xml:space="preserve">
+    <value>Capping Settings</value>
+  </data>
+  <data name="&gt;&gt;panelAutoCapping.Name" xml:space="preserve">
+    <value>panelAutoCapping</value>
+  </data>
+  <data name="&gt;&gt;panelAutoCapping.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelAutoCapping.Parent" xml:space="preserve">
+    <value>m_GroupBoxCleanParam</value>
+  </data>
+  <data name="&gt;&gt;panelAutoCapping.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="numericSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 120</value>
+  </data>
+  <data name="numericSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="numericSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;numericSpeed.Name" xml:space="preserve">
+    <value>numericSpeed</value>
+  </data>
+  <data name="&gt;&gt;numericSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericSpeed.Parent" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;numericSpeed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_ComboBoxHeaderNumPerTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 70</value>
+  </data>
+  <data name="m_ComboBoxHeaderNumPerTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="m_ComboBoxHeaderNumPerTime.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxHeaderNumPerTime.Name" xml:space="preserve">
+    <value>m_ComboBoxHeaderNumPerTime</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxHeaderNumPerTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxHeaderNumPerTime.Parent" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;m_ComboBoxHeaderNumPerTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxFunctionOn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxFunctionOn.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="checkBoxFunctionOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxFunctionOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="checkBoxFunctionOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="checkBoxFunctionOn.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="checkBoxFunctionOn.Text" xml:space="preserve">
+    <value>Wiper Enable</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFunctionOn.Name" xml:space="preserve">
+    <value>checkBoxFunctionOn</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFunctionOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFunctionOn.Parent" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFunctionOn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_LabelAxisXStartPos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelAxisXStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 49</value>
+  </data>
+  <data name="m_LabelAxisXStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="m_LabelAxisXStartPos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="m_LabelAxisXStartPos.Text" xml:space="preserve">
+    <value>X Distance:</value>
+  </data>
+  <data name="&gt;&gt;m_LabelAxisXStartPos.Name" xml:space="preserve">
+    <value>m_LabelAxisXStartPos</value>
+  </data>
+  <data name="&gt;&gt;m_LabelAxisXStartPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelAxisXStartPos.Parent" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;m_LabelAxisXStartPos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_NumericUpDownXStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 45</value>
+  </data>
+  <data name="m_NumericUpDownXStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="m_NumericUpDownXStartPos.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownXStartPos.Name" xml:space="preserve">
+    <value>m_NumericUpDownXStartPos</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownXStartPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownXStartPos.Parent" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownXStartPos.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_LabelHeaderNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelHeaderNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="m_LabelHeaderNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 12</value>
+  </data>
+  <data name="m_LabelHeaderNum.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="m_LabelHeaderNum.Text" xml:space="preserve">
+    <value>PrintHead Group:</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHeaderNum.Name" xml:space="preserve">
+    <value>m_LabelHeaderNum</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHeaderNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHeaderNum.Parent" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;m_LabelHeaderNum.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelSpeed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSpeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 124</value>
+  </data>
+  <data name="labelSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="labelSpeed.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="labelSpeed.Text" xml:space="preserve">
+    <value>Wiper Speed:</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed.Name" xml:space="preserve">
+    <value>labelSpeed</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed.Parent" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;labelSpeed.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="numericDelayTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 95</value>
+  </data>
+  <data name="numericDelayTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 21</value>
+  </data>
+  <data name="numericDelayTime.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;numericDelayTime.Name" xml:space="preserve">
+    <value>numericDelayTime</value>
+  </data>
+  <data name="&gt;&gt;numericDelayTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericDelayTime.Parent" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;numericDelayTime.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelDelayTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDelayTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDelayTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 99</value>
+  </data>
+  <data name="labelDelayTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="labelDelayTime.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labelDelayTime.Text" xml:space="preserve">
+    <value>Wiper Pos: </value>
+  </data>
+  <data name="&gt;&gt;labelDelayTime.Name" xml:space="preserve">
+    <value>labelDelayTime</value>
+  </data>
+  <data name="&gt;&gt;labelDelayTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDelayTime.Parent" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;labelDelayTime.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="panelColorJetUniversal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 17</value>
+  </data>
+  <data name="panelColorJetUniversal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 183</value>
+  </data>
+  <data name="panelColorJetUniversal.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="panelColorJetUniversal.Text" xml:space="preserve">
+    <value>PrintHead Cleaning Settings</value>
+  </data>
+  <data name="&gt;&gt;panelColorJetUniversal.Name" xml:space="preserve">
+    <value>panelColorJetUniversal</value>
+  </data>
+  <data name="&gt;&gt;panelColorJetUniversal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelColorJetUniversal.Parent" xml:space="preserve">
+    <value>m_GroupBoxCleanParam</value>
+  </data>
+  <data name="&gt;&gt;panelColorJetUniversal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_GroupBoxCleanParam.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="m_GroupBoxCleanParam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="m_GroupBoxCleanParam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 318</value>
+  </data>
+  <data name="m_GroupBoxCleanParam.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="m_GroupBoxCleanParam.Text" xml:space="preserve">
+    <value>Clean Parameter</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxCleanParam.Name" xml:space="preserve">
+    <value>m_GroupBoxCleanParam</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxCleanParam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxCleanParam.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_GroupBoxCleanParam.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="m_ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 331</value>
+  </data>
+  <data name="&gt;&gt;m_ToolTip.Name" xml:space="preserve">
+    <value>m_ToolTip</value>
+  </data>
+  <data name="&gt;&gt;m_ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ColorjetManualCleanSetting</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

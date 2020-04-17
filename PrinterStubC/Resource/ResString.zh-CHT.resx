@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JobListColumnHeader_Size" xml:space="preserve">
+    <value>大小</value>
+  </data>
+  <data name="SoftwareProductName" xml:space="preserve">
+    <value>列印管理中心</value>
+  </data>
+  <data name="SoftwareProductName2" xml:space="preserve">
+    <value>列印管理中心</value>
+  </data>
+  <data name="UpdaterError_VersionNoMatch" xml:space="preserve">
+    <value>固件和硬體版本不匹配。.</value>
+  </data>
+  <data name="ColorEnum_Cyan" xml:space="preserve">
+    <value>青</value>
+  </data>
+  <data name="UIViewMode_TopDown" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="ColorEnum_Orange" xml:space="preserve">
+    <value>橙</value>
+  </data>
+  <data name="UISuccess_LoadSetFromBoardSuccess" xml:space="preserve">
+    <value>載入印表機設置成功!</value>
+  </data>
+  <data name="CalibrationDescription_Calibration" xml:space="preserve">
+    <value>按照校準資料填入校準值.</value>
+  </data>
+  <data name="UIError_UpdateFail" xml:space="preserve">
+    <value>升級失敗!</value>
+  </data>
+  <data name="UIError_FileNotExist" xml:space="preserve">
+    <value>以下的列印檔已被刪除。.</value>
+  </data>
+  <data name="CalibrationSubStep_Left" xml:space="preserve">
+    <value>左校準</value>
+  </data>
+  <data name="UIError_MeasureMediaWidthFailed" xml:space="preserve">
+    <value>測量紙寬失敗。.</value>
+  </data>
+  <data name="JetStatusEnum_PrinterOffline" xml:space="preserve">
+    <value>印表機離線</value>
+  </data>
+  <data name="JobStatus_Printed" xml:space="preserve">
+    <value>列印完成</value>
+  </data>
+  <data name="JetStatusEnum_Error" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="SpeedEnum_LowSpeed" xml:space="preserve">
+    <value>低速</value>
+  </data>
+  <data name="SpeedEnum_CustomSpeed" xml:space="preserve">
+    <value>超频</value>
+  </data>
+  <data name="buttonCancel_Text" xml:space="preserve">
+    <value>取消(&amp;C)</value>
+  </data>
+  <data name="WhiteInkPrintMode_UnderBaseWholeImage" xml:space="preserve">
+    <value>圖像鋪底</value>
+  </data>
+  <data name="WhiteInkPrintMode_MiddleWholeImage" xml:space="preserve">
+    <value>白色居中</value>
+  </data>
+  <data name="WhiteInkPrintMode_MiddleSpotColor" xml:space="preserve">
+    <value>专色居中</value>
+  </data>
+  <data name="Confirm_Exit" xml:space="preserve">
+    <value>您確認要退出嗎?</value>
+  </data>
+  <data name="DispName_PowerOnTotalTime" xml:space="preserve">
+    <value>電源開啟總時間</value>
+  </data>
+  <data name="JobListColumnHeader_Name" xml:space="preserve">
+    <value>名字</value>
+  </data>
+  <data name="WhiteInkPrintMode_NotPrintWhiteInk" xml:space="preserve">
+    <value>不列印白墨</value>
+  </data>
+  <data name="JetStatusEnum_Initializing" xml:space="preserve">
+    <value>初始化</value>
+  </data>
+  <data name="JobStatus_Waiting" xml:space="preserve">
+    <value>等待列印</value>
+  </data>
+  <data name="UpdatingProgress" xml:space="preserve">
+    <value>升級中 {0}%</value>
+  </data>
+  <data name="DisplayTime_MilliSecond" xml:space="preserve">
+    <value>毫秒</value>
+  </data>
+  <data name="UILengthUnit_Centimeter" xml:space="preserve">
+    <value>釐米</value>
+  </data>
+  <data name="FileFilter_Env" xml:space="preserve">
+    <value>配置檔 (*.xml)|*.xml</value>
+  </data>
+  <data name="UIError_LoadSetFromBoardFail" xml:space="preserve">
+    <value>載入印表機設置失敗!</value>
+  </data>
+  <data name="Confirm_Delete" xml:space="preserve">
+    <value>您確認要刪除嗎?</value>
+  </data>
+  <data name="JetStatusEnum_Pause" xml:space="preserve">
+    <value>暫停</value>
+  </data>
+  <data name="JobListColumnHeader_Status" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="CalibrationSubStep_Vertical" xml:space="preserve">
+    <value>垂直對齊校準</value>
+  </data>
+  <data name="CalibrationSubStep_Overlap" xml:space="preserve">
+    <value>重疊校準</value>
+  </data>
+  <data name="BoardEnum_PeriphBoard" xml:space="preserve">
+    <value>外設板</value>
+  </data>
+  <data name="JobListColumnHeader_PrintedDate" xml:space="preserve">
+    <value>列印日期</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Meter" xml:space="preserve">
+    <value>米</value>
+  </data>
+  <data name="WhiteInkPrintMode_OverCoatWholeImage" xml:space="preserve">
+    <value>圖像蓋頂</value>
+  </data>
+  <data name="SpeedEnum_HighSpeed" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="CalibrationTitle_Finish" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="CaliWizard_Cancel" xml:space="preserve">
+    <value>您確認要退出校準嚮導嗎?</value>
+  </data>
+  <data name="ButtonFinish" xml:space="preserve">
+    <value>結束(&amp;F)</value>
+  </data>
+  <data name="FileFilter_Txt" xml:space="preserve">
+    <value>文本文檔 (*.txt)|*.txt</value>
+  </data>
+  <data name="UIError_SaveRealTimeFail" xml:space="preserve">
+    <value>設置即時參數失敗!</value>
+  </data>
+  <data name="WhiteInkPrintMode_OverCoatSpotColor" xml:space="preserve">
+    <value>專色蓋頂</value>
+  </data>
+  <data name="UILengthUnit_Inch" xml:space="preserve">
+    <value>英寸</value>
+  </data>
+  <data name="NoPreviewImage" xml:space="preserve">
+    <value>無預視</value>
+  </data>
+  <data name="UIError_CannotPrintStaus" xml:space="preserve">
+    <value>打印機無法在{0}狀態打印作業,稍後請重試.</value>
+  </data>
+  <data name="CalibrationDescription_Mechanical" xml:space="preserve">
+    <value>使用機械工具校準.</value>
+  </data>
+  <data name="UISuccess_SetHWSetting" xml:space="preserve">
+    <value>設定硬體設置成功.請重新啟動印表機.</value>
+  </data>
+  <data name="UIError_GetHWSettingFail" xml:space="preserve">
+    <value>獲取硬體設定失敗!</value>
+  </data>
+  <data name="JobListColumnHeader_Resolution" xml:space="preserve">
+    <value>解析度</value>
+  </data>
+  <data name="UIError_NoHelpFile" xml:space="preserve">
+    <value>未找到幫助檔。.</value>
+  </data>
+  <data name="JetStatusEnum_Spraying" xml:space="preserve">
+    <value>閃噴</value>
+  </data>
+  <data name="WhiteInkPrintMode_UnderBaseSpotColor" xml:space="preserve">
+    <value>專色鋪底</value>
+  </data>
+  <data name="BoardEnum_HeadBoard" xml:space="preserve">
+    <value>頭板</value>
+  </data>
+  <data name="ColorEnum_LightCyan" xml:space="preserve">
+    <value>淺青</value>
+  </data>
+  <data name="JetStatusEnum_Busy" xml:space="preserve">
+    <value>列印</value>
+  </data>
+  <data name="Confirm_ClearEnv" xml:space="preserve">
+    <value>您確認要清除環境設置嗎?</value>
+  </data>
+  <data name="ColorEnum_White" xml:space="preserve">
+    <value>白</value>
+  </data>
+  <data name="BoardEnum_CoreBoard" xml:space="preserve">
+    <value>核心板</value>
+  </data>
+  <data name="FileFilter_Dat" xml:space="preserve">
+    <value>升級檔 (*.dat)|*.dat</value>
+  </data>
+  <data name="FileFilter_Prg" xml:space="preserve">
+    <value>升級檔 (*.prg)|*.prg</value>
+  </data>
+  <data name="FileFilter_Tvc" xml:space="preserve">
+    <value>溫度電壓曲線文件 (*.tvc)|*.tvc</value>
+  </data>
+  <data name="DisplayTime_Minute" xml:space="preserve">
+    <value>分鐘</value>
+  </data>
+  <data name="DispName_PrintingTotalTime" xml:space="preserve">
+    <value>列印持續時間</value>
+  </data>
+  <data name="CalibrationTitle_Calibration" xml:space="preserve">
+    <value>軟體校準</value>
+  </data>
+  <data name="DisplayTime_Hour" xml:space="preserve">
+    <value>小時</value>
+  </data>
+  <data name="Restart_Lang" xml:space="preserve">
+    <value>語言設定將在重新啟動程式後起作用。</value>
+  </data>
+  <data name="Restart_Skin" xml:space="preserve">
+    <value>皮膚設定將在重新啓動程序後起作用。</value>
+  </data>
+  <data name="UpdaterError_WrongFile" xml:space="preserve">
+    <value>錯誤的升級檔格式</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Inch" xml:space="preserve">
+    <value>英寸</value>
+  </data>
+  <data name="UIViewMode_NotifyIcon" xml:space="preserve">
+    <value>託盤圖示</value>
+  </data>
+  <data name="UIViewMode_OldView" xml:space="preserve">
+    <value>老界面</value>
+  </data>
+  <data name="JetStatusEnum_Aborting" xml:space="preserve">
+    <value>中止</value>
+  </data>
+  <data name="UpdateDisplay_Begin" xml:space="preserve">
+    <value>開始升級固件...</value>
+  </data>
+  <data name="CalibrationSubStep_Bidirection" xml:space="preserve">
+    <value>雙向校準</value>
+  </data>
+  <data name="ButtonNext" xml:space="preserve">
+    <value>下一步(&amp;N) &gt;</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Centimeter" xml:space="preserve">
+    <value>釐米</value>
+  </data>
+  <data name="PrintDirection_Bidirection" xml:space="preserve">
+    <value>雙向</value>
+  </data>
+  <data name="UILengthUnit_Meter" xml:space="preserve">
+    <value>米</value>
+  </data>
+  <data name="FileFilter_Prn" xml:space="preserve">
+    <value>Rip 文件 (*.prn;*.prt)|*.prn;*.prt</value>
+  </data>
+  <data name="FileFilter_Plb" xml:space="preserve">
+    <value>佈局文件 (*.plb)|*.plb</value>
+  </data>
+  <data name="PrintDirection_Unidirection" xml:space="preserve">
+    <value>單向</value>
+  </data>
+  <data name="JetStatusEnum_Updating" xml:space="preserve">
+    <value>正在更新</value>
+  </data>
+  <data name="UIViewMode_LeftRight" xml:space="preserve">
+    <value>寬屏</value>
+  </data>
+  <data name="JetStatusEnum_Measuring" xml:space="preserve">
+    <value>測量</value>
+  </data>
+  <data name="CalibrationSubStep_Step" xml:space="preserve">
+    <value>進紙校準</value>
+  </data>
+  <data name="InkStrPosEnum_Both" xml:space="preserve">
+    <value>兩邊</value>
+  </data>
+  <data name="DispName_ManufacturerID" xml:space="preserve">
+    <value>製造商ID</value>
+  </data>
+  <data name="UpdateDisplay_Percentage" xml:space="preserve">
+    <value>% 完成</value>
+  </data>
+  <data name="InkStrPosEnum_Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="Confirm_SaveToBoard" xml:space="preserve">
+    <value>您確認要更新板子保存的設置嗎?</value>
+  </data>
+  <data name="UIError_ClearFWFactoryData" xml:space="preserve">
+    <value>清除工廠資料失敗!</value>
+  </data>
+  <data name="ColorEnum_Yellow" xml:space="preserve">
+    <value>黃</value>
+  </data>
+  <data name="CalibrationDescription_Finish" xml:space="preserve">
+    <value>校準完成.</value>
+  </data>
+  <data name="JobListColumnHeader_PrintedPasses" xml:space="preserve">
+    <value>實際的Passes</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Feet" xml:space="preserve">
+    <value>英尺</value>
+  </data>
+  <data name="UIError_SetHWSettingFail" xml:space="preserve">
+    <value>設定硬體設置失敗!</value>
+  </data>
+  <data name="ColorEnum_Green" xml:space="preserve">
+    <value>綠</value>
+  </data>
+  <data name="UIError_NullFactoryData" xml:space="preserve">
+    <value>某些條款沒有設置。請設置所有條款。!</value>
+  </data>
+  <data name="UIError_OnlyOneProgram" xml:space="preserve">
+    <value>只能運行一個程式!</value>
+  </data>
+  <data name="UISuccess_UpdateSuccess" xml:space="preserve">
+    <value>升級成功。請重新啟動印表機。.</value>
+  </data>
+  <data name="UIError_ColorNumGroupNumError" xml:space="preserve">
+    <value>顔色數或組數設置錯誤,是否繼續？</value>
+  </data>
+  <data name="UIError_ColorNumError" xml:space="preserve">
+    <value>顔色總數超過系統支持的最大顔色數, 是否繼續?</value>
+  </data>
+  <data name="UIError_SsystemMapDismatch" xml:space="preserve">
+    <value>端口映射設置數少于頭板個數.</value>
+  </data>
+  <data name="Confirm_LoadFromBoard" xml:space="preserve">
+    <value>您確認要載入嗎?</value>
+  </data>
+  <data name="Confirm_GoHome" xml:space="preserve">
+    <value>是否移动小车回起始点?</value>
+  </data>
+  <data name="Confirm_PrintNow" xml:space="preserve">
+    <value>現在要開始打印嗎?</value>
+  </data>
+  <data name="Confirm_Print" xml:space="preserve">
+    <value>您未選擇列印工作，請先選擇列印工作！</value>
+  </data>
+  <data name="ColorEnum_LightYellow" xml:space="preserve">
+    <value>淺黃</value>
+  </data>
+  <data name="ColorEnum_LightBlack" xml:space="preserve">
+    <value>淺黑</value>
+  </data>
+  <data name="ColorEnum_Red" xml:space="preserve">
+    <value>紅</value>
+  </data>
+  <data name="ColorEnum_Blue" xml:space="preserve">
+    <value>藍</value>
+  </data>
+  <data name="ColorEnum_Vanish" xml:space="preserve">
+    <value>亮油</value>
+  </data>
+  <data name="ColorEnum_SkyBlue" xml:space="preserve">
+    <value>天藍</value>
+  </data>
+  <data name="ColorEnum_Gray" xml:space="preserve">
+    <value>灰</value>
+  </data>
+  <data name="ColorEnum_Pink" xml:space="preserve">
+    <value>粉紅</value>
+  </data>
+  <data name="ColorEnum_NULL" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="ColorEnum_LightMagenta" xml:space="preserve">
+    <value>淺品</value>
+  </data>
+  <data name="UILengthUnit_Feet" xml:space="preserve">
+    <value>英尺</value>
+  </data>
+  <data name="UISuccess_ClearFWFactoryData" xml:space="preserve">
+    <value>清除工廠資料成功.</value>
+  </data>
+  <data name="JetStatusEnum_Cleaning" xml:space="preserve">
+    <value>正在清洗</value>
+  </data>
+  <data name="UIError_SaveSetToBoardFail" xml:space="preserve">
+    <value>保存印表機設置失敗!</value>
+  </data>
+  <data name="JobListColumnHeader_Passes" xml:space="preserve">
+    <value>Passes</value>
+  </data>
+  <data name="InkStrPosEnum_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="JetStatusEnum_Unknown" xml:space="preserve">
+    <value>不知道的狀態</value>
+  </data>
+  <data name="UISuccess_ClearEnv" xml:space="preserve">
+    <value>清除環境成功。</value>
+  </data>
+  <data name="UISuccess_SetPassword" xml:space="preserve">
+    <value>設置密碼成功。</value>
+  </data>
+  <data name="UIError_NoAcrobat" xml:space="preserve">
+    <value>未找到 Acrobat Reader.</value>
+  </data>
+  <data name="Confirm_ResetPrinter" xml:space="preserve">
+    <value>您確認要重啟印表機嗎?</value>
+  </data>
+  <data name="UILengthUnit_Millimeter" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="UIError_SetPasswordFail" xml:space="preserve">
+    <value>設置密碼失敗!</value>
+  </data>
+  <data name="buttonFinish_Text" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="JetStatusEnum_Ready" xml:space="preserve">
+    <value>就緒</value>
+  </data>
+  <data name="UpdateDisplay_Failed" xml:space="preserve">
+    <value>升級失敗!</value>
+  </data>
+  <data name="JobListColumnHeader_Copies" xml:space="preserve">
+    <value>列印份數</value>
+  </data>
+  <data name="Suffix_UILengthUnit_Millimeter" xml:space="preserve">
+    <value>毫米</value>
+  </data>
+  <data name="JobStatus_Idle" xml:space="preserve">
+    <value>空閒</value>
+  </data>
+  <data name="JetStatusEnum_PowerOff" xml:space="preserve">
+    <value>電源關閉</value>
+  </data>
+  <data name="DispName_Pass" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="DispName_Head" xml:space="preserve">
+    <value>頭</value>
+  </data>
+  <data name="DispName_Color" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="JetStatusEnum_Moving" xml:space="preserve">
+    <value>正在移動</value>
+  </data>
+  <data name="CalibrationSubStep_Horizontal" xml:space="preserve">
+    <value>水準對齊校準</value>
+  </data>
+  <data name="CaliWizard_Finish" xml:space="preserve">
+    <value>校準嚮導成功完成.</value>
+  </data>
+  <data name="DisplayTime_Second" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="ColorEnum_Black" xml:space="preserve">
+    <value>黑</value>
+  </data>
+  <data name="DispName_RemainTime" xml:space="preserve">
+    <value>剩餘時間</value>
+  </data>
+  <data name="JobStatus_Error" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="InkStrPosEnum_None" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="DispName_ModuleID" xml:space="preserve">
+    <value>模組ID</value>
+  </data>
+  <data name="CalibrationTitle_Welcome" xml:space="preserve">
+    <value>歡迎</value>
+  </data>
+  <data name="JobStatus_Aborting" xml:space="preserve">
+    <value>中止</value>
+  </data>
+  <data name="PrintingProgress" xml:space="preserve">
+    <value>列印 {0}%</value>
+  </data>
+  <data name="JobListColumnHeader_PrintTime" xml:space="preserve">
+    <value>列印耗時</value>
+  </data>
+  <data name="JobListColumnHeader_Location" xml:space="preserve">
+    <value>檔位置</value>
+  </data>
+  <data name="JobListColumnHeader_BiDirection" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="JobStatus_Printing" xml:space="preserve">
+    <value>列印</value>
+  </data>
+  <data name="UISuccess_SaveSetToBoardSuccess" xml:space="preserve">
+    <value>保存印表機設置成功!</value>
+  </data>
+  <data name="UpdateDisplay_Status" xml:space="preserve">
+    <value>升級狀態:</value>
+  </data>
+  <data name="ColorEnum_Magenta" xml:space="preserve">
+    <value>品紅</value>
+  </data>
+  <data name="CalibrationTitle_Mechanical" xml:space="preserve">
+    <value>機械檢查</value>
+  </data>
+  <data name="UIError_SetOriginFailed" xml:space="preserve">
+    <value>此點不能設置為原點。.</value>
+  </data>
+  <data name="UISuccess_RstoreSetting" xml:space="preserve">
+    <value>恢復設置成功。.</value>
+  </data>
+  <data name="PrintJobAnyway" xml:space="preserve">
+    <value>您還需要列印它嗎?</value>
+  </data>
+  <data name="UpdateDisplay_Success" xml:space="preserve">
+    <value>升級成功。請重新啟動印表機。.</value>
+  </data>
+  <data name="SpeedEnum_MiddleSpeed" xml:space="preserve">
+    <value>中速</value>
+  </data>
+  <data name="SpeedEnum_MiddleSpeed_1" xml:space="preserve">
+    <value>標準</value>
+  </data>
+  <data name="Confirm_AbortPrinter" xml:space="preserve">
+    <value>您確認要取消正在列印的作業還是所有未列印的作業?</value>
+  </data>
+  <data name="JetStatusEnum_Offline" xml:space="preserve">
+    <value>離線</value>
+  </data>
+  <data name="CalibrationSubStep_Right" xml:space="preserve">
+    <value>右校準</value>
+  </data>
+  <data name="CaliWizard_Title" xml:space="preserve">
+    <value>校準嚮導</value>
+  </data>
+  <data name="JobStatus_Paused" xml:space="preserve">
+    <value>暫停</value>
+  </data>
+  <data name="CaliWizard_Description" xml:space="preserve">
+    <value>根據校準圖填寫數值.</value>
+  </data>
+  <data name="CalibrationDescription_Welcome" xml:space="preserve">
+    <value>開始校準...</value>
+  </data>
+  <data name="FW_Voltage" xml:space="preserve">
+    <value>電源電壓設置正確</value>
+  </data>
+  <data name="SettingPage_Question" xml:space="preserve">
+    <value>是否應用已更改的設置?</value>
+  </data>
+  <data name="CreatingPreviewImage" xml:space="preserve">
+    <value>正在生成預覽...</value>
+  </data>
+  <data name="JHFCopyRightString" xml:space="preserve">
+    <value>版權所有 (C) 勤恒和資訊技術（北京）有限公司. 保留所有權利.</value>
+  </data>
+  <data name="Confirm_Update" xml:space="preserve">
+    <value>您確定要升級?</value>
+  </data>
+  <data name="EncryptDog_Expired" xml:space="preserve">
+    <value>您的軟體已過期!</value>
+  </data>
+  <data name="EncryptDog_VidNotMatch" xml:space="preserve">
+    <value>加密锁与打印机厂商不匹配!</value>
+  </data>
+  <data name="EncryptDog_Illegal" xml:space="preserve">
+    <value>加密鎖不合法或者已損壞!</value>
+  </data>
+  <data name="EncryptDog_NoFound" xml:space="preserve">
+    <value>未發現加密鎖,請插入合法加密鎖!</value>
+  </data>
+  <data name="EncryptDog_Warning" xml:space="preserve">
+    <value>警告:您的可用時間不足100小時!</value>
+  </data>
+  <data name="EncryptDog_Locktype_LOCAL" xml:space="preserve">
+    <value>單機鎖</value>
+  </data>
+  <data name="EncryptDog_Locktype_MASTER" xml:space="preserve">
+    <value>網路主鎖</value>
+  </data>
+  <data name="EncryptDog_Locktype_SLAVE" xml:space="preserve">
+    <value>網路從鎖</value>
+  </data>
+  <data name="EncryptDog_Restart" xml:space="preserve">
+    <value>新軟體狗密碼將在重新啟動程式後起作用!</value>
+  </data>
+  <data name="EncryptDog_Fatalpwd" xml:space="preserve">
+    <value>永久有效</value>
+  </data>
+  <data name="PumpInkTimeToLong" xml:space="preserve">
+    <value>泵墨超時</value>
+  </data>
+  <data name="FeatherType_Gradient" xml:space="preserve">
+    <value>漸變</value>
+  </data>
+  <data name="FeatherType_Uniform" xml:space="preserve">
+    <value>均勻</value>
+  </data>
+  <data name="FeatherType_Wave" xml:space="preserve">
+    <value>波浪</value>
+  </data>
+  <data name="FeatherType_Advance" xml:space="preserve">
+    <value>高級</value>
+  </data>
+  <data name="FeatherType_Uv" xml:space="preserve">
+    <value>UV</value>
+  </data>
+  <data name="FeatherType_Joint" xml:space="preserve">
+    <value>喷头间</value>
+  </data>
+  <data name="EpsonFeatherType_None" xml:space="preserve">
+    <value>關</value>
+  </data>
+  <data name="EpsonFeatherType_Small" xml:space="preserve">
+    <value>弱</value>
+  </data>
+  <data name="EpsonFeatherType_Medium" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="EpsonFeatherType_Large" xml:space="preserve">
+    <value>強</value>
+  </data>
+  <data name="EpsonFeatherType_SuperLarge" xml:space="preserve">
+    <value>超強</value>
+  </data>
+  <data name="EpsonFeatherType_Custom" xml:space="preserve">
+    <value>自定義</value>
+  </data>
+  <data name="UIError_GetRealTimeInfoFail" xml:space="preserve">
+    <value>讀取實時信息失敗!</value>
+  </data>
+  <data name="Xaar382_UnsavedWarning" xml:space="preserve">
+    <value>您確定放棄未保存的變更嗎?</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Default" xml:space="preserve">
+    <value>默認</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Customized" xml:space="preserve">
+    <value>自定義</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Strong" xml:space="preserve">
+    <value>強</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Normal" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Weak" xml:space="preserve">
+    <value>弱</value>
+  </data>
+  <data name="EpsonAutoCleanWay_Refill" xml:space="preserve">
+    <value>填充</value>
+  </data>
+  <data name="FixedSpeed" xml:space="preserve">
+    <value>定速</value>
+  </data>
+  <data name="ClampWithMinMax" xml:space="preserve">
+    <value>值太大或太小,已修正為合法值.</value>
+  </data>
+  <data name="WhiteInkOptionIntersect" xml:space="preserve">
+    <value>交集</value>
+  </data>
+  <data name="WhiteInkOptionNOT" xml:space="preserve">
+    <value>取反</value>
+  </data>
+  <data name="EnumLayerType_Color" xml:space="preserve">
+    <value>彩色</value>
+  </data>
+  <data name="EnumLayerType_White" xml:space="preserve">
+    <value>白墨</value>
+  </data>
+  <data name="EnumLayerType_Varnish" xml:space="preserve">
+    <value>亮油</value>
+  </data>
+  <data name="EnumLayerType_Contrast" xml:space="preserve">
+    <value>灰</value>
+  </data>
+  <data name="ColorLayer" xml:space="preserve">
+    <value>層</value>
+  </data>
+  <data name="NoFoundUSBReturn" xml:space="preserve">
+    <value>未連接usb,軟件啓動終止.</value>
+  </data>
+  <data name="MultipleInkEnum_Default" xml:space="preserve">
+    <value>默認</value>
+  </data>
+  <data name="MultipleInkEnum_Double" xml:space="preserve">
+    <value>倆倍</value>
+  </data>
+  <data name="MultipleInkEnum_More" xml:space="preserve">
+    <value>多倍</value>
+  </data>
+  <data name="XResDivMode_HighPrecision" xml:space="preserve">
+    <value>高精度</value>
+  </data>
+  <data name="XResDivMode_HighQuality" xml:space="preserve">
+    <value>高速度</value>
+  </data>
+  <data name="XResDivMode_PrintMode3" xml:space="preserve">
+    <value>PrintMode3</value>
+  </data>
+  <data name="XResDivMode_PrintMode4" xml:space="preserve">
+    <value>PrintMode4</value>
+  </data>
+  <data name="EpsonSaveCali_Ok" xml:space="preserve">
+    <value>保存成功.</value>
+  </data>
+  <data name="EpsonLoadCali_Faild" xml:space="preserve">
+    <value>加載失敗.</value>
+  </data>
+  <data name="EpsonLoadCali_Ok" xml:space="preserve">
+    <value>加載成功.</value>
+  </data>
+  <data name="EpsonLoadCali_VerTooOld" xml:space="preserve">
+    <value>升級的版本低于基礎版本.</value>
+  </data>
+  <data name="EpsonLoadCali_VerTooLatest" xml:space="preserve">
+    <value>升級的版本不支持，高于當前最高版本.</value>
+  </data>
+  <data name="EpsonLoadCali_SizeError" xml:space="preserve">
+    <value>加載數據大小錯誤.</value>
+  </data>
+  <data name="EpsonLoadCali_FlagError" xml:space="preserve">
+    <value>Flag 錯誤.</value>
+  </data>
+  <data name="EpsonLoadCali_GetSizeFaild" xml:space="preserve">
+    <value>獲取待傳輸大小失敗.</value>
+  </data>
+  <data name="EpsonLoadCali_GetRetFaild" xml:space="preserve">
+    <value>獲取返回結果失敗.</value>
+  </data>
+  <data name="UiToolBar_MeasurePaperHeight" xml:space="preserve">
+    <value>測量紙高</value>
+  </data>
+  <data name="XCoordinatesDirection_Default" xml:space="preserve">
+    <value>默認</value>
+  </data>
+  <data name="XCoordinatesDirection_YcontinueYinterleave" xml:space="preserve">
+    <value>Y拼接Y拼插</value>
+  </data>
+  <data name="XCoordinatesDirection_YinterleaveYcontinue" xml:space="preserve">
+    <value>Y拼插Y拼接</value>
+  </data>
+  <data name="SymmetricType_Type0" xml:space="preserve">
+    <value>方式 0</value>
+  </data>
+  <data name="SymmetricType_Type1" xml:space="preserve">
+    <value>方式 1</value>
+  </data>
+  <data name="UIError_YInterleaveNumError" xml:space="preserve">
+    <value>對稱色序時,Y拼插數必須是2的倍數.</value>
+  </data>
+  <data name="UVStatus_OFF" xml:space="preserve">
+    <value>關</value>
+  </data>
+  <data name="UVStatus_ON60" xml:space="preserve">
+    <value>60%</value>
+  </data>
+  <data name="UVStatus_ON100" xml:space="preserve">
+    <value>100%</value>
+  </data>
+  <data name="UVStatus_ALLWIN_OFF" xml:space="preserve">
+    <value>關</value>
+  </data>
+  <data name="UVStatus_ALLWIN_LOW" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="UVStatus_ALLWIN_MID" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="UVStatus_ALLWIN_HIGH" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="EpsonFeatherType_GZ_LOW" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="EpsonFeatherType_GZ_MID" xml:space="preserve">
+    <value>中</value>
+  </data>
+  <data name="EpsonFeatherType_GZ_HIGH" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="EpsonFeatherType_Label" xml:space="preserve">
+    <value>質量:</value>
+  </data>
+  <data name="UvLightType_UvLightType1" xml:space="preserve">
+    <value>SubZero_055_085S</value>
+  </data>
+  <data name="UvLightType_UvLightType2" xml:space="preserve">
+    <value>UvLightType12</value>
+  </data>
+  <data name="Title_wellcomeWord" xml:space="preserve">
+    <value>感謝使用allwin數碼印表機</value>
+  </data>
+  <data name="Conten_wellcomeWord" xml:space="preserve">
+    <value>一. 請使用奧威原廠墨水：
+ 1）環保低氣味，列印流暢穩定，有效提高成品率，降低成本；
+ 2）延長噴頭使用壽命，
+二. 機器環境要求：
+ 墨水溫度18-27℃，空氣濕度40-70%，環境無灰塵；
+ 1）環境溫度低於15℃時，（噴繪機）打開二級墨水匣加熱功能，同時墨桶可以用電熱毯包裹或其他加熱方式，使墨水加熱到恒溫30℃，打開噴頭加熱功能（1024機型配有此功能）；
+ 2）墨管插入墨桶時，開孔儘量小，桶蓋保持密閉，減少墨水揮發和防止灰塵進入；
+ 3）冬季列印時可以先開機閃噴預熱噴頭10分鐘（寫真機無需此步驟）；
+ 4）檢查墨管中是否有氣泡，如果有，要先排除；
+ 5）畫面兩側加上測試條，預防列印墨量少的畫面時噴頭堵塞。
+</value>
+  </data>
+  <data name="Title_firstPage" xml:space="preserve">
+    <value>一.開機使用：</value>
+  </data>
+  <data name="Title_secondPage" xml:space="preserve">
+    <value>二.設備一般維護方法</value>
+  </data>
+  <data name="Title_thirdPage" xml:space="preserve">
+    <value>三.設備定期保養規範</value>
+  </data>
+  <data name="Conten_firstPage" xml:space="preserve">
+    <value>1、先拔起固定螺栓（噴繪機），小車向左緩慢移動，與底座分離。
+2、移出噴車後（噴繪機），在底座橡皮上覆蓋一層保鮮膜防止灰塵。
+3  開機前請檢查機器平臺上是否的異物，以免劃傷噴頭；
+4. 墨管中不應有氣泡，否則可能導致列印斷墨水，需要排出空氣後使用；
+5. 不要讓噴頭長期離開保養墨棧暴露在空氣下。若停頓時間較長，請在軟體內設置合適的閃噴值；寫真機不用時點復位功能，使墨盞和噴頭吻合保護
+6.帶有allwin碼盤專利配置功能的噴繪設備，需要拼接畫面時，打開軟體功能按照操作手冊指導使用碼盤功能，可確保高品質拼接。
+</value>
+  </data>
+  <data name="Conten_secondPage" xml:space="preserve">
+    <value>噴頭列印過程中如果斷線，建議表面處理的方式：
+ 1）用手電筒觀察噴頭表面：如果有聚墨，使用自動吸塵器清潔或輕托無紡布向上，
+   吸去多餘墨水；如果無聚墨，使用壓墨功能，壓下幾滴墨水即可。再輕托無紡布吸去多餘墨水。
+2.  請使用工廠提供的無紡布輕擦噴頭表面，嚴禁來回擦同一個噴頭，擦噴頭的目的僅僅為了吸去多餘墨水。
+3 關機維護 先在右側的保濕底座橡皮內注滿清洗液，推動噴車到最右側使噴頭與保濕底座完全吻合。
+4、清潔維護：
+1、每日清潔保濕底座橡皮及周邊的雜質。
+2、每週將橡皮座內清洗液抽出，清洗乾淨，注滿新的清洗液。
+</value>
+  </data>
+  <data name="Conten_thirdPage" xml:space="preserve">
+    <value>1. 每年冬季應定期清理二級墨水匣內殘渣，以防墨水沉澱在墨水匣底部進入管道堵塞管路及墨頭； 
+2. 每月對保濕墨盞進行清潔，定時將墨盞下的清洗液清理乾淨；
+3. 清潔噴頭表面：當噴頭表面或兩側有髒物時，可以用清洗液注在噴頭表面清潔；
+4. 送料輥要求：定期更換發泡紙；擦拭輥子表面
+5. 定期用酒精清理橡膠壓輪上面的墨蹟，和壓輪兩邊上面的棉絲雜物；
+6. 光柵條清潔：每日觀察，每週清潔。棉簽加蒸餾水或酒精輕輕擦拭去除灰塵或髒物； 
+7. X,Y方向皮帶張緊力檢查：每三個月檢查一次，如有松了，要調整；
+8. 吸塵器、廢墨水匣定期清除裏面的廢墨。
+</value>
+  </data>
+  <data name="Title_finishPage" xml:space="preserve">
+    <value>操作嚮導
+    </value>
+  </data>
+  <data name="Description_finishPage" xml:space="preserve">
+    <value>注意事項嚮導完成!
+    </value>
+  </data>
+  <data name="InkUsageStatistics" xml:space="preserve">
+    <value>墨水統計</value>
+  </data>
+  <data name="FaildGenDoubleSideFile" xml:space="preserve">
+    <value>生成雙面打印文件失敗.</value>
+  </data>
+  <data name="CurSystemNoSurpportThisFeature" xml:space="preserve">
+    <value>當前系統不支持此功能.</value>
+  </data>
+  <data name="GetWrongInfo" xml:space="preserve">
+    <value>得到的信息有誤,已重置!</value>
+  </data>
+  <data name="UIError_EnumUSBFail" xml:space="preserve">
+    <value>枚舉USB失敗！</value>
+  </data>
+  <data name="UIError_FWFactoryDataDiffer" xml:space="preserve">
+    <value>雙主板工廠數據設定不一致！</value>
+  </data>
+  <data name="UIInfo_FactoryDataValue" xml:space="preserve">
+    <value>工廠參數{0}值</value>
+  </data>
+  <data name="UIError_NoUSB" xml:space="preserve">
+    <value>未連接USB</value>
+  </data>
+  <data name="UIError_SetCleanParamFail" xml:space="preserve">
+    <value>設置清洗參數失敗!</value>
+  </data>
+  <data name="UIError_ManualCleanNotSupport" xml:space="preserve">
+    <value>當前FW驅動版本不支援手動清洗功能，請升級!</value>
+  </data>
+  <data name="JobID3D" xml:space="preserve">
+    <value>當前打印層:</value>
+  </data>
+  <data name="PauseBetweenLayersStatus" xml:space="preserve">
+    <value>層間暫停</value>
+  </data>
+  <data name="Pumping_Ink" xml:space="preserve">
+    <value>{0}正在泵墨.</value>
+  </data>
+  <data name="CanleType_PrintingJob" xml:space="preserve">
+    <value>取消當前</value>
+  </data>
+  <data name="CanleType_All" xml:space="preserve">
+    <value>取消全部</value>
+  </data>
+  <data name="CanleType_AlwaysQuestion" xml:space="preserve">
+    <value>總是詢問</value>
+  </data>
+  <data name="HorizontalCalibrationMode_Color" xml:space="preserve">
+    <value>顏色校準</value>
+  </data>
+  <data name="HorizontalCalibrationMode_Full" xml:space="preserve">
+    <value>全校準</value>
+  </data>
+  <data name="HorizontalCalibrationMode_Quick" xml:space="preserve">
+    <value>快速校準</value>
+  </data>
+  <data name="HorizontalCalibrationMode_FullNoStep" xml:space="preserve">
+    <value>组内校準</value>
+  </data>
+  <data name="CalibrationSubStep_Origin" xml:space="preserve">
+    <value>原點校準</value>
+  </data>
+  <data name="PrintTemperatureWarning" xml:space="preserve">
+    <value>打印溫度是否達到了設定值?</value>
+  </data>
+  <data name="Software_AWB_JobSettingError" xml:space="preserve">
+    <value>當前為AWB模式,作業設置錯誤,無法打印. </value>
+  </data>
+  <data name="Software_3D_LayerIndexError" xml:space="preserve">
+    <value>當前要添加到打印隊列的層編號與正在打印的層編號不連續,確定要添加嘛?"是",繼續;"否",取消.</value>
+  </data>
+  <data name="BladeDelayStopTime" xml:space="preserve">
+    <value>刮片延時停止時間(ms):</value>
+  </data>
+  <data name="CleaningSpeed" xml:space="preserve">
+    <value>清洗速度(Hz):</value>
+  </data>
+  <data name="ExquisiteFeather" xml:space="preserve">
+    <value>精細羽化</value>
+  </data>
+  <data name="FeatherPercent" xml:space="preserve">
+    <value>羽化類型值</value>
+  </data>
+  <data name="Feather_Custom" xml:space="preserve">
+    <value>羽化強度值</value>
+  </data>
+  <data name="StrCurYearAmountInTotal" xml:space="preserve">
+    <value>年度合計</value>
+  </data>
+  <data name="StrHistoryAmountInTotal" xml:space="preserve">
+    <value>曆年合計</value>
+  </data>
+  <data name="QuestionSynchronizeInkAndArea" xml:space="preserve">
+    <value>檢測到更換了主板,是否同步墨量統計數據? </value>
+  </data>
+  <data name="SynchronizeInkAndAreaSuccess" xml:space="preserve">
+    <value>同步墨量統計數據成功.</value>
+  </data>
+  <data name="SynchronizeInkAndAreaFail" xml:space="preserve">
+    <value>同步墨量統計數據失敗.</value>
+  </data>
+  <data name="UISuccess_SetCleanParamSuccess" xml:space="preserve">
+    <value>設定清洗參數成功！</value>
+  </data>
+  <data name="UIError_TriggerFail" xml:space="preserve">
+    <value>觸發失敗！</value>
+  </data>
+  <data name="UISuccess_TriggerSuccess" xml:space="preserve">
+    <value>觸發成功！</value>
+  </data>
+  <data name="ActualNumStr" xml:space="preserve">
+    <value>實際連接噴頭數量：</value>
+  </data>
+  <data name="NoPassNumStr" xml:space="preserve">
+    <value>沒通過的噴頭有：</value>
+  </data>
+  <data name="PassNumStr" xml:space="preserve">
+    <value>通過請求噴頭數量：</value>
+  </data>
+  <data name="TotalReqNumStr" xml:space="preserve">
+    <value>總請求連接噴頭數量：</value>
+  </data>
+  <data name="StrDryOffsetDistance" xml:space="preserve">
+    <value>烘乾偏移距離</value>
+  </data>
+  <data name="StrDryInAdvance" xml:space="preserve">
+    <value>烘乾提前距離</value>
+  </data>
+  <data name="StrFwNoSurportDoubleY" xml:space="preserve">
+    <value>軟件支持雙y軸功能,但獲取參數失敗.可能是升級包不支持此功能.</value>
+  </data>
+  <data name="WhiteVarnishLayout_WFCMVF" xml:space="preserve">
+    <value>白遠彩中亮遠</value>
+  </data>
+  <data name="WhiteVarnishLayout_WFCMVN" xml:space="preserve">
+    <value>白遠彩中亮近</value>
+  </data>
+  <data name="WhiteVarnishLayout_WNCFVN" xml:space="preserve">
+    <value>白近彩遠亮近</value>
+  </data>
+  <data name="WhiteVarnishLayout_WNCMVF" xml:space="preserve">
+    <value>白近彩中亮遠</value>
+  </data>
+  <data name="WhiteVarnishLayout_CWC" xml:space="preserve">
+    <value>彩白彩</value>
+  </data>
+  <data name="WhiteVarnishLayout_WCC" xml:space="preserve">
+    <value>白彩彩</value>
+  </data>
+  <data name="UISuccess_SaveAboutSuccess" xml:space="preserve">
+    <value>保存成功！</value>
+  </data>
+  <data name="UIInfo_FactoryDataValue1" xml:space="preserve">
+    <value>工廠參數{0}值</value>
+  </data>
+<data name="StrMeasureZMaxMsg" xml:space="preserve">
+    <value>測量前,請確認z軸編碼器分辨率和探頭長度是正確的.而且測量點沒有放置任何介質.</value>
+  </data>
+  <data name="StrZMaxTooShort" xml:space="preserve">
+    <value>Z軸總行程值過小!</value>
+  </data>
+  <data name="StrMesureResultError" xml:space="preserve">
+    <value>測量結果異常!("zMaxPos"小於0)</value>
+  </data>
+  <data name="StrMesureResultError" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VersionCheck_Download" xml:space="preserve">
+    <value>下載新版本</value>
+  </data>
+  <data name="VersionCheck_HB_Reason" xml:space="preserve">
+    <value>更新原因：{0}</value>
+  </data>
+  <data name="VersionCheck_HB_Version" xml:space="preserve">
+    <value>當前頭板版本需要更新, 新版本[{0}]</value>
+  </data>
+  <data name="VersionCheck_Support" xml:space="preserve">
+    <value>請聯繫技術支持人員</value>
+  </data>
+  <data name="UIError_Error" xml:space="preserve">
+    <value>失敗!</value>
+  </data>
+  <data name="UISuccess_Success" xml:space="preserve">
+    <value>成功!</value>
+  </data>
+  <data name="HB_Version_Low" xml:space="preserve">
+    <value>頭板程序版本過低，請更新最新頭板程序！</value>
+  </data>
+  <data name="Applicationofmotorparametersfailed" xml:space="preserve">
+    <value>應用電機參數失敗！</value>
+  </data>
+  <data name="BackgroundWorkerIsBusy" xml:space="preserve">
+    <value>線程忙！</value>
+  </data>
+  <data name="BiaxialDeviationScaleCoefficient" xml:space="preserve">
+    <value>雙軸偏差比例係數不能為0.</value>
+  </data>
+  <data name="ColorNegativePressureError" xml:space="preserve">
+    <value>彩色負壓出錯|</value>
+  </data>
+  <data name="ConfirmStartPrinting" xml:space="preserve">
+    <value>自動墨水測試功能開啟狀態，確認開始列印嘛？</value>
+  </data>
+  <data name="EnterCorrectValue" xml:space="preserve">
+    <value>請輸入正確的數值</value>
+  </data>
+  <data name="EnterTargetValue" xml:space="preserve">
+    <value>請輸入目標氣壓值</value>
+  </data>
+  <data name="ExportFailed" xml:space="preserve">
+    <value>導出失敗！</value>
+  </data>
+  <data name="ExportSuccess" xml:space="preserve">
+    <value>導出成功！</value>
+  </data>
+  <data name="FiledoesnotExist" xml:space="preserve">
+    <value>檔案不存在！</value>
+  </data>
+  <data name="GetDirtyCmdFialed" xml:space="preserve">
+    <value>獲取失敗! 命令字={0}</value>
+  </data>
+  <data name="GetEp6PipeDatafail" xml:space="preserve">
+    <value>獲取EP6筦道數據失敗！</value>
+  </data>
+  <data name="Getgraymapfialed" xml:space="preserve">
+    <value>獲取灰度映射失敗！</value>
+  </data>
+  <data name="GetHapondPrintParamFailed" xml:space="preserve">
+    <value>獲取Hapond列印參數失敗！</value>
+  </data>
+  <data name="GetQRCodeFailed" xml:space="preserve">
+    <value>獲取QR碼失敗！</value>
+  </data>
+  <data name="Getwaveformfailed" xml:space="preserve">
+    <value>獲取波形失敗！</value>
+  </data>
+  <data name="GetYhomepositionfialed" xml:space="preserve">
+    <value>獲取Y位置失敗！</value>
+  </data>
+  <data name="HighExternalPressure" xml:space="preserve">
+    <value>外部氣壓過高|</value>
+  </data>
+  <data name="InputEmpty" xml:space="preserve">
+    <value>輸入不能為空！</value>
+  </data>
+  <data name="inputerror" xml:space="preserve">
+    <value>輸入錯誤！</value>
+  </data>
+  <data name="IPEmpty" xml:space="preserve">
+    <value>IP地址不能為空！</value>
+  </data>
+  <data name="LoadJobConfigError" xml:space="preserve">
+    <value>加載JobConfig錯誤：</value>
+  </data>
+  <data name="LowExternalPressure" xml:space="preserve">
+    <value>外部氣壓過低|</value>
+  </data>
+  <data name="ModeExist" xml:space="preserve">
+    <value>方式已存在！</value>
+  </data>
+  <data name="Nozzleparametersreadsuccessfully" xml:space="preserve">
+    <value>噴嘴參數已成功讀取！</value>
+  </data>
+  <data name="OpenUV" xml:space="preserve">
+    <value>請在10分鐘後打開紫外線燈。</value>
+  </data>
+  <data name="Pleaseselectdotbit" xml:space="preserve">
+    <value>請選擇dotbit！</value>
+  </data>
+  <data name="PowerOffMachine" xml:space="preserve">
+    <value>你想關掉機器麼？</value>
+  </data>
+  <data name="Printrecordnotfound" xml:space="preserve">
+    <value>沒有查到列印記錄</value>
+  </data>
+  <data name="PrintSwitchHasBeenTurnedOff" xml:space="preserve">
+    <value>打印開關已經被關閉！</value>
+  </data>
+  <data name="ReadError" xml:space="preserve">
+    <value>讀取失敗！</value>
+  </data>
+  <data name="ReadFileError" xml:space="preserve">
+    <value>讀取文件錯誤!</value>
+  </data>
+  <data name="ReadingWait" xml:space="preserve">
+    <value>讀取中，請等到當前讀取完成後再試一次。</value>
+  </data>
+  <data name="SafetyCylinder1FeedInk" xml:space="preserve">
+    <value>安全氣瓶1進墨水|</value>
+  </data>
+  <data name="SafetyCylinder2FeedInk" xml:space="preserve">
+    <value>安全氣瓶2進墨水|</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>保存失敗！</value>
+  </data>
+  <data name="SaveJobConfigError" xml:space="preserve">
+    <value>保存JobConfig錯誤:</value>
+  </data>
+  <data name="SaveJobMediaModesError" xml:space="preserve">
+    <value>保存JobMediaModes錯誤:</value>
+  </data>
+  <data name="SendCmdError" xml:space="preserve">
+    <value>發送指令失敗!</value>
+  </data>
+  <data name="Set1024graymapfialed" xml:space="preserve">
+    <value>設定1024灰度映射失敗！</value>
+  </data>
+  <data name="SetFailed" xml:space="preserve">
+    <value>設置失敗！</value>
+  </data>
+  <data name="Setgraymapfialed" xml:space="preserve">
+    <value>設定灰度映射失敗！</value>
+  </data>
+  <data name="Setgraymapsuccess" xml:space="preserve">
+    <value>設定灰度映射成功！</value>
+  </data>
+  <data name="SetMBIDFailed" xml:space="preserve">
+    <value>設置主板ID失敗！</value>
+  </data>
+  <data name="SetMBIDSuccess" xml:space="preserve">
+    <value>設置主板ID成功！</value>
+  </data>
+  <data name="SetSuccess" xml:space="preserve">
+    <value>設置成功！</value>
+  </data>
+  <data name="SetXaar382Modefialed" xml:space="preserve">
+    <value>設定xaar 382模式失敗！</value>
+  </data>
+  <data name="Statisticalfailure" xml:space="preserve">
+    <value>統計失敗！</value>
+  </data>
+  <data name="SwitchInkTypeError" xml:space="preserve">
+    <value>切換墨水類型失敗!cmd {0},index {1}</value>
+  </data>
+  <data name="Theselectedvaluecannotbeempty" xml:space="preserve">
+    <value>選定的值不能為空。</value>
+  </data>
+  <data name="timeout" xml:space="preserve">
+    <value>超時</value>
+  </data>
+  <data name="UpdatePrinterSettingError" xml:space="preserve">
+    <value>更新打印設置失敗!cmd {0}</value>
+  </data>
+  <data name="wavefromfileerror" xml:space="preserve">
+    <value>波形檔案錯誤！</value>
+  </data>
+  <data name="WhiteNegativePressureError" xml:space="preserve">
+    <value>白色負壓出錯|</value>
+  </data>
+  <data name="WriteHeadboardSucessed" xml:space="preserve">
+    <value>寫頭板已經成功了！</value>
+  </data>
+  <data name="zMaxLengthZero" xml:space="preserve">
+    <value>Z最大長度為零</value>
+  </data>
+  <data name="CalibrationSubStep_GroupLeft" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CalibrationSubStep_GroupRight" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HapondIoMsg_RollUp" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HapondIoMsg_CheckPressInk" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HapondIoMsg_OpenCooling" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutUpdateSuccess" xml:space="preserve">
+    <value>佈局包升級完成，請重啟PM</value>
+  </data>
+  <data name="HorizontalCalibrationMode_GroupQuick" xml:space="preserve">
+    <value>组内快速校準</value>
+  </data>
+  <data name="HorizontalCalibrationMode_GroupColor" xml:space="preserve">
+    <value>组内顏色校準</value>
+  </data>
+  <data name="HorizontalCalibrationMode_GroupFull" xml:space="preserve">
+    <value>组内全校準</value>
+  </data>
+  <data name="CancelMoisturizing" xml:space="preserve">
+    <value>取消保濕</value>
+  </data>
+  <data name="Moisturize" xml:space="preserve">
+    <value>保濕</value>
+  </data>
+  <data name="ParamterRatio" xml:space="preserve">
+    <value>參數</value>
+  </data>
+  <data name="HeadParamter" xml:space="preserve">
+    <value>噴頭參數</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>啟用</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>數據源</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>數據類型</value>
+  </data>
+  <data name="Confirm_DeleteLayout" xml:space="preserve">
+    <value>是否刪除佈局：{0} ?</value>
+  </data>
+  <data name="CloseColorNozzleModelEnum_Advanced" xml:space="preserve">
+    <value>高級</value>
+  </data>
+  <data name="CloseColorNozzleModelEnum_Easy" xml:space="preserve">
+    <value>簡單</value>
+  </data>
+  <data name="CloseColorNozzleModelEnum_Feather" xml:space="preserve">
+    <value>羽化</value>
+  </data>
+  <data name="CloseColorNozzle_DownCloseNozzle" xml:space="preserve">
+    <value>下關閉噴嘴數</value>
+  </data>
+  <data name="CloseColorNozzle_DownPercent" xml:space="preserve">
+    <value>下抽點百分比</value>
+  </data>
+  <data name="CloseColorNozzle_OverLapNozzle" xml:space="preserve">
+    <value>重疊噴嘴數</value>
+  </data>
+  <data name="CloseColorNozzle_UpCloseNozzle" xml:space="preserve">
+    <value>上關閉噴嘴數</value>
+  </data>
+  <data name="CloseColorNozzle_UpPercent" xml:space="preserve">
+    <value>上抽點百分比</value>
+  </data>
+  <data name="StrMakesureMediaReady" xml:space="preserve">
+    <value>請確認介質已準備就緒.</value>
+  </data>
+  <data name="ColseNozzle_AlreadyExists" xml:space="preserve">
+    <value>在列表中已經存在</value>
+  </data>
+  <data name="ColseNozzle_ClearAll_Question" xml:space="preserve">
+    <value>是否要清空列表中全部数据？</value>
+  </data>
+  <data name="EncryptDog_MisBoardId" xml:space="preserve">
+    <value>加密鎖和板卡ID不匹配</value>
+  </data>
+</root>

@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="COMCommand_Abort_Command" xml:space="preserve">
+    <value>錯誤的 COM 命令</value>
+  </data>
+  <data name="COMCommand_Abort_Encoder" xml:space="preserve">
+    <value>光柵出錯!</value>
+  </data>
+  <data name="COMCommand_Abort_FormatErr" xml:space="preserve">
+    <value>串口通訊資料校驗錯誤</value>
+  </data>
+  <data name="COMCommand_Abort_IndexNoMatch" xml:space="preserve">
+    <value>索引錯誤</value>
+  </data>
+  <data name="COMCommand_Abort_LimitSensor" xml:space="preserve">
+    <value>接觸限位感測器</value>
+  </data>
+  <data name="COMCommand_Abort_SensorPause" xml:space="preserve">
+    <value>接觸定位感測器</value>
+  </data>
+  <data name="COMCommand_Abort_MeasureSensor" xml:space="preserve">
+    <value>測量紙寬感測器發生錯誤</value>
+  </data>
+  <data name="COMCommand_Abort_MoveAgain" xml:space="preserve">
+    <value>再次移動!</value>
+  </data>
+  <data name="COMCommand_Abort_NoPaper" xml:space="preserve">
+    <value>列印介質不存在</value>
+  </data>
+  <data name="COMCommand_Abort_PaperJamX" xml:space="preserve">
+    <value>水準方向卡紙.</value>
+  </data>
+  <data name="COMCommand_Abort_PaperJamY" xml:space="preserve">
+    <value>垂直方向卡紙.</value>
+  </data>
+  <data name="COMCommand_Abort_Parameter" xml:space="preserve">
+    <value>錯誤的 COM 參數</value>
+  </data>
+  <data name="COMCommand_Abort_TxTimeOut" xml:space="preserve">
+    <value>COM 發送超時</value>
+  </data>
+  <data name="CoreBoard_Err_EP0OVERUN_SETUPDATA" xml:space="preserve">
+    <value>EP0埠被中斷.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_LESSDATA" xml:space="preserve">
+    <value>列印資料小於點火頻率</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_ULTRADATA" xml:space="preserve">
+    <value>列印資料超出點火頻率.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_WRONGSTATUS" xml:space="preserve">
+    <value>列印的資料和開火數不匹配.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_PRINTDATA" xml:space="preserve">
+    <value>列印資料和點火頻率不匹配.</value>
+  </data>
+  <data name="CoreBoard_Err_UART2_TXTIMEOUT" xml:space="preserve">
+    <value>運動COM超時.</value>
+  </data>
+  <data name="CoreBoard_Err_UART1_TXTIMEOUT" xml:space="preserve">
+    <value>頭板COM超時.</value>
+  </data>
+  <data name="CoreBoard_Err_USB1_USB1CONNECT" xml:space="preserve">
+    <value>USB1.1連接.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_BANDDATASIZE" xml:space="preserve">
+    <value>Band頭中的Band數據數量和實際Band數據數量不符.</value>
+  </data>
+  <data name="CoreBoard_Fatal_BYHX_DATA" xml:space="preserve">
+    <value>板子出廠沒有軟體初始化.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_DMA0WORKING" xml:space="preserve">
+    <value>一個band完成後DMA0仍在工作.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPINITS1" xml:space="preserve">
+    <value>運動step 1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPINITS2" xml:space="preserve">
+    <value>運動step 2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DSPUPDATE_FAIL" xml:space="preserve">
+    <value>DSP升級失敗.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_READ" xml:space="preserve">
+    <value>EEPROM讀取失敗.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_WRITE" xml:space="preserve">
+    <value>EEPROM書寫失敗.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_DATA" xml:space="preserve">
+    <value>板子出廠沒有初始化.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADBOARD_RESET" xml:space="preserve">
+    <value>頭板復位.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADINITS1" xml:space="preserve">
+    <value>頭板step1.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADINITS2" xml:space="preserve">
+    <value>頭板step2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADTOMAINROAD" xml:space="preserve">
+    <value>LVDS錯誤.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_BANDDIRECTION" xml:space="preserve">
+    <value>Band方向超出定義.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGHEADER" xml:space="preserve">
+    <value>數據頭錯誤.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGHEADERSIZE" xml:space="preserve">
+    <value>數據頭大小錯誤.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_JOBSTARTHEADER" xml:space="preserve">
+    <value>作業頭中不應附帶額外數據.</value>
+  </data>
+  <data name="CoreBoard_Fatal_LIMITEDTIME_RUNOUT" xml:space="preserve">
+    <value>嚴重錯誤: 超過限時時間，請輸入新的密碼.</value>
+  </data>
+  <data name="CoreBoard_Fatal_MANUFACTURERID_NOTMATCH" xml:space="preserve">
+    <value>板子的廠商ID不匹配,請升級固件.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_OLIMIT" xml:space="preserve">
+    <value>Band的打印起始點小于原點.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_OPPLIMIT" xml:space="preserve">
+    <value>圖像超寬.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PRINTHEAD_NOTMATCH" xml:space="preserve">
+    <value>頭板與出廠資料不匹配,請重置出廠資料或者更換頭板.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_PRINTPOINT" xml:space="preserve">
+    <value>打印開始位置或結束位置錯誤.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SPECTRAHVBINITS1" xml:space="preserve">
+    <value>Spectra高壓板無法在第1步初始化.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SX2RESET" xml:space="preserve">
+    <value>Usb chip非法重啟.</value>
+  </data>
+  <data name="CoreBoard_Fatal_UILANGUAGE_NOT_MATCH" xml:space="preserve">
+    <value>嚴重錯誤: 軟體使用的語言設置與許可權不符，請重新設置軟體語言或者輸入新的語言選配密碼, 並重啟印表機.</value>
+  </data>
+  <data name="CoreBoard_Fatal_USB1_USB1CONNECT" xml:space="preserve">
+    <value>USB1.1連接.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGFORMAT" xml:space="preserve">
+    <value>串口數據格式不對.</value>
+  </data>
+  <data name="CoreBoard_Initialing_ARM" xml:space="preserve">
+    <value>正在初始化ARM.</value>
+  </data>
+  <data name="CoreBoard_Initialing_DSP" xml:space="preserve">
+    <value>正在初始化DSP.</value>
+  </data>
+  <data name="CoreBoard_Initialing_FPGA" xml:space="preserve">
+    <value>正在初始化FPGA.</value>
+  </data>
+  <data name="CoreBoard_Initialing_HEADBOARD" xml:space="preserve">
+    <value>正在初始化HEADBOARD.</value>
+  </data>
+  <data name="CoreBoard_Initialing_HVB" xml:space="preserve">
+    <value>安裝 Spectra 高壓板.</value>
+  </data>
+  <data name="CoreBoard_Initialing_SX2" xml:space="preserve">
+    <value>正在初始化USB.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA0" xml:space="preserve">
+    <value>Service Call: chip1.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA1" xml:space="preserve">
+    <value>Service Call: chip2.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA2" xml:space="preserve">
+    <value>Service Call: chip3.</value>
+  </data>
+  <data name="CoreBoard_Service_FPGA3" xml:space="preserve">
+    <value>Service Call: chip4.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADTOMAINROAD" xml:space="preserve">
+    <value>Service Call: chip5.</value>
+  </data>
+  <data name="CoreBoard_Service_SX2" xml:space="preserve">
+    <value>在USB chip中服務錯誤.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_BEGIN_TIMEOUT" xml:space="preserve">
+    <value>DSP開始升級命令超時.</value>
+  </data>
+  <data name="CoreBoard_Updating_CHECKSUM" xml:space="preserve">
+    <value>升級校驗碼錯誤.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_DATA_TIMEOUT" xml:space="preserve">
+    <value>DSP數據超時.</value>
+  </data>
+  <data name="CoreBoard_Updating_DSP_END_TIMEOUT" xml:space="preserve">
+    <value>DSP結束超時.</value>
+  </data>
+  <data name="CoreBoard_Updating_FLASHOP" xml:space="preserve">
+    <value>Flash錯誤.</value>
+  </data>
+  <data name="CoreBoard_Updating_ILIGALFILE" xml:space="preserve">
+    <value>錯誤的升級檔格式.</value>
+  </data>
+  <data name="CoreBoard_Updating_INTERNAL_DATA" xml:space="preserve">
+    <value>不合法的升級文件.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_SUCCESS" xml:space="preserve">
+    <value>升級成功.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATING" xml:space="preserve">
+    <value>正在更新.</value>
+  </data>
+  <data name="CoreBoard_Warning_EP0OVERUN_REQUEST_IGNORE" xml:space="preserve">
+    <value>EP0溢出.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_FIRST" xml:space="preserve">
+    <value>第一次警告:再有100個小時就超出限時了, 請向廠家索取密碼.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_LAST" xml:space="preserve">
+    <value>最後一次警告: 再有1個小時就超出限時並停止列印, 請立即向廠家索取密碼.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDTIME_SECOND" xml:space="preserve">
+    <value>第二次警告: 再有50個小時就超出限時了,請向廠家索取密碼.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_BLACK" xml:space="preserve">
+    <value>黑色正在泵墨.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_CYAN" xml:space="preserve">
+    <value>蘭色正在泵墨.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_LIGHTCYAN" xml:space="preserve">
+    <value>淺蘭色正在泵墨.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_LIGHTMAGENTA" xml:space="preserve">
+    <value>淺品色正在泵墨.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_MAGENTA" xml:space="preserve">
+    <value>品色正在泵墨.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_YELLOW" xml:space="preserve">
+    <value>黃色正在泵墨.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>限時密碼和板子不匹配; 本次輸入密碼無效, 請重新輸入密碼.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>限時密碼和廠商不匹配; 本次輸入密碼無效, 請重新輸入密碼.</value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_WRONG" xml:space="preserve">
+    <value>
+      不是一個合法限時密碼; 本次輸入密碼無效, 請重新輸入密碼.
+    </value>
+  </data>
+  <data name="CoreBoard_Warning_TIME_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>輸入限時密碼錯誤,含有含有非法字元; 本次輸入密碼無效, 請重新輸入密碼.</value>
+  </data>
+  <data name="CoreBoard_Warning_UNKNOWNHEADERTYPE" xml:space="preserve">
+    <value>不知道的警告</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_GREATERTHANBANDHEADER" xml:space="preserve">
+    <value>實際列印資料大於band頭中列印資料個數</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_HEADERTYPE" xml:space="preserve">
+    <value>header type 不是0,1,2</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_JOBHEADERMARKED" xml:space="preserve">
+    <value>讀取band,job頭時置標誌混亂,不是job頭,job尾也不是band頭</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_LESSTHANBANDHEADER" xml:space="preserve">
+    <value>實際列印資料小於band頭中列印資料個數</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_NOFINDBYHX" xml:space="preserve">
+    <value>找不到數據幀頭</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_NOTENOUGHFIRE" xml:space="preserve">
+    <value>點火個數不夠就收到結束列印命令</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_STILLFIREAFTERPRINT" xml:space="preserve">
+    <value>band列印完後仍然來點火</value>
+  </data>
+  <data name="EnumCmdSrc_FPGA_Abort_FIBERNOTCONNECTED" xml:space="preserve">
+    <value>內部錯誤 10。</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_MAINBOARDSERIOUSERROR" xml:space="preserve">
+    <value>主板嚴重錯誤: 出廠資料沒有設置或者設置錯誤</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_EEPROM_READ" xml:space="preserve">
+    <value>主板Service Call: 讀取EEPROM失敗</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_EEPROM_WRITE" xml:space="preserve">
+    <value>主板Service Call: 寫入EEPROM失敗</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_I2CREADFPGA_ERROR" xml:space="preserve">
+    <value>主板內部錯誤: I2C寫FPGA錯誤</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_I2CWRITEFPGA_ERROR" xml:space="preserve">
+    <value>主板內部錯誤: I2C寫FPGA錯誤</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_BASEVNOSET" xml:space="preserve">
+    <value>主板警告: 基準電壓沒有設置, 使用缺省值</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_CALIBRATIONVNOSET" xml:space="preserve">
+    <value>主板警告: 矯正電壓沒有設置, 使用缺省值</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_SPRAYPARAMETERSNOSET" xml:space="preserve">
+    <value>主板警告: 閃噴參數沒有設置, 使用缺省值</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_USERSETTINGNOSET" xml:space="preserve">
+    <value>主板警告: 用戶資料(墨水類型, 噴射速度沒有設置, 使用缺省值</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_HEADBOARDFEATURESDATANOMATCH" xml:space="preserve">
+    <value>頭板嚴重錯誤: 頭板特性資料與用戶設置不符</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_NOHEADBOARDFEATURESDATA" xml:space="preserve">
+    <value>頭板嚴重錯誤: 頭板特性資料沒有寫入或者格式錯誤</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_EEPROM_READ" xml:space="preserve">
+    <value>頭板Service Call: 讀取EEPROM失敗</value>
+  </data>
+  <data name="EnumCmdSrc_HEADBOARD_EEPROM_WRITE" xml:space="preserve">
+    <value>頭板Service Call: 寫入EEPROM失敗</value>
+  </data>
+  <data name="Software_BoardCommunication" xml:space="preserve">
+    <value>USB 通訊錯誤</value>
+  </data>
+  <data name="Software_FileColorNumber" xml:space="preserve">
+    <value>列印檔顏色數與印表機不匹配!</value>
+  </data>
+  <data name="Software_FileNoSupportForamt" xml:space="preserve">
+    <value>不支援的檔格式!</value>
+  </data>
+  <data name="Software_FileNoSupportResolution" xml:space="preserve">
+    <value>列印檔裏包含不支援的解析度!</value>
+  </data>
+  <data name="Software_FilePassMatchResolution" xml:space="preserve">
+    <value>使用當前的pass設定不能列印當前作業,請點擊確定用{0}pass列印該作業.</value>
+  </data>
+  <data name="Software_FileResolutionNoMatchPrinter" xml:space="preserve">
+    <value>列印檔的解析度和印表機解析度不匹配!</value>
+  </data>
+  <data name="Software_Language" xml:space="preserve">
+    <value>不支援的語言</value>
+  </data>
+  <data name="Software_MediaTooSmall" xml:space="preserve">
+    <value>介質太小.</value>
+  </data>
+  <data name="Software_MediaWidthTooSmall" xml:space="preserve">
+    <value>因原點設置及圖幅寬度因素,圖檔部分超出打印區域!(僅可打印{0}寬度),是否繼續?</value>
+  </data>
+  <data name="Software_MismatchID" xml:space="preserve">
+    <value>不支援的印表機! 請升級軟體!</value>
+  </data>
+  <data name="Software_NoDevice" xml:space="preserve">
+    <value>打開 USB 時出錯</value>
+  </data>
+  <data name="Software_Parser" xml:space="preserve">
+    <value>錯誤的列印檔格式</value>
+  </data>
+  <data name="Software_PrintMode" xml:space="preserve">
+    <value>列印模式參數錯</value>
+  </data>
+  <data name="Software_Shakhand" xml:space="preserve">
+    <value>軟體和印表機握手失敗</value>
+  </data>
+  <data name="Software_StepTolTooMuch" xml:space="preserve">
+    <value>Y向回饋丟失,或著是步進沒有校準!</value>
+  </data>
+  <data name="Software_VersionNoMatch" xml:space="preserve">
+    <value>固件當前版本是{0}，請更新到{1}</value>
+  </data>
+  <data name="COMCommand_Abort_StepEncoder" xml:space="preserve">
+    <value>沒有發現步進編碼器！</value>
+  </data>
+  <data name="Software_GetHWSettingFail" xml:space="preserve">
+    <value>獲取硬體設定失敗!</value>
+  </data>
+  <data name="Software_MustUpdateFW" xml:space="preserve">
+    <value>必须升级固件.</value>
+  </data>
+  <data name="Software_FWIsNotDogKey" xml:space="preserve">
+    <value>不合法的升级文件.没有加密.</value>
+  </data>
+  <data name="Software_UpdateFileWrongFormat" xml:space="preserve">
+    <value>错误的升级文件格式.</value>
+  </data>
+  <data name="COMCommand_Abort_ReadEEPROM" xml:space="preserve">
+    <value>讀 EEPROM 錯誤.</value>
+  </data>
+  <data name="COMCommand_Abort_WriteEEPROM" xml:space="preserve">
+    <value>寫 EEPROM 錯誤!</value>
+  </data>
+  <data name="COMCommand_Abort_WriteEEPROMTwice" xml:space="preserve">
+    <value>寫EEPROM 2次，一般報告這個錯誤時，主板沒有應答信號!</value>
+  </data>
+  <data name="COMCommand_Abort_TimeOver" xml:space="preserve">
+    <value>限制的時間已經用光了!</value>
+  </data>
+  <data name="COMCommand_Abort_TimeWarning" xml:space="preserve">
+    <value> 到限制的時間還有不足50個小時!</value>
+  </data>
+  <data name="COMCommand_Abort_Lang" xml:space="preserve">
+    <value> 語言和限制的不匹配!</value>
+  </data>
+  <data name="COMCommand_Abort_IllegalContent" xml:space="preserve">
+    <value>錯誤的EEPROM 的內容，EEPROM 配置沒有完成!</value>
+  </data>
+  <data name="COMCommand_Abort_IllegalPwd" xml:space="preserve">
+    <value> 錯誤的密碼!</value>
+  </data>
+  <data name="COMCommand_Abort_NotifyMeasure" xml:space="preserve">
+    <value>是否測量介質?</value>
+  </data>
+  <data name="COMCommand_Abort_NotifyGoHome" xml:space="preserve">
+    <value>是否回原點?</value>
+  </data>
+  <data name="COMCommand_Abort_SwDogEey" xml:space="preserve">
+    <value>软件没有使用加密狗!</value>
+  </data>
+  <data name="CoreBoard_Updating_EREASE" xml:space="preserve">
+    <value>ARM 快閃記憶體擦除.</value>
+  </data>
+  <data name="CoreBoard_Updating_FX2NOEEPROM" xml:space="preserve">
+    <value>EEPROM 不可用.</value>
+  </data>
+  <data name="CoreBoard_Updating_FX2UPDATELOADER" xml:space="preserve">
+    <value>載入升級檔失敗！</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>輸入選配密碼錯誤，含有非0~F的值.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_WRONG" xml:space="preserve">
+    <value>不是一個合法選配密碼.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>選配密碼和廠商不匹配.</value>
+  </data>
+  <data name="CoreBoard_Warning_OPTION_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>選配密碼和板子不匹配.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_PROHIBIT_SENSOR" xml:space="preserve">
+    <value>泵墨安全瓶滿了, 所有墨泵停止供墨.</value>
+  </data>
+  <data name="CoreBoard_Warning_OVER_SPEED_NOT_SUPPORT" xml:space="preserve">
+    <value>試圖在不支援超頻的頭板版本上使用超頻, 系統強制使用高速列印.</value>
+  </data>
+  <data name="CoreBoard_Err_UV_CTR_WRONGSTATUS" xml:space="preserve">
+    <value>內部狀態.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_WRONGCOMMAND" xml:space="preserve">
+    <value>FPGA 收到錯誤的命令.</value>
+  </data>
+  <data name="CoreBoard_Err_MOTION_SPEED_BAD" xml:space="preserve">
+    <value>運動速度太快或不均勻，資料輸出未完成就收到點火命令.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_MOVING_TIMEOUT" xml:space="preserve">
+    <value>運動命令發出30秒後，沒有收到運動完成命令.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_WRONGAUTOCLEAN" xml:space="preserve">
+    <value>錯誤的AUTOCLEAN命令.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_WRONGBANDINFO" xml:space="preserve">
+    <value>錯誤的AUTOCLEAN命令.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_DEBUG1" xml:space="preserve">
+    <value>調試狀態 1.</value>
+  </data>
+  <data name="CoreBoard_Err_INTERNAL_DEBUG2" xml:space="preserve">
+    <value>調試狀態2.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_SW1" xml:space="preserve">
+    <value>內部錯誤,空白Band或Y向距離為零.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INTERNAL_WRONGPINCONF" xml:space="preserve">
+    <value>PINCONF寫入FPGA錯誤.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_COLORNUM_WRONG" xml:space="preserve">
+    <value>工廠設置中寫入的顏色數錯誤.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_EEPROM_WRT_ERR" xml:space="preserve">
+    <value>頭板的EEPROM寫入失敗.</value>
+  </data>
+  <data name="CoreBoard_Service_SDRAM_CHECK" xml:space="preserve">
+    <value>SDRAM校驗沒有通過.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_SPOTCOLOR1" xml:space="preserve">
+    <value>專色1正在泵墨.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMP_SPOTCOLOR2" xml:space="preserve">
+    <value>專色2正在泵墨.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_OVERHEAT" xml:space="preserve">
+    <value>噴頭過熱，所有加熱器被強行關閉。</value>
+  </data>
+  <data name="CoreBoard_Fatal_SHAKEHAND_ERR" xml:space="preserve">
+    <value>軟體錯誤或者版本錯誤，沒有通過握手協定。</value>
+  </data>
+  <data name="CoreBoard_Fatal_SWVERSION_ERR" xml:space="preserve">
+    <value>固件要求特殊的軟體版本，版本錯誤。</value>
+  </data>
+  <data name="CoreBoard_Fatal_NOT_SUPPORT_2C_SHARE_1H" xml:space="preserve">
+    <value>當前系統設置不支援一頭兩色。</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>輸入墨水密碼錯誤，含有非0~F的值.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_WRONG" xml:space="preserve">
+    <value>不是一個合法墨水密碼.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_MANUFACTURERIDNOTMATCH" xml:space="preserve">
+    <value>墨水密碼和廠商不匹配.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_BOARDIDNOTMATCH" xml:space="preserve">
+    <value>墨水密碼和板子不匹配.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDINK_FIRST" xml:space="preserve">
+    <value>再用10升就超出墨水限制了，第一次警告.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDINK_SECOND" xml:space="preserve">
+    <value>再用5升就超出墨水限制了，第二次警告.</value>
+  </data>
+  <data name="CoreBoard_Warning_LIMITEDINK_LAST" xml:space="preserve">
+    <value>再用1升就超出墨水限制了，最後一次警告.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_PASSWORD_UNKNOWN_DOT_VOLUME" xml:space="preserve">
+    <value>當前噴頭不支持墨水密碼功能.</value>
+  </data>
+  <data name="CoreBoard_Fatal_LIMITEDINK_RUNOUT" xml:space="preserve">
+    <value>超過墨水用量限制，請重新輸入口令.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SWVERSION_ERR_INK_PWD" xml:space="preserve">
+    <value>固件要求軟件版本支持墨水密碼，版本錯誤.</value>
+  </data>
+  <data name="CoreBoard_Updating_GZ_ILIGALFILE" xml:space="preserve">
+    <value>需要特別固件。</value>
+  </data>
+  <data name="CoreBoard_Updating_INKP_ILIGALFILE" xml:space="preserve">
+    <value>需要特殊墨水密碼固件。</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATEERR_16H_ILIGALFILE" xml:space="preserve">
+    <value>8頭硬件無法升級16頭的固件。</value>
+  </data>
+  <data name="CoreBoard_Warning_FPGA_LESSDATA" xml:space="preserve">
+    <value>打印數據小于點火數.</value>
+  </data>
+  <data name="CoreBoard_Warning_FPGA_ULTRADATA" xml:space="preserve">
+    <value>打印數據多于點火數.</value>
+  </data>
+  <data name="CoreBoard_Service_FLASH" xml:space="preserve">
+    <value>無法從Falsh讀取FPGA.</value>
+  </data>
+  <data name="CoreBoard_Fatal_SECURITY_CHIP_ERR" xml:space="preserve">
+    <value>寫板子ID錯誤。</value>
+  </data>
+  <data name="CoreBoard_Service_SDRAM_NOMATCH" xml:space="preserve">
+    <value>SDRAM是太小，無法支持當前的設置</value>
+  </data>
+  <data name="CoreBoard_Service_READBOARDID_FAIL" xml:space="preserve">
+    <value>讀板子ID錯誤。</value>
+  </data>
+  <data name="CoreBoard_Updating_PCDATA_ERR" xml:space="preserve">
+    <value>發送的數據錯誤.</value>
+  </data>
+  <data name="CoreBoard_Updating_NO_HEADNUM" xml:space="preserve">
+    <value>發送的噴頭號不存在.</value>
+  </data>
+  <data name="CoreBoard_Updating_HBDATA_ERR" xml:space="preserve">
+    <value>主板發送到頭板數據錯誤.</value>
+  </data>
+  <data name="CoreBoard_Updating_PRHD_SETERR" xml:space="preserve">
+    <value>頭板設置噴頭失敗.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_EXCEEDSIZE" xml:space="preserve">
+    <value>發送的溫度電壓曲線數據大小超過額定範圍.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_PCSND_DATA" xml:space="preserve">
+    <value>發送的數據錯誤.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_SAVE_ROM" xml:space="preserve">
+    <value>主板數據存儲到eeprom失敗.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_NO_SPACE" xml:space="preserve">
+    <value>主板eeprom沒有足夠空間存儲新接收的數據.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_UNKN_HDNUM" xml:space="preserve">
+    <value>發送的噴頭號不存在.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_MAP" xml:space="preserve">
+    <value>主板eeprom曲線數據映射到內存錯誤.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_READ_ROM" xml:space="preserve">
+    <value>主板讀取eeprom失敗.</value>
+  </data>
+  <data name="CoreBoard_Err_CURVE_ROM_CHKSUM" xml:space="preserve">
+    <value>曲線數據checksum校驗錯誤.</value>
+  </data>
+  <data name="CoreBoard_Err_HB_NOSUPPORT_FUNC" xml:space="preserve">
+    <value>頭板類型不支持此功能.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSONHEAD_TEMP_TOO_LOW" xml:space="preserve">
+    <value>頭溫度太低。</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSONHEAD_TEMP_TOO_HIGH" xml:space="preserve">
+    <value>頭溫度過高。</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSONHEAD_NOT_CONNECT" xml:space="preserve">
+    <value>打印頭未連接。</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_FPGA_ULTRADATA" xml:space="preserve">
+    <value>核心板FPGA報告數據太多。</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_FPGA_LESSDATA" xml:space="preserve">
+    <value>核心板FPGA報告數據太少。</value>
+  </data>
+  <data name="CoreBoard_Warning_UNKNOWN_NOZZLE_COUNT" xml:space="preserve">
+    <value>當前的噴嘴數目未知。</value>
+  </data>
+  <data name="CoreBoard_Fatal_EPSON_HEAD_BAD" xml:space="preserve">
+    <value>打印頭錯誤。</value>
+  </data>
+  <data name="CoreBoard_Fatal_EPSON_HEAD_FPGA_ERR" xml:space="preserve">
+    <value>頭板FPGA錯誤。</value>
+  </data>
+  <data name="CoreBoard_Fatal_T_JET_PASSNUM_ERR" xml:space="preserve">
+    <value>T-jet通道數錯誤。</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_PUMP_STOP" xml:space="preserve">
+    <value>因為超過4秒沒有收到墨瓶信號，所以關閉所有墨泵。</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Warning_SETFPGA_HDTYPE" xml:space="preserve">
+    <value>設置 fpga 8頭或16頭失敗。</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_UART1_TXTIMEOUT" xml:space="preserve">
+    <value>運動通訊超時。</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_ENTERSLEEP" xml:space="preserve">
+    <value>設備進入了睡眠狀態，這個不應該發生。</value>
+  </data>
+  <data name="EnumCmdSrc_FX2_Service_DEBUG" xml:space="preserve">
+    <value>調試錯誤。</value>
+  </data>
+  <data name="COMCommand_Abort_InternalErr_2" xml:space="preserve">
+    <value>內部錯誤2.</value>
+  </data>
+  <data name="COMCommand_Abort_InternalErr_1" xml:space="preserve">
+    <value>內部錯誤1.</value>
+  </data>
+  <data name="COMCommand_Abort_OverTemp_Protect" xml:space="preserve">
+    <value>溫度過高保護.</value>
+  </data>
+  <data name="COMCommand_Abort_OverCurrent_Protect" xml:space="preserve">
+    <value>電流過載保護.</value>
+  </data>
+  <data name="CoreBoard_Updating_TRY_AGAIN" xml:space="preserve">
+    <value>請再次升級.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_DRIVER_OVERHEAT" xml:space="preserve">
+    <value>打印頭驅動溫度過高.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_XHOT_ERROR" xml:space="preserve">
+    <value>打印頭溫度過高.</value>
+  </data>
+  <data name="CoreBoard_Service_ARM_MOTION" xml:space="preserve">
+    <value>ARM運動初始化錯誤.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADBOARD_INIT_FAIL" xml:space="preserve">
+    <value>頭板初始化失敗.</value>
+  </data>
+  <data name="CoreBoard_Fatal_CALIBRATION_DATA" xml:space="preserve">
+    <value>出廠初始化設置出錯。</value>
+  </data>
+  <data name="CoreBoard_Err_PUMPINKTIMEOUT" xml:space="preserve">
+    <value>泵墨超時.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADBOARD_NO_FW" xml:space="preserve">
+    <value>有頭板沒有合法的Firmware.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HEADBOARD_CONFIG" xml:space="preserve">
+    <value>頭板配置不正確.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_COMM_TIMEOUT" xml:space="preserve">
+    <value>CAN通訊錯誤，發送超時.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_COMM_ERROR" xml:space="preserve">
+    <value>CAN通訊錯誤，錯誤計數器超限.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_BUFFER_ERROR" xml:space="preserve">
+    <value>CAN通訊錯誤，重組緩衝區錯誤.</value>
+  </data>
+  <data name="CoreBoard_Err_CAN_CONTROLLER_ERROR" xml:space="preserve">
+    <value>CAN控制器錯誤.</value>
+  </data>
+  <data name="CoreBoard_Fatal_NO_TEMPERATURE_SENSOR" xml:space="preserve">
+    <value>檢測不到溫度傳感器.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INK_SPILL" xml:space="preserve">
+    <value>負壓墨盒淤墨.</value>
+  </data>
+  <data name="CoreBoard_Fatal_INK_SUPPLY_LOW" xml:space="preserve">
+    <value>供墨墨盒缺墨.</value>
+  </data>
+  <data name="CoreBoard_Warning_INK_SUPPLY_SLOW" xml:space="preserve">
+    <value>連續供墨超過10秒.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_OPRATION_EEPROM_FAIL" xml:space="preserve">
+    <value>頭板操作eeprom失敗.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_FPGA_ERROR" xml:space="preserve">
+    <value>頭板FPGA錯誤.</value>
+  </data>
+  <data name="CoreBoard_Err_HEAD_OFFSET" xml:space="preserve">
+    <value>噴頭到電眼距離設定錯誤.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_INT" xml:space="preserve">
+    <value>FPGA産生了異常通知.</value>
+  </data>
+  <data name="CoreBoard_Err_NO_DMA_LLI" xml:space="preserve">
+    <value>系統生成鏈表速度不夠.</value>
+  </data>
+  <data name="CoreBoard_Err_DMA_LLI_LEN" xml:space="preserve">
+    <value>鏈表需求超出程序定義.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FUNC_BOARD_STARTUP" xml:space="preserve">
+    <value>功能板啓動.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PRINT_DATA_ERROR" xml:space="preserve">
+    <value>打印數據傳輸錯誤或丟失.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FACTORY_DATA_ERROR" xml:space="preserve">
+    <value>工廠設置數據錯誤.</value>
+  </data>
+  <data name="CoreBoard_Err_CADG_CTL_LINE_FAULT" xml:space="preserve">
+    <value>機器控制線路故障.</value>
+  </data>
+  <data name="CoreBoard_Err_CADG_INIT_PLC" xml:space="preserve">
+    <value>初始化PLC硬體故障.</value>
+  </data>
+  <data name="CoreBoard_Err_CADG_PRINT_FAULT" xml:space="preserve">
+    <value>打印故障.</value>
+  </data>
+  <data name="COMCommand_Abort_RatioEEPROM" xml:space="preserve">
+    <value>測量值與默認值相差太大.</value>
+  </data>
+  <data name="COMCommand_Abort_RatioMeasure" xml:space="preserve">
+    <value>測量值與當前值相差太大.</value>
+  </data>
+  <data name="COMCommand_Abort_NoSupportCorrectRatio" xml:space="preserve">
+    <value>不支持自動測量功能.</value>
+  </data>
+  <data name="CoreBoard_Warning_SCORPION_WARNING" xml:space="preserve">
+    <value>打印機産生了告警.</value>
+  </data>
+  <data name="CoreBoard_Warning_HB_FW_VERSION" xml:space="preserve">
+    <value>升級包包含頭板的FW版本太低，已不支持.</value>
+  </data>
+  <data name="CoreBoard_Warning_HB_FW_ID_ERROR" xml:space="preserve">
+    <value>頭板FW ID不匹配，當前頭板不能升級該FW.</value>
+  </data>
+  <data name="CoreBoard_Warning_HB_FW_UPDATER" xml:space="preserve">
+    <value>頭板升級過程發生錯誤.</value>
+  </data>
+  <data name="CoreBoard_Warning_HBFPGA_FW_UPDATER" xml:space="preserve">
+    <value>頭板FPGA升級過程發生錯誤.</value>
+  </data>
+  <data name="CoreBoard_Warning_FUNC_FW_UPDATER" xml:space="preserve">
+    <value>功能板升級過程發生錯誤.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PANEL_EX_LOST" xml:space="preserve">
+    <value>輔助控制板通信失敗.</value>
+  </data>
+  <data name="CoreBoard_Fatal_PANEL_EX_BUSY" xml:space="preserve">
+    <value>輔助控制板忙.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_HEAD_FPGA_ERR" xml:space="preserve">
+    <value>頭板FPGA錯誤.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_HEAD_LVDS_ERR" xml:space="preserve">
+    <value>主板報告LVDS失鎖.</value>
+  </data>
+  <data name="CoreBoard_Warning_EPSON_HEAD_REPORT_LVDS_ERR" xml:space="preserve">
+    <value>頭板報告LVDS失鎖.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_WAVEFROM_Init_fail" xml:space="preserve">
+    <value>WAVEFROM初始化配置錯誤.</value>
+  </data>
+  <data name="CoreBoard_Service_HB_WAVEFROM_Download_fail" xml:space="preserve">
+    <value>WAVEFROM 下載錯誤.</value>
+  </data>
+  <data name="CoreBoard_Fatal_UV_RUNOUT" xml:space="preserve">
+    <value>UV燈時間用盡.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_WRONGINPUT" xml:space="preserve">
+    <value>輸入選配密碼錯誤,含有非0-f的值.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_WRONG" xml:space="preserve">
+    <value>不是一個合法的選配密碼.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_MANUFACTURERIDNOTMATH" xml:space="preserve">
+    <value>選配密碼和廠商不匹配.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_BOARDIDNOTMATH" xml:space="preserve">
+    <value>選配密碼和板子不匹配.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_FIRST" xml:space="preserve">
+    <value>UV時間超時第一次報警.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_SECOND" xml:space="preserve">
+    <value>UV時間超時第二次報警.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSWORD_LAST" xml:space="preserve">
+    <value>UV時間超時第三次報警.</value>
+  </data>
+  <data name="CoreBoard_Warning_TILE_IN_TILE" xml:space="preserve">
+    <value>電眼間距太小，電眼信號被丟棄.</value>
+  </data>
+  <data name="CoreBoard_Warning_TILE_POS_FULL" xml:space="preserve">
+    <value>電眼緩衝區已滿, 電眼信號被丟棄.</value>
+  </data>
+  <data name="CoreBoard_Warning_PASSED_TILE" xml:space="preserve">
+    <value>打印數據就緒的太遲 , 電眼信號被丟棄.</value>
+  </data>
+  <data name="CoreBoard_Warning_PUMPLONG_ALARM" xml:space="preserve">
+    <value>泵墨超時.</value>
+  </data>
+  <data name="CoreBoard_Fatal_HB_OVERCOOL" xml:space="preserve">
+    <value>噴頭溫度過低（異常），加熱控制被強行關閉.</value>
+  </data>
+  <data name="CoreBoard_Fatal_OVERCHANGE" xml:space="preserve">
+    <value>噴頭溫度變化過于劇烈（異常），加熱控制被強行關閉.</value>
+  </data>
+  <data name="CoreBoard_Err_PM_FEATURE_UNSUPPORTED" xml:space="preserve">
+    <value>軟件不支持變溫度倍率,請升級軟件.</value>
+  </data>
+  <data name="CoreBoard_Err_PM_SCALE_NOT_MATCH" xml:space="preserve">
+    <value>軟件溫度倍率和預設倍率不一致,需重新配置工廠設置.</value>
+  </data>
+  <data name="CoreBoard_Fatal_TEMP_RATIO_UNSUPPORT" xml:space="preserve">
+    <value>頭板不支持變溫度倍率.請升級頭板.</value>
+  </data>
+  <data name="COMCommand_Abort_OutOfPrintRang" xml:space="preserve">
+    <value>打印位置超限,請嘗試縮小打印圖像幅寬或者增加打印原點位置.</value>
+  </data>
+  <data name="CoreBoard_Err_TargetTempLocked" xml:space="preserve">
+    <value>溫度控制尚未解除鎖定.</value>
+  </data>
+  <data name="CoreBoard_Err_HIGH_VOL_TOO_LOW" xml:space="preserve">
+    <value>頭板高壓過低.</value>
+  </data>
+  <data name="CoreBoard_Err_WAVEFORM_INDEX" xml:space="preserve">
+    <value>波形下載失敗.</value>
+  </data>
+  <data name="CoreBoard_Err_WAVEFORM_CONFIG" xml:space="preserve">
+    <value>波形配置失敗.</value>
+  </data>
+  <data name="CoreBoard_Err_SET_VOLT_ERROR" xml:space="preserve">
+    <value>全半壓設置出錯.</value>
+  </data>
+  <data name="CoreBoard_Fatal_WAVEFORM_INVALID" xml:space="preserve">
+    <value>沒有波形有效標識.</value>
+  </data>
+  <data name="CoreBoard_Fatal_FULL_HALF_VOLT_ERROR" xml:space="preserve">
+    <value>半壓大于全壓.</value>
+  </data>
+  <data name="CoreBoard_Fatal_EEPROM_PARAM_UNVALID" xml:space="preserve">
+    <value>eeprom參數非法，需要重新設置.</value>
+  </data>
+  <data name="CoreBoard_Service_HBFW_ERROR" xml:space="preserve">
+    <value>頭板的FW和板子不匹配，需要更換頭板.</value>
+  </data>
+  <data name="CoreBoard_Service_HEADVENDERDISMATHCH" xml:space="preserve">
+    <value>噴頭廠商不匹配.</value>
+  </data>
+  <data name="CoreBoard_Err_NO_PAPER" xml:space="preserve">
+    <value>打印機缺紙.</value>
+  </data>
+  <data name="CoreBoard_Warning_EnterBakPrintMode" xml:space="preserve">
+    <value>已進入離線打印狀態.</value>
+  </data>
+  <data name="CoreBoard_Err_ILLEGAL_VOL" xml:space="preserve">
+    <value>存在不合法電壓值.</value>
+  </data>
+  <data name="CoreBoard_Err_EEPROM_LOCKED" xml:space="preserve">
+    <value>EEPROM已鎖定.</value>
+  </data>
+  <data name="CoreBoard_Fatal_DOUBLEY_ERRPOS" xml:space="preserve">
+    <value>雙Y軸位置偏差過大.</value>
+  </data>
+  <data name="CoreBoard_Warning_DOUBLEY_CORRECTOVERLIMIT" xml:space="preserve">
+    <value>雙軸位置偏差矯正次數超限.</value>
+  </data>
+  <data name="COMCommand_Abort_DoubleYERR" xml:space="preserve">
+    <value>雙軸位置偏差過大,急停.</value>
+  </data>
+  <data name="COMCommand_Abort_InitERR" xml:space="preserve">
+    <value>DSP初始化失敗.</value>
+  </data>
+  <data name="COMCommand_Abort_NoPaperCancelPrint" xml:space="preserve">
+    <value>打印機缺紙.</value>
+  </data>
+  <data name="CoreBoard_Err_SAND_LAYING" xml:space="preserve">
+    <value>正在進行鋪沙，請稍後再試.</value>
+  </data>
+  <data name="CoreBoard_Err_CUR_ACTION_NOT_SUPPORT" xml:space="preserve">
+    <value>印表機狀態不支援當前所設動作.</value>
+  </data>
+  <data name="CoreBoard_Err_LVDS_DISCONNECT" xml:space="preserve">
+    <value>頭板泵墨消息超時未更新，很可能是LVDS已斷開.</value>
+  </data>
+  <data name="CoreBoard_Err_NOSUPPORT_DELAY" xml:space="preserve">
+    <value>頭板版本不支持高低壓延時的波形，請更換頭板版本或者更改波形.</value>
+  </data>
+  <data name="CoreBoard_Warning_OLD_HB_BOOTLOADER" xml:space="preserve">
+    <value>頭板bootloader太老，導致升級過慢。</value>
+  </data>
+  <data name="CoreBoard_Fatal_EXT_INIT_ERR" xml:space="preserve">
+    <value>外部設備初始化未完成。</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_ERROR" xml:space="preserve">
+    <value>升級錯誤.</value>
+  </data>
+  <data name="CoreBoard_Updating_UPDATE_TIMEOUT" xml:space="preserve">
+    <value>升級超時.</value>
+  </data>
+  <data name="CoreBoard_Warning_NO_PAPER" xml:space="preserve">
+    <value>打印機缺紙.</value>
+  </data>
+  <data name="CoreBoard_Warning_NO_MATERIAL" xml:space="preserve">
+    <value>打印機缺紙.</value>
+  </data>
+  <data name="CoreBoard_Err_NOT_SUPPORT_PRINT" xml:space="preserve">
+    <value>不支持打印功能.</value>
+  </data>
+  <data name="CoreBoard_Err_EXTBOARD_UART_FAIL" xml:space="preserve">
+    <value>擴展板串口連接失敗.</value>
+  </data>
+  <data name="CoreBoard_Err_EXTBOARD_ERROR" xml:space="preserve">
+    <value>擴展板錯誤.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_UNDERFLOW" xml:space="preserve">
+    <value>FPGA緩衝區下溢.</value>
+  </data>
+  <data name="CoreBoard_Err_USB_TRANSFER" xml:space="preserve">
+    <value>USB數據傳輸異常.</value>
+  </data>
+  <data name="CoreBoard_Err_FPGA_PROGRAM" xml:space="preserve">
+    <value>FPGA邏輯錯誤導致程序運行異常.</value>
+  </data>
+  <data name="EnumCADG_PrintError_BackDoorOpened" xml:space="preserve">
+    <value>後門開</value>
+  </data>
+  <data name="EnumCADG_PrintError_FeedShaftJam" xml:space="preserve">
+    <value>傳送卡紙</value>
+  </data>
+  <data name="EnumCADG_PrintError_InkEmpty" xml:space="preserve">
+    <value>無墨</value>
+  </data>
+  <data name="EnumCADG_PrintError_LeftDoorOpened" xml:space="preserve">
+    <value>左側門開</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperKnifeJam" xml:space="preserve">
+    <value>切刀卡紙</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperKnifeNotSet" xml:space="preserve">
+    <value>切刀不在位</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA0" xml:space="preserve">
+    <value>A0缺紙</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA1" xml:space="preserve">
+    <value>A1缺紙</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA2" xml:space="preserve">
+    <value>A2缺紙</value>
+  </data>
+  <data name="EnumCADG_PrintError_PaperLessA3" xml:space="preserve">
+    <value>A3缺紙</value>
+  </data>
+  <data name="EnumCADG_PrintError_PrintShaftJam" xml:space="preserve">
+    <value>列印卡紙</value>
+  </data>
+  <data name="EnumCADG_PrintError_RightDoorOpened" xml:space="preserve">
+    <value>右側門開</value>
+  </data>
+  <data name="EnumCADG_PrintError_ServerStatusError" xml:space="preserve">
+    <value>伺服器狀態異常</value>
+  </data>
+  <data name="CoreBoard_Initialing_PANEL" xml:space="preserve">
+    <value>正在初始化PLC</value>
+  </data>
+  <data name="Software_MediaHeightTooSmall" xml:space="preserve">
+    <value>因原點設置及圖幅高度因素,圖檔部分超出打印區域!是否繼續?</value>
+  </data>
+  <data name="Software_MeybeLostLayer" xml:space="preserve">
+    <value>可能存在丟層，是否重新列印上一層？</value>
+  </data>
+  <data name="Software_ContinueAbort" xml:space="preserve">
+    <value>列印未完成，是否取消列印？</value>
+  </data>
+  <data name="Software_OldMainBoard" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Software_MainBoardNoSupportSetKyVol" xml:space="preserve">
+    <value>主板不支持溫度倍率功能或倍率錯誤.</value>
+  </data>
+  <data name="Software_ColorDeep" xml:space="preserve">
+    <value>顏色深度不匹配</value>
+  </data>
+  <data name="Software_DataMiss" xml:space="preserve">
+    <value>未讀取到文件數據</value>
+  </data>
+  <data name="Software_SwVersionQaNoTest">
+    <value>此版本軟件為未經QA測試的版本!</value>
+  </data>
+</root>

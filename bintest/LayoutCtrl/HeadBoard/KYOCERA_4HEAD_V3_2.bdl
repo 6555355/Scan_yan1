@@ -1,0 +1,128 @@
+﻿-- 
+-- id,name,support max heads,Heat channels,Temperature channels,Voltage channels,
+-- #define HEAD_BOARD_TYPE_KYOCERA_4HEAD_1H2C	  55 
+
+-- id,name,maxsupportHeads,heatchannels per head,temperturechannels per head,voltagechannels per head,half voltagechannels per head
+function GetHeadBoardParam()
+	return  55,"KJ4B_0300",4,1,1,2,0;
+end
+
+function GetSupportHeadCount()
+	return 1;
+end
+
+function GetSupportHeadList()
+	return "KJ4B_0300";
+end
+
+-- only a heatchannel per junction 
+-- hbId: headboard ID,jId: junction ID,id: NozzleLine index in head,hbs: headboard number
+function GetHeatChannel(hbId,jId,id,hbs)
+	return hbId*4+jId;
+end
+
+-- only a temperturechannel per junction
+function GetTempertureChannel(hbId,jId,id,hbs)
+	return  hbId*4+jId;
+end
+
+-- headId*junctions*nozzlelines + junctionId*nozzlelines + nozzlelineId
+function GetDataChannel(hbId,jId,id,hbs,colorsPerHead)
+	if(colorsPerHead == 1)
+		then return hbId*4+jId; --一头一色,由于内部FPGA 处理, 所有喷头排视为一排处理。
+		else	
+			return hbId*128 + jId*16 + id
+	end
+end
+
+function GetDataChannel_102(hbId,jId,id,hbs,...)
+	local colorsPerHead = select(1,...)
+	local map = {7*hbs*16, 3*hbs*16, 5*hbs*16, 1*hbs*16, 6*hbs*16, 2*hbs*16, 4*hbs*16, 0*hbs*16,  0*hbs*16+2, 4*hbs*16+2, 6*hbs*16+2, 2*hbs*16+2, 1*hbs*16+2, 5*hbs*16+2, 3*hbs*16+2, 7*hbs*16+2}
+	
+	if(colorsPerHead == 1)
+		then return 1,hbId*4+jId; --一头一色,由于内部FPGA 处理, 所有喷头排视为一排处理。
+	else
+		
+		return 2, map[id+1]+4*(4*hbId+jId), map[id+1]+4*(4*hbId+jId)+1
+	end
+end
+
+function GetNozzleLineElecDir(id)
+	if(math.floor((id%16)/8) == 0)
+		then return 1
+	else
+		return 0
+	end
+end
+-- note: different from datachannel
+function GetVoltageChannel(hbId,jId,id,hbs)
+	return hbId*4 + jId
+end
+
+function GetConnector(dataChn,hbs)
+	local hbId;
+	local jId;
+	hbId = math.floor(dataChn/16);
+	jId = math.floor((dataChn - hbId*16)/8);
+	return hbId,jId;
+end
+
+
+-- left,top,width,heigth,print head center as origin
+function GetHeadBoardIDRect()
+	local s = 10.0;
+	return  -12*s,20*s,24*s,7*s;
+end
+
+-- left,top,width,heigth,print head center as origin
+function GetJunctionIDRect()
+	local s = 10.0;
+	return  -12*s,27*s,24*s,7*s;
+end
+
+function GetJunctionInfo()
+
+	return 175,40,    -- w,h
+		   674,433 ,"J1",
+		   480,433, "J2",
+		   284,433, "J3",
+		   100,433, "J4";	   
+end
+
+function DrawJunction(headboardId,jId)
+	local s = 10.0;
+	local h = 1.6*s;
+	local w = 4*s;
+	local space = w/2;
+	local x,y;
+	local str = tostring(headboardId+1).. tostring("-")..tostring(jId+1);
+	
+	--
+	SetBrushColor(0xFFFFFF);
+	FillRectangle(-12*s,20*s,16*s,20*s);
+
+	SetPenColor(0x0);
+	DrawHeadBoardOutLine(-12*s,20*s,24*s,16*s,2*s);	
+	SetBrushColor(0x0);
+
+	for i = 0,3,1 do
+		x = w+space*1.5 - (w+space)*i;
+		y = 31.5*s;
+				
+		if( i==jId )
+			then 
+				FillRectangle(x,y,h,w);
+			else
+				--DrawLine(x,y+h/2,x+w,y+h/2);
+				DrawRectangle(x,y,h,w);
+		end
+
+	end
+
+	SetFontSize(9*s);
+	SetFontFamily("Arial");	
+	DrawString(str,-11*s,20.5*s,22*s,15*s);
+	
+	return 1;
+
+end

@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="PrintDirection_Unidirection" xml:space="preserve">
+		<value>ทิศทางเดียว</value>
+	</data>
+	<data name="PrintDirection_Bidirection" xml:space="preserve">
+		<value>ไปกลับ</value>
+	</data>
+	<data name="UILengthUnit_Inch" xml:space="preserve">
+		<value>นิ้ว</value>
+	</data>
+	<data name="UILengthUnit_Feet" xml:space="preserve">
+		<value>ฟุต</value>
+	</data>
+	<data name="UILengthUnit_Millimeter" xml:space="preserve">
+		<value>มิลลิเมตร</value>
+	</data>
+	<data name="UILengthUnit_Centimeter" xml:space="preserve">
+		<value>เซนติเมตร</value>
+	</data>
+	<data name="UILengthUnit_Meter" xml:space="preserve">
+		<value>เครื่องวัด</value>
+	</data>
+	<data name="Suffix_UILengthUnit_Inch" xml:space="preserve">
+		<value>นิ้ว</value>
+	</data>
+	<data name="Suffix_UILengthUnit_Feet" xml:space="preserve">
+		<value>ฟุต</value>
+	</data>
+	<data name="Suffix_UILengthUnit_Millimeter" xml:space="preserve">
+		<value>มิลลิเมตร</value>
+	</data>
+	<data name="Suffix_UILengthUnit_Centimeter" xml:space="preserve">
+		<value>เซนติเมตร</value>
+	</data>
+	<data name="Suffix_UILengthUnit_Meter" xml:space="preserve">
+		<value>เมตร</value>
+	</data>
+	<data name="JobStatus_Idle" xml:space="preserve">
+		<value>อยู่เฉยๆ</value>
+	</data>
+	<data name="JobStatus_Printing" xml:space="preserve">
+		<value>การพิมพ์</value>
+	</data>
+	<data name="JobStatus_Aborting" xml:space="preserve">
+		<value>การหยุดการทำงานทันที</value>
+	</data>
+	<data name="JobStatus_Paused" xml:space="preserve">
+		<value>หยุดชั่วคราว</value>
+	</data>
+	<data name="JobStatus_Printed" xml:space="preserve">
+		<value>พิมพ์เสร็จ</value>
+	</data>
+	<data name="JobStatus_Waiting" xml:space="preserve">
+		<value>กำลังรอ</value>
+	</data>
+	<data name="JobStatus_Error" xml:space="preserve">
+		<value>ข้อบกพร่อง</value>
+	</data>
+	<data name="JetStatusEnum_PowerOff" xml:space="preserve">
+		<value>ปิด</value>
+	</data>
+	<data name="JetStatusEnum_Offline" xml:space="preserve">
+		<value>ไม่เชื่อมต่อ</value>
+	</data>
+	<data name="JetStatusEnum_PrinterOffline" xml:space="preserve">
+		<value>เครื่องพิมพ์ไม่ได้เชื่อมต่อ</value>
+	</data>
+	<data name="JetStatusEnum_Ready" xml:space="preserve">
+		<value>พร้อม</value>
+	</data>
+	<data name="JetStatusEnum_Busy" xml:space="preserve">
+		<value>การพิมพ์</value>
+	</data>
+	<data name="JetStatusEnum_Pause" xml:space="preserve">
+		<value>หยุดชั่วคราว</value>
+	</data>
+	<data name="JetStatusEnum_Aborting" xml:space="preserve">
+		<value>การหยุดการทำงานทันที</value>
+	</data>
+	<data name="JetStatusEnum_Error" xml:space="preserve">
+		<value>ข้อบกพร่อง</value>
+	</data>
+	<data name="JetStatusEnum_Cleaning" xml:space="preserve">
+		<value>การทำความสะอาด</value>
+	</data>
+	<data name="JetStatusEnum_Moving" xml:space="preserve">
+		<value>การเคลื่อนที่</value>
+	</data>
+	<data name="JetStatusEnum_Measuring" xml:space="preserve">
+		<value>กำลังวัดความกว้างกระดาษ</value>
+	</data>
+	<data name="JetStatusEnum_Spraying" xml:space="preserve">
+		<value>การพ่น</value>
+	</data>
+	<data name="JetStatusEnum_Initializing" xml:space="preserve">
+		<value>การเตรียม</value>
+	</data>
+	<data name="JetStatusEnum_Updating" xml:space="preserve">
+		<value>กำลังอัพเกรด</value>
+	</data>
+	<data name="JetStatusEnum_Unknown" xml:space="preserve">
+		<value>สถานะที่ไม่มีใครทราบ</value>
+	</data>
+	<data name="Confirm_Delete" xml:space="preserve">
+		<value>ท่านแน่ใจหรือว่าจะลบทิ้ง?</value>
+	</data>
+	<data name="Confirm_ClearEnv" xml:space="preserve">
+		<value>ท่านแน่ใจหรือว่าจะลบสภาพแวดล้อมทิ้ง?</value>
+	</data>
+	<data name="Confirm_AbortPrinter" xml:space="preserve">
+		<value>ท่านแน่ใจหรือว่าจะหยุดการพิมพ์งานต่างๆ?</value>
+	</data>
+	<data name="Confirm_ResetPrinter" xml:space="preserve">
+		<value>ท่านแน่ใจหรือว่าจะตั้งค่าเครื่องพิมพ์ใหม่?</value>
+	</data>
+	<data name="Confirm_Exit" xml:space="preserve">
+		<value>ท่านแน่ใจหรือว่าจะออกไป?</value>
+	</data>
+	<data name="DisplayTime_Hour" xml:space="preserve">
+		<value>ชั่วโมง</value>
+	</data>
+	<data name="DisplayTime_Minute" xml:space="preserve">
+		<value>นาที</value>
+	</data>
+	<data name="DisplayTime_Second" xml:space="preserve">
+		<value>ลำดับที่สอง</value>
+	</data>
+	<data name="DisplayTime_MilliSecond" xml:space="preserve">
+		<value>เศษหนึ่งส่วนพันวินาที</value>
+	</data>
+	<data name="CaliWizard_Title" xml:space="preserve">
+		<value>วิธีการคำนวณสำเร็จรูป</value>
+	</data>
+	<data name="CaliWizard_Description" xml:space="preserve">
+		<value>เติมค่าที่เสมือนภาพพิมพ์.</value>
+	</data>
+	<data name="CaliWizard_Cancel" xml:space="preserve">
+		<value>ท่านแน่ใจหรือว่าจะออกจากวิธีคำนวณสำเร็จรูป?</value>
+	</data>
+	<data name="CaliWizard_Finish" xml:space="preserve">
+		<value>คำนวณตามแบบสำเร็จรูปเสร็จสมบูรณ์.</value>
+	</data>
+	<data name="CalibrationSubStep_Horizontal" xml:space="preserve">
+		<value>การคำนวณแนวระนาบ</value>
+	</data>
+	<data name="CalibrationSubStep_Left" xml:space="preserve">
+		<value>การคำนวณด้านซ้าย</value>
+	</data>
+	<data name="CalibrationSubStep_Right" xml:space="preserve">
+		<value>การคำนวณด้านขวา</value>
+	</data>
+	<data name="CalibrationSubStep_Bidirection" xml:space="preserve">
+		<value>การคำนวณไปกลับ</value>
+	</data>
+	<data name="CalibrationSubStep_Vertical" xml:space="preserve">
+		<value>การคำนวณแนวดิ่ง</value>
+	</data>
+	<data name="CalibrationSubStep_Step" xml:space="preserve">
+		<value>การคำนวณขั้น</value>
+	</data>
+	<data name="ButtonNext" xml:space="preserve">
+		<value>ถัดไป(&amp;n)&gt;</value>
+	</data>
+	<data name="ButtonFinish" xml:space="preserve">
+		<value>เสร็จสิ้น(&amp;f)</value>
+	</data>
+	<data name="SoftwareProductName" xml:space="preserve">
+		<value>ผู้จัดการเครื่องพิมพ์</value>
+	</data>
+	<data name="SoftwareProductName2" xml:space="preserve">
+		<value>ศูนย์กลางเครื่องพิมพ์</value>
+	</data>
+	<data name="SpeedEnum_HighSpeed" xml:space="preserve">
+		<value>อัตราเร็วสูง</value>
+	</data>
+	<data name="SpeedEnum_MiddleSpeed" xml:space="preserve">
+		<value>ความเร็วปานกลาง</value>
+	</data>
+	<data name="SpeedEnum_MiddleSpeed_1" xml:space="preserve">
+		<value>มาตรฐาน</value>
+	</data>
+	<data name="SpeedEnum_LowSpeed" xml:space="preserve">
+		<value>ความเร็วต่ำ</value>
+	</data>
+	<data name="SpeedEnum_CustomSpeed" xml:space="preserve">
+		<value>อัตราเร็วโอเวอร์คล็อก</value>
+	</data>
+	<data name="BoardEnum_CoreBoard" xml:space="preserve">
+		<value>แผงแกน</value>
+	</data>
+	<data name="BoardEnum_PeriphBoard" xml:space="preserve">
+		<value>แผงวงจรอุปกรณ์ต่อพ่วง</value>
+	</data>
+	<data name="BoardEnum_HeadBoard" xml:space="preserve">
+		<value>แผงหัวพิมพ์</value>
+	</data>
+	<data name="UpdaterError_WrongFile" xml:space="preserve">
+		<value>รูปแบบแฟ้มข้อมูลที่ปรับปรุงเป็นโมฆะ</value>
+	</data>
+	<data name="UpdaterError_VersionNoMatch" xml:space="preserve">
+		<value>รุ่นไม่ตรงกันระหว่างเครื่องมือและชุดคำสั่ง.</value>
+	</data>
+	<data name="UpdateDisplay_Begin" xml:space="preserve">
+		<value>เริ่มต้นการปรับปรุง...</value>
+	</data>
+	<data name="UpdateDisplay_Success" xml:space="preserve">
+		<value>การปรับปรุงสำเร็จ โปรดสตาร์ทเครื่องพิมพ์ใหม่อีกครั้ง.</value>
+	</data>
+	<data name="UpdateDisplay_Failed" xml:space="preserve">
+		<value>อัพเกรดล้มเหลว!</value>
+	</data>
+	<data name="UpdateDisplay_Status" xml:space="preserve">
+		<value>ปรับปรุงสถานะ:</value>
+	</data>
+	<data name="UpdateDisplay_Percentage" xml:space="preserve">
+		<value>% เปอร์เซ็นต์ที่เสร็จสมบูรณ์แล้ว</value>
+	</data>
+	<data name="UIError_NoHelpFile" xml:space="preserve">
+		<value>ไม่พบแฟ้มข้อมูลการช่วยเหลือ.</value>
+	</data>
+	<data name="UIError_NoAcrobat" xml:space="preserve">
+		<value>ไม่พบ อะโครแบท รีดเดอร์ ในคอมพิวเตอร์นี้.</value>
+	</data>
+	<data name="UIError_FileNotExist" xml:space="preserve">
+		<value>แฟ้มข้อมูลข้างล่างถูกลบทิ้งแล้ว.</value>
+	</data>
+	<data name="UIError_CannotPrintStaus" xml:space="preserve">
+		<value>ไม่สามารถพิมพ์งานในสถานะ {0}.</value>
+	</data>
+	<data name="UIError_SetOriginFailed" xml:space="preserve">
+		<value>ไม่สามารถตั้งจุดนี้เสมือนจุดกำเนิดได้.</value>
+	</data>
+	<data name="UIError_MeasureMediaWidthFailed" xml:space="preserve">
+		<value>การวัดความกว้างวัสดุพิมพ์ล้มเหลว.</value>
+	</data>
+	<data name="UISuccess_RstoreSetting" xml:space="preserve">
+		<value>การเก็บรักษาการตั้งค่าประสบความสำเร็จ.</value>
+	</data>
+	<data name="UISuccess_ClearEnv" xml:space="preserve">
+		<value>จัดการสภาพแวดล้อมสำเร็จ.</value>
+	</data>
+	<data name="Confirm_SaveToBoard" xml:space="preserve">
+		<value>ท่านแน่ใจหรือว่าจะแทนค่าแผงวงจรที่ตั้งไว้ด้วยค่าปัจจุบัน?</value>
+	</data>
+	<data name="UIError_SaveSetToBoardFail" xml:space="preserve">
+		<value>การบันทึกค่าที่ตั้งไว้ของเครื่องพิมพ์ไปยังแผงวงจรล้มเหลว!</value>
+	</data>
+	<data name="UISuccess_SaveSetToBoardSuccess" xml:space="preserve">
+		<value>การบันทึกค่าที่ตั้งไว้ของเครื่องพิมพ์ไปยังแผงวงจรประสบความสำเร็จ!</value>
+	</data>
+	<data name="Confirm_LoadFromBoard" xml:space="preserve">
+		<value>ท่านแน่ใจหรือว่าจะอ่านข้อมูลมาไว้ในหน่วยความจำ?</value>
+	</data>
+	<data name="UIError_LoadSetFromBoardFail" xml:space="preserve">
+		<value>การอ่านค่าเครื่องพิมพ์ที่ตั้งเอาไว้ล้มเหลว!</value>
+	</data>
+	<data name="UISuccess_LoadSetFromBoardSuccess" xml:space="preserve">
+		<value>การอ่านค่าเครื่องพิมพ์ที่ตั้งเอาไว้ประสบความสำเร็จ!</value>
+	</data>
+	<data name="UIError_SetPasswordFail" xml:space="preserve">
+		<value>การตั้งรหัสผ่านล้มเหลว!</value>
+	</data>
+	<data name="UIError_GetHWSettingFail" xml:space="preserve">
+		<value>ได้การตั้งค่า hw ล้มเหลลว!</value>
+	</data>
+	<data name="UIError_SetHWSettingFail" xml:space="preserve">
+		<value>การตั้ง ชุดhw ล้มเหลว!</value>
+	</data>
+	<data name="UIError_UpdateFail" xml:space="preserve">
+		<value>การปรับปรุงล้มเหลว!</value>
+	</data>
+	<data name="UIError_ClearFWFactoryData" xml:space="preserve">
+		<value>ล้างข้อมูลโรงงานล้มเหลว!</value>
+	</data>
+	<data name="UIError_NullFactoryData" xml:space="preserve">
+		<value>บางหัวข้อไม่ได้ถูกตั้ง โปรดตั้งค่าหัวข้อทั้งหมด!</value>
+	</data>
+	<data name="UIError_OnlyOneProgram" xml:space="preserve">
+		<value>สามารถเปิดได้หนึ่งโปรแกรมเท่านั้น!</value>
+	</data>
+	<data name="UIError_SaveRealTimeFail" xml:space="preserve">
+		<value>ตั้งข้อบกพร่องการตั้งเวลาจริง!</value>
+	</data>
+	<data name="UISuccess_SetPassword" xml:space="preserve">
+		<value>การตั้งรหัสผ่านสำเร็จ โปรดสตาร์ทเครื่องพิมพ์ใหม่.</value>
+	</data>
+	<data name="UISuccess_SetHWSetting" xml:space="preserve">
+		<value>การตั้งชุด hw ประสบความสำเร็จ โปรดสตาร์ทเครื่องพิมพ์ใหม่.</value>
+	</data>
+	<data name="UISuccess_ClearFWFactoryData" xml:space="preserve">
+		<value>ล้างข้อมูลโรงงานสำเร็จ.</value>
+	</data>
+	<data name="UISuccess_UpdateSuccess" xml:space="preserve">
+		<value>การปรับปรุงสำเร็จ โปรดสตาร์ทเครื่องพิมพ์ใหม่อีกครั้ง.</value>
+	</data>
+	<data name="DispName_RemainTime" xml:space="preserve">
+		<value>เวลาที่ยังเหลืออยู่</value>
+	</data>
+	<data name="DispName_PowerOnTotalTime" xml:space="preserve">
+		<value>เวลาทั้งหมดที่เปิดไฟฟ้า</value>
+	</data>
+	<data name="DispName_PrintingTotalTime" xml:space="preserve">
+		<value>เวลาที่ใช้ในการพิมพ์ทั้งหมด</value>
+	</data>
+	<data name="DispName_ModuleID" xml:space="preserve">
+		<value>เลขประจำตัว id</value>
+	</data>
+	<data name="DispName_ManufacturerID" xml:space="preserve">
+		<value>หมายเลขประจำตัวโรงงานผลิต</value>
+	</data>
+	<data name="Restart_Lang" xml:space="preserve">
+		<value>ภาษาจะทำงานหลังจากท่านเริ่มดำเนินการอีกครั้ง.</value>
+	</data>
+	<data name="DispName_Pass" xml:space="preserve">
+		<value>จำนวนซ้ำ</value>
+	</data>
+	<data name="DispName_Head" xml:space="preserve">
+		<value>หัวพิมพ์</value>
+	</data>
+	<data name="DispName_Color" xml:space="preserve">
+		<value>สี</value>
+	</data>
+	<data name="FileFilter_Prn" xml:space="preserve">
+		<value>แฟ้มข้อมูลริป(*.prn;*.prt)|*.prn;*.prt</value>
+	</data>
+	<data name="FileFilter_Env" xml:space="preserve">
+		<value>การตั้งแฟ้มข้อมูล (*.xml)|*.xml</value>
+	</data>
+	<data name="FileFilter_Txt" xml:space="preserve">
+		<value>แฟ้มข้อมูลตัวอักษร (*.txt)|*.txt</value>
+	</data>
+	<data name="FileFilter_Dat" xml:space="preserve">
+		<value>ปรับปรุงแฟ้มข้อมูล (*.dat)|*.dat</value>
+	</data>
+	<data name="FileFilter_Prg" xml:space="preserve">
+		<value>ปรับปรุงแฟ้มข้อมูล (*.prg)|*.prg</value>
+	</data>
+	<data name="PrintJobAnyway" xml:space="preserve">
+		<value>ท่านต้องการพิมพ์งานหรือไม่?</value>
+	</data>
+	<data name="NoPreviewImage" xml:space="preserve">
+		<value>ไม่มีตัวอย่าง</value>
+	</data>
+	<data name="PrintingProgress" xml:space="preserve">
+		<value>ปริมาณ{0} % การพิมพ์</value>
+	</data>
+	<data name="UpdatingProgress" xml:space="preserve">
+		<value>} การปรับปรุง</value>
+	</data>
+	<data name="WhiteInkPrintMode_NotPrintWhiteInk" xml:space="preserve">
+		<value>ไม่มีน้ำหมึกสีขาว</value>
+	</data>
+	<data name="WhiteInkPrintMode_UnderBaseWholeImage" xml:space="preserve">
+		<value>ภาพทั้งหมดข้างใต้ฐาน</value>
+	</data>
+	<data name="WhiteInkPrintMode_OverCoatWholeImage" xml:space="preserve">
+		<value>เคลือบเหนือภาพทั้งหมด</value>
+	</data>
+	<data name="WhiteInkPrintMode_UnderBaseSpotColor" xml:space="preserve">
+		<value>จุดสีข้างใต้ฐาน</value>
+	</data>
+	<data name="WhiteInkPrintMode_OverCoatSpotColor" xml:space="preserve">
+		<value>เคลือบเหนือจุดสี</value>
+	</data>
+	<data name="JobListColumnHeader_Name" xml:space="preserve">
+		<value>ชื่อ</value>
+	</data>
+	<data name="JobListColumnHeader_Status" xml:space="preserve">
+		<value>สถานะ</value>
+	</data>
+	<data name="JobListColumnHeader_Size" xml:space="preserve">
+		<value>ขนาด</value>
+	</data>
+	<data name="JobListColumnHeader_Resolution" xml:space="preserve">
+		<value>ความละเอียด</value>
+	</data>
+	<data name="JobListColumnHeader_Passes" xml:space="preserve">
+		<value>จำนวนซ้ำ</value>
+	</data>
+	<data name="JobListColumnHeader_BiDirection" xml:space="preserve">
+		<value>ทิศทาง</value>
+	</data>
+	<data name="JobListColumnHeader_Copies" xml:space="preserve">
+		<value>สำเนาพิมพ์</value>
+	</data>
+	<data name="JobListColumnHeader_PrintedPasses" xml:space="preserve">
+		<value>จำนวนซ้ำที่พิมพ์</value>
+	</data>
+	<data name="JobListColumnHeader_PrintedDate" xml:space="preserve">
+		<value>วันที่ที่พิมพ์</value>
+	</data>
+	<data name="JobListColumnHeader_PrintTime" xml:space="preserve">
+		<value>เวลาที่พิมพ์</value>
+	</data>
+	<data name="JobListColumnHeader_Location" xml:space="preserve">
+		<value>สถานที่</value>
+	</data>
+	<data name="UIViewMode_TopDown" xml:space="preserve">
+		<value>ปกติ</value>
+	</data>
+	<data name="UIViewMode_LeftRight" xml:space="preserve">
+		<value>จอกว้าง</value>
+	</data>
+	<data name="UIViewMode_NotifyIcon" xml:space="preserve">
+		<value>ไอคอนที่ใช้แจ้ง</value>
+	</data>
+	<data name="ColorEnum_Cyan" xml:space="preserve">
+		<value>สีฟ้า</value>
+	</data>
+	<data name="ColorEnum_Magenta" xml:space="preserve">
+		<value>สีแดง</value>
+	</data>
+	<data name="ColorEnum_Yellow" xml:space="preserve">
+		<value>สีเหลือง</value>
+	</data>
+	<data name="ColorEnum_Black" xml:space="preserve">
+		<value>ดำ</value>
+	</data>
+	<data name="ColorEnum_LightCyan" xml:space="preserve">
+		<value>สีฟ้าอ่อน</value>
+	</data>
+	<data name="ColorEnum_LightMagenta" xml:space="preserve">
+		<value>สีแดงอ่อน</value>
+	</data>
+	<data name="ColorEnum_Orange" xml:space="preserve">
+		<value>สีส้ม</value>
+	</data>
+	<data name="ColorEnum_Green" xml:space="preserve">
+		<value>สีเขียว</value>
+	</data>
+	<data name="ColorEnum_White" xml:space="preserve">
+		<value>สีขาว</value>
+	</data>
+	<data name="ColorEnum_NULL" xml:space="preserve">
+		<value>ไม่มีผล</value>
+	</data>
+	<data name="CalibrationDescription_Welcome" xml:space="preserve">
+		<value>เริ่มคำนวณ...</value>
+	</data>
+	<data name="CalibrationDescription_Mechanical" xml:space="preserve">
+		<value>ปรับหัวพิมพ์ด้วยเครื่องมือ.</value>
+	</data>
+	<data name="CalibrationDescription_Calibration" xml:space="preserve">
+		<value>เติมค่าที่เสมือนการคำนวณเข้าไป.</value>
+	</data>
+	<data name="CalibrationDescription_Finish" xml:space="preserve">
+		<value>เสร็จการคำนวณแล้ว.</value>
+	</data>
+	<data name="CalibrationTitle_Welcome" xml:space="preserve">
+		<value>ยินดีต้อนรับ</value>
+	</data>
+	<data name="CalibrationTitle_Mechanical" xml:space="preserve">
+		<value>การตรวจดูเชิงกล</value>
+	</data>
+	<data name="CalibrationTitle_Calibration" xml:space="preserve">
+		<value>ปรับซอฟท์แวร์</value>
+	</data>
+	<data name="CalibrationTitle_Finish" xml:space="preserve">
+		<value>เสร็จสิ้น</value>
+	</data>
+	<data name="buttonCancel_Text" xml:space="preserve">
+		<value>ยกเลิก(&amp;c)</value>
+	</data>
+	<data name="buttonFinish_Text" xml:space="preserve">
+		<value>เสร็จสิ้น</value>
+	</data>
+	<data name="InkStrPosEnum_Both" xml:space="preserve">
+		<value>ทั้งสอง</value>
+	</data>
+	<data name="InkStrPosEnum_Left" xml:space="preserve">
+		<value>ซ้ายมือ</value>
+	</data>
+	<data name="InkStrPosEnum_Right" xml:space="preserve">
+		<value>ขวามือ</value>
+	</data>
+	<data name="InkStrPosEnum_None" xml:space="preserve">
+		<value>ไม่มี</value>
+	</data>
+	<data name="SettingPage_Question" xml:space="preserve">
+		<value>จะใช้ค่าที่ถูกเปลี่ยนแปลงหรือไม่?</value>
+	</data>
+	<data name="CreatingPreviewImage" xml:space="preserve">
+		<value>การสร้างตัวอย่าง...</value>
+	</data>
+	<data name="JHFCopyRightString" xml:space="preserve">
+		<value>ลิขสิทธิ์ © บริษัท qhh information technology จำกัด สงวนสิทธิ์ทุกประการ.</value>
+	</data>
+	<data name="Confirm_Update" xml:space="preserve">
+		<value>ท่านแน่ใจหรือว่าต้องการปรับปรุงให้ทันสมัย?</value>
+	</data>
+	<data name="EncryptDog_Expired" xml:space="preserve">
+		<value>ซอฟท์แวร์ของท่านหมดอายุ!</value>
+	</data>
+	<data name="EncryptDog_Illegal" xml:space="preserve">
+		<value>กุญแจเครื่องมือรักษาความปลอดภัยผิดกฎหมายหรือเสียหาย!</value>
+	</data>
+	<data name="EncryptDog_NoFound" xml:space="preserve">
+		<value>ไม่พบกุญแจเครื่องมือรักษาความปลอดภัย, โปรดใส่กุญแจเข้าไป!</value>
+	</data>
+	<data name="EncryptDog_Warning" xml:space="preserve">
+		<value>คำเตือน : มีเวลาเหลืออีกน้อยกว่า 100 ชั่วโมง!</value>
+	</data>
+	<data name="EncryptDog_Locktype_LOCAL" xml:space="preserve">
+		<value>รุ่นของเดสทอป</value>
+	</data>
+	<data name="EncryptDog_Locktype_MASTER" xml:space="preserve">
+		<value>รุ่นของเครือข่าย – อุปกรณ์ตัวแม่</value>
+	</data>
+	<data name="EncryptDog_Locktype_SLAVE" xml:space="preserve">
+		<value>รุ่นของเครือข่าย – อุปกรณ์ตัวลูก</value>
+	</data>
+	<data name="EncryptDog_Restart" xml:space="preserve">
+		<value>กุญแจดองเกิ้ลอันใหม่จะทำงานหลังท่านเริ่มดำเนินการใหม่!</value>
+	</data>
+	<data name="EncryptDog_Fatalpwd" xml:space="preserve">
+		<value>รหัสผ่านถาวรและใช้ได้</value>
+	</data>
+</root>

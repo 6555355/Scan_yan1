@@ -1,0 +1,17 @@
+****************************************JobPrint Performance Test*************************************
+           Parser Process : data size =      154MB,      timer =     3.42Sec,      speed =     45.2MB/s
+Send To UsbThred Waitting : data size =        0MB,      timer =     5.78Sec,      speed =      0.0MB/s
+         LiyuParser Speed : data size =       35MB,      timer =     1.17Sec,      speed =     29.7MB/s
+                 UsbThred : data size =      154MB,      timer =     9.63Sec,      speed =     16.0MB/s
+      USB Send Data Speed : data size =      154MB,      timer =     3.52Sec,      speed =     43.8MB/s
+              DoColorBand : data size =      154MB,      timer =     2.24Sec,      speed =     68.5MB/s
+           Image Rotation : data size =      154MB,      timer =     1.07Sec,      speed =    144.3MB/s
+               GrayConver : data size =      154MB,      timer =     0.22Sec,      speed =    707.7MB/s
+          BandDataConvert : data size =       41MB,      timer =     0.11Sec,      speed =    370.3MB/s
+          Band Clear Data : data size =       41MB,      timer =     0.06Sec,      speed =    741.4MB/s
+    Band Draw White/Strip : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
+                Band Pass : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
+              Band Father : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
+                 Band Map : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
+******************************************************************************************************
+

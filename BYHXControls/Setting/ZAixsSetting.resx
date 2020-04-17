@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="m_ToolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 128</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
+    <value>buttonCancel</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownThickness.Name" xml:space="preserve">
+    <value>m_NumericUpDownThickness</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownThickness.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownThickness.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;m_LabelMediaThickness.Name" xml:space="preserve">
+    <value>m_LabelMediaThickness</value>
+  </data>
+  <data name="&gt;&gt;m_LabelMediaThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelMediaThickness.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;m_LabelMediaThickness.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspeed.Name" xml:space="preserve">
+    <value>numericUpDownZspeed</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspeed.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspeed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelZspeed.Name" xml:space="preserve">
+    <value>labelZspeed</value>
+  </data>
+  <data name="&gt;&gt;labelZspeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelZspeed.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;labelZspeed.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureXCoor.Name" xml:space="preserve">
+    <value>numericUpDownMesureXCoor</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureXCoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureXCoor.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureXCoor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelMesureXCoor.Name" xml:space="preserve">
+    <value>labelMesureXCoor</value>
+  </data>
+  <data name="&gt;&gt;labelMesureXCoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMesureXCoor.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;labelMesureXCoor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureHeight.Name" xml:space="preserve">
+    <value>numericUpDownMesureHeight</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureHeight.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureHeight.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelMesureHeight.Name" xml:space="preserve">
+    <value>labelMesureHeight</value>
+  </data>
+  <data name="&gt;&gt;labelMesureHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMesureHeight.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;labelMesureHeight.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspace.Name" xml:space="preserve">
+    <value>numericUpDownZspace</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspace.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspace.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelZspace.Name" xml:space="preserve">
+    <value>labelZspace</value>
+  </data>
+  <data name="&gt;&gt;labelZspace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelZspace.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;labelZspace.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.Name" xml:space="preserve">
+    <value>numericUpDown7</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="groupBoxZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="groupBoxZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 112</value>
+  </data>
+  <data name="groupBoxZ.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="groupBoxZ.Text" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="&gt;&gt;groupBoxZ.Name" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;groupBoxZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxZ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxZ.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="m_NumericUpDownThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 51</value>
+  </data>
+  <data name="m_NumericUpDownThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="m_NumericUpDownThickness.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownThickness.Name" xml:space="preserve">
+    <value>m_NumericUpDownThickness</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownThickness.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;m_NumericUpDownThickness.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_LabelMediaThickness.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="m_LabelMediaThickness.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_LabelMediaThickness.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 53</value>
+  </data>
+  <data name="m_LabelMediaThickness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="m_LabelMediaThickness.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="m_LabelMediaThickness.Text" xml:space="preserve">
+    <value>Media Thickness</value>
+  </data>
+  <data name="m_LabelMediaThickness.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;m_LabelMediaThickness.Name" xml:space="preserve">
+    <value>m_LabelMediaThickness</value>
+  </data>
+  <data name="&gt;&gt;m_LabelMediaThickness.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_LabelMediaThickness.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;m_LabelMediaThickness.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="numericUpDownZspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 24</value>
+  </data>
+  <data name="numericUpDownZspeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="numericUpDownZspeed.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspeed.Name" xml:space="preserve">
+    <value>numericUpDownZspeed</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspeed.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspeed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelZspeed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelZspeed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelZspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 24</value>
+  </data>
+  <data name="labelZspeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 12</value>
+  </data>
+  <data name="labelZspeed.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelZspeed.Text" xml:space="preserve">
+    <value>Z speed:</value>
+  </data>
+  <data name="&gt;&gt;labelZspeed.Name" xml:space="preserve">
+    <value>labelZspeed</value>
+  </data>
+  <data name="&gt;&gt;labelZspeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelZspeed.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;labelZspeed.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numericUpDownMesureXCoor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 78</value>
+  </data>
+  <data name="numericUpDownMesureXCoor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="numericUpDownMesureXCoor.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureXCoor.Name" xml:space="preserve">
+    <value>numericUpDownMesureXCoor</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureXCoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureXCoor.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureXCoor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelMesureXCoor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMesureXCoor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMesureXCoor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 78</value>
+  </data>
+  <data name="labelMesureXCoor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="labelMesureXCoor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelMesureXCoor.Text" xml:space="preserve">
+    <value>X position</value>
+  </data>
+  <data name="&gt;&gt;labelMesureXCoor.Name" xml:space="preserve">
+    <value>labelMesureXCoor</value>
+  </data>
+  <data name="&gt;&gt;labelMesureXCoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMesureXCoor.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;labelMesureXCoor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="numericUpDownMesureHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 46</value>
+  </data>
+  <data name="numericUpDownMesureHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="numericUpDownMesureHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureHeight.Name" xml:space="preserve">
+    <value>numericUpDownMesureHeight</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureHeight.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownMesureHeight.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelMesureHeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMesureHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMesureHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 47</value>
+  </data>
+  <data name="labelMesureHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="labelMesureHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelMesureHeight.Text" xml:space="preserve">
+    <value>Detector length</value>
+  </data>
+  <data name="&gt;&gt;labelMesureHeight.Name" xml:space="preserve">
+    <value>labelMesureHeight</value>
+  </data>
+  <data name="&gt;&gt;labelMesureHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMesureHeight.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;labelMesureHeight.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="numericUpDownZspace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 14</value>
+  </data>
+  <data name="numericUpDownZspace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="numericUpDownZspace.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspace.Name" xml:space="preserve">
+    <value>numericUpDownZspace</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspace.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZspace.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelZspace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelZspace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelZspace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="labelZspace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="labelZspace.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelZspace.Text" xml:space="preserve">
+    <value>Head to paper</value>
+  </data>
+  <data name="&gt;&gt;labelZspace.Name" xml:space="preserve">
+    <value>labelZspace</value>
+  </data>
+  <data name="&gt;&gt;labelZspace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelZspace.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;labelZspace.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="numericUpDown7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 78</value>
+  </data>
+  <data name="numericUpDown7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="numericUpDown7.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.Name" xml:space="preserve">
+    <value>numericUpDown7</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown7.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 80</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Y position</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>groupBoxZ</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="m_ButtonMeasureThick.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonMeasureThick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 128</value>
+  </data>
+  <data name="m_ButtonMeasureThick.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="m_ButtonMeasureThick.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="m_ButtonMeasureThick.Text" xml:space="preserve">
+    <value>Measure Thickness</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonMeasureThick.Name" xml:space="preserve">
+    <value>m_ButtonMeasureThick</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonMeasureThick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonMeasureThick.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonMeasureThick.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="m_ButtonMeasureThick2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonMeasureThick2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 128</value>
+  </data>
+  <data name="m_ButtonMeasureThick2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="m_ButtonMeasureThick2.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="m_ButtonMeasureThick2.Text" xml:space="preserve">
+    <value>Measure Thickness2</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonMeasureThick2.Name" xml:space="preserve">
+    <value>m_ButtonMeasureThick2</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonMeasureThick2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonMeasureThick2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonMeasureThick2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="m_ButtonManualMove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="m_ButtonManualMove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 128</value>
+  </data>
+  <data name="m_ButtonManualMove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="m_ButtonManualMove.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="m_ButtonManualMove.Text" xml:space="preserve">
+    <value>Manual Move</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonManualMove.Name" xml:space="preserve">
+    <value>m_ButtonManualMove</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonManualMove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonManualMove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;m_ButtonManualMove.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="numericUpDown8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 192</value>
+  </data>
+  <data name="numericUpDown8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="numericUpDown8.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="numericUpDown8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown8.Name" xml:space="preserve">
+    <value>numericUpDown8</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDown8.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 200</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="label17.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="numericUpDownSensorPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 192</value>
+  </data>
+  <data name="numericUpDownSensorPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="numericUpDownSensorPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="numericUpDownSensorPosZ.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownSensorPosZ.Name" xml:space="preserve">
+    <value>numericUpDownSensorPosZ</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownSensorPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownSensorPosZ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownSensorPosZ.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelSensorPosZ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSensorPosZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSensorPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 200</value>
+  </data>
+  <data name="labelSensorPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 12</value>
+  </data>
+  <data name="labelSensorPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="labelSensorPosZ.Text" xml:space="preserve">
+    <value>Sensor PosZ:</value>
+  </data>
+  <data name="labelSensorPosZ.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelSensorPosZ.Name" xml:space="preserve">
+    <value>labelSensorPosZ</value>
+  </data>
+  <data name="&gt;&gt;labelSensorPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSensorPosZ.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSensorPosZ.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelZMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelZMax.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelZMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 160</value>
+  </data>
+  <data name="labelZMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 12</value>
+  </data>
+  <data name="labelZMax.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labelZMax.Text" xml:space="preserve">
+    <value>Z Max Length:</value>
+  </data>
+  <data name="labelZMax.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelZMax.Name" xml:space="preserve">
+    <value>labelZMax</value>
+  </data>
+  <data name="&gt;&gt;labelZMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelZMax.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelZMax.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="numericUpDownZMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 160</value>
+  </data>
+  <data name="numericUpDownZMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 21</value>
+  </data>
+  <data name="numericUpDownZMax.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="numericUpDownZMax.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZMax.Name" xml:space="preserve">
+    <value>numericUpDownZMax</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZMax.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownZMax.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;buttonManualMoveAndPrint.Name" xml:space="preserve">
+    <value>buttonManualMoveAndPrint</value>
+  </data>
+  <data name="&gt;&gt;buttonManualMoveAndPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonManualMoveAndPrint.Parent" xml:space="preserve">
+    <value>panelPrinting</value>
+  </data>
+  <data name="&gt;&gt;buttonManualMoveAndPrint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonMeasurebeforeprinting.Name" xml:space="preserve">
+    <value>buttonMeasurebeforeprinting</value>
+  </data>
+  <data name="&gt;&gt;buttonMeasurebeforeprinting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMeasurebeforeprinting.Parent" xml:space="preserve">
+    <value>panelPrinting</value>
+  </data>
+  <data name="&gt;&gt;buttonMeasurebeforeprinting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonCanceljob.Name" xml:space="preserve">
+    <value>buttonCanceljob</value>
+  </data>
+  <data name="&gt;&gt;buttonCanceljob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCanceljob.Parent" xml:space="preserve">
+    <value>panelPrinting</value>
+  </data>
+  <data name="&gt;&gt;buttonCanceljob.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintdirectly.Name" xml:space="preserve">
+    <value>buttonPrintdirectly</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintdirectly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintdirectly.Parent" xml:space="preserve">
+    <value>panelPrinting</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintdirectly.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelPrinting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 175</value>
+  </data>
+  <data name="panelPrinting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 30</value>
+  </data>
+  <data name="panelPrinting.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;panelPrinting.Name" xml:space="preserve">
+    <value>panelPrinting</value>
+  </data>
+  <data name="&gt;&gt;panelPrinting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelPrinting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelPrinting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonManualMoveAndPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonManualMoveAndPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 3</value>
+  </data>
+  <data name="buttonManualMoveAndPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="buttonManualMoveAndPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="buttonManualMoveAndPrint.Text" xml:space="preserve">
+    <value>Move&amp;&amp;Print</value>
+  </data>
+  <data name="&gt;&gt;buttonManualMoveAndPrint.Name" xml:space="preserve">
+    <value>buttonManualMoveAndPrint</value>
+  </data>
+  <data name="&gt;&gt;buttonManualMoveAndPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonManualMoveAndPrint.Parent" xml:space="preserve">
+    <value>panelPrinting</value>
+  </data>
+  <data name="&gt;&gt;buttonManualMoveAndPrint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonMeasurebeforeprinting.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonMeasurebeforeprinting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="buttonMeasurebeforeprinting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 23</value>
+  </data>
+  <data name="buttonMeasurebeforeprinting.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="buttonMeasurebeforeprinting.Text" xml:space="preserve">
+    <value>Measure before printing </value>
+  </data>
+  <data name="&gt;&gt;buttonMeasurebeforeprinting.Name" xml:space="preserve">
+    <value>buttonMeasurebeforeprinting</value>
+  </data>
+  <data name="&gt;&gt;buttonMeasurebeforeprinting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMeasurebeforeprinting.Parent" xml:space="preserve">
+    <value>panelPrinting</value>
+  </data>
+  <data name="&gt;&gt;buttonMeasurebeforeprinting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonCanceljob.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonCanceljob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 3</value>
+  </data>
+  <data name="buttonCanceljob.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 23</value>
+  </data>
+  <data name="buttonCanceljob.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="buttonCanceljob.Text" xml:space="preserve">
+    <value>Cancel job</value>
+  </data>
+  <data name="&gt;&gt;buttonCanceljob.Name" xml:space="preserve">
+    <value>buttonCanceljob</value>
+  </data>
+  <data name="&gt;&gt;buttonCanceljob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCanceljob.Parent" xml:space="preserve">
+    <value>panelPrinting</value>
+  </data>
+  <data name="&gt;&gt;buttonCanceljob.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonPrintdirectly.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonPrintdirectly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 3</value>
+  </data>
+  <data name="buttonPrintdirectly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="buttonPrintdirectly.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="buttonPrintdirectly.Text" xml:space="preserve">
+    <value>Print directly</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintdirectly.Name" xml:space="preserve">
+    <value>buttonPrintdirectly</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintdirectly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintdirectly.Parent" xml:space="preserve">
+    <value>panelPrinting</value>
+  </data>
+  <data name="&gt;&gt;buttonPrintdirectly.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>456, 224</value>
+  </data>
+  <data name="&gt;&gt;m_ToolTip.Name" xml:space="preserve">
+    <value>m_ToolTip</value>
+  </data>
+  <data name="&gt;&gt;m_ToolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ZAixsSetting</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>BYHXPrinterManager.Setting.BYHXUserControl, BYHXControls, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

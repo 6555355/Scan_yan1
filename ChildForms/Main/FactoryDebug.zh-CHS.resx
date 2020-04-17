@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="m_ButtonCancel.Text" xml:space="preserve">
+    <value>取消(&amp;C)</value>
+  </data>
+  <data name="m_ButtonCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonOK.Text" xml:space="preserve">
+    <value>确定(&amp;O)</value>
+  </data>
+  <data name="m_ButtonOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownY2Length.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonMoveNew.Text" xml:space="preserve">
+    <value>移动(新)</value>
+  </data>
+  <data name="m_ButtonMoveNew.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="m_LabelSpeed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelSpeed.Text" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="m_LabelSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ComboBoxSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ComboBoxDirection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownLength.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelLength.Text" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="m_LabelLength.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelDirection.Text" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="m_LabelDirection.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonMove.Text" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="m_ButtonMove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonStop.Text" xml:space="preserve">
+    <value>&amp;停止</value>
+  </data>
+  <data name="m_ButtonStop.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_GroupBoxMoveTest.Text" xml:space="preserve">
+    <value>移动测试</value>
+  </data>
+  <data name="m_GroupBoxMoveTest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonPosition.Text" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="m_ButtonPosition.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownPosX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownTimeOut.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelTimeOut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="m_LabelTimeOut.Text" xml:space="preserve">
+    <value>超时</value>
+  </data>
+  <data name="m_LabelTimeOut.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonSetTimeout.Text" xml:space="preserve">
+    <value>设定</value>
+  </data>
+  <data name="m_ButtonSetTimeout.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelCopyRight.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownPosY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownPosY1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownDebug3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownDebug4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownDebug1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownDebug2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_GroupBoxPosition.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonWriteSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chfloatstatusnum.Text" xml:space="preserve">
+    <value>收到状态数</value>
+  </data>
+  <data name="chfloatprestatus.Text" xml:space="preserve">
+    <value>前一状态</value>
+  </data>
+  <data name="chfloatcurStatus.Text" xml:space="preserve">
+    <value>当前状态</value>
+  </data>
+  <data name="listView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonGetInkStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxerrorCode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonErrorInfoTest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ComboBoxVenderID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSerialCmdLen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSendSerialCmd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSerialCmd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonWriteUV.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonReadUV.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownLeftUV.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownRightUV.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAutoTestclb.Text" xml:space="preserve">
+    <value>自动测量齿轮比</value>
+  </data>
+  <data name="btnAutoTestclb.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPagegeneral.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxPrintHead.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxGrayMap3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxGrayMap2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxGrayMap1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDotBit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDownHeadBoard.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonGrayMapSet.Text" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="buttonGrayMapSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelGrayMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="labelGrayMap.Text" xml:space="preserve">
+    <value>灰度:</value>
+  </data>
+  <data name="labelGrayMap.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDotbit.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelPrinthead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="labelPrinthead.Text" xml:space="preserve">
+    <value>喷头:</value>
+  </data>
+  <data name="labelPrinthead.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelHeaderBoard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="labelHeaderBoard.Text" xml:space="preserve">
+    <value>头板:</value>
+  </data>
+  <data name="labelHeaderBoard.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxGraymapSet.Text" xml:space="preserve">
+    <value>灰度设置</value>
+  </data>
+  <data name="groupBoxGraymapSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTrayControlApply.Text" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="buttonTrayControlApply.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonTrayControl.Text" xml:space="preserve">
+    <value>托盘控制</value>
+  </data>
+  <data name="buttonTrayControl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>托盘控制</value>
+  </data>
+  <data name="groupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFeedingControl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonRead.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboColorDeep.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageColorDeep.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelHead.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelHorSample.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_LabelCurPulseWidth.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDownDelayTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_NumericUpDownPulseWidthSample.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_GroupBoxTemperature.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonToBoard.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ButtonRefresh.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageRabillyDebug.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="autoInkTest1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDown2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDownTA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDownDelayTime1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDownPulseWidth.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDownFireFreq.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonGet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageInkTest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonShakeGet.Text" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="buttonShakeGet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonShakeSet.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="buttonShakeSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericShockInterval.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelShockInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="labelShockInterval.Text" xml:space="preserve">
+    <value>震荡间隔：</value>
+  </data>
+  <data name="labelShockInterval.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericIgnitionNumber.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelIgnitionNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="labelIgnitionNumber.Text" xml:space="preserve">
+    <value>点火数：</value>
+  </data>
+  <data name="labelIgnitionNumber.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxShake.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="checkBoxShake.Text" xml:space="preserve">
+    <value>震荡</value>
+  </data>
+  <data name="checkBoxShake.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxShakeSetting.Text" xml:space="preserve">
+    <value>震荡设置</value>
+  </data>
+  <data name="groupBoxShakeSetting.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonAccTimeGet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Y加速时间(ms):</value>
+  </data>
+  <data name="label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>X加速时间(ms):</value>
+  </data>
+  <data name="label19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonAccTimeSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numAccTimeY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numAccTimeX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageAccSpeedTest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonStopPrint.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonStartPrint.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageVPrint.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nktDyjUserControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonReadWaitMediaReadyTim.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonWaitMediaReadyTim.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numWaitMediaReadyTime.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxGzCarton.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="flowLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxXaar382Mode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonXaar382Mode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDown1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSetFrieFreq.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonReadAll.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonA.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonReadWf.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numIndex.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxRecieveData.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonShijinzhi.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonSaveAS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonASCII.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonHex.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBoxSendData.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numDataLength.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGetHeadData.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numeCmd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageHeadData.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonRetractableUnroll.Text" xml:space="preserve">
+    <value>放</value>
+  </data>
+  <data name="buttonRetractableUnroll.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonRetractableRoll.Text" xml:space="preserve">
+    <value>收</value>
+  </data>
+  <data name="buttonRetractableRoll.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxRetractableClothRoller.Text" xml:space="preserve">
+    <value>收放布滚筒</value>
+  </data>
+  <data name="groupBoxRetractableClothRoller.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDownDoubeYRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelDoubeYRatio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="labelDoubeYRatio.Text" xml:space="preserve">
+    <value>双轴偏差比例系数:</value>
+  </data>
+  <data name="labelDoubeYRatio.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonMotorSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonMotorGet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numericUpDownMotorSpeed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label39.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxMotorMode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rollingMotorCheckBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxMotorParam.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDoubleYMoveDir.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>方向:</value>
+  </data>
+  <data name="label37.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBoxDoubleYAxis.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>轴:</value>
+  </data>
+  <data name="label36.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="numDoubleYMoveLen.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>长度(脉冲):</value>
+  </data>
+  <data name="label35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonMoveY.Text" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="buttonMoveY.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPageDoubleYAxis.Text" xml:space="preserve">
+    <value>双Y轴</value>
+  </data>
+  <data name="tabPageDoubleYAxis.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3m_ButtonMove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dividerPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>工厂调试</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveFWLog.Text" xml:space="preserve">
+    <value>保存固件Log</value>
+  </data>
+  <data name="m_TabPageWaveMapping.Text" xml:space="preserve">
+    <value>波形映射</value>
+  </data>
+</root>

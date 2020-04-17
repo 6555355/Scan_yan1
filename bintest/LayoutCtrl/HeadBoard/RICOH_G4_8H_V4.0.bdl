@@ -1,0 +1,108 @@
+-- 
+-- id,name,support max heads,Heat channels,Temperature channels,Voltage channels,
+-- #define 
+
+-- id,name,maxsupportHeads,heatchannels per head,temperturechannels per head,voltagechannels per head,half voltagechannels per head
+function GetHeadBoardParam()
+	return  56,"Ricoh_Gen4",8,1,1,2,0;
+end
+
+function GetSupportHeadCount()
+	return 1;
+end
+
+function GetSupportHeadList()
+	return "Ricoh_Gen4";
+end
+
+-- only a heatchannel per junction 
+-- hbId: headboard ID,jId: junction ID,id: NozzleLine index in head,hbs: headboard number
+function GetHeatChannel(hbId,jId,id,hbs)
+	return hbId*4+jId;
+end
+
+-- only a temperturechannel per junction
+function GetTempertureChannel(hbId,jId,id,hbs)
+	return  hbId*4+jId;
+end
+
+-- headId*junctions*nozzlelines + junctionId*nozzlelines + nozzlelineId
+function GetDataChannel(hbId,jId,id,hbs)
+	return hbId*16+jId*2 + id;
+end
+
+-- note: different from datachannel
+function GetVoltageChannel(hbId,jId,id,hbs)
+	return hbId*16+jId*2 + id; 
+end
+
+function GetConnector(dataChn,hbs)
+	local hbId;
+	local jId;
+	hbId = math.floor(dataChn/16);
+	jId = math.floor((dataChn - hbId*16)/2);
+	return hbId,jId;
+end
+
+-- left,top,width,heigth,print head center as origin
+function GetHeadBoardIDRect()
+	local s = 10.0;
+	return  -12*s,20*s,24*s,7*s;
+end
+
+-- left,top,width,heigth,print head center as origin
+function GetJunctionIDRect()
+	local s = 10.0;
+	return  -12*s,27*s,24*s,7*s;
+end
+
+function GetJunctionInfo()
+
+	return 155,40,    -- w,h
+		   155,530, "J18",
+		   155,485, "J16",
+		   320,530 ,"J19",
+		   320,485, "J17",
+		   485,530, "J20",
+		   485,485, "J21",
+		   648,530, "J22",
+		   648,485, "J23";
+end
+
+function DrawJunction(headboardId,jId)
+	local s = 10.0;
+	local h = 1.0*s;
+	local w = 2.4*s;
+	local space = w/3;
+	local x,y;
+	local str = tostring(headboardId+1).. tostring("-")..tostring(jId+1);
+	
+	--
+	SetBrushColor(0xFFFFFF);
+	FillRectangle(-6*s,8*s,13*s,12*s);
+
+	SetPenColor(0x0);
+	DrawHeadBoardOutLine(-6.5*s,9*s,13*s,11*s,1.5*s);
+	SetBrushColor(0x0);
+
+	for i = 0,7,1 do
+		x = w+1.5*space - (w+space)*(3-math.floor(i/2));
+		if(i%2 == 1) then y = 16.5*s;
+		        else y = 18*s;
+		end
+		if( i==jId )
+			then 
+				FillRectangle(x,y,h,w);
+			else
+				DrawRectangle(x,y,h,w);
+		end
+
+	end
+
+	SetFontSize(5.5*s);
+	SetFontFamily("Arial");	
+	DrawString(str,-11*s,10*s,22*s,15*s);
+	
+	return 1;
+
+end

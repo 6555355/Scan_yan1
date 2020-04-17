@@ -1,0 +1,152 @@
+<PrintRecordList>
+  <PrintRecord>
+    <UIJob>
+      <JobStatus>Printing</JobStatus>
+      <string>360 360 2bit.prt</string>
+      <int>1</int>
+      <dateTime>2020-03-03T11:22:33.249638+08:00</dateTime>
+      <string>D:\prt\360 360 2bit.prt</string>
+      <int>0</int>
+      <string>360 360 2bit_000.bmp</string>
+      <SPrtFileInfo>
+        <sFreSetting>
+          <nResolutionX>360</nResolutionX>
+          <nResolutionY>360</nResolutionY>
+          <nBidirection>0</nBidirection>
+          <nPass>1</nPass>
+          <nSpeed>HighSpeed</nSpeed>
+          <bUsePrinterSetting>0</bUsePrinterSetting>
+          <fXOrigin>0</fXOrigin>
+        </sFreSetting>
+        <sImageInfo>
+          <nImageType>0</nImageType>
+          <nImageWidth>1200</nImageWidth>
+          <nImageHeight>300</nImageHeight>
+          <nImageColorNum>4</nImageColorNum>
+          <nImageColorDeep>2</nImageColorDeep>
+          <nImageResolutionX>1</nImageResolutionX>
+          <nImageResolutionY>1</nImageResolutionY>
+          <nImageDataSize>0</nImageDataSize>
+        </sImageInfo>
+        <nVersion>0</nVersion>
+        <sRipSource />
+        <sJobName />
+      </SPrtFileInfo>
+      <JobClip>
+        <string>D:\prt\360 360 2bit.prt</string>
+        <string>D:\prt\360 360 2bit.prt</string>
+        <SPrtFileInfo>
+          <sFreSetting>
+            <nResolutionX>360</nResolutionX>
+            <nResolutionY>360</nResolutionY>
+            <nBidirection>0</nBidirection>
+            <nPass>1</nPass>
+            <nSpeed>HighSpeed</nSpeed>
+            <bUsePrinterSetting>0</bUsePrinterSetting>
+            <fXOrigin>0</fXOrigin>
+          </sFreSetting>
+          <sImageInfo>
+            <nImageType>0</nImageType>
+            <nImageWidth>1200</nImageWidth>
+            <nImageHeight>300</nImageHeight>
+            <nImageColorNum>4</nImageColorNum>
+            <nImageColorDeep>2</nImageColorDeep>
+            <nImageResolutionX>1</nImageResolutionX>
+            <nImageResolutionY>1</nImageResolutionY>
+            <nImageDataSize>0</nImageDataSize>
+          </sImageInfo>
+          <nVersion>0</nVersion>
+          <sRipSource />
+          <sJobName />
+        </SPrtFileInfo>
+        <Rectangle>
+          <Location>
+            <X>0</X>
+            <Y>197</Y>
+          </Location>
+          <Size>
+            <Width>210</Width>
+            <Height>17</Height>
+          </Size>
+          <X>0</X>
+          <Y>197</Y>
+          <Width>210</Width>
+          <Height>17</Height>
+        </Rectangle>
+        <int>210</int>
+        <int>395</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <string />
+        <string>Arial, 16pt</string>
+        <int>0</int>
+        <int>3</int>
+        <string />
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+        <int>1</int>
+        <int>0</int>
+        <int>0</int>
+        <boolean>false</boolean>
+        <boolean>true</boolean>
+        <boolean>true</boolean>
+        <boolean>false</boolean>
+        <string>D:\1-NewSVN\konic-sw\NewScanning_G\Scan_yan1\bintest\Preview\360 360 2bit_Note_000.bmp</string>
+        <int>1</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </JobClip>
+      <boolean>true</boolean>
+      <boolean>false</boolean>
+      <boolean>true</boolean>
+      <SJobSetting_UI>
+        <bReversePrint>false</bReversePrint>
+        <bAlternatingPrint>false</bAlternatingPrint>
+        <bLevelLingPrint>false</bLevelLingPrint>
+        <pPrintMode>Normal</pPrintMode>
+        <nSpeed>HighSpeed</nSpeed>
+        <nPass>0</nPass>
+        <multipleInk>0</multipleInk>
+        <bUseFileSetting>false</bUseFileSetting>
+        <scanningAxis>1</scanningAxis>
+        <bIsDouble4CJob>false</bIsDouble4CJob>
+        <cNegMaxGray>0</cNegMaxGray>
+      </SJobSetting_UI>
+      <string>360 360 2bit_001_clip.bmp</string>
+      <string />
+      <double>0</double>
+      <float>0</float>
+      <float>0</float>
+      <boolean>false</boolean>
+    </UIJob>
+    <ArrayOfInnerInkCount>
+      <InnerInkCount>
+        <Color>Yellow</Color>
+        <Value>0</Value>
+      </InnerInkCount>
+      <InnerInkCount>
+        <Color>Magenta</Color>
+        <Value>0</Value>
+      </InnerInkCount>
+      <InnerInkCount>
+        <Color>Cyan</Color>
+        <Value>0</Value>
+      </InnerInkCount>
+      <InnerInkCount>
+        <Color>Black</Color>
+        <Value>0</Value>
+      </InnerInkCount>
+    </ArrayOfInnerInkCount>
+    <long>40000000</long>
+    <float>0.0278694443</float>
+    <float>0.00167820381</float>
+    <float>0</float>
+    <float>0</float>
+    <int>23</int>
+  </PrintRecord>
+</PrintRecordList>

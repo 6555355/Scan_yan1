@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="m_ToolBarButtonSep1.ToolTipText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonSep1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemTools.Text" xml:space="preserve">
+    <value>เครื่องมือ(&amp;t)</value>
+  </data>
+  <data name="m_StatusBarPanelComment.ToolTipText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_StatusBarPanelComment.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemAdd.Text" xml:space="preserve">
+    <value>เพิ่มงาน(&amp;a)</value>
+  </data>
+  <data name="m_MenuItemEdit.Text" xml:space="preserve">
+    <value>แก้ไข(&amp;e)</value>
+  </data>
+  <data name="m_MenuItemAbout.Text" xml:space="preserve">
+    <value>ดูรายละเอียดของโปรแกรม(&amp;a)</value>
+  </data>
+  <data name="m_ToolBarButtonMeasurePaper.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonMeasurePaper.ToolTipText" xml:space="preserve">
+    <value>การวัดความกว้างกระดาษ</value>
+  </data>
+  <data name="m_ToolBarButtonPrint.ToolTipText" xml:space="preserve">
+    <value>งานพิมพ์</value>
+  </data>
+  <data name="m_ToolBarButtonPrint.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_StatusBarApp.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonCheckNozzle.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonCheckNozzle.ToolTipText" xml:space="preserve">
+    <value>ตรวจดูหัวพ่น</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemSetting.Text" xml:space="preserve">
+    <value>การตั้งค่า(&amp;s)</value>
+  </data>
+  <data name="m_MenuItemFactoryDebug.Text" xml:space="preserve">
+    <value>ข้อบกพร่องของโรงงาน</value>
+  </data>
+  <data name="m_PanelJobList.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonDownZ.ToolTipText" xml:space="preserve">
+    <value>เคลื่อนลงข้างล่าง</value>
+  </data>
+  <data name="m_ToolBarButtonDownZ.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_StatusBarPanelError.ToolTipText" xml:space="preserve">
+    <value>รหัสบกพร่อง</value>
+  </data>
+  <data name="m_StatusBarPanelError.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_MenuItemView.Text" xml:space="preserve">
+    <value>มองดู(&amp;v)</value>
+  </data>
+  <data name="m_MenuItemLoad.Text" xml:space="preserve">
+    <value>&amp;Load</value>
+  </data>
+  <data name="menuItemDongle.Text" xml:space="preserve">
+    <value>ดองเกิ้ล</value>
+  </data>
+  <data name="m_PanelToolBarSetting.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemDemoPage.Text" xml:space="preserve">
+    <value>หน้ากระดาษสาธิต(&amp;d)</value>
+  </data>
+  <data name="m_MenuItemUpdate.Text" xml:space="preserve">
+    <value>ปรับปรุงให้ทันสมัย(&amp;u)</value>
+  </data>
+  <data name="m_ToolBarButtonGoHome.ToolTipText" xml:space="preserve">
+    <value>เคลื่อนที่ชุดหัวพิมพ์ไปยังจุดดั้งเดิม</value>
+  </data>
+  <data name="m_ToolBarButtonGoHome.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemHelp.Text" xml:space="preserve">
+    <value>ตัวช่วย(&amp;h)</value>
+  </data>
+  <data name="m_ToolBarButtonDelete.ToolTipText" xml:space="preserve">
+    <value>ลบงานทิ้ง</value>
+  </data>
+  <data name="m_ToolBarButtonDelete.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemRealTime.Text" xml:space="preserve">
+    <value>การตั้งค่าจริง(&amp;r)</value>
+  </data>
+  <data name="m_ToolBarButtonSingleClean.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonSingleClean.ToolTipText" xml:space="preserve">
+    <value>ล้างหัวพิมพ์เดียว</value>
+  </data>
+  <data name="m_MenuItemExit.Text" xml:space="preserve">
+    <value>ออก</value>
+  </data>
+  <data name="m_MenuItemCalibraion.Text" xml:space="preserve">
+    <value>ขั้นตอนการคำนวณสำเร็จรูป(&amp;c)</value>
+  </data>
+  <data name="m_MenuItemSaveToPrinter.Text" xml:space="preserve">
+    <value>（&amp;t）บันทึกไปยังเครื่องพิมพ์</value>
+  </data>
+  <data name="m_ToolBarButtonBackward.ToolTipText" xml:space="preserve">
+    <value>เคลื่อนที่ถอยกลับ</value>
+  </data>
+  <data name="m_ToolBarButtonBackward.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemLoadFromPrinter.Text" xml:space="preserve">
+    <value>（&amp;f）อ่านข้อมูลจากเครื่องพิมพ์</value>
+  </data>
+  <data name="m_MenuItemPrint.Text" xml:space="preserve">
+    <value>พิมพ์งาน(&amp;p)</value>
+  </data>
+  <data name="m_ToolBarButtonForward.ToolTipText" xml:space="preserve">
+    <value>เคลื่อนที่ไปข้างหน้า</value>
+  </data>
+  <data name="m_ToolBarButtonForward.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonGoHomeY.ToolTipText" xml:space="preserve">
+    <value>เคลื่อนที่ชุดหัวพิมพ์ไปยังจุดดั้งเดิม y</value>
+  </data>
+  <data name="m_ToolBarButtonGoHomeY.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonSetOrigin.ToolTipText" xml:space="preserve">
+    <value>ตั้งจุดดั้งเดิมการพิมพ์</value>
+  </data>
+  <data name="m_ToolBarButtonSetOrigin.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemHWSetting.Text" xml:space="preserve">
+    <value>ตั้งค่าฮาร์ดแวร์(&amp;h)</value>
+  </data>
+  <data name="m_ToolBarButtonSep2.ToolTipText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonSep2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemLeftRight.Text" xml:space="preserve">
+    <value>จอภาพแบบกว้าง(&amp;w)</value>
+  </data>
+  <data name="m_ToolBarButtonSpray.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonSpray.ToolTipText" xml:space="preserve">
+    <value>พ่น</value>
+  </data>
+  <data name="m_ToolBarButtonAdd.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonAdd.ToolTipText" xml:space="preserve">
+    <value>เพิ่มงาน</value>
+  </data>
+  <data name="m_MenuItemDebug.Text" xml:space="preserve">
+    <value>สถานการณ์ตรวจสอบจุดบกพร่องและทำการแก้ไข</value>
+  </data>
+  <data name="m_ToolBarButtonSetOriginY.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonSetOriginY.ToolTipText" xml:space="preserve">
+    <value>ตั้งจุดดั้งเดิมการพิมพ์ y</value>
+  </data>
+  <data name="m_ToolBarButtonPauseResume.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonPauseResume.ToolTipText" xml:space="preserve">
+    <value>หยุดชั่วคราวหรือกลับมาทำงานใหม่</value>
+  </data>
+  <data name="m_ToolBarButtonGoHomeZ.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonGoHomeZ.ToolTipText" xml:space="preserve">
+    <value>เคลื่อนที่ชุดหัวพิมพ์ไปยังจุดดั้งเดิม z</value>
+  </data>
+  <data name="m_ToolBarButtonSep3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonSep3.ToolTipText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemUVSetting.Text" xml:space="preserve">
+    <value>การตั้งค่าแสงยูวี(&amp;u)</value>
+  </data>
+  <data name="m_ToolBarButtonAutoClean.ToolTipText" xml:space="preserve">
+    <value>ทำความสะอาดโดยอัตโนมัติ</value>
+  </data>
+  <data name="m_ToolBarButtonAutoClean.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonRight.ToolTipText" xml:space="preserve">
+    <value>เคลื่อนไปทางขวา</value>
+  </data>
+  <data name="m_ToolBarButtonRight.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemSave.Text" xml:space="preserve">
+    <value>บันทึก(&amp;s)</value>
+  </data>
+  <data name="m_ToolBarButtonStop.ToolTipText" xml:space="preserve">
+    <value>หยุด</value>
+  </data>
+  <data name="m_ToolBarButtonStop.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_StatusBarPanelPercent.ToolTipText" xml:space="preserve">
+    <value>สั่นส่วนเปอร์เซ็นต์</value>
+  </data>
+  <data name="m_StatusBarPanelPercent.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="m_ToolBarButtonEdit.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonEdit.ToolTipText" xml:space="preserve">
+    <value>แก้ไขงาน</value>
+  </data>
+  <data name="m_StatusBarPanelJetStaus.Text" xml:space="preserve">
+    <value>อยู่เฉยๆ</value>
+  </data>
+  <data name="m_StatusBarPanelJetStaus.ToolTipText" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="m_ToolBarButtonAbort.ToolTipText" xml:space="preserve">
+    <value>หยุดทำงาน</value>
+  </data>
+  <data name="m_ToolBarButtonAbort.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemPassword.Text" xml:space="preserve">
+    <value>รหัสผ่าน(&amp;p)</value>
+  </data>
+  <data name="m_MenuItemDelete.Text" xml:space="preserve">
+    <value>ลบงานทิ้ง(&amp;d)</value>
+  </data>
+  <data name="m_MenuItemJob.Text" xml:space="preserve">
+    <value>งาน(&amp;j)</value>
+  </data>
+  <data name="m_ToolBarButtonLeft.ToolTipText" xml:space="preserve">
+    <value>เคลื่อนไปทางซ้าย</value>
+  </data>
+  <data name="m_ToolBarButtonLeft.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_ToolBarButtonUpZ.ToolTipText" xml:space="preserve">
+    <value>เคลื่อนที่ขึ้นข้างบน</value>
+  </data>
+  <data name="m_ToolBarButtonUpZ.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="m_MenuItemTopDown.Text" xml:space="preserve">
+    <value>ปกติ(&amp;n)</value>
+  </data>
+  <data name="menuItemDongleKey.Text" xml:space="preserve">
+    <value>กุญแจดองเกิ้ล</value>
+  </data>
+</root>

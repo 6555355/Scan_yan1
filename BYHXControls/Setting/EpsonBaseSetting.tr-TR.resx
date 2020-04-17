@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="m_LabelLeftEdge.Text">X</data>
+  <data name="m_LabelLeftEdge.ToolTip">
+  </data>
+  <data name="m_NumericUpDownLeftEdge.ToolTip">
+  </data>
+  <data name="m_NumericUpDownWidth.ToolTip">
+  </data>
+  <data name="m_LabelWidth.Text">Genislik</data>
+  <data name="m_LabelWidth.ToolTip">
+  </data>
+  <data name="m_GroupBoxInkStripe.Text">Renk Bari</data>
+  <data name="m_GroupBoxInkStripe.ToolTip">
+  </data>
+  <data name="m_CheckBoxNormalType.Text">Normal</data>
+  <data name="m_CheckBoxNormalType.ToolTip">
+  </data>
+  <data name="m_ComboBoxPlace.Text">
+  </data>
+  <data name="m_ComboBoxPlace.ToolTip">
+  </data>
+  <data name="m_NumericUpDownStripeSpace.ToolTip">
+  </data>
+  <data name="m_NumericUpDownStripeWidth.ToolTip">
+  </data>
+  <data name="m_LabelStripeWidth.Text">Genislik</data>
+  <data name="m_LabelStripeWidth.ToolTip">
+  </data>
+  <data name="m_LabelStripeSpace.Text">Araligi</data>
+  <data name="m_LabelStripeSpace.ToolTip">
+  </data>
+  <data name="m_LabelStripePos.Text">Yerlestirme</data>
+  <data name="m_LabelStripePos.ToolTip">
+  </data>
+  <data name="m_CheckBoxMixedType.Text">Renk Karistirma</data>
+  <data name="m_CheckBoxMixedType.ToolTip">
+  </data>
+  <data name="m_CheckBoxHeightWithImageType.Text">Boy Gorsel ile Ayni</data>
+  <data name="m_CheckBoxHeightWithImageType.ToolTip">
+  </data>
+  <data name="m_GroupBoxMedia.Text">Medya</data>
+  <data name="m_GroupBoxMedia.ToolTip">
+  </data>
+  <data name="m_LabelMargin.Text">Bosluk</data>
+  <data name="m_LabelMargin.ToolTip">
+  </data>
+  <data name="m_NumericUpDownMargin.ToolTip">
+  </data>
+  <data name="m_GroupBoxClean.Text">Temizlik Ayarlari</data>
+  <data name="m_GroupBoxClean.ToolTip">
+  </data>
+  <data name="checkBoxAutoSpray.Text">OtomatikPuskurtme</data>
+  <data name="checkBoxAutoSpray.ToolTip">
+  </data>
+  <data name="cboAutoCleanWay.Text">
+  </data>
+  <data name="cboAutoCleanWay.ToolTip">
+  </data>
+  <data name="label1.Text">OtomatikTemizle Yolu</data>
+  <data name="label1.ToolTip">
+  </data>
+  <data name="m_NumericUpDownAutoClean.ToolTip">Gec</data>
+  <data name="m_LabelAutoClean.Text">OtomatikTemizle</data>
+  <data name="m_LabelAutoClean.ToolTip">
+  </data>
+  <data name="m_GroupBoxPrintSetting.Text">Baski Ayarlari</data>
+  <data name="m_GroupBoxPrintSetting.ToolTip">
+  </data>
+  <data name="cbo_MultipleInk.Text">
+  </data>
+  <data name="cbo_MultipleInk.ToolTip">
+  </data>
+  <data name="label3.Text">Coklu Boyalar</data>
+  <data name="label3.ToolTip">
+  </data>
+  <data name="label2.Text">Baski Modu</data>
+  <data name="label2.ToolTip">
+  </data>
+  <data name="m_ComboBoxDiv.Text">
+  </data>
+  <data name="m_ComboBoxDiv.ToolTip">
+  </data>
+  <data name="m_CheckBoxMirror.Text">Ayna Baski</data>
+  <data name="m_CheckBoxMirror.ToolTip">
+  </data>
+  <data name="m_ComboBoxFeatherType.Text">
+  </data>
+  <data name="m_ComboBoxFeatherType.ToolTip">
+  </data>
+  <data name="label_FeatherType.Text">Tuylenme Cesitleri</data>
+  <data name="label_FeatherType.ToolTip">
+  </data>
+  <data name="m_CheckBoxAutoJumpWhite.Text">Beyazi Otomatik Atla</data>
+  <data name="m_CheckBoxAutoJumpWhite.ToolTip">
+  </data>
+  <data name="m_NumericUpDownJobSpace.ToolTip">
+  </data>
+  <data name="m_LabelJobSpace.Text">Is Araligi</data>
+  <data name="m_LabelJobSpace.ToolTip">
+  </data>
+  <data name="m_CheckBoxYContinue.Text">Y DevamEt Baskiya</data>
+  <data name="m_CheckBoxYContinue.ToolTip">
+  </data>
+  <data name="m_LabelStepTime.Text">Kademe Zamani</data>
+  <data name="m_LabelStepTime.ToolTip">
+  </data>
+  <data name="m_NumericUpDownStepTime.ToolTip">s</data>
+  <data name="m_GroupBoxZ.Text">Z</data>
+  <data name="m_GroupBoxZ.ToolTip">
+  </data>
+  <data name="m_NumericUpDownZSpace.ToolTip">
+  </data>
+  <data name="m_NumericUpDownThickness.ToolTip">
+  </data>
+  <data name="m_Label1.Text">Kalinlik</data>
+  <data name="m_Label1.ToolTip">
+  </data>
+  <data name="m_LabelZSpace.Text">Z Araligi</data>
+  <data name="m_LabelZSpace.ToolTip">
+  </data>
+  <data name="m_ButtonZAuto.Text">ZOtomatik</data>
+  <data name="m_ButtonZAuto.ToolTip">
+  </data>
+  <data name="m_ButtonZManual.Text">ZManuel</data>
+  <data name="m_ButtonZManual.ToolTip">
+  </data>
+  <data name="m_GroupBoxSpray.Text">KafaParametresi</data>
+  <data name="m_GroupBoxSpray.ToolTip">
+  </data>
+  <data name="m_LabelAutoSpray.Text">K:</data>
+  <data name="m_LabelAutoSpray.ToolTip">
+  </data>
+  <data name="m_NumericUpDownM.ToolTip">
+  </data>
+  <data name="m_LabelSprayTimes.Text">M:</data>
+  <data name="m_LabelSprayTimes.ToolTip">
+  </data>
+  <data name="m_NumericUpDownK.ToolTip">
+  </data>
+  <data name="m_NumericUpDownC.ToolTip">
+  </data>
+  <data name="m_LabelSprayCycle.Text">C:</data>
+  <data name="m_LabelSprayCycle.ToolTip">
+  </data>
+  <data name="m_NumericUpDownY.ToolTip">
+  </data>
+  <data name="m_labelPrintPrespraytime.Text">Y:</data>
+  <data name="m_labelPrintPrespraytime.ToolTip">
+  </data>
+  <data name="m_CheckBoxKillBidir.Text">SaMatkap Renk Emri</data>
+  <data name="m_CheckBoxKillBidir.ToolTip">
+  </data>
+  <data name="$this.ToolTip">
+  </data>
+</root>
