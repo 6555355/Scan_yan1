@@ -1,14 +1,31 @@
 ****************************************JobPrint Performance Test*************************************
-           Parser Process : data size =      154MB,      timer =     3.42Sec,      speed =     45.2MB/s
-Send To UsbThred Waitting : data size =        0MB,      timer =     5.78Sec,      speed =      0.0MB/s
-         LiyuParser Speed : data size =       35MB,      timer =     1.17Sec,      speed =     29.7MB/s
-                 UsbThred : data size =      154MB,      timer =     9.63Sec,      speed =     16.0MB/s
-      USB Send Data Speed : data size =      154MB,      timer =     3.52Sec,      speed =     43.8MB/s
-              DoColorBand : data size =      154MB,      timer =     2.24Sec,      speed =     68.5MB/s
-           Image Rotation : data size =      154MB,      timer =     1.07Sec,      speed =    144.3MB/s
-               GrayConver : data size =      154MB,      timer =     0.22Sec,      speed =    707.7MB/s
-          BandDataConvert : data size =       41MB,      timer =     0.11Sec,      speed =    370.3MB/s
-          Band Clear Data : data size =       41MB,      timer =     0.06Sec,      speed =    741.4MB/s
+           Parser Process : data size =      600MB,      timer =    71.69Sec,      speed =      8.4MB/s
+Send To UsbThred Waitting : data size =        0MB,      timer =     2.55Sec,      speed =      0.0MB/s
+         LiyuParser Speed : data size =       20MB,      timer =     1.56Sec,      speed =     12.9MB/s
+                 UsbThred : data size =      600MB,      timer =    74.73Sec,      speed =      8.0MB/s
+      USB Send Data Speed : data size =      600MB,      timer =    11.71Sec,      speed =     51.3MB/s
+              DoColorBand : data size =      600MB,      timer =    70.13Sec,      speed =      8.5MB/s
+           Image Rotation : data size =      600MB,      timer =     2.37Sec,      speed =    253.4MB/s
+               GrayConver : data size =      600MB,      timer =     0.90Sec,      speed =    665.3MB/s
+          BandDataConvert : data size =      139MB,      timer =    66.47Sec,      speed =      2.1MB/s
+          Band Clear Data : data size =      139MB,      timer =     0.65Sec,      speed =    214.9MB/s
+    Band Draw White/Strip : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
+                Band Pass : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
+              Band Father : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
+                 Band Map : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
+******************************************************************************************************
+
+****************************************JobPrint Performance Test*************************************
+           Parser Process : data size =      600MB,      timer =    12.67Sec,      speed =     47.4MB/s
+Send To UsbThred Waitting : data size =        0MB,      timer =     2.98Sec,      speed =      0.0MB/s
+         LiyuParser Speed : data size =       20MB,      timer =     1.04Sec,      speed =     19.4MB/s
+                 UsbThred : data size =      600MB,      timer =    16.17Sec,      speed =     37.1MB/s
+      USB Send Data Speed : data size =      600MB,      timer =     6.20Sec,      speed =     96.8MB/s
+              DoColorBand : data size =      600MB,      timer =    11.63Sec,      speed =     51.6MB/s
+           Image Rotation : data size =      600MB,      timer =     2.34Sec,      speed =    255.8MB/s
+               GrayConver : data size =      600MB,      timer =     0.92Sec,      speed =    654.9MB/s
+          BandDataConvert : data size =      139MB,      timer =     7.98Sec,      speed =     17.4MB/s
+          Band Clear Data : data size =      139MB,      timer =     0.63Sec,      speed =    220.0MB/s
     Band Draw White/Strip : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
                 Band Pass : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s
               Band Father : data size =        0MB,      timer =     0.00Sec,      speed =     -1.$MB/s

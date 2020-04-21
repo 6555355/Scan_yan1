@@ -9,7 +9,7 @@
         <baseLayerIndex>0</baseLayerIndex>
         <layerSetting>
           <LayerSetting>
-            <curYinterleaveNum>8</curYinterleaveNum>
+            <curYinterleaveNum>4</curYinterleaveNum>
             <YContinueHead>1</YContinueHead>
             <curLayerType>0</curLayerType>
             <layerYOffset>0</layerYOffset>

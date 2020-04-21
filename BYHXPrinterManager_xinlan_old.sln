@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrinterStubC", "PrinterStubC\PrinterStubC.csproj", "{84149B6F-AA92-445A-82DA-F3FC0FCEA04A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BYHXControls", "BYHXControls\BYHXControls.csproj", "{1CDEE14B-1890-4A9B-BB9C-D0644A51D081}"
@@ -4039,5 +4041,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67198A41-EE16-4AB0-8DD4-E7CB81D0620C}
 	EndGlobalSection
 EndGlobal

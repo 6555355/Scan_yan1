@@ -7,7 +7,7 @@
     <BeepBeforePrint>true</BeepBeforePrint>
     <DelJobAfterPrint>false</DelJobAfterPrint>
     <DelFileAfterPrint>false</DelFileAfterPrint>
-    <WorkingFolder>C:\Users\sh\Documents\布局包\M600</WorkingFolder>
+    <WorkingFolder>D:\prt</WorkingFolder>
     <JobListHeaderList>
       <JobListColumnHeader>Name</JobListColumnHeader>
       <JobListColumnHeader>Status</JobListColumnHeader>
@@ -31,7 +31,7 @@
     <ReverseVertMoveDirection>false</ReverseVertMoveDirection>
     <ReverseZMoveDirection>false</ReverseZMoveDirection>
     <ScanningAxis>255</ScanningAxis>
-    <JobModeIndex>0</JobModeIndex>
+    <JobModeIndex>255</JobModeIndex>
     <MediaModeIndex>0</MediaModeIndex>
     <HotFolderPrintImmediately>true</HotFolderPrintImmediately>
     <CloseNozzleSetMode>0</CloseNozzleSetMode>

@@ -1,0 +1,17 @@
+﻿<Hash CRCVers="V1.0">BB13E334</Hash>
+<JobModes>
+  <Items>
+    <JobMode>
+      <Items />
+      <Name>1</Name>
+      <LayerNum>1</LayerNum>
+      <LayerColorArray>0</LayerColorArray>
+      <SpotColor1Mask>0</SpotColor1Mask>
+      <Item>
+        <ExquisiteFeather>false</ExquisiteFeather>
+        <FeatherType_Value>0</FeatherType_Value>
+        <Feather_Custom>0</Feather_Custom>
+      </Item>
+    </JobMode>
+  </Items>
+</JobModes>
